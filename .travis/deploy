@@ -1,0 +1,41 @@
+#!/bin/sh
+set -e
+
+REPO_NAME=${TRAVIS_REPO_SLUG#*/}
+DEPLOY_KEY='.travis/deploy-key'
+
+if [ "$TRAVIS_PULL_REQUEST" != 'false' ]; then
+	echo 'INFO: This is a pull request, skipping deploy.'; exit 0
+fi
+
+if [ -z "$DEPLOY_REMOTE" ]; then
+	echo 'WARN: $DEPLOY_REMOTE is not set, skipping deploy.'; exit 0
+fi
+
+case "$TRAVIS_BRANCH" in
+	release-*)
+		subdir="${TRAVIS_BRANCH#*-}"
+	;;
+	release)
+		subdir='ROOT'
+	;;
+	*)
+		echo "INFO: $TRAVIS_BRANCH is not a release branch, skipping deploy."; exit 0
+	;;
+esac
+
+remote_path="/var/www/$REPO_NAME/$subdir/"
+
+# Decrypt the SSH deploy key.
+openssl aes-256-cbc -K $encrypted_b65b7efa0c06_key -iv $encrypted_b65b7efa0c06_iv \
+	-in "$DEPLOY_KEY.enc" -out "$DEPLOY_KEY" -d
+chmod 600 "$DEPLOY_KEY"
+
+echo "==> Deploying to remote server into: $remote_path"
+
+# Sync files with remote server.
+rsync --recursive --times --delete-after --verbose \
+	--exclude-from='.travis/deploy-exclude' \
+	--rsync-path="mkdir -p '$remote_path' && rsync" \
+	--rsh="ssh -i $DEPLOY_KEY -o StrictHostKeyChecking=no" \
+	./ "$DEPLOY_REMOTE:$remote_path"
