@@ -1,0 +1,19 @@
+= Co@FIT
+:branch: release
+:gh-name: cvut/co.fit.cvut.cz
+:site-url: http://co.fit.cvut.cz
+
+image:https://travis-ci.org/{gh-name}.svg?branch={branch}["Deploy Status", link="https://travis-ci.org/{gh-name}"]
+
+
+TODO
+
+
+== Continuous Deployment
+
+Git branches named `release` or `release-` followed by anything (e.g. `release-2016LS`) are automatically deployed to {site-url} using Travis CI.
+
+* Branch named `release` is deployed into the root of {site-url}.
+* Branch named e.g. `release-foo` is deployed into {site-url}/foo/.
+
+Please note that the name of a `release-` prefixed branch should not be the same as the name of any top-level directory in the `release` branch!
