@@ -92,6 +92,7 @@ section {
 
 .expandable {
     display: none;
+    -webkit-transition: none;
     transition: none;
 }
 
@@ -105,7 +106,7 @@ body > header {
 }
 
 body > header > div {
-    width: 37%;
+    width: 35%;
     display: inline-block;
     vertical-align: middle;
 
@@ -119,18 +120,26 @@ body > header .logo img {
     width: 100%;
 }
 
-body > header .cells img{
+body > header .cells {
+    /*width: 100%;*/
+    height: auto;
+}
+
+body > header .cells img {
     width: 100%;
+    display: inline-block;
     visibility: hidden;
 }
 
 * {
+    -webkit-transition: all 500ms;
     transition: all 500ms;
 }
 
 body > header .cells .cell {
     display: inline-block;
-    width: 33.3%;
+    width: 30%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center center;
@@ -179,6 +188,7 @@ body > header .cells .cell .text {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%,-50%);
     color: #FFFFFF;
     font-weight: bold;
@@ -276,6 +286,10 @@ body > header .cells .cell .ico.contact {
 
 body > header .cells .cell .ico.facebook {
     background-image: url("../img/ico-facebook.svg");
+}
+
+body > header .cells .cell .ico.twitter {
+    background-image: url("../img/ico-twitter.svg");
 }
 
 body > header .cells .cell .ico.cs {
@@ -465,10 +479,12 @@ body > .content p {
     position: absolute;
     top: 0;
     left: 0;
+    -webkit-transform: translate(-100%, 0);
     transform: translate(-100%, 0);
 }
 
 .content .partner:hover .status {
+    -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
 }
 
@@ -509,7 +525,7 @@ body > .content p {
     width: 65%;
     display: inline-block;
     vertical-align: middle;
-    padding-bottom: 2em;
+    padding: 1em 0;
 }
 
 .company .description:after {
@@ -520,10 +536,11 @@ body > .content p {
     margin-top: -1em;
     display: block;
     text-align: center;
+    min-height: 1em;
 }
 
 .company .description.expanded:after {
-    content: "";
+    visibility: hidden;
 }
 
 .company .logo img {

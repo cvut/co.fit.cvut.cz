@@ -25,6 +25,7 @@
 <body>
 <script type="text/javascript">
     $(document).ready(function () {
+        initPartners();
         initAll();
         $('.slideme-container > .prev').html("Prev");
         $('.slideme-container > .next').html("Next");
@@ -36,26 +37,26 @@
 <header>
     <div class="cells left">
         <div class="row">
-            <div class="cell"><img alt="" src="img/cell-light.svg"/><span class="ico random ico1"/></div>
-            <div class="cell"><img alt="" src="img/cell-light.svg"/><span class="ico random ico2"/></div>
-            <div class="cell"><img alt="" src="img/cell-light.svg"/><span class="ico random ico3"/></div>
+            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico1"/></div>
+            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico2"/></div>
+            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico3"/></div>
         </div>
         <div class="row">
-            <div class="cell"><img alt="" src="img/cell-light.svg"/><span class="ico random ico4"/></div>
-            <div class="cell dark"><img alt="" src="img/cell-light.svg"/><span
-                    class="text">Thursday<br/>15.10.2015</span></div>
+            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico4"/></div>
+            <div class="cell dark"><img alt="" src="img/cell-light.png"/><span
+                    class="text">14 Mar<br/>2016</span></div>
         </div>
         <nav class="row navigation">
-            <a class="cell" href="#info" title="About Co@FIT"><img alt="" src="img/cell-link.svg"/>
+            <a class="cell" href="#info" title="About Co@FIT"><img alt="" src="img/cell-light.png"/>
                 <span class="ico info"/>
             </a>
-            <a href="#industry" class="cell" title="I am an industry partner"><img alt="" src="img/cell-link.svg"/>
+            <a href="#industry" class="cell" title="I am an industry partner"><img alt="" src="img/cell-light.png"/>
                 <span class="ico industry"/>
             </a>
 
-            <div href="#student" class="cell" title=""><img alt="" src="img/cell-link.svg"/>
+            <a href="#student" class="cell" title="I am student"><img alt="" src="img/cell-light.png"/>
                 <span class="ico student"/>
-            </div>
+            </a>
         </nav>
     </div>
     <div class="logo">
@@ -63,29 +64,30 @@
     </div>
     <div class="cells right">
         <div class="row">
-            <div class="cell"><img alt="" src="img/cell-light.svg"/><span class="ico random ico5"/></div>
-            <a href="index.html" title="Česká verze" class="cell"><img alt="" src="img/cell-light.svg"/><span
+            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico5"/></div>
+            <a href="index.html" title="Česká verze" class="cell"><img alt="" src="img/cell-light.png"/><span
                     class="ico language cs"/></a>
             <a href="index.en.html" title="English version" class="cell active"><img alt=""
                                                                                      src="img/cell-light.svg"/><span
                     class="ico language en"/></a>
         </div>
         <div class="row">
-            <div class="cell dark"><img alt="" src="img/cell-light.svg"/>
+            <a class="cell dark" href="http://fit.cvut.cz/en" target="_blank"><img alt="" src="img/cell-light.png"/>
                 <span class="text"
                       title="Faculty of Information Technology of the Czech Technical University in Prague">
-                    FIT<br/> CTU
+                    FIT<br/>CTU
                 </span>
-            </div>
-            <div class="cell"><img alt="" src="img/cell-light.svg"/><span class="ico random ico1"/></div>
+            </a>
+            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico1"/></div>
         </div>
         <nav class="row links">
-            <a class="cell" href="#aboutPortal" title="About Cooperation with Industry portal">
-                <img alt="" src="img/cell-light.svg"/><span class="ico ssp"/></a>
-            <a class="cell" href="#contact" title="Contact">
-                <img alt="" src="img/cell-light.svg"/><span class="ico contact"/></a>
+            <a class="cell" href="https://ssp.test.fit.cvut.cz/" target="_blank"
+               title="About Cooperation with Industry portal">
+                <img alt="" src="img/cell-light.png"/><span class="ico ssp"/></a>
+            <a class="cell" href="https://twitter.com/sspfit" target="_blank" title="Follow us on Twitter">
+                <img alt="" src="img/cell-light.png"/><span class="ico twitter"/></a>
             <a class="cell" href="https://www.facebook.com/fitssp" target="_blank" title="Follow us on Facebook">
-                <img alt="" src="img/cell-light.svg"/><span class="ico facebook"/></a>
+                <img alt="" src="img/cell-light.png"/><span class="ico facebook"/></a>
         </nav>
     </div>
     <div class="main-nav">
@@ -96,9 +98,9 @@
             <a href="#industry" title="I am an industry partner">
                 For partners
             </a>
-            <!--<a href="#student" title="Jsem student">-->
-            <!--Pro studenty-->
-            <!--</a>-->
+            <a href="#student" title="I am student">
+                For students
+            </a>
             <a href="#aboutPortal" title="About Cooperation with Industry portal">
                 About CWI
             </a>
@@ -115,34 +117,30 @@
         </h2>
 
         <p>
-            Faculty of Information Technology holds event Co@FIT (<strong>Companies
-            at FIT</strong>) - meeting of companies agents and students. This year it is the third annual event already.
-            Purpose of Co@FIT is students to mediate contact with industrial sector, especially to our long-term
-            industrial partners.
-            In this semester our partners(<strong>Profinit, Lely, SuseLinux, Mikenopa, Hewlett-Packard, Komerční
-            banka,
-            Barclays, Gemalto, Ackee</strong>) and many other companies will take part.
+            Faculty of Information Technology holds event Co@FIT (Companies at FIT) - meeting of companies and students.
+            The purpose is students to mediate contact with an industrial sector, especially to long-term industrial
+            partners of FIT and enable work opportunities. This semester our partners Profinit, Lely, Komerční banka,
+            Česká pojišťovna, GoodData, Nangu.TV, Swatch group and many other companies will take part.
         </p>
 
         <p>
-            This semester Co@FIT takes place on <strong>15. 10. 2015 at 12:30</strong> in Faculty of Information
-            Technology. Informational kiosk of
-            <strong>Cooperation with Industry portal (CWI)</strong>,
-            will be ready for students and industrial partners in the atrium of the building. This kiosk serves as an
-            opening and informational kiosk of Co@FIT.
+            Co@FIT takes place every semester. This summer semester 2016 it is held on 14.3. at 12:30 in Faculty of
+            Information Technology. Informational kiosk of SSP portal (Cooperation with Industry portal) will be ready
+            for students and industrial partners in the atrium of the Faculty. There you can get information and sign in
+            to SSP.
         </p>
 
         <p>
             During Co@FIT there are kiosks of industrial partners in the atrium where students can get information about
-            working in companies, used technologies, programming language, requirements for knowledge and also
-            promotional materials. Students can connect to companies, learn interesting facts and settle their semester
-            projects, thesis or dissertation.
+            working in companies, technologies and programming languages, requirements for knowledge and promotional
+            materials. This event is an special occasion for students to get connect with companies, learn interesting
+            facts and settle their semester projects, thesis or dissertation. It is suitable and recommended for all
+            students.
         </p>
 
         <p>
-            From 16:30 there are arranged lectures of our golden (Profinit, Lely Industries) and silver (SuseLinux,
-            Mikenopa, Hewlett-Packard, Komerční banka) partners in the lecture hall 107. During lectures of the partners
-            students can win some of valuable prizes.
+            Afternoon there are arranged lectures of our golden (Profinit, Lely Industries) and silver (Komerční banka,
+            Česká pojišťovna) FITpartners.
         </p>
 
         <section id="partners" class="partners-list">
@@ -168,27 +166,41 @@
 
             <div id="gallery" class="slideme-container">
                 <ul class="slideme">
-                    <li><img alt="" src="gallery/0001.jpg"/></li>
-                    <li><img alt="" src="gallery/0002.jpg"/></li>
-                    <li><img alt="" src="gallery/0003.jpg"/></li>
-                    <li><img alt="" src="gallery/0004.jpg"/></li>
-                    <li><img alt="" src="gallery/0005.jpg"/></li>
-                    <li><img alt="" src="gallery/0006.jpg"/></li>
-                    <li><img alt="" src="gallery/0007.jpg"/></li>
-                    <li><img alt="" src="gallery/0008.jpg"/></li>
-                    <li><img alt="" src="gallery/0009.jpg"/></li>
-                    <li><img alt="" src="gallery/0010.jpg"/></li>
-                    <li><img alt="" src="gallery/0011.jpg"/></li>
-                    <li><img alt="" src="gallery/0012.jpg"/></li>
-                    <li><img alt="" src="gallery/0013.jpg"/></li>
-                    <li><img alt="" src="gallery/0014.jpg"/></li>
-                    <li><img alt="" src="gallery/0015.jpg"/></li>
-                    <li><img alt="" src="gallery/0016.jpg"/></li>
-                    <li><img alt="" src="gallery/0017.jpg"/></li>
-                    <li><img alt="" src="gallery/0018.jpg"/></li>
-                    <li><img alt="" src="gallery/0019.jpg"/></li>
-                    <li><img alt="" src="gallery/0020.jpg"/></li>
-                    <li><img alt="" src="gallery/0021.jpg"/></li>
+                    <li><img alt="" src="gallery/22.jpg"/></li>
+                    <li><img alt="" src="gallery/23.jpg"/></li>
+                    <li><img alt="" src="gallery/24.jpg"/></li>
+                    <li><img alt="" src="gallery/25.jpg"/></li>
+                    <li><img alt="" src="gallery/26.jpg"/></li>
+                    <li><img alt="" src="gallery/27.jpg"/></li>
+                    <li><img alt="" src="gallery/28.jpg"/></li>
+                    <li><img alt="" src="gallery/29.jpg"/></li>
+                    <li><img alt="" src="gallery/30.jpg"/></li>
+                    <li><img alt="" src="gallery/31.jpg"/></li>
+                    <li><img alt="" src="gallery/32.jpg"/></li>
+                    <li><img alt="" src="gallery/33.jpg"/></li>
+                    <li><img alt="" src="gallery/34.jpg"/></li>
+                    <li><img alt="" src="gallery/35.jpg"/></li>
+                    <li><img alt="" src="gallery/36.jpg"/></li>
+                    <li><img alt="" src="gallery/37.jpg"/></li>
+                    <li><img alt="" src="gallery/38.jpg"/></li>
+                    <li><img alt="" src="gallery/39.jpg"/></li>
+                    <li><img alt="" src="gallery/40.jpg"/></li>
+                    <li><img alt="" src="gallery/41.jpg"/></li>
+                    <li><img alt="" src="gallery/42.jpg"/></li>
+                    <li><img alt="" src="gallery/43.jpg"/></li>
+                    <li><img alt="" src="gallery/44.jpg"/></li>
+                    <li><img alt="" src="gallery/45.jpg"/></li>
+                    <li><img alt="" src="gallery/46.jpg"/></li>
+                    <li><img alt="" src="gallery/47.jpg"/></li>
+                    <li><img alt="" src="gallery/48.jpg"/></li>
+                    <li><img alt="" src="gallery/49.jpg"/></li>
+                    <li><img alt="" src="gallery/50.jpg"/></li>
+                    <li><img alt="" src="gallery/51.jpg"/></li>
+                    <li><img alt="" src="gallery/52.jpg"/></li>
+                    <li><img alt="" src="gallery/53.jpg"/></li>
+                    <li><img alt="" src="gallery/54.jpg"/></li>
+                    <li><img alt="" src="gallery/55.jpg"/></li>
+                    <li><img alt="" src="gallery/56.jpg"/></li>
                 </ul>
             </div>
         </section>
@@ -200,17 +212,18 @@
         </h2>
 
         <p>
-            Co@FIT takes place also in this semester! See below for the time schedule. Do not miss an opportunity to
-            present your company on an informational kiosk and communicate with FIT students (offer cooperation on
-            various projects, assigments to CWI portal, semestral projects or thesis). We offer this service also to
-            non-partner companies for a fee. Only our golden and silver partners have change for exclusive presentation
-            during the main program for students.
+            Co@FIT is also in this semester! See below for the time schedule. There are many ways how to cooperate with
+            us. Do not miss the opportunity to present your company and communicate with FIT students (offer cooperation
+            on various projects, assigments to SSP portal, semestral projects or thesis). This service is offered also
+            to non-partner companies for a fee. Only our golden and silver partners can give an exclusive presentation
+            during the main program.
         </p>
 
         <section id="timetableForIndustry">
             <h3>
                 Time schedule
             </h3>
+
             <ol class="timetable">
                 <li>
                     <div class="time">
@@ -312,44 +325,50 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1279.501864413418!2d14.389732264942943!3d50.10493717499541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x8eb9c6f77808fa69!2sFakulta+informa%C4%8Dn%C3%ADch+technologi%C3%AD+%C4%8CVUT+v+Praze!5e0!3m2!1scs!2scz!4v1443540642171"
                             style="width: 100%; height: 450px; border: 0;" frameborder="0" allowfullscreen></iframe>
                     <p>
-                        At 11:30 kiosks will be ready for you so you will have plenty of time to arrange your
-                        promotional materials. When you arrives in the building there will be our team and they help you
-                        and advise you. Our team wears black FIT t-shirts with CTU logo. Program officialy starts at
-                        12:30 for students.
+                        Kiosks will be ready at 11:30 in the atrium so you will have plenty of time to arrange your
+                        promotional materials. When you arrive there will be our support team who can help you during
+                        the whole event. Program officially starts at 12:30.
+
                     </p>
                 </div>
             </div>
             <div class="expandable-container">
                 <h4>Where can I park?</h4>
 
-                <p class="expandable">
-                    You can park in the streets Bechyňova, Bílá, Kadeřávkovská, Flemingovo náměstí. There are no
-                    available parking places at the FIT building.
-                </p>
+                <div class="expandable">
+                    <p>
+                        You can park in the streets Bechyňova, Bílá, Kadeřávkovská, Flemingovo náměstí. There are no
+                        available parking places at the FIT building.
+                    </p>
+
+                    <div class="pull-center">
+                        <a href="https://www.google.com/maps/d/viewer?mid=zrvzfOJbSB7w.khNEzaRqplD4" target="_blank">
+                            <img src="img/where-to-park.png" alt="Where to park in Dejvice?"
+                                 title="Show interactive map"
+                                 style="max-width: 100%; max-height: 450px;"/>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="expandable-container">
                 <h4>What will be available at the faculty?</h4>
 
                 <p class="expandable">
                     You will receive information about Wifi connection before event on your e-mail address, eventually
-                    on kiosk CWI. There are provided extension cords for your electronic devices. The entire event
-                    photographer will document the event and a photoreport will be available for you.
+                    on the kiosk SSP. There are provided extension cords for your electronic devices. Professional
+                    photographer will document the entire event. Photo report will be available for you. There will be
+                    prepared also refreshments (room 153). Water is provided in kiosks.
                 </p></div>
-            <div class="expandable-container">
-                <h4>What about refreshments?</h4>
 
-                <p class="expandable">
-                    There are prepared refreshments for you in the room 153. Water is provided on the kiosks.
-                </p>
-            </div>
+
             <div class="expandable-container">
                 <h4>What does "informational kiosk" mean?</h4>
 
                 <p class="expandable">
-                    Informational kiosks are office desks in the atrium. Each company has its own desk with chairs
-                    signed with a company name, a logo and short describtion (technologies, programming languages). You
-                    can bring roll-ups and promotional materials. Also we recommend preparing assignments or themes of
-                    semester projects and thesis for CWI portal.
+                    Informational kiosks are office desks with chairs. Each desk is signed with a company name, logo and
+                    short description (your technologies and programming languages). You can bring roll-ups and
+                    promotional materials. We recommend preparing assignments or themes of semester projects and thesis
+                    for SSP portal.
                 </p></div>
             <div class="expandable-container">
                 <h4>How should I prepare my presentation as a FITpartner?</h4>
@@ -358,20 +377,17 @@
                     <p>
                         As a golden/silver partner you have a chance to introduce your company during the main program
                         for students. Golden partners have 15 minutes for presentation, silver partners have 10 minutes.
-                        Content of the presentation is on you but it would be useful if you follow recommended points.
-                        We ask you to attend whole lecture (main program). Projector, screen and sound system will be
-                        available in the lecture room.
+                        Content of the presentation is on you, but you can inspire by points below. We ask you to attend
+                        the whole lecture. Projector, screen and sound system will be available in the lecture room.
                     </p>
                     <h5>Recommended points of your presentation:</h5>
                     <ul>
-                        <li>What your company does</li>
-                        <li>successful and interesting projects (connected with CWI portal and also beyond)</li>
-                        <li>which projects you can offer to students</li>
-                        <li>what students do you find and need and your requirements on them (bachelor students, master
-                            students, which skills they should know)
-                        </li>
-                        <li>what can student expect from cooperation with your company (benefits, development
-                            opportunities, corporate culture and philosophy etc.)
+                        <li>About your company</li>
+                        <li>Successful and interesting projects (connected with SSP portal and also beyond)</li>
+                        <li>Which projects you can offer to students</li>
+                        <li>What are your requirements on students (bachelor, master, skills they should know)</li>
+                        <li>What can student expect from cooperation with your company (development opportunities,
+                            benefits, corporate culture etc.)
                         </li>
                     </ul>
                 </div>
@@ -387,8 +403,10 @@
                 <h4>Where do I get more information?</h4>
 
                 <p class="expandable">
-                    If you need more information or have a problem, contact our team from informational kiosk
-                    Cooperation with Industry portal.
+                    Assistant of Co@FIT is Lucie Kolomazníková
+                    (<a href="mailto:lucie.kolomaznikova@fit.cvut.cz">lucie.kolomaznikova@fit.cvut.cz</a>)
+                    and she can provide you information.
+                    During Co@FIT there is our support team and informational kiosk SSP.
                 </p>
             </div>
         </section>
@@ -399,17 +417,27 @@
             </h3>
 
             <p>
-                Solid and long-term relationships with industrial partners belong to the historical tradition of the
-                Czech Technical University in Prague. At the Faculty of Information Technology we are trying to make
-                cooperation with industrial sphere as mutually beneficial as possible. Industrial partners are not only
-                target sphere for our absolvents but also important partner for forming our studying programs and
-                scientifical researches and activities. To improve and systematize this cooperation we offer program of
-                partnership called FITpartner. This program has various forms of partnership divided according
-                commitment of companies to the faculty.
+                Faculty of Information Technology targets to educate highly specialized IT professionals as a main
+                element of innovative potential of companies and institutions especially in Czech Republic. We are
+                systematically building scientific research capacities which enable us to teach students the latest
+                trends and knowledge but also to offer expertise consulting and realize projects in cooperation with
+                companies and institutions.
             </p>
 
             <p>
-                For more information contact please Department of Development.
+                Solid and long-term relationships with industrial partners belong to the historical tradition of the
+                Czech Technical University in Prague. At the Faculty of Information Technology we are trying to make
+                cooperation with industrial sphere as mutually beneficial as possible. Industrial partners are not only
+                the target sphere for our absolvents but also important partners for forming our studying programs and
+                scientifical researches and activities. To improve and systematize this cooperation we have prepared
+                program of partnership called FITpartner. FITpartner enables companies and institutions to influence
+                future development and specialization of our students but also it is possible close cooperation on
+                researches. This program has various forms of partnership divided according commitment of companies to
+                the faculty.
+            </p>
+
+            <p>
+                For more information please contact Department of Development.
             </p>
         </section>
         <section id="aboutFaculty">
@@ -470,19 +498,197 @@
 
     </section>
 
+    <section id="student">
+        <h2>
+            For students
+        </h2>
+
+        <section id="timetableForStudents">
+            <h3>
+                Time schedule
+            </h3>
+
+            <p>
+                Meet companies from IT sphere and win interesting prices in a raffle. Which projects are companies
+                solving?
+                How can you participate? Where can you gain experience? Do not miss opportunity to know companies, get
+                contacts and combine work with your study. We are looking forward to you!
+            </p>
+
+            <ol class="timetable">
+                <li>
+                    <div class="time">
+                        12:30 - 19:00
+                        <div class="location">Atrium</div>
+                    </div>
+                    <div class="info">
+                        <h4>
+                            Informational kiosks
+                        </h4>
+
+                        <p>
+                            Visit informational kiosks of our FITpartners and other companies! Ask for what are you
+                            interested in. What projects are companies solving currently? Which students are they
+                            looking for cooperation? What can they offer to you? Get valuable information and
+                            connections during the this afternoon!
+                        </p>
+
+                        <h4>
+                            Informational kiosk Cooperation with Industry portal (SSP portal)
+                        </h4>
+
+                        <p>
+                            This kiosk serves as an informational kiosk of Co@FIT. Cooperation with Industry portal
+                            provides cooperation beetwen students and companies where can companies offer assignments as
+                            semestral projects or thesis.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        13:30 - 14:30
+                        <div class="location">
+                            Lecture hall 105
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h4>
+                            Cooperation with Industry portal presentation
+                        </h4>
+                        <p>
+
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        15:00 - 16:00
+                        <div class="location">
+                            Lecture hall 112
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h4>
+                            How to commercialize
+                        </h4>
+                    </div>
+                </li>
+                <li>
+                    <div class="time">
+                        16:30 - 17:30
+                        <div class="location">Lecture hall 107</div>
+                    </div>
+                    <div class="info">
+                        <h4>
+                            Main program - presentations of the FITpartners
+                        </h4>
+
+                        <p>
+                            Do not miss the presentations of our golden and silver FITpartners! They will especially
+                            talk about opportunities and interesting projects which the companies are working on, which
+                            assignments they offer in SSP portal or what skills from student they require.
+                        </p>
+                        <h4>
+                            Drawing FIT-raffle
+                        </h4>
+
+                        <p>
+                            During presentations will be drawing a raffle. Win electronics sponsored by our FITpartners!
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+        <section class="events">
+            <h3>
+                FIT-raffle
+            </h3>
+
+            <p>
+                Do you want to win electronics sponsored by our FITpartners? Who doesn’t, right?! And how to attend?
+                Come to the lecture and don’t forget your curiosity and a bit of luck! Each student of FIT who comes to
+                the main lecture of FITpartners receives a raffle ticket. There will be drawing a raffle during the
+                lecture. Get more information about your future career, learn interesting facts from companies agents
+                and win great stuff! :)
+            </p>
+        </section>
+
+        <section id="whoComes">
+
+            <h2 style="display: inline-block">
+                Attending companies
+            </h2>
+
+            <form class="filter">
+                <label>
+                    <input placeholder="Filter by name or skills" type="text"/>
+                </label>
+            </form>
+
+            <div class="comming-partners">
+            </div>
+        </section>
+    </section>
+
     <section id="aboutPortal">
         <h2>
             About Cooperation with Industry portal
         </h2>
 
         <p>
-            This section is being prepared
+            The purpose of Cooperation with Industry portal (SSP portal) is to enable effective and useful cooperation
+            of companies and students.
         </p>
+
+        <p>
+            Many students are employed during their studies. But their work is not usually connected to school although
+            it might have been. Thanks to SSP portal it is possible to solve this problem and connect part-time jobs
+            with school duties. So students can cooperate with companies and take part on interesting projects from IT,
+            develop skills and learn programming languages and technologies used in practise.
+        </p>
+
+        <p>
+            We would like to support interesting projects and create nice place to cooperate together on new knowledge
+            come in concrete innovations. This system gives to the Faculty strong feedback which is used to improve
+            practical parts of subjects.
+        </p>
+
+        <p>
+            Pros for industrial partner (company) are opportunities to cooperate with young talents and forming their
+            future development, using expertise consulting and experiences teachers during solving assignments and
+            testing, give semestral work or thesis to students. Student can benefit from contact and cooperation with
+            company, use opportunities for practise in IT and get experience on interesting projects in connection with
+            school attendance and duties.
+        </p>
+
+
+        <h3>
+            What new is planned in CWI?
+        </h3>
+
+        <p>
+            We are constantly thinking of new ways of improving the portal and still working on development of new
+            functions. We’d like to inform you about some of them.
+
+        </p>
+
+        <p>
+            First, we want to increase a support of faculty experts who help to industrial partners with creating
+            assignments, provide expert advise and can lead work teams. Next change will be that other users
+            (students, teachers and experts) can suggest their own assignments and requirements. After that
+            industrial partners (companies) could pick the assignment which they are interested in and want to
+            sponsor. We can’t forget to mention making of redesign of front page of portal SSP. It will make your
+            work with portal easier, quicker and keeps you informed about all news. Stay tuned!
+        </p>
+
+        <div class="pull-center">
+            <a href="https://ssp.test.fit.cvut.cz/" target="_blank" class="btn">Go to web CWI</a>
+        </div>
     </section>
 
     <section id="contact">
         <h2>
-            Kontakty
+            Contacts
         </h2>
 
         <div class="contacts">
