@@ -477,7 +477,7 @@ function initPartners() {
         {
             name: "Gemalto",
             logo: "gemalto.svg",
-            type: "foreign",
+            type: "bronze",
             page: "http://www.gemalto.com/",
             description: "<p>Společnost Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Gemalto má přes 14 000 zaměstnanců v 45 zemích. Pražská pobočka má v současné době 300 zaměstnanců.</p>" +
             "<div class='expandable'><p>Mezi naše produkty patří např. kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
@@ -518,7 +518,7 @@ function initPartners() {
         {
             name: "Ackee",
             logo: "ackee.png",
-            type: "foreign",
+            type: "bronze",
             page: "https://www.ackee.cz/",
             description: "<p>Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys.</p>" +
             "<div class='expandable'><p>Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci.</p>" +
