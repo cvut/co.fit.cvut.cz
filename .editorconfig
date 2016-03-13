@@ -11,3 +11,6 @@ trim_trailing_whitespace = true
 
 [/.travis/*]
 indent_style = tab
+
+[*.svg]
+indent_size = 2
