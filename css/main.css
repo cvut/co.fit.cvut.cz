@@ -1,0 +1,441 @@
+@font-face {
+    font-family: "GestaSemiCondensed";
+    src: url('../fonts/GestaSemiCondensed-Regular-webfont.eot');
+    src: url('../fonts/GestaSemiCondensed-Regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/GestaSemiCondensed-Regular-webfont.woff') format('woff'), url('../fonts/GestaSemiCondensed-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ArchivoBlack";
+    src: url('../fonts/ArchivoBlack.otf') format('opentype'), url('../fonts/ArchivoBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-transition:  background 1s;
+    transition: background 1s;
+}
+
+a {
+    color: #367ab1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: GestaSemiCondensed, serif;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f6f6f6;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'ArchivoBlack', serif;
+    color: #3478b1;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h1 {
+    font-size: 180%;
+}
+
+h2 {
+    font-size: 160%;
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+body > header h1 {
+    display: inline-block;
+    font-size: 200%;
+    margin: 0;
+}
+
+body > header {
+    background: #ffffff url("../img/logo-grey.svg") no-repeat 95% 40px;
+    background-size: 50%;
+    color: #ffffff;
+}
+
+body > header .left {
+    padding: 5% 0;
+    width: 70%;
+    font-size: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.expandable {
+    display: none;
+}
+
+.expandable.expanded {
+    display: block;
+}
+
+.box {
+    display: inline-block;
+    width: 10.5em;
+    height: 10.5em;
+    background-color: #3478b1;
+    text-align: left;
+    padding: 1em;
+    margin: 0.3em;
+    vertical-align: top;
+    color: #ffffff;
+    /*border: 5px solid;*/
+    position: relative;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'ArchivoBlack', serif;
+}
+
+body > header .box.large {
+    width: 400px;
+}
+
+.box .summary {
+    display: block;
+    font-size: 330%;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.box .summary.alone {
+    font-size: 200%;
+    position: absolute;
+    bottom: 0.5em;
+    line-height: 1.1;
+}
+
+.box .details {
+    position: absolute;
+    bottom: 1em;
+    line-height: 1.3;
+}
+
+body > header nav {
+    text-align: center;
+    background-color: rgba(52, 120, 177, 0.7);
+    /*border-bottom: 5px solid;*/
+    font-size: 0;
+    text-transform: uppercase;
+}
+
+body > header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+body > header nav ul li {
+    font-size: 30px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+body > header nav ul li a {
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    cursor: pointer;
+    color: inherit;
+}
+
+body > header nav ul li a:hover {
+    background-color: #3478b1;
+    text-decoration: none;
+}
+
+body > section {
+    max-width: 800px;
+    margin: auto;
+    padding: 1% 3% 2%;
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+nav.roles ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav.roles li.role {
+    display: inline-block;
+    background-color: transparent;
+    color: #3579b1;
+    font-size: 150%;
+    font-weight: 600;
+    margin: 0 2.5%;
+    transition: all 1s;
+}
+
+nav.roles li.role a {
+    display: inline-block;
+    padding: 0.4em 0.8em;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav.roles li.role .icon {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: url("../img/role-ico-blue.png") no-repeat;
+    background-position-y: top;
+}
+
+nav.roles li.role:hover,
+nav.roles li.role.selected {
+    color: #ffffff;
+    background-color: #3478b1;
+}
+
+nav.roles li.role.student .icon {
+    background-position: 0 top;
+}
+
+nav.roles li.role.selected.student .icon,
+nav.roles li.role.student:hover .icon {
+    background-position: 0 bottom;
+}
+
+
+nav.roles li.role.academician .icon {
+    background-position: -200px top;
+}
+
+nav.roles li.role.selected.academician .icon,
+nav.roles li.role.academician:hover .icon {
+    background-position: -200px bottom;
+}
+
+
+nav.roles li.role.company .icon {
+    background-position: -400px top;
+}
+
+nav.roles li.role.selected.company .icon,
+nav.roles li.role.company:hover .icon {
+    background-position: -400px bottom;
+}
+
+body > footer {
+    display: table;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1% 3%;
+    background-color: #ffffff;
+    border-top: 1px solid #3579b1;
+
+}
+
+body > footer > .wrapper {
+    display: table-row;
+}
+
+body > footer .signature {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body > footer .boxes {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    min-width: 160px;
+}
+
+body > footer .box {
+    font-size: 30%;
+}
+
+.box.logo {
+    background-image: url("../img/logo-filled-white.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 90%;
+}
+
+.timeline, .choose-type {
+    padding: 0;
+    margin: 0 -1em;
+}
+
+.timeline li, .choose-type li {
+    -webkit-transition: background 0.5s, border 0.5s, color 0.5s;
+    transition: background 0.5s, border 0.5s, color 0.5s;
+    display: table;
+    width: 96%;
+    padding: 2% 2%;
+    position: relative;
+    margin: 0;
+
+}
+
+.timeline li {
+    border-left: 8px solid #71A1C8;
+    clear: both;
+}
+
+.choose-type li .summary {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 600;
+    color: #3579b1;
+    font-size: 120%;
+    margin-left: 1%;
+    width: 55%;
+
+}
+
+.choose-type li:before,
+.timeline li:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #71A1C8;
+    /*border-radius: 50%;*/
+    -webkit-transition: background 0.5s;
+    transition: background 0.5s;
+}
+
+.choose-type li:hover,
+.timeline li:hover {
+    background-color: rgba(53, 121, 177, 0.1);
+    border-color: #3579b1;
+}
+
+.choose-type li:hover:before,
+.timeline li:hover:before {
+    background-color: #3579b1;
+}
+
+.timeline li .description, .choose-type li .description {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin: 12px -1px;
+    width: 50%;
+    display: none;
+    opacity: 0;
+    background-color: rgb(235, 242, 247);
+    color: #367ab1;
+    z-index: 100;
+    border: 1px solid #ffffff;
+    transition: opacity 1s;
+}
+
+.timeline li:hover .description, .choose-type li:hover .description {
+    display: block;
+    opacity: 1;
+}
+
+.timeline .description p, .choose-type .description p {
+    padding: 0;
+    margin: 1em;
+}
+
+.timeline .description:before, .choose-type .description:before {
+    content: "\A";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ebf2f7;
+}
+
+.timeline h4 {
+    margin: 0;
+    font-size: 120%;
+    /*font-weight: 500;*/
+}
+
+.timeline .description address {
+    color: #666666;
+    font-style: normal;
+}
+
+.timeline .description .event-link {
+    color: #aaaaaa;
+    font-size: 90%;
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.choose-type li .btns-controls {
+    display: table-cell;
+    margin-top: 0.2em;
+    opacity: 0;
+    transition: opacity 0.5s;
+    width: 35%;
+    text-align: right;
+}
+
+.choose-type li:hover .btns-controls {
+    opacity: 1;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #367ab1;
+    color: #ffffff;
+    padding: 0.5em 1em;
+}
+
+.btn:hover {
+    background-color: #71A1C8;
+    border: none;
+    text-decoration: none;
+}
+
+.choose-type li .btns-controls .btn {
+    margin: 0.1em;
+}
+
+.ico:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: -0.3em;
+    margin-right: 0.1em;
+    vertical-align: text-bottom;
+    background: url("../img/ico_info_sw.png") no-repeat center center;
+    background-size: contain;
+}
+
+.ico.info:before {
+    background-image: url("../img/ico_info_sw.png");
+}
+
+.ico.contract:before {
+    background-image: url("../img/ico_contract_sw.png");
+}
+
+.ico.view:before {
+    background-image: url("../img/ico_view_sw.png");
+}
+
+.ico.download:before {
+    background-image: url("../img/ico_download_sw.png");
+}
