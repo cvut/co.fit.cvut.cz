@@ -272,15 +272,15 @@ body > footer .box {
 
 .timeline, .choose-type {
     padding: 0;
-    margin: 0 -1em;
+    margin: 0 0;
 }
 
 .timeline li, .choose-type li {
     -webkit-transition: background 0.5s, border 0.5s, color 0.5s;
     transition: background 0.5s, border 0.5s, color 0.5s;
     display: table;
-    width: 96%;
-    padding: 2% 2%;
+    width: 94%;
+    padding: 2% 3%;
     position: relative;
     margin: 0;
 
@@ -291,6 +291,7 @@ body > footer .box {
     clear: both;
 }
 
+.timeline li .summary,
 .choose-type li .summary {
     display: table-cell;
     vertical-align: middle;
@@ -299,7 +300,12 @@ body > footer .box {
     font-size: 120%;
     margin-left: 1%;
     width: 55%;
+}
 
+.timeline li .summary {
+    width: initial;
+    display: inline-block;
+    margin-left: 2em;
 }
 
 .choose-type li:before,
@@ -326,7 +332,8 @@ body > footer .box {
     background-color: #3579b1;
 }
 
-.timeline li .description, .choose-type li .description {
+.timeline li .description,
+.choose-type li .description {
     position: absolute;
     left: 50%;
     top: 100%;
@@ -341,17 +348,20 @@ body > footer .box {
     transition: opacity 1s;
 }
 
-.timeline li:hover .description, .choose-type li:hover .description {
+.timeline li:hover .description,
+.choose-type li:hover .description {
     display: block;
     opacity: 1;
 }
 
-.timeline .description p, .choose-type .description p {
+.timeline .description p,
+.choose-type .description p {
     padding: 0;
     margin: 1em;
 }
 
-.timeline .description:before, .choose-type .description:before {
+.timeline .description:before,
+.choose-type .description:before {
     content: "\A";
     width: 0;
     height: 0;
