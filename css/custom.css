@@ -11,7 +11,6 @@ html, body {
 
 a {
     text-decoration: none;
-    color: #000000;
 }
 
 a:hover {
@@ -24,6 +23,7 @@ a:active {
 
 p a {
     text-decoration: underline;
+    color: #222;
 }
 
 p a:hover {
@@ -94,6 +94,16 @@ section {
     display: none;
     -webkit-transition: none;
     transition: none;
+}
+
+.textbtn {
+    text-decoration: none;
+}
+.textbtn:hover {
+    color: #f9bc3d;
+}
+.textbtn .zde {
+    font-weight: bold;
 }
 
 /*=========header=========*/

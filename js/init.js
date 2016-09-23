@@ -54,6 +54,7 @@ function initAll() {
         if (container.hasClass('follow')) {
             $('.expandable').not('.expanded').hide();
             if (container.find('.expandable').hasClass('expanded')) {
+
                 scrollAnimate(container);
             }
             $('.expanded').show();
