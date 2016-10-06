@@ -544,7 +544,7 @@ function initPartners() {
             logo: "randstad.png",
             type: "sponsor",
             page: "https://www.randstad.cz/",
-            description: "<p></p>" +
+            description: "<p> </p>" +
             "<div class='expandable'><p></p>" +
             "<p></p>" +
             "<p></p>" +
