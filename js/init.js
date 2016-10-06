@@ -328,7 +328,7 @@ function initPartners() {
         {
             name: "Gemalto",
             logo: "gemalto.svg",
-            type: "bronze",
+            type: "sponsor",
             page: "http://www.gemalto.com/",
             description: "<p>Společnost Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Gemalto má přes 14 000 zaměstnanců v 45 zemích. Pražská pobočka má v současné době 300 zaměstnanců.</p>" +
             "<div class='expandable'><p>Mezi naše produkty patří např. kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
@@ -369,7 +369,7 @@ function initPartners() {
         {
             name: "Nangu.TV",
             logo: "nangu.svg",
-            type: "bronze",
+            type: "sponsor",
             page: "http://nangu.tv/",
             description: "<p>nangu.TV je česká softwarová firma zabývající se vývojem kompletního řešení pro IPTV a OTT multimediální platformy, která se v tomto velmi dynamickém odvětví pohybuje už více než 10 let a vybudovala si pozici leadra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a napříč našimi zákazníky evidujeme více než půl milionu zařízení připojených k nangu.TV platformě.</p>" +
             "<div class='expandable'><p>Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a můžeme se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku. nangu.TV umožňuje operátorům a poskytovatelům internetových služeb obohatit jejich stávající nabídku o interaktivní televizní zážitek. K základním nabízených funkcionalitám patří sledování pořadů i několik týdnů zpětně (timeshift), možnost si program na chvíli zastavit, videotéka, konzumace video obsahu na různých zařízeních jako jsou TV, mobilní telefony, tablety nebo PC (tzv. Multiscreen) a mnoho dalšího. Komponenty si vyvíjíme sami „in-house“ a jsme tak schopni dodat end-2-end řešení, čímž se odlišujeme od většiny našich konkurentů.</p>" +
@@ -460,7 +460,7 @@ function initPartners() {
         {
             name: "Ataccama Software",
             logo: "atacama.png",
-            type: "bronze",
+            type: "sponsor",
             page: "https://www.ataccama.com/",
             description: "<p>Ataccama je česko-kanadská softwarová společnost, která pomáhá firmám maximálně využít potenciálu velkých dat a je významným hráčem na mezinárodním trhu v oblasti datové kvality.</p>"
             + "<div class='expandable'><p>Na technologická řešení společnosti Ataccama spoléhá více než 250 zákazníků, od velkých nadnárodních korporací po středně velké organizace napříč odvětvími, a to především v Kanadě, Spojených státech, střední a západní Evropě. Analytická společnost Gartner zařadila společnost Ataccama na prestižní Gartner Magic Quadrant v oblasti nástrojů datové kvality a master data managamentu.</p></div>",
@@ -504,7 +504,7 @@ function initPartners() {
         {
             name: "SWATCH group",
             logo: "asicentrum.png",
-            type: "bronze",
+            type: "sponsor",
             page: "http://www.asicentrum.cz/",
             description: "<p>The Swatch Group Ltd is an international group producing and selling watches, jewellery, watch movements and components. The Swatch Group has a unique emotional culture. Beauty, sensuality, emotions in watches are as much part of it as high-tech, quality  and added value on the customer's wrist. Both, emotional poetry and innovation play an active part in the commitment to its customers.</p>" +
             "<div class='expandable'><p>The Swatch Group was founded in 1983 and since the time shown steady growth. Today, the Group employs over 35.000 persons in fifty countries. Swatch Group's 2014 gross sales amounted to a record number of CHF 9 219 millions.</p>" +
@@ -539,12 +539,26 @@ function initPartners() {
             visit: true
         },
 
+        {
+            name: "Randstad s.r.o.",
+            logo: "randstad.png",
+            type: "sponsor",
+            page: "https://www.randstad.cz/",
+            description: "<p></p>" +
+            "<div class='expandable'><p></p>" +
+            "<p></p>" +
+            "<p></p>" +
+            "<p></p></div>",
+            upper_skills: [],
+            visit: true
+        },
+
 
 
         {
             name: "Tipsport",
             logo: "tipsport.png",
-            type: "sponsor",
+            type: "foreign",
             page: "https://www.tipsport.jobs.cz/",
             description: "<p>Většina sázek je v dnešní době přijímána online a tak lze Tipsport označit za technologickou firmu. Naše IT oddělení je proto opravdu hýčkané. Jen náš tým developerů má 26 lidí, a protože v kurzovém sázení stále přibývají nové funkcionality i související služby, už zase je nás málo. :-)</p>"
             + "<div class='expandable'><p>Pokud naskočíš do našeho týmu, v prvních týdnech a měsících Tě čeká zaškolení pod vedením některého z našich zkušených vývojářů. Provedeme Tě zvlášť frontendovou a backendovou částí aplikace. Podle toho, co Ti bude bližší, si sám vybereš, jestli se budeš raději věnovat frontendu či backendu. Až projdeš fází zaškolení, budeš se v kooperaci s kolegy podílet na vývoji systémů, které tvoříme a optimalizujeme na vysokou zátěž a provoz s maximální dostupností, vždyť obsluhují tisíce dotazů a poskytují služby 24x7.</p>" +
@@ -593,7 +607,7 @@ function initPartners() {
         {
             name: "ORIFLAME SOFTWARE s.r.o.",
             logo: "",
-            type: "sponsor",
+            type: "foreign",
             page: "",
             description: "<p></p>"
             + "<div class='expandable'><p></p></div>",
@@ -604,7 +618,7 @@ function initPartners() {
         {
             name: "Cleverbee Solutions",
             logo: "",
-            type: "sponsor",
+            type: "foreign",
             page: "http://www.cleverbee.com/",
             description: "<p>Zabýváme se především dodávkou komplexních softwarových projektů, postavených na standardních technologiích nebo vývojem na zakázku</p>"
             + "<div class='expandable'><p>Cleverbee solutions s.r.o. je softwarová společnost, působící na trhu od roku 2000. Naše kompetence jsou především v oblastech budování portálů (B2C, B2B, B2E), řešení životního cyklu elektronických dokumentů, integrací aplikací, elektronizací podnikových procesů a zpracováním dat (datové integrace, datové sklady, reporting), vývojem mobilních aplikací.</p></div>",
@@ -615,7 +629,7 @@ function initPartners() {
         {
             name: "Mall.cz",
             logo: "mall.png",
-            type: "sponsor",
+            type: "foreign",
             page: "https://www.mall.cz/",
             description: "<p>Již 15 let působíme na trhu e-commerce v ČR a jsme jedním z předních e-commerce hráčů ve střední Evropě. V současné době notně investujeme do moderních skladů a technologií, které podporují náš další růst. Jsme stabilní firma, která každým rokem roste o 30%.<p>"
             + "<div class='expandable'><p>Internet Mall nabízí možnost spolupráce na dohodu o pracovní činnosti, zkrácený pracovní úvazek či hlavní pracovní poměr. Pracujeme na projektech webových stránek pro pět různých zemí postavené na nejmodernějších technologiích, Warehouse management cockpit postavený nad SAP HANA pro řízení našeho skladu, Microservice architektura, různé REST API pro mobilní aplikace, marketplace nebo online exporty nad 100.000ks zboží.</p>"
@@ -646,7 +660,7 @@ function initPartners() {
         {
             name: "T-Mobile",
             logo: "tmobile.png",
-            type: "sponsor",
+            type: "foreign",
             page: "https://www.t-mobile.cz/",
             description: "<p>Věříme, že technologie mají lidem zjednodušovat a zpříjemňovat život. A dobře víme, že být nejlepší a neustále posouvat hranice, můžeme jen se správnými lidmi.</p>" +
             "<div class='expandable'><p></p></div>",
@@ -657,7 +671,7 @@ function initPartners() {
         {
             name: "BellaDati",
             logo: "belladati.png",
-            type: "sponsor",
+            type: "foreign",
             page: "http://www.belladati.com/",
             description: "<p>From M2M, B2C and monitoring to machine learning, predictive and prescriptive analytics in days. We help you to grow your business.</p>" +
             "<div class='expandable'><p></p></div>",
@@ -668,7 +682,7 @@ function initPartners() {
         {
             name: "Quanti, s.r.o.",
             logo: "quanti.png",
-            type: "sponsor",
+            type: "foreign",
             page: "http://www.quanti.cz/",
             description: "<p>Tvorba aplikací, návrhy informačního systému a tvorba softwaru na zakázku. </p>" +
             "<div class='expandable'><p></p></div>",
@@ -679,7 +693,7 @@ function initPartners() {
         {
             name: "Valeo",
             logo: "valeo.svg",
-            type: "sponsor",
+            type: "foreign",
             page: "http://www.valeo-czechrepublic.com/",
             description: "<p>Jsme předním dodavatelem pro automobilový průmysl. Navrhujeme inovativní produkty a systémy, které přispívají ke snižování emisí CO2, ke zlepšení výkonu vozidel a k vývoji intuitivního řízení. V roce 2014 jsme investovali přes 10% z prodeje do výzkumu a vývoje. Máme 135 výrobních závodů, 51 R&D center a zaměstnáváme 82700 lidí ve 30 zemích. V České republice je přes 3000 zaměstnanců a 3 výrobní závody, v Rakovníku, Žebráku a Humpolci, kde vyrábíme klimatizační jednotky, kompresory, výměníky tepla a kontrolní panely.</p>" +
             "<div class='expandable'><p>V R&D centru v Praze vyvíjíme i senzory a software pro autonomní auta: parkovací asistenty, kamery, automatické nouzové brzděni, hlídání mrtvého úhlu a adaptivní tempomaty. V oblasti vývoje parkovacích asistenčních systémů a integrace senzorů do automobilů je Valeo lídrem na trhu. Zabezpečujeme komplexní vývoj \"od A do Z\" - od sběru zákaznických požadavků, SW designu, HW designu, mechanického designu, elektrických testů, až po systémové testy přímo na autech na našem rozlehlém testovacím polygonu v Milovicích nebo v reálném silničním provozu.</p>" +
@@ -710,7 +724,7 @@ function initPartners() {
         {
             name: "KPMG",
             logo: "kmpg.png",
-            type: "sponsor",
+            type: "foreign",
             page: "http://www.kpmg.com/",
             description: "<p>Řadíme se mezi nejvýznamnější poradenské firmy poskytující služby v oblasti auditu, daní a poradenství. Stále se rozrůstáme a hledáme talentované a ambiciózní lidi, kteří na sobě chtějí pracovat a být součástí našeho mezinárodního týmu. Hned na startu kariéry nabízíme motivující pracovní prostředí, finanční ohodnocení a zázemí silné společnosti. Budete pracovat na zakázkách pro české i zahraniční společnosti ze soukromého i veřejného sektoru. KPMG Česká republika má celkem 840 zaměstnanců a kanceláře v Praze, Brně, Ostravě a Českých Budějovicích.</p>" +
             "<div class='expandable'><p>Zabýváme se např. projekty Information Security (revize a rozvoj systému řízení informační bezpečnosti, studie v oblasti bezpečnosti), IT Security (penetrační testy, konfigurační review), Project management (řízení externích projektů, quality assurance), IT Governance (poradenství v oblasti řízení IT ve firmě) Enterprise Architecture, Business Intelligence & Data Analytics, Intellectual Property.</p>" +
