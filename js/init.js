@@ -109,7 +109,7 @@ function initPartners() {
             name: "Komerční banka",
             logo: "kb.png",
             type: "gold",
-            page: "http://www.kb.cz/",
+            page: "https://www.kb.cz/cs/o-bance/kariera/?wt_mc=interni.header.careers",
             description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v České republice a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví. V aktuální době nabízí služby pro zhruba 1,6 milionu klientů, které obsluhuje na stovkách poboček a skrz nejrůznější digitální kanály.</p>" +
             "<div class='expandable'><p>Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví. Dále také inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako např. zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), lepší práce s velkými daty (Big Data) nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet nebo Apple Pay).</p>" +
             "<p>Talentovaní studenti mají možnost se zúčastnit integračního a rozvojového programu Connecting a Connecting +. Poznají zde sami sebe a zároveň také fungování banky z odlišných pohledů (finance, marketing, HR, Risk a Distribuce). V průběhu kariérního postupu nabízíme mnoho školení jak v oblasti technických dovedností, tak v soft skills.</p>" +
@@ -154,7 +154,7 @@ function initPartners() {
             name: "Lely",
             logo: "lely.png",
             type: "gold",
-            page: "http://www.lely.com/",
+            page: "https://www.lely.com/careers/",
             description: "<p>Our area is innovation in agriculture, we use artificial intelligence techniques to make farms more profitable and durable, and farmer’s life easier and more enjoyable. Our most know invention is automated milking robot (Lely Astronaut). However, we supply the agricultural sector with a complete portfolio of products and services ranging from milking robots, automated feeding systems and barn cleaners to forage harvesting. Lely is active in more than 60 countries and employs some 2,000 people.</p>" +
             "<div class='expandable'><p> In cooperation with FIT CTU we mainly work on AI projects. That includes machine learning techniques to improve robot behavior or data mining and data science techniques to extract information from robots data. It is not only about the work it is about passion to do to something new and innovative.</p>" +
             "<p> We offer assignments for graduate as well as undergraduate students through Portal for Cooperation with Industry (SSP).</p></div>",
@@ -176,7 +176,7 @@ function initPartners() {
             name: "Profinit",
             logo: "profinit.svg",
             type: "gold",
-            page: "http://www.profinit.eu/",
+            page: "https://www.profinit.eu/kariera/",
             description: "<p>Profinit je již od roku 1998 významným hráčem na poli application outsourcingu a information managementu. V našem sehraném týmu najdete více než 300 nadšených a zkušených profesionálů. Obrat naší společnosti činil na konci roku 2014 necelých 400 miliónů korun. Aktuálně pracujeme pro více než padesát významných klientů po celém světě. Patříme ke špičce v oblasti vývoje SW na zakázku, data managementu, datových skladů a business intelligence. Jako jediní máme místní know-how nepřenesené z USA či jiných vzdálených trhů. Pokrýváme klíčové oblasti přímých kanálů, self-care, online prodeje, podpory a řízení obchodní, agentské a pobočkové sítě, marketingu, financí, sociálních sítí či fraudu. Dlouhodobě spolupracujeme se společnostmi Informatica, IBM, EMC, Oracle, Liferay, Microsoft, Sybase, Talend, SAP, Kentico, SuccessFactors a také s ČVUT (FIT) a Marketingovým institutem. </p>" +
             "<div class='expandable'><p>Jsme garantem semestrálních předmětů na ČVUT a MFF UK. Dlouhodobě s univerzitami spolupracujeme v oblastech pokročilého zpracování dat, data analytics, syntaktické a sémantické analýze kódu či konceptuálních modelů. Naši odborníci předměty vyučují i cvičí. Mimo společných výzkumných projektů nabízíme také zajímavá témata v podobě semestrálních projektů, diplomových a bakalářských prací. Příkladem úspěšné spolupráce jsou naše produktové řady Manta tools a SVAT. </p>" +
             "<p>Společně s nejprestižnějšími českými a slovenskými technickými vysokými školami a pod záštitou mezinárodní odborné organizace ACM organizujeme soutěž ACM SPY, ve které odborná porota vybírá nejlepší diplomovou práci z oblasti informatiky a informačních technologií. Cílem soutěže je podpořit talentované studenty v jejich studiu a výzkumu a pomoci jim uplatnit tuto snahu i výsledky v praxi. </p>" +
@@ -223,7 +223,7 @@ function initPartners() {
             name: "Accenture",
             logo: "accenture.png",
             type: "gold",
-            page: "https://www.accenture.com/cz-cs/Careers.aspx",
+            page: "https://www.accenture.com/cz-cs/careers",
             description: "<p>Accenture je vedoucí, globální společnost nabízející odborné služby. Poskytujeme širokou škálu služeb a řešení v oblasti strategie, poradenství, digitálních technologií, technologických služeb a podpory podnikových procesů prostřednictvím přibližně 373 000 pracovníků ve více než 120 zemích světa. Největším a nejvýznamnějším firmám ze všech odvětví pomáháme nastavit úspěšné strategie, navrhnout a implementovat plány, využít sílu digitálního světa – za pomoci tradičních i nových technologií – a dodat řešení. Našim klientům se dokážeme postarat o provoz jejich podnikových procesů, infrastruktury i cloudových služeb. Accenture je jediná firma se schopností poskytovat takto široké spektrum služeb a řešení upravených pro jednotlivá odvětví. Tržby společnosti dosáhly 31 miliard USD za fiskální rok končící 31. srpnem 2015. České republice působíme už 25 let a máme více jak 1800 zaměstnanců.</p>" +
             "<div class='expandable'><p>Čerstvým absolventům nabízíme zajímavou práci v mezinárodních týmech na různorodých projektech v ČR i zahraničí. Naše pozice v konzultantské divizi jsou vhodné především pro vysokoškoláky se silným analytickým a logickým myšlením. Oblast moderních informačních technologií je příležitost především pro ty, jejichž předním zájmem jsou moderní informační technologie a snaha se v této oblasti trvale rozvíjet. V rámci podpory podnikových procesů nabízíme šanci těm, kteří chtějí využívat jazyky na denní bázi. Nabízíme pozice v oblasti konzultačních služeb, moderních informačních technologií nebo podpory podnikových procesů.</p>" +
             "<p>Poskytujeme odborné služby a řešení v oblasti strategií, poradenství, digitalizace, technologií a podpory podnikových procesů významným a renomovaným firmám, včetně 94 z top 100 největších firem na světě. Jsme číslo 1 v rámci aktuálního žebříčku časopisu Fortune “World’s Most Admired Companies” v kategorii IT Služby.</p>" +
@@ -317,7 +317,7 @@ function initPartners() {
             name: "Ackee",
             logo: "ackee.png",
             type: "bronze",
-            page: "https://www.ackee.cz/",
+            page: "https://www.ackee.cz/o-nas#contact",
             description: "<p>Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys.</p>" +
             "<div class='expandable'><p>Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci.</p>" +
             "<p>V Ackee máme pořád dveře otevřené. Bereme stážisty, juniory i seniory. Jestli není tvá pozice zrovna vypsaná, pošli nám i tak CV, třeba hledáme právě tebe. Momentálně sháníme kandidáty na pozice Android Developer, iOS Developer, Frontend Web Developer</p></div>",
@@ -329,7 +329,7 @@ function initPartners() {
             name: "Gemalto",
             logo: "gemalto.svg",
             type: "sponsor",
-            page: "http://www.gemalto.com/",
+            page: "http://www.gemalto.com/companyinfo/careers",
             description: "<p>Společnost Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Gemalto má přes 14 000 zaměstnanců v 45 zemích. Pražská pobočka má v současné době 300 zaměstnanců.</p>" +
             "<div class='expandable'><p>Mezi naše produkty patří např. kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
             "<p> Poskytujeme zabezpečovací software, širokou škálu bezpečnostních osobních zařízení a řízených služeb pro mnohé přední světové mobilní operátory, banky, podniky a vládní agentury.</p>" +
@@ -370,7 +370,7 @@ function initPartners() {
             name: "Nangu.TV",
             logo: "nangu.svg",
             type: "sponsor",
-            page: "http://nangu.tv/",
+            page: "http://nangu.tv/jobs/",
             description: "<p>nangu.TV je česká softwarová firma zabývající se vývojem kompletního řešení pro IPTV a OTT multimediální platformy, která se v tomto velmi dynamickém odvětví pohybuje už více než 10 let a vybudovala si pozici leadra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a napříč našimi zákazníky evidujeme více než půl milionu zařízení připojených k nangu.TV platformě.</p>" +
             "<div class='expandable'><p>Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a můžeme se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku. nangu.TV umožňuje operátorům a poskytovatelům internetových služeb obohatit jejich stávající nabídku o interaktivní televizní zážitek. K základním nabízených funkcionalitám patří sledování pořadů i několik týdnů zpětně (timeshift), možnost si program na chvíli zastavit, videotéka, konzumace video obsahu na různých zařízeních jako jsou TV, mobilní telefony, tablety nebo PC (tzv. Multiscreen) a mnoho dalšího. Komponenty si vyvíjíme sami „in-house“ a jsme tak schopni dodat end-2-end řešení, čímž se odlišujeme od většiny našich konkurentů.</p>" +
             "<p>Mimojiné nabízíme rozvojové aktivity jako účast na odborných školeních/kurzech, účast na konferencích, jazykové kurzy, soft skills kurzy, možný kariérní posun v rámci týmu i firmy. Jsme otevřeni nápadům zaměstnanců jak z hlediska osobního, tak pracovního rozvoje.</p>" +
@@ -411,7 +411,7 @@ function initPartners() {
             name: "GoodData",
             logo: "gooddata.png",
             type: "bronze",
-            page: "http://www.gooddata.com/",
+            page: "http://www.gooddata.com/company/careers",
             description: "<p>Jsme česká firma založená Romanem Staňkem v roce 2007, v současnosti s pobočkami v Praze a Brně, San Franciscu a Portlandu. Využíváme nejnovější technologie k vytvoření moderní vysoce zabezpečené cloudové platformy pro extrakci, správu a  multidimenzionální analýzu podnikových dat. Náš produkt využívá přes 40 % společností z žebříčku Fortune 500.</p>" +
             "<div class='expandable'><p>V GoodData vyvíjíme vysoce dostupné distribuované komponenty v Erlangu a Javě, zatímco UX tým designuje novou verzi javascriptové aplikace pro datové analytiky. Nedílnou součástí týmu jsou administrátoři, kteří se starají o privátní cloud, v němž databáze HP Vertica, Postgres nebo MongoDB mají k dispozici desítky TB paměti. Toto vše pak využívá náš algebraický engine, který zajišťuje překlad z multidimenzionálního dotazovacího jazyka MAQL do SQL, který je proveden nad relačními SQL databázemi se zákaznickými daty.</p>" +
             "<p>Nabízíme možnost pracovat na vývoji a zajištění produkce silně škálovatelné (moderně navržené) platformy, která zvládá analytické úlohy pro desítky tisíc uživatelů a zajišťuje stovky TB zákaznických dat. V ČR je minimum podobně rozsáhlých projektů. Ve firmě se také masivně používá Open Source a webové technologie.</p>" +
@@ -461,7 +461,7 @@ function initPartners() {
             name: "Ataccama Software",
             logo: "atacama.png",
             type: "sponsor",
-            page: "https://www.ataccama.com/",
+            page: "https://jobs.ataccama.com",
             description: "<p>Ataccama je česko-kanadská softwarová společnost, která pomáhá firmám maximálně využít potenciálu velkých dat a je významným hráčem na mezinárodním trhu v oblasti datové kvality.</p>"
             + "<div class='expandable'><p>Na technologická řešení společnosti Ataccama spoléhá více než 250 zákazníků, od velkých nadnárodních korporací po středně velké organizace napříč odvětvími, a to především v Kanadě, Spojených státech, střední a západní Evropě. Analytická společnost Gartner zařadila společnost Ataccama na prestižní Gartner Magic Quadrant v oblasti nástrojů datové kvality a master data managamentu.</p></div>",
             upper_skills: [
@@ -494,7 +494,7 @@ function initPartners() {
             name: "NN",
             logo: "nn.png",
             type: "bronze",
-            page: "https://www.nn.cz/",
+            page: "https://kariera.nn.cz",
             description: "<p>NN je společnost zabývající se především pojišťovnictvím a správou investic. Své služby nabízí ve více než 18 zemích, významně zastoupena je zejména v Evropě a Japonsku.</p>"
             + "<div class='expandable'><p>Více než 12 000 zaměstnanců se stará o 15 milionů zákazníků ve více než 18 zemích, kde nabízíme spoření na penzi, pojištění a investiční produkty. V některých zemích NN Group poskytuje i bankovní služby.</p></div>",
             upper_skills: [],
@@ -505,7 +505,7 @@ function initPartners() {
             name: "SWATCH group",
             logo: "asicentrum.png",
             type: "sponsor",
-            page: "http://www.asicentrum.cz/",
+            page: "http://www.swatchgroup.com/en/human_resources/working_at_swatch_group",
             description: "<p>The Swatch Group Ltd is an international group producing and selling watches, jewellery, watch movements and components. The Swatch Group has a unique emotional culture. Beauty, sensuality, emotions in watches are as much part of it as high-tech, quality  and added value on the customer's wrist. Both, emotional poetry and innovation play an active part in the commitment to its customers.</p>" +
             "<div class='expandable'><p>The Swatch Group was founded in 1983 and since the time shown steady growth. Today, the Group employs over 35.000 persons in fifty countries. Swatch Group's 2014 gross sales amounted to a record number of CHF 9 219 millions.</p>" +
             "<p>EM Microelectronic, Swiss semiconductor manufacturer of the Swatch Group, is focused on the design and production of ultra-low power, low voltage integrated circuits for battery-operated and field-powered applications. It has 40 years of experience in the design of IC processing analog and digital signals simultaneously.</p>" +
@@ -543,7 +543,7 @@ function initPartners() {
             name: "Randstad s.r.o.",
             logo: "randstad.png",
             type: "sponsor",
-            page: "https://www.randstad.cz/",
+            page: "https://www.randstad.cz/pridejte-se-k-nam/",
             description: "<p> </p>" +
             "<div class='expandable'><p></p>" +
             "<p></p>" +
@@ -1212,8 +1212,9 @@ function initPartners() {
 
         if (this.visit){
             partnersField.append('<div class="partner"><div class="border"><div class="logo">'
-                + '<img alt="" src="img/partners/' + this.logo + '"/></div><div class="info">'
-                + '<h4>' + this.name + '<span class="status"></span></h4></div></div></div>'
+                + '<a href="' + this.page + '" target="_blank"><img alt="" src="img/partners/'
+                + this.logo + '"/></a></div><div class="info">'
+                + '<span class="status"></span></div></div></div>'
             );
         }
 
