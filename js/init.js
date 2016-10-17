@@ -110,10 +110,9 @@ function initPartners() {
             logo: "kb.png",
             type: "gold",
             page: "https://www.kb.cz/cs/o-bance/kariera/?wt_mc=interni.header.careers",
-            description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v České republice a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví. V aktuální době nabízí služby pro zhruba 1,6 milionu klientů, které obsluhuje na stovkách poboček a skrz nejrůznější digitální kanály.</p>" +
-            "<div class='expandable'><p>Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví. Dále také inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako např. zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), lepší práce s velkými daty (Big Data) nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet nebo Apple Pay).</p>" +
-            "<p>Talentovaní studenti mají možnost se zúčastnit integračního a rozvojového programu Connecting a Connecting +. Poznají zde sami sebe a zároveň také fungování banky z odlišných pohledů (finance, marketing, HR, Risk a Distribuce). V průběhu kariérního postupu nabízíme mnoho školení jak v oblasti technických dovedností, tak v soft skills.</p>" +
-            "<p>Díky stabilnímu prostředí velké organizace a široké škále využívaných a provozovaných technologií, metodik a produktů se v KB mohou uplatit studenti nejrůznějších zaměření. Dokážeme nabídnout široké spektrum témat od serverové virtualizace či IT architektury až po témata zabývající se digitálním marketingem nebo sociálními sítěmi. V rámci naší IT Inovační laboratoře již teď působí řada studentů ČVUT, kteří obhájili nebo zpracovávají diplomové práce zaměřené na praktickou aplikovatelnost jejich výsledku. Pokud máte zájem se o našem týmu a nabízených příležitostech dozvědět více, neváhejte nás kontaktovat u našeho kiosku na Co@FITu!</p></div>",
+            description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v ČR a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví.</p>" +
+            "<div class='expandable'><p>Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví, inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), Big Data nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet, Apple Pay).</p>" +
+            "<p>Talentovaní studenti mají možnost zúčastnit se integračního a rozvojového programu Connecting a Connecting +. Poznají zde sami sebe a zároveň fungování banky z odlišných pohledů (finance, marketing, HR, Risk a Distribuce). V průběhu kariérního postupu nabízíme mnoho školení jak v oblasti technických dovedností, tak soft skills. Díky stabilnímu prostředí velké organizace a široké škále využívaných a provozovaných technologií, metodik a produktů se v KB mohou uplatit studenti nejrůznějších zaměření. Dokážeme nabídnout široké spektrum témat od serverové virtualizace či IT architektury až po témata zabývající se digitálním marketingem nebo sociálními sítěmi. V rámci naší IT Inovační laboratoře již teď působí řada studentů ČVUT, kteří obhájili nebo zpracovávají diplomové práce zaměřené na praktickou aplikovatelnost jejich výsledku. Pokud máte zájem se o našem týmu a nabízených příležitostech dozvědět více, neváhejte nás kontaktovat u našeho kiosku na Co@FITu!</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -169,7 +168,7 @@ function initPartners() {
                 {department: "Cizí jazyky", skills: ["Angličtina"]},
                 {department: "Technologie", skills: ["OOP", "Funkcionální"]}
             ],
-            visit: true
+            visit: false
         },
 
         {
@@ -177,11 +176,8 @@ function initPartners() {
             logo: "profinit.svg",
             type: "gold",
             page: "https://www.profinit.eu/kariera/",
-            description: "<p>Profinit je již od roku 1998 významným hráčem na poli application outsourcingu a information managementu. V našem sehraném týmu najdete více než 300 nadšených a zkušených profesionálů. Obrat naší společnosti činil na konci roku 2014 necelých 400 miliónů korun. Aktuálně pracujeme pro více než padesát významných klientů po celém světě. Patříme ke špičce v oblasti vývoje SW na zakázku, data managementu, datových skladů a business intelligence. Jako jediní máme místní know-how nepřenesené z USA či jiných vzdálených trhů. Pokrýváme klíčové oblasti přímých kanálů, self-care, online prodeje, podpory a řízení obchodní, agentské a pobočkové sítě, marketingu, financí, sociálních sítí či fraudu. Dlouhodobě spolupracujeme se společnostmi Informatica, IBM, EMC, Oracle, Liferay, Microsoft, Sybase, Talend, SAP, Kentico, SuccessFactors a také s ČVUT (FIT) a Marketingovým institutem. </p>" +
-            "<div class='expandable'><p>Jsme garantem semestrálních předmětů na ČVUT a MFF UK. Dlouhodobě s univerzitami spolupracujeme v oblastech pokročilého zpracování dat, data analytics, syntaktické a sémantické analýze kódu či konceptuálních modelů. Naši odborníci předměty vyučují i cvičí. Mimo společných výzkumných projektů nabízíme také zajímavá témata v podobě semestrálních projektů, diplomových a bakalářských prací. Příkladem úspěšné spolupráce jsou naše produktové řady Manta tools a SVAT. </p>" +
-            "<p>Společně s nejprestižnějšími českými a slovenskými technickými vysokými školami a pod záštitou mezinárodní odborné organizace ACM organizujeme soutěž ACM SPY, ve které odborná porota vybírá nejlepší diplomovou práci z oblasti informatiky a informačních technologií. Cílem soutěže je podpořit talentované studenty v jejich studiu a výzkumu a pomoci jim uplatnit tuto snahu i výsledky v praxi. </p>" +
-            "<p>Spolupráce s vysokými školami je pro nás zdrojem inovace, inspirace a samozřejmě také talentu. My na oplátku předáváme své dlouholeté zkušenosti mladým lidem.</p>" +
-            "<p>Pokud máte zájem dozvědět se o naší společnosti více, přijďte k našemu kiosku na Co@FITu. Těšíme se na Vás!</p></div>",
+            description: "<p>Profinit je již od roku 1998 významným hráčem na poli application outsourcingu a information managementu. V našem sehraném týmu najdete více než 300 nadšených a zkušených profesionálů. Aktuálně pracujeme pro více než 50 významných klientů po celém světě. Patříme ke špičce v oblasti vývoje SW na zakázku, data managementu, datových skladů a business intelligence. Jako jediní máme místní know-how nepřenesené z USA či jiných vzdálených trhů. Pokrýváme klíčové oblasti přímých kanálů, self-care, online prodeje, podpory a řízení obchodní, agentské a pobočkové sítě, marketingu, financí, sociálních sítí či fraudu. </p>" +
+            "<div class='expandable'><p>Dlouhodobě spolupracujeme se společnostmi Informatica, IBM, EMC, Oracle, Liferay, Microsoft, Sybase, Talend, SAP, Kentico, SuccessFactors a také s ČVUT (FIT) a Marketingovým institutem. Jsme garantem semestrálních předmětů na ČVUT a MFF UK. Dlouhodobě s univerzitami spolupracujeme v oblastech pokročilého zpracování dat, data analytics, syntaktické a sémantické analýze kódu či konceptuálních modelů. Naši odborníci předměty vyučují i cvičí. Mimo společných výzkumných projektů nabízíme také zajímavá témata v podobě semestrálních projektů, diplomových a bakalářských prací. Společně s nejprestižnějšími českými a slovenskými technickými vysokými školami a pod záštitou mezinárodní odborné organizace ACM organizujeme soutěž ACM SPY, ve které odborná porota vybírá nejlepší diplomovou práci z oblasti informatiky a informačních technologií. Cílem soutěže je podpořit talentované studenty v jejich studiu a výzkumu a pomoci jim uplatnit tuto snahu i výsledky v praxi. Spolupráce je pro nás zdrojem inovace, inspirace a talentu. My na oplátku předáváme své dlouholeté zkušenosti. Pokud máte zájem dozvědět se o naší společnosti více, přijďte k našemu kiosku na Co@FITu. Těšíme se na Vás!</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -224,20 +220,8 @@ function initPartners() {
             logo: "accenture.png",
             type: "gold",
             page: "https://www.accenture.com/cz-cs/careers",
-            description: "<p>Accenture je vedoucí, globální společnost nabízející odborné služby. Poskytujeme širokou škálu služeb a řešení v oblasti strategie, poradenství, digitálních technologií, technologických služeb a podpory podnikových procesů prostřednictvím přibližně 373 000 pracovníků ve více než 120 zemích světa. Největším a nejvýznamnějším firmám ze všech odvětví pomáháme nastavit úspěšné strategie, navrhnout a implementovat plány, využít sílu digitálního světa – za pomoci tradičních i nových technologií – a dodat řešení. Našim klientům se dokážeme postarat o provoz jejich podnikových procesů, infrastruktury i cloudových služeb. Accenture je jediná firma se schopností poskytovat takto široké spektrum služeb a řešení upravených pro jednotlivá odvětví. Tržby společnosti dosáhly 31 miliard USD za fiskální rok končící 31. srpnem 2015. České republice působíme už 25 let a máme více jak 1800 zaměstnanců.</p>" +
-            "<div class='expandable'><p>Čerstvým absolventům nabízíme zajímavou práci v mezinárodních týmech na různorodých projektech v ČR i zahraničí. Naše pozice v konzultantské divizi jsou vhodné především pro vysokoškoláky se silným analytickým a logickým myšlením. Oblast moderních informačních technologií je příležitost především pro ty, jejichž předním zájmem jsou moderní informační technologie a snaha se v této oblasti trvale rozvíjet. V rámci podpory podnikových procesů nabízíme šanci těm, kteří chtějí využívat jazyky na denní bázi. Nabízíme pozice v oblasti konzultačních služeb, moderních informačních technologií nebo podpory podnikových procesů.</p>" +
-            "<p>Poskytujeme odborné služby a řešení v oblasti strategií, poradenství, digitalizace, technologií a podpory podnikových procesů významným a renomovaným firmám, včetně 94 z top 100 největších firem na světě. Jsme číslo 1 v rámci aktuálního žebříčku časopisu Fortune “World’s Most Admired Companies” v kategorii IT Služby.</p>" +
-            "<h4>Co získáš, když půjdeš pracovat k nám?</h4>" +
-            "<p>Zajímavou práci pro významné a prestižní firmy - vždyť není snad výzvou řešit, jak mohou největší banky, pojišťovny, telekomunikační, výrobní či energetické firmy lépe a efektivněji uspokojovat své zákazníky a využívat při tom inovativní přístupy a technologie?</p>" +
-            "<p>Vzácné praktické zkušenosti – staneš se expertem na specifická průmyslová odvětví nebo podnikové funkce (procesy) anebo technologie, což ti samozřejmě v budoucnu přinese i spoustu zajímavých pracovních nabídek.</p>" +
-            "<p>Skvělé kolegy - jsme výborná parta a dostanou se k nám ti nejlepší, které baví měnit svět k lepšímu a navzájem si při tom pomáhat.</p>" +
-            "<p>Špičkové vzdělávací programy - podle odborných periodik jsou tréninky v Accenture jedny z nejlepších na světě co do kvality i kvantity. Jsme číslo 1 v rámci žebříčku “Learning Elite” časopisu Chief Learning Officer.</p>" +
-            "<p>Atraktivní ohodnocení a štědrý balíček benefitů.</p>" +
-            "<p>Pravidelný proces povyšování založený na transparentním posouzení tvé výkonnosti.</p>" +
-            "<p>Osobního kariérního poradce, který ti bude pomáhat s rozvojem a směřováním tvé kariéry.</p>" +
-            "<p>Work hard, play hard – umíme se i bavit a žijeme i sportem – od celosvětové Accenture Ski Challenge v nejznámějších lyžařských destinacích až po We Run Prague.</p>" +
-            "<p>Příležitost zapojovat se do různých dobročinných a charitativních aktivit, jako je například náš mezinárodně oceňovaný český projekt Accenture Academy pro děti z domovů.</p>" +
-            "<p>Pracovní smlouvu na dobu neurčitou.</p>" +
+            description: "<p>Accenture je vedoucí, globální společnost nabízející odborné služby v oblasti strategie, poradenství, digitálních technologií, technologických služeb a podpory podnikových procesů prostřednictvím přibližně 373 000 pracovníků ve více než 120 zemích světa. Největším a nejvýznamnějším firmám ze všech odvětví pomáháme nastavit úspěšné strategie, navrhnout a implementovat plány, využít sílu digitálního světa – za pomoci tradičních i nových technologií – a dodat řešení. Našim klientům se dokážeme postarat o provoz jejich podnikových procesů, infrastruktury i cloudových služeb. Accenture je jediná firma se schopností poskytovat takto široké spektrum služeb a řešení upravených pro jednotlivá odvětví. V ČR působíme přes 25 let a máme více jak 1800 zaměstnanců.</p>" +
+            "<div class='expandable'><p>Čerstvým absolventům nabízíme zajímavou práci v mezinárodních týmech na různorodých projektech v ČR i zahraničí. Jsme číslo 1 v rámci aktuálního žebříčku časopisu Fortune “World’s Most Admired Companies” v kategorii IT Služby. Naše pozice v konzultantské divizi jsou vhodné především pro vysokoškoláky se silným analytickým a logickým myšlením. Nabízíme zajímavou práci v oblasti konzultačních služeb, moderních IT nebo podpory podnikových procesů pro prestižní firmy, praktické zkušenosti, skvělé kolegy, špičkové vzdělávací programy, atraktivní ohodnocení a štědrý balíček benefitů. Work hard, play hard – umíme se bavit a žijeme i sportem – od celosvětové Accenture Ski Challenge až po We Run Prague. V neposlední řadě se zapojujeme do různých dobročinných a charitativních aktivit, jako je náš mezinárodně oceňovaný český projekt Accenture Academy pro děti z domovů.</p>" +
             "</div> ",
             upper_skills: [
                 {
@@ -318,9 +302,18 @@ function initPartners() {
             logo: "ackee.png",
             type: "bronze",
             page: "https://www.ackee.cz/o-nas#contact",
-            description: "<p>Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys.</p>" +
-            "<div class='expandable'><p>Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci.</p>" +
-            "<p>V Ackee máme pořád dveře otevřené. Bereme stážisty, juniory i seniory. Jestli není tvá pozice zrovna vypsaná, pošli nám i tak CV, třeba hledáme právě tebe. Momentálně sháníme kandidáty na pozice Android Developer, iOS Developer, Frontend Web Developer</p></div>",
+            description: "<p>Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys. Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci. V Ackee máme pořád dveře otevřené. Bereme stážisty, juniory i seniory. Jestli není tvá pozice zrovna vypsaná, pošli nám i tak CV, třeba hledáme právě tebe. Momentálně sháníme kandidáty na pozice Android Developer, iOS Developer, Frontend Web Developer.</p>",
+            upper_skills: [],
+            visit: true
+        },
+
+        {
+            name: "NN",
+            logo: "nn.png",
+            type: "bronze",
+            page: "https://kariera.nn.cz",
+            description: "<p>NN (odvozeno od Nationale Nederlanden) není v ČR novým pojmem. Ve skutečnosti zde působíme od roku 1992 a dlouho jste nás mohli znát jako ING pojišťovnu. Jsme společnost s bohatou historií, jejímž středobodem nejsou pojistné smlouvy, ale lidé. Součástí NN je také oddělení regionálního IT s názvem IT Hub Prague se sídlem v centru Prahy. Naší úlohou je poskytování a dodávání IT služeb pro 18 zemí. Našim zákazníkům dodáváme služby především v oblasti bezpečnosti, podpory a údržby regionálních aplikací a systémů, hosting service a jiných podpůrných služeb. Naše osazenstvo je multikulturní a prostředí inspirující. </p>"
+            + "<div class='expandable'><p>Pracujeme s nejnovějšími technologiemi na zajímavých projektech pro celý svět. Mezi naše hodnoty patří CLEAR – CARE – COMIT. CLEAR – jsme féroví, říkáme věci na rovinu a na nic si nehrajeme. CARE – je pro nás důležité udržet rovnováhu mezi rodinou a prací, a proto si svůj čas řídíme sami. COMMIT – víme co a proč děláme a za naší prací a rozhodnutím si stojíme. Nabízíme práci v mezinárodním prostředí, aktivní využití anglického jazyka, možnost cestovat a poznávat jiné kultury. Orientujeme se na práci s nejnovějšími technologiemi. Máme mladý dynamický tým a jsme otevřeni spolupráci se studenty a absolventy SŠ a VŠ. Nabízíme nadstandardní zaměstnanecké benefity. Sídlíme přímo v centru Prahy (Anděl).</p></div>",
             upper_skills: [],
             visit: true
         },
@@ -328,14 +321,11 @@ function initPartners() {
         {
             name: "Gemalto",
             logo: "gemalto.svg",
-            type: "sponsor",
+            type: "bronze",
             page: "http://www.gemalto.com/companyinfo/careers",
-            description: "<p>Společnost Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Gemalto má přes 14 000 zaměstnanců v 45 zemích. Pražská pobočka má v současné době 300 zaměstnanců.</p>" +
-            "<div class='expandable'><p>Mezi naše produkty patří např. kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
-            "<p> Poskytujeme zabezpečovací software, širokou škálu bezpečnostních osobních zařízení a řízených služeb pro mnohé přední světové mobilní operátory, banky, podniky a vládní agentury.</p>" +
-            "<p>Zabýváme se projekty HW řešení (čipové karty, tokeny, security modely), SW řešení OS, embedovaných systémů a jejich aplikace a komplexními zákaznickými řešeními (customizace a personalizace embed.produktů, platformy pro kontaktní a bezkontaktní služby).</p>" +
-            "<p>Nabízíme možnost geografické mobility (Evropa - France, Německo; Asie - Singapore, Filipíny; Amerika - USA, ...), mezitýmové mobility a spolupráce, prostor pro dlouhodobý kariérní postup či každoroční školení.</p>" +
-            "<p>Naši zaměstnanci využívají unikátní technologie (embedované bezpečnostní elementy, bezdrátové technologie, kryptografie a biometrie) a řeší široké spektrum projektů od embedovaného vývoje po rozsáhlé distribuované systémy s vysokou dostupností (zálohované clustery). Máme špičkové zákazníky a partnery jako je T-mobile, Vodafone, O2, Barclays, Microsoft, Apple, Samsung.</p></div>",
+            description: "<p>Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Má přes 14 000 zaměstnanců v 45 zemích. Mezi naše produkty patří kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
+            "<div class='expandable'><p>Poskytujeme zabezpečovací software, bezpečnostní osobní zařízení a řízení služeb pro mnohé přední světové mobilní operátory, banky, podniky a vládní agentury. Zabýváme se projekty HW řešení (čipové karty, tokeny, security modely), SW řešení OS, embedovaných systémů a jejich aplikace a komplexními zákaznickými řešeními (customizace a personalizace embed.produktů, platformy pro kontaktní a bezkontaktní služby). Nabízíme možnost geografické mobility (Francie, Německo, Singapore, Filipíny, USA), mezitýmové mobility a spolupráce, prostor pro dlouhodobý kariérní postup či každoroční školení. Naši zaměstnanci využívají unikátní technologie (embedované bezpečnostní elementy, bezdrátové technologie, kryptografie a biometrie) a řeší široké spektrum projektů od embedovaného vývoje po rozsáhlé distribuované systémy s vysokou dostupností (zálohované clustery). Máme špičkové zákazníky a partnery jako je T-mobile, Vodafone, O2, Barclays, Microsoft, Apple a Samsung.</p>" +
+            "</div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -367,55 +357,12 @@ function initPartners() {
         },
 
         {
-            name: "Nangu.TV",
-            logo: "nangu.svg",
-            type: "sponsor",
-            page: "http://nangu.tv/jobs/",
-            description: "<p>nangu.TV je česká softwarová firma zabývající se vývojem kompletního řešení pro IPTV a OTT multimediální platformy, která se v tomto velmi dynamickém odvětví pohybuje už více než 10 let a vybudovala si pozici leadra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a napříč našimi zákazníky evidujeme více než půl milionu zařízení připojených k nangu.TV platformě.</p>" +
-            "<div class='expandable'><p>Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a můžeme se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku. nangu.TV umožňuje operátorům a poskytovatelům internetových služeb obohatit jejich stávající nabídku o interaktivní televizní zážitek. K základním nabízených funkcionalitám patří sledování pořadů i několik týdnů zpětně (timeshift), možnost si program na chvíli zastavit, videotéka, konzumace video obsahu na různých zařízeních jako jsou TV, mobilní telefony, tablety nebo PC (tzv. Multiscreen) a mnoho dalšího. Komponenty si vyvíjíme sami „in-house“ a jsme tak schopni dodat end-2-end řešení, čímž se odlišujeme od většiny našich konkurentů.</p>" +
-            "<p>Mimojiné nabízíme rozvojové aktivity jako účast na odborných školeních/kurzech, účast na konferencích, jazykové kurzy, soft skills kurzy, možný kariérní posun v rámci týmu i firmy. Jsme otevřeni nápadům zaměstnanců jak z hlediska osobního, tak pracovního rozvoje.</p>" +
-            "<p>Důvody, proč chtít být součástí našeho týmu, nejlépe vystihuje nadšení našich zaměstnanců:</p>" +
-            "<p>" + '"Kód, který dnes napíšu, bude zanedlouho denně používat statisíce lidí. Mám možnost zásadním způsobem ovlivňovat finální produkt." -- Tomáš Tichý, Front-end team leader' + "</p>" +
-            "<p>" + '"Baví mě diskutovat nad code review - v takto rozsáhlém systému se kód častěji čte než píše." -- Matěj Laitl, Back-end team leader' + "</p>" +
-            "<p>" + '"Líbí se mi, že to není jen o práci, ale také o tom kolektivu. Pořád je nějaká akce, grilovačka, fotbálek, pivko, stále se něco děje." -- Jindřich Hulín-Mihalec, Frond-End vývojář' + "</p></div>",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost", "Agile"]
-                },
-                {
-                    department: "Programování",
-                    skills: ["C", "C++", "Java", "Javascript", "ObjectiveC", "Python", "Erlang", "Perl"]
-                },
-                {department: "Databáze", skills: ["Relační DB", "Grafové DB", "NoSQL DB"]},
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Verzování zdrojového kódu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                },
-                {department: "Matematika", skills: ["Optimalizace", "Statistika"]},
-                {department: "Bezpečnost", skills: ["Softwarová", "Síťová"]},
-                {department: "Operační systémy", skills: ["Unix", "iOS", "Android", "Linux"]},
-                {
-                    department: "Uživatelské rozhraní",
-                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI", "UIX"]
-                },
-                {department: "Počítačové inženýrství", skills: ["Testování a spolehlivost"]},
-                {department: "Počítání", skills: ["Škálovatelné"]},
-                {department: "Cizí jazyky", skills: ["Angličtina", "Němčina", "Ruština"]},
-                {department: "Technologie", skills: ["OOP", "Procedurální", "Funkcionální", "Algoritmizace"]}
-            ],
-            visit: true
-        },
-
-        {
             name: "GoodData",
             logo: "gooddata.png",
             type: "bronze",
             page: "http://www.gooddata.com/company/careers",
-            description: "<p>Jsme česká firma založená Romanem Staňkem v roce 2007, v současnosti s pobočkami v Praze a Brně, San Franciscu a Portlandu. Využíváme nejnovější technologie k vytvoření moderní vysoce zabezpečené cloudové platformy pro extrakci, správu a  multidimenzionální analýzu podnikových dat. Náš produkt využívá přes 40 % společností z žebříčku Fortune 500.</p>" +
-            "<div class='expandable'><p>V GoodData vyvíjíme vysoce dostupné distribuované komponenty v Erlangu a Javě, zatímco UX tým designuje novou verzi javascriptové aplikace pro datové analytiky. Nedílnou součástí týmu jsou administrátoři, kteří se starají o privátní cloud, v němž databáze HP Vertica, Postgres nebo MongoDB mají k dispozici desítky TB paměti. Toto vše pak využívá náš algebraický engine, který zajišťuje překlad z multidimenzionálního dotazovacího jazyka MAQL do SQL, který je proveden nad relačními SQL databázemi se zákaznickými daty.</p>" +
-            "<p>Nabízíme možnost pracovat na vývoji a zajištění produkce silně škálovatelné (moderně navržené) platformy, která zvládá analytické úlohy pro desítky tisíc uživatelů a zajišťuje stovky TB zákaznických dat. V ČR je minimum podobně rozsáhlých projektů. Ve firmě se také masivně používá Open Source a webové technologie.</p>" +
-            "<p>Pro své zaměstnance pořádáme Hackathony, zúčastňujeme se konferencí v ČR i v zahraničí, pořádáme interní technická školení. Nabízíme stáže pro studenty, kteří mají zájem prohloubit svoje zkušenosti a nastartovat si kariéru. Studentům vycházíme vstříc jak ve formě úvazku, tak v počtu odpracovaných hodin a po skončení studií lze přejít na plný pracovní úvazek. Umožňujeme práci z domova. Pokud má student zájem o konkrétní problematiku / technologie, zprostředkujeme setkání s managerem (student může přijít s nápadem, který mu pomůžeme realizovat). Nabízíme mentoring pro případ školních prací a vypisujeme také diplomové práce. Každý zaměstnanec dostane k dispozici nb Apple McBook nebo Lenovo. V kanceláři poskytujeme zdarma nápoje a občerstvení, stejně jako vybavenou posilovnu a na odreagování fotbálek, šipky nebo pinpongový stůl.</p></div> ",
+            description: "<p>Jsme česká firma založená Romanem Staňkem v roce 2007, v současnosti s pobočkami v Praze a Brně, San Franciscu a Portlandu. Využíváme nejnovější technologie k vytvoření moderní vysoce zabezpečené cloudové platformy pro extrakci, správu a multidimenzionální analýzu podnikových dat. Náš produkt využívá přes 40 % společností z žebříčku Fortune 500. </p>" +
+            "<div class='expandable'><p>V GoodData vyvíjíme vysoce dostupné distribuované komponenty v Erlangu a Javě, zatímco UX tým designuje novou verzi javascriptové aplikace pro datové analytiky. Součástí týmu jsou administrátoři, kteří se starají o privátní cloud, v němž databáze HP Vertica, Postgres nebo MongoDB mají k dispozici desítky TB paměti. Toto vše pak využívá náš algebraický engine, který zajišťuje překlad z multidimenzionálního dotazovacího jazyka MAQL do SQL, který je proveden nad relačními SQL databázemi se zákaznickými daty. Nabízíme možnost pracovat na vývoji a zajištění produkce silně škálovatelné (moderně navržené) platformy, která zvládá analytické úlohy pro desítky tisíc uživatelů a zajišťuje stovky TB zákaznických dat. V ČR je minimum podobně rozsáhlých projektů. Ve firmě se také masivně používá Open Source a webové technologie. Pro své zaměstnance pořádáme Hackathony, zúčastňujeme se konferencí v ČR i v zahraničí, pořádáme interní technická školení. Nabízíme stáže pro studenty, kteří mají zájem prohloubit svoje zkušenosti a budovat kariéru. Studentům vycházíme vstříc jak ve formě úvazku, tak v počtu odpracovaných hodin a po skončení studií lze přejít na plný pracovní úvazek. Umožňujeme práci z domova. Pokud má student zájem o konkrétní problematiku / technologie, zprostředkujeme setkání s managerem (student může přijít s nápadem, který mu pomůžeme realizovat). Nabízíme mentoring pro případ školních prací a vypisujeme diplomové práce.</p></div> ",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -458,12 +405,51 @@ function initPartners() {
         },
 
         {
+            name: "Nangu.TV",
+            logo: "nangu.svg",
+            type: "bronze",
+            page: "http://nangu.tv/jobs/",
+            description: "<p>Nangu.TV je česká softwarová firma zabývající se vývojem kompletního řešení pro IPTV a OTT multimediální platformy, která se v tomto velmi dynamickém odvětví pohybuje už více než 10 let a vybudovala si pozici leadra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a napříč našimi zákazníky evidujeme více než půl milionu zařízení připojených k nangu.TV platformě. Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a můžeme se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku.</p>" +
+            "<div class='expandable'><p>Nangu.TV umožňuje operátorům a poskytovatelům internetových služeb obohatit jejich stávající nabídku o interaktivní televizní zážitek. K základním nabízených funkcionalitám patří sledování pořadů i několik týdnů zpětně (timeshift), možnost si program na chvíli zastavit, videotéka, konzumace video obsahu na různých zařízeních jako jsou TV, mobilní telefony, tablety nebo PC (tzv. Multiscreen). Komponenty si vyvíjíme sami „in-house“ a jsme tak schopni dodat end-2-end řešení, čímž se odlišujeme od většiny našich konkurentů. Nabízíme rozvojové aktivity jako účast na odborných školeních/kurzech, účast na konferencích, jazykové kurzy, soft skills kurzy, možný kariérní posun v rámci týmu i firmy. Jsme otevřeni nápadům zaměstnanců jak z hlediska osobního, tak pracovního rozvoje.</p>" +
+            "<p>Důvody, proč chtít být součástí našeho týmu, nejlépe vystihuje nadšení našich zaměstnanců:</p>" +
+            "<p>" + '"Kód, který dnes napíšu, bude zanedlouho denně používat statisíce lidí. Mám možnost zásadním způsobem ovlivňovat finální produkt." -- Tomáš Tichý, Front-end team leader' + "</p>" +
+            "<p>" + '"Baví mě diskutovat nad code review - v takto rozsáhlém systému se kód častěji čte než píše." -- Matěj Laitl, Back-end team leader' + "</p>" +
+            "<p>" + '"Líbí se mi, že to není jen o práci, ale také o tom kolektivu. Pořád je nějaká akce, grilovačka, fotbálek, pivko, stále se něco děje." -- Jindřich Hulín-Mihalec, Frond-End vývojář' + "</p></div>",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost", "Agile"]
+                },
+                {
+                    department: "Programování",
+                    skills: ["C", "C++", "Java", "Javascript", "ObjectiveC", "Python", "Erlang", "Perl"]
+                },
+                {department: "Databáze", skills: ["Relační DB", "Grafové DB", "NoSQL DB"]},
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Verzování zdrojového kódu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
+                },
+                {department: "Matematika", skills: ["Optimalizace", "Statistika"]},
+                {department: "Bezpečnost", skills: ["Softwarová", "Síťová"]},
+                {department: "Operační systémy", skills: ["Unix", "iOS", "Android", "Linux"]},
+                {
+                    department: "Uživatelské rozhraní",
+                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI", "UIX"]
+                },
+                {department: "Počítačové inženýrství", skills: ["Testování a spolehlivost"]},
+                {department: "Počítání", skills: ["Škálovatelné"]},
+                {department: "Cizí jazyky", skills: ["Angličtina", "Němčina", "Ruština"]},
+                {department: "Technologie", skills: ["OOP", "Procedurální", "Funkcionální", "Algoritmizace"]}
+            ],
+            visit: true
+        },
+
+        {
             name: "Ataccama Software",
             logo: "atacama.png",
-            type: "sponsor",
+            type: "bronze",
             page: "https://jobs.ataccama.com",
-            description: "<p>Ataccama je česko-kanadská softwarová společnost, která pomáhá firmám maximálně využít potenciálu velkých dat a je významným hráčem na mezinárodním trhu v oblasti datové kvality.</p>"
-            + "<div class='expandable'><p>Na technologická řešení společnosti Ataccama spoléhá více než 250 zákazníků, od velkých nadnárodních korporací po středně velké organizace napříč odvětvími, a to především v Kanadě, Spojených státech, střední a západní Evropě. Analytická společnost Gartner zařadila společnost Ataccama na prestižní Gartner Magic Quadrant v oblasti nástrojů datové kvality a master data managamentu.</p></div>",
+            description: "<p>Ataccama je česko-kanadská softwarová společnost, která pomáhá firmám maximálně využít potenciálu Big Data a je významným hráčem na mezinárodním trhu v oblasti datové kvality. Na technologická řešení společnosti Ataccama spoléhá více než 250 zákazníků, od velkých nadnárodních korporací po středně velké organizace napříč odvětvími, a to především v Kanadě, Spojených státech, střední a západní Evropě. Analytická společnost Gartner zařadila společnost Ataccama na prestižní Gartner Magic Quadrant v oblasti nástrojů datové kvality a master data managamentu.</p>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -491,26 +477,11 @@ function initPartners() {
         },
 
         {
-            name: "NN",
-            logo: "nn.png",
-            type: "bronze",
-            page: "https://kariera.nn.cz",
-            description: "<p>NN je společnost zabývající se především pojišťovnictvím a správou investic. Své služby nabízí ve více než 18 zemích, významně zastoupena je zejména v Evropě a Japonsku.</p>"
-            + "<div class='expandable'><p>Více než 12 000 zaměstnanců se stará o 15 milionů zákazníků ve více než 18 zemích, kde nabízíme spoření na penzi, pojištění a investiční produkty. V některých zemích NN Group poskytuje i bankovní služby.</p></div>",
-            upper_skills: [],
-            visit: true
-        },
-
-        {
             name: "SWATCH group",
             logo: "asicentrum.png",
-            type: "sponsor",
+            type: "bronze",
             page: "http://www.swatchgroup.com/en/human_resources/working_at_swatch_group",
-            description: "<p>The Swatch Group Ltd is an international group producing and selling watches, jewellery, watch movements and components. The Swatch Group has a unique emotional culture. Beauty, sensuality, emotions in watches are as much part of it as high-tech, quality  and added value on the customer's wrist. Both, emotional poetry and innovation play an active part in the commitment to its customers.</p>" +
-            "<div class='expandable'><p>The Swatch Group was founded in 1983 and since the time shown steady growth. Today, the Group employs over 35.000 persons in fifty countries. Swatch Group's 2014 gross sales amounted to a record number of CHF 9 219 millions.</p>" +
-            "<p>EM Microelectronic, Swiss semiconductor manufacturer of the Swatch Group, is focused on the design and production of ultra-low power, low voltage integrated circuits for battery-operated and field-powered applications. It has 40 years of experience in the design of IC processing analog and digital signals simultaneously.</p>" +
-            "<p>ASICentrum, established in 1992 in Prague, Czech Republic, is a design center of EM Microelectronic. The team of designers is highly experienced in the submicron design technologies of ultra-low power, low voltage silicon chips, in the development of embedded software and various applications related to mobile devices and wireless communication. ASICentrum has long tradition in cooperation with many Czech technical universities.</p>" +
-            "<p>We offer permanent (full-time employment) or internship (part-time job) for students and thesis entering.</p></div>",
+            description: "<p>ASICentrum, established 1992 in Prague, Czech Republic, is a design center of EM Microelectronic. The team of designers is highly experienced in the submicron design technologies of ultra-low power, low voltage silicon chips, in the development of embedded software and various applications related to mobile devices and wireless communication. ASICentrum has long tradition in cooperation with many Czech technical universities. We offer permanent (full-time employment) or internship (part-time job) for students and thesis entering.</p>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -542,27 +513,76 @@ function initPartners() {
         {
             name: "Randstad s.r.o.",
             logo: "randstad.png",
-            type: "sponsor",
+            type: "bronze",
             page: "https://www.randstad.cz/pridejte-se-k-nam/",
-            description: "<p> </p>" +
+            description: "<p>Svět práce se vyvíjí a my s ním. Utváříme ho, aby byl lepším místem jak pro zaměstnance, tak pro firmy, které jim dávají práci. Poskytneme vám podporu během celého procesu a pomůžeme vám najít vysněnou práci. Dosadit toho správného člověka na tu správnou pozici je základem veškeré naší činnosti, to je práce, která nás baví a dává nám smysl, protože mění pozitivním směrem životy našich klientů i kandidátů. Naším cílem a posláním je propojovat firmy s talenty.</p>" +
             "<div class='expandable'><p></p>" +
-            "<p></p>" +
-            "<p></p>" +
-            "<p></p></div>",
+            "<p>V oblasti personalistiky poskytujeme komplexní řešení, která přizpůsobujeme konkrétním situacím, ve kterých se naši klienti právě nachází. Spolupracujeme s celou řadou atraktivních zaměstnavatelů, kteří stále hledají vhodné specialisty na rozličné technické pozice. V tuto chvíli dodáváme nejvíce zaměstnanců do společností působících v oblastech Automotive, Engineering, IT, Finance, Logistika a FMCG. Stále studujete nebo jste úspěšně studium ukončili a hledáte své první uplatnění? Obraťte se na nás! Spolupracujeme se zajímavými zaměstnavateli, z nichž mnozí rádi dají šanci šikovným mladým lidem, kteří na sobě chtějí pracovat. Ať už jste při škole získali nějaké zkušenosti nebo jste na trhu práce úplným nováčkem, můžeme vám pomoci najít cestu k vaší vysněné práci! V globálním měřítku tvoří 80 procent managementu lidé, kteří u nás kariérně vyrostli. Klademe velký důraz na rozvoj našich zaměstnanců, naše konzultanty vzděláváme, aby mohli být rovnocennými partnery našich klientů a stát se skutečnými experty ve svém oboru. V Randstadu si zakládáme na otevřené a přátelské kultuře a pro naše zaměstnance vytváříme kreativní a inspirující pracovní prostředí, kde je prostor pro diskuzi a svobodné vyjadřování. Základem všeho je týmová spolupráce. Neuznáváme striktní hierarchie ani skleněné stropy. Dáváme šanci a příležitost všem talentovaným a pilným lidem, kteří na sobě chtějí pracovat.</p>" +
+            "</div>",
             upper_skills: [],
             visit: true
         },
 
+        {
+            name: "Deloitte Advisory",
+            logo: "deloitte.svg",
+            type: "bronze",
+            page: "http://www2.deloitte.com/",
+            description: "<p>Jsme Deloitte, mezinárodní firma, která je pro většinu lidí spojená s auditem či daňovým poradenstvím. Děláme také podnikové poradenství v nejrůznějších oblastech. Zabýváme se IT a máme specialisty na aplikovanou analytiku či Big Data. Rozumíme datovým skladům a datové kvalitě. Naši experti se věnují informační bezpečnosti, IT auditu, řízení velkých IT projektů nebo využití nových digitálních technologií pro transformaci firem. Ve výsledku se na nás obrací klienti tam, kde potřebují udělat opravdu velký skok kupředu či mají složitý problém.</p>" +
+            "<div class='expandable'><p>Řídíme implementační projekty, tvoříme datové sklady, kterým rozumí byznys uživatelé, děláme penetrační testování mobilních aplikací, implementujeme cloudová CRM nebo moderní eCommerce řešení. Každé oddělení má svůj propracovaný systém vzdělávání specificky zaměřený na danou problematiku, nabízíme množství profesních zkoušek a interních školení. Máme jasně stanovený systém hodnocení výkonu a od něj odvíjející se kariérní růst. Pracujeme na zajímavých projektech pro zajímavé klienty. V poradenství je nás více než 200, tudíž se stále máme od koho učit.</p>" +
+            "</div>",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
+                },
+                {
+                    department: "Programování",
+                    skills: [".NET", "Java", "Javascript", "PHP", "C#", "ObjectiveC", "Python", "Matlab", "R"]
+                },
+                {
+                    department: "Databáze",
+                    skills: ["Relační DB", "Dokumentové DB", "Grafové DB", "Objektové DB", "Návrh DB"]
+                },
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Bugtracking", "Tiketové systémy", "Metodiky"]
+                },
+                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
+                {department: "Matematika", skills: ["Algebra", "Optimalizace", "Statistika", "teorie grafu"]},
+                {department: "Bezpečnost", skills: ["Softwarová", "Síťová", "Systémová", "Managerská"]},
+                {department: "Umělá inteligence", skills: ["Machine learning"]},
+                {
+                    department: "Uživatelské rozhraní",
+                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
+                },
+                {department: "Počítání", skills: ["Paralelní", "Distribuované"]},
+                {department: "Cizí jazyky", skills: ["Angličtina"]},
+                {
+                    department: "Technologie",
+                    skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
+                }
+            ],
+            visit: true
+        },
 
+        {
+            name: "IBM",
+            logo: "ibm.png",
+            type: "foreign",
+            page: "http://www-05.ibm.com/employment/cz-cs/?lnk=mca_czcs",
+            description: "<p>IBM je přední světová společnost v oboru informačních technologií. Mezi hlavní činnosti společnosti patří v současnosti výroba a prodej počítačového softwaru, hardwaru a desítky služeb.</p>",
+            upper_skills: [],
+            visit: true
+        },
 
         {
             name: "Tipsport",
             logo: "tipsport.png",
             type: "foreign",
             page: "https://www.tipsport.jobs.cz/",
-            description: "<p>Většina sázek je v dnešní době přijímána online a tak lze Tipsport označit za technologickou firmu. Naše IT oddělení je proto opravdu hýčkané. Jen náš tým developerů má 26 lidí, a protože v kurzovém sázení stále přibývají nové funkcionality i související služby, už zase je nás málo. :-)</p>"
-            + "<div class='expandable'><p>Pokud naskočíš do našeho týmu, v prvních týdnech a měsících Tě čeká zaškolení pod vedením některého z našich zkušených vývojářů. Provedeme Tě zvlášť frontendovou a backendovou částí aplikace. Podle toho, co Ti bude bližší, si sám vybereš, jestli se budeš raději věnovat frontendu či backendu. Až projdeš fází zaškolení, budeš se v kooperaci s kolegy podílet na vývoji systémů, které tvoříme a optimalizujeme na vysokou zátěž a provoz s maximální dostupností, vždyť obsluhují tisíce dotazů a poskytují služby 24x7.</p>" +
-            "<p>Pracujeme v neformálním a velmi přátelském kolektivu. Nabízíme možnost profesního i osobního růstu, možnost podílet se na vývoji a optimalizaci systémů stavěných na vysokou zátěž, možnost zúčastnit se odborných kurzů a školení, prostor pro sebevzdělávání a zkoumání nových technologií, možnost práce z domova, flexibilní pracovní dobu, sick days, odborné tréninky a školení a v neposlední řadě také zajímavé mzdové ohodnocení a široký systém dalších zaměstnaneckých benefitů.</p></div>",
+            description: "<p>Většina sázek je v dnešní době přijímána online a tak lze Tipsport označit za technologickou firmu. Naše IT oddělení je proto opravdu hýčkané. Jen náš tým developerů má 26 lidí, a protože v kurzovém sázení stále přibývají nové funkcionality i související služby, už zase je nás málo. :-) Pokud naskočíš do našeho týmu, nejdříve Tě čeká zaškolení pod vedením některého ze zkušených vývojářů. Provedeme Tě zvlášť frontendovou a backendovou částí aplikace. </p>"
+            + "<div class='expandable'><p>Podle toho, co Ti bude bližší, si sám vybereš, jestli se budeš raději věnovat frontendu či backendu. Až projdeš fází zaškolení, budeš se v kooperaci s kolegy podílet na vývoji systémů, které tvoříme a optimalizujeme na vysokou zátěž a provoz s maximální dostupností, vždyť obsluhují tisíce dotazů a poskytují služby 24x7. Pracujeme v neformálním a přátelském kolektivu. Nabízíme možnost profesního i osobního růstu, možnost podílet se na vývoji a optimalizaci systémů stavěných na vysokou zátěž, možnost zúčastnit se odborných kurzů a školení, prostor pro sebevzdělávání a zkoumání nových technologií, možnost práce z domova, flexibilní pracovní dobu, sick days, odborné tréninky a školení a v neposlední řadě také zajímavé mzdové ohodnocení a široký systém dalších zaměstnaneckých benefitů. </p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -616,14 +636,14 @@ function initPartners() {
         },
 
         {
-            name: "Cleverbee Solutions",
-            logo: "",
+            name: "Cleverbee",
+            logo: null,
             type: "foreign",
             page: "http://www.cleverbee.com/",
-            description: "<p>Zabýváme se především dodávkou komplexních softwarových projektů, postavených na standardních technologiích nebo vývojem na zakázku</p>"
-            + "<div class='expandable'><p>Cleverbee solutions s.r.o. je softwarová společnost, působící na trhu od roku 2000. Naše kompetence jsou především v oblastech budování portálů (B2C, B2B, B2E), řešení životního cyklu elektronických dokumentů, integrací aplikací, elektronizací podnikových procesů a zpracováním dat (datové integrace, datové sklady, reporting), vývojem mobilních aplikací.</p></div>",
+            description: "<p>Cleverbee solutions je česko-švýcarská sw společnost, která se orientuje na vývoj J2EE aplikací. Zaměřuje se na vývoj sw na zakázku a systémovou integraci. Nabízí sw řešení v oblasti portálových řešení - Liferay portál, řešení pro správu dokumentů - Alfresco a BI systém Pentaho. Nabízíme pozici Java developer zaměřenou jak na vývoj frontendových aplikací (JavaScript, Jquery, HTML, CSS, minoritně Java), tak i zaměření na vývoj backendových aplikací (Spring, Hibernate, EJB). </p>"
+            + "<div class='expandable'><p>Vývojář spolupracuje na návrhu, implementaci, testu a údržbě v rámci SW projektů. Projektová orientace skýtá možnost různých rolí v rámci vývojového cyklu pro rozmanité technologické platformy. Nabízíme práci ve středně velkém týmu, možnost implementace v širokém spektru programovacích jazyků pod různými operačními systémy a databázemi. Myslíme si, že máme přátelské a otevřené prostředí, spoustu chytrých lidí, kteří rádi pomohou druhému. Nabízíme možnosti dalšího odborného vzdělávání se a posunu na seniornější pozici. Máte zájem pracovat jako JAVA Developer? Chcete pracovat s nejnovějšími technologiemi? Už vás nebaví ty jasně vymezené mantinely Vašich pravomocí, které jsou prostě dané a přes které nejede vlak? Máte nápady jak dělat věci jinak a chcete mít možnost a prostor to zkusit a tím i celou firmu třeba posunout někam jinam? Připojte se k nám. :-)</p></div>",
             upper_skills: [],
-            visit: false
+            visit: true
         },
 
         {
@@ -631,9 +651,8 @@ function initPartners() {
             logo: "mall.png",
             type: "foreign",
             page: "https://www.mall.cz/",
-            description: "<p>Již 15 let působíme na trhu e-commerce v ČR a jsme jedním z předních e-commerce hráčů ve střední Evropě. V současné době notně investujeme do moderních skladů a technologií, které podporují náš další růst. Jsme stabilní firma, která každým rokem roste o 30%.<p>"
-            + "<div class='expandable'><p>Internet Mall nabízí možnost spolupráce na dohodu o pracovní činnosti, zkrácený pracovní úvazek či hlavní pracovní poměr. Pracujeme na projektech webových stránek pro pět různých zemí postavené na nejmodernějších technologiích, Warehouse management cockpit postavený nad SAP HANA pro řízení našeho skladu, Microservice architektura, různé REST API pro mobilní aplikace, marketplace nebo online exporty nad 100.000ks zboží.</p>"
-            + "<p>Nabízíme plně agilní a velmi zkušený tým, zajímavou práci v různých produktech, špičkové technologie (Oracle, SAP HANA, PHP 5.5, Angular JS, SAS, atd.), Microservice architekruta, Continuous delivery i velkou možnost kariérního růstu.</p></div>",
+            description: "<p>Budujeme internetový svět, kde lidé vždy naleznou, co potřebují, a zároveň se mohou spolehnout na náš vynikající servis. Chceme být hlavním hráčem v internetovém nakupování ve střední Evropě. Do naší Mall Group party spadají e-shopy jako Mall.cz, CZC.cz, Koloniál.cz a další. Mezi současné projekty patří responsivní web, implementace lepších služeb pro zákazníky (Platební metody, Doručovací metody), upgrade vnitřní architektury (online synchronizace produktů ze SAPu do WEBu pomocí událostí, přes RabbitMQ a WebService nad cílovými objekty), interní cloud technologie, oobecně zlepšování procesů v agilním vývoji, zavádění DevOps kultury.<p>"
+            + "<div class='expandable'><p>Dbáme na vzdělávání našich zaměstnanců formou interních a externích workshopů a přednášek, konferencí či různých tutoriálů. Kolegové i externí odborníci předávají know-how o nejnovějších technologiích, které nás baví. Interní databáze in-house přednášek námi používaných technologií je samozřejmostí. Podporujeme i interní nábor a přesuny mezi týmy, ať už v rámci vývoje či celého IT, potažmo celé společnosti. Máme přátelský team, kde je každý ochoten pomoci, teamy si pořádají snídaně, chodíme na pivo a jiné teambuildingové akce (paintball, escape games, hackdays, RocDev). Vývoj je založen na moderních technologiích. Podporujeme neustálé vzdělávání formou interních školení, nebo domácích a zahraničních konferencí. Orientace na kvalitu a čistotu kódu. Kontinuálně vyvíjíme jeden produkt a snažíme se, aby byl co nelepší.</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -665,7 +684,7 @@ function initPartners() {
             description: "<p>Věříme, že technologie mají lidem zjednodušovat a zpříjemňovat život. A dobře víme, že být nejlepší a neustále posouvat hranice, můžeme jen se správnými lidmi.</p>" +
             "<div class='expandable'><p></p></div>",
             upper_skills: [],
-            visit: true
+            visit: false
         },
 
         {
@@ -676,7 +695,7 @@ function initPartners() {
             description: "<p>From M2M, B2C and monitoring to machine learning, predictive and prescriptive analytics in days. We help you to grow your business.</p>" +
             "<div class='expandable'><p></p></div>",
             upper_skills: [],
-            visit: true
+            visit: false
         },
 
         {
@@ -684,8 +703,8 @@ function initPartners() {
             logo: "quanti.png",
             type: "foreign",
             page: "http://www.quanti.cz/",
-            description: "<p>Tvorba aplikací, návrhy informačního systému a tvorba softwaru na zakázku. </p>" +
-            "<div class='expandable'><p></p></div>",
+            description: "<p>Všechno to začalo nevinnou větou. „Postavme si robota.“ Už jako kluci jsme měli společný sen. Dělat věci, které jsou cool a stanou se součástí historie. Cool věci umíme opravdu dobře, ale samotný nápad není vše. Je potřeba se vždycky zamyslet nad reálným přínosem, aby nic nezůstalo ležet na dně nadějného šuplíku. Nejraději máme projekty z oblasti autonomní robotiky, telekomunikací, moderních dopravních prostředků, armády či bezpečnosti. Začínali jsme na malých webech, nyní realizujeme největší portály v ČR.</p>" +
+            "<div class='expandable'><p>Dodáváme hotová řešení od návrhu, analýzy, vývoje až po implementaci a správy softwaru. Nejčastěji spolu s portály dodáváme databáze a mobilní aplikace pro všechny platformy. Nabízíme informační systémy postavené na různých technologiích a frameworcích, v mnoha programovacích jazycích (Java, C, PHP, .NET a další). Ovládáme všechny mainstreamové technologie iOS, Android, Windows Phone, Blackberry. Také se zabýváme vývojem a kustomizací speciální elektroniky. Švábi kam se podíváš, všichni zasypaní součástkami až po uši a věčně začouzená místnost od kalafuny. Jakmile se však rozrazí dveře, dostáváme do rukou čerstvě upečenou elektroniku, která například dodá lunárnímu vozítku šestý smysl na hledání mikroorganismů nebo ovládá skutečnou helikoptéru. Tak vypadá naše mikrolaboratoř na vývoj speciální, prototypové elektroniky. Nejčastěji se u nás dělají řídící obvody motorů, senzorické desky, unikátní senzory, a mnohé další.</p></div>",
             upper_skills: [],
             visit: true
         },
@@ -695,10 +714,8 @@ function initPartners() {
             logo: "valeo.svg",
             type: "foreign",
             page: "http://www.valeo-czechrepublic.com/",
-            description: "<p>Jsme předním dodavatelem pro automobilový průmysl. Navrhujeme inovativní produkty a systémy, které přispívají ke snižování emisí CO2, ke zlepšení výkonu vozidel a k vývoji intuitivního řízení. V roce 2014 jsme investovali přes 10% z prodeje do výzkumu a vývoje. Máme 135 výrobních závodů, 51 R&D center a zaměstnáváme 82700 lidí ve 30 zemích. V České republice je přes 3000 zaměstnanců a 3 výrobní závody, v Rakovníku, Žebráku a Humpolci, kde vyrábíme klimatizační jednotky, kompresory, výměníky tepla a kontrolní panely.</p>" +
-            "<div class='expandable'><p>V R&D centru v Praze vyvíjíme i senzory a software pro autonomní auta: parkovací asistenty, kamery, automatické nouzové brzděni, hlídání mrtvého úhlu a adaptivní tempomaty. V oblasti vývoje parkovacích asistenčních systémů a integrace senzorů do automobilů je Valeo lídrem na trhu. Zabezpečujeme komplexní vývoj \"od A do Z\" - od sběru zákaznických požadavků, SW designu, HW designu, mechanického designu, elektrických testů, až po systémové testy přímo na autech na našem rozlehlém testovacím polygonu v Milovicích nebo v reálném silničním provozu.</p>" +
-            "<p>Hledáme kolegyně a kolegy, které baví IT, chtějí se neustále vzdělávat, spolupracovat s kolegy v zahraničí, jsou zodpovědní a proaktivní, lidi s vizí a zapálením pro svou práci a pro moderní automobilové technologie. </p>" +
-            "<p>Podílejte se na špičkových inovacích v oblasti autonomních vozidel! Nabízíme možnost rychlého vývoje kariéry a osobního růstu podpořeného technickým a jazykovým školením. Jsme „Top Employer Czech Republic 2016“ a „Zaměstnavatel Roku 2015“. Nabízíme zaměstnancům širokou škálu bonusů a benefitů, jakými jsou např. bonusy závislé na výsledcích týmu a firmy, 4 týdny dovolené + 2 týdny placeného volna, penzijní připojištění (po 1 roce trvání zaměstnáni), příspěvek na stravování nebo příspěvek na relaxační aktivity. </p></div>",
+            description: "<p>Jsme předním dodavatelem pro automobilový průmysl. Navrhujeme inovativní produkty a systémy, které přispívají ke snižování emisí CO2, ke zlepšení výkonu vozidel a k vývoji intuitivního řízení. V ČR máme přes 3000 zaměstnanců a 3 výrobní závody v Rakovníku, Žebráku a Humpolci, kde vyrábíme klimatizační jednotky, kompresory, výměníky tepla a kontrolní panely. V R&D centru v Praze vyvíjíme i senzory a software pro autonomní auta: parkovací asistenty, kamery, automatické nouzové brzděni, hlídání mrtvého úhlu a adaptivní tempomaty. V oblasti vývoje parkovacích asistenčních systémů a integrace senzorů do automobilů je Valeo lídrem na trhu.</p>" +
+            "<div class='expandable'><p>Zabezpečujeme komplexní vývoj od sběru zákaznických požadavků, SW designu, HW designu, mechanického designu, elektrických testů, až po systémové testy přímo na autech na našem rozlehlém testovacím polygonu v Milovicích nebo v reálném silničním provozu. Hledáme kolegyně a kolegy, které baví IT, chtějí se neustále vzdělávat, spolupracovat s kolegy v zahraničí, jsou zodpovědní a proaktivní, lidi s vizí a zapálením pro svou práci a pro moderní automobilové technologie. Nabízíme možnost vývoje kariéry a osobního růstu podpořeného technickým a jazykovým školením. Jsme „Top Employer Czech Republic 2016“ a „Zaměstnavatel Roku 2015“. Nabízíme zaměstnancům širokou škálu bonusů a benefitů, jakými jsou např. bonusy závislé na výsledcích týmu a firmy nebo 4 týdny dovolené + 2 týdny placeného volna.</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -727,9 +744,7 @@ function initPartners() {
             type: "foreign",
             page: "http://www.kpmg.com/",
             description: "<p>Řadíme se mezi nejvýznamnější poradenské firmy poskytující služby v oblasti auditu, daní a poradenství. Stále se rozrůstáme a hledáme talentované a ambiciózní lidi, kteří na sobě chtějí pracovat a být součástí našeho mezinárodního týmu. Hned na startu kariéry nabízíme motivující pracovní prostředí, finanční ohodnocení a zázemí silné společnosti. Budete pracovat na zakázkách pro české i zahraniční společnosti ze soukromého i veřejného sektoru. KPMG Česká republika má celkem 840 zaměstnanců a kanceláře v Praze, Brně, Ostravě a Českých Budějovicích.</p>" +
-            "<div class='expandable'><p>Zabýváme se např. projekty Information Security (revize a rozvoj systému řízení informační bezpečnosti, studie v oblasti bezpečnosti), IT Security (penetrační testy, konfigurační review), Project management (řízení externích projektů, quality assurance), IT Governance (poradenství v oblasti řízení IT ve firmě) Enterprise Architecture, Business Intelligence & Data Analytics, Intellectual Property.</p>" +
-            "<p>Nabízíme uplatnění pro studenty a absolventy VŠ na pracovních pozicích Assistant oddělení Auditu, Daňového poradenství, Management Consulting, Risk Consulting, Deal Advisory nebo Assistant v Advokátní kanceláři KPMG Legal. Dále nabízíme odborné stáže KPMG Internship Programme pro studenty 4. a 5. ročníků, do všech oddělení. Stáže probíhají zpravidla od září do března.</p>" +
-            "<p>Zajímavá práce v prestižním a moderním oboru, příjemné prostředí mezinárodní společnosti a mladý kolektiv, možnost profesního růstu a dalšího vzdělávání, velmi dobré platové podmínky, sociální výhody, možnost práce na zkrácený úvazek.</p></div>",
+            "<div class='expandable'><p>Zabýváme se projekty Information Security (revize a rozvoj systému řízení informační bezpečnosti, studie v oblasti bezpečnosti), IT Security (penetrační testy, konfigurační review), Project management (řízení externích projektů, quality assurance), IT Governance (poradenství v oblasti řízení IT ve firmě), Enterprise Architecture, Business Intelligence & Data Analytics, Intellectual Property. Nabízíme uplatnění pro studenty a absolventy VŠ na pracovních pozicích Assistant oddělení Auditu, Daňového poradenství, Management Consulting, Risk Consulting, Deal Advisory nebo Assistant v Advokátní kanceláři KPMG Legal. Dále nabízíme odborné stáže KPMG Internship Programme pro studenty magisterského studia do všech oddělení. Stáže probíhají zpravidla od září do března. U nás naleznete zajímavou práci v prestižním a moderním oboru, příjemné prostředí mezinárodní společnosti a mladý kolektiv, možnost profesního růstu a dalšího vzdělávání, velmi dobré platové podmínky, sociální výhody a možnost práce na zkrácený úvazek.</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -832,49 +847,6 @@ function initPartners() {
             "<div class='expandable'><p>Důležitou složkou činnosti sdružení je výzkum a vývoj v oblasti pokročilých síťových technologií a aplikací, jehož výsledky uplatňujeme při rozvoji e-infrastruktury. Tyto aktivity probíhají zejména formou projektů.</p>" +
             "<p>V oblasti výzkumu se zabýváme především tématy rozvoje sítě národního výzkumu a vzdělávání, optickými sítěmi, nástroji pro monitoring a konfiguraci, sledováním infrastruktury a provozu sítě, technologiemi pro síťové aplikace, AAI a mobilitou, MetaCentrum, multimediálními přenosy a kolaborativní prostředí, CESNET CSIRT či podporou aplikací.</p></div>",
             upper_skills: [],
-            visit: false
-        },
-
-        {
-            name: "Deloitte Advisory",
-            logo: "deloitte.svg",
-            type: "foreign",
-            page: "http://www2.deloitte.com/",
-            description: "<p>Jsme Deloitte. Mezinárodní firma, která je pro většinu lidí spojená s auditem či daňovým poradenstvím. Děláme ale i podnikové poradenství v nejrůznějších oblastech. Zabýváme se i IT a máme specialisty na aplikovanou analytiku či big data. Rozumíme datovým skladům a datové kvalitě. Naši experti se věnují informační bezpečnosti, IT auditu, řízení velkých IT projektů nebo využití nových digitálních technologií pro transformaci firem.</p>" +
-            "<div class='expandable'><p>Máme široký záběr a zároveň umíme jít do velkého detailu. Ve výsledku se na nás obrací klienti tam, kde potřebují udělat opravdu velký skok kupředu či mají složitý problém. Řídíme implementační projekty, tvoříme datové sklady, kterým rozumí byznys uživatelé, děláme penetrační testování mobilních aplikací, implementujeme cloudová CRM nebo moderní eCommerce řešení. A také hledáme zajímavé vzory v podnikových datech a navrhujeme, jak tyto poznatky využít.</p>" +
-            "<p>Každé oddělení má svůj propracovaný systém vzdělávání specificky zaměřený na danou problematiku, nabízíme množství profesních zkoušek a interních školení. Máme jasně stanovený systém hodnocení výkonu a od něj odvíjející se kariérní růst. Pracujeme na zajímavých projektech pro zajímavé klienty. V poradenství je nás více než 200, tudíž se stále máme od koho učit.</p></div>",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
-                },
-                {
-                    department: "Programování",
-                    skills: [".NET", "Java", "Javascript", "PHP", "C#", "ObjectiveC", "Python", "Matlab", "R"]
-                },
-                {
-                    department: "Databáze",
-                    skills: ["Relační DB", "Dokumentové DB", "Grafové DB", "Objektové DB", "Návrh DB"]
-                },
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                },
-                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
-                {department: "Matematika", skills: ["Algebra", "Optimalizace", "Statistika", "teorie grafu"]},
-                {department: "Bezpečnost", skills: ["Softwarová", "Síťová", "Systémová", "Managerská"]},
-                {department: "Umělá inteligence", skills: ["Machine learning"]},
-                {
-                    department: "Uživatelské rozhraní",
-                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
-                },
-                {department: "Počítání", skills: ["Paralelní", "Distribuované"]},
-                {department: "Cizí jazyky", skills: ["Angličtina"]},
-                {
-                    department: "Technologie",
-                    skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
-                }
-            ],
             visit: false
         },
 
