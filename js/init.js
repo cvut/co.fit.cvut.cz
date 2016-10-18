@@ -321,7 +321,7 @@ function initPartners() {
         {
             name: "Gemalto",
             logo: "gemalto.svg",
-            type: "bronze",
+            type: "sponsor",
             page: "http://www.gemalto.com/companyinfo/careers",
             description: "<p>Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Má přes 14 000 zaměstnanců v 45 zemích. Mezi naše produkty patří kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
             "<div class='expandable'><p>Poskytujeme zabezpečovací software, bezpečnostní osobní zařízení a řízení služeb pro mnohé přední světové mobilní operátory, banky, podniky a vládní agentury. Zabýváme se projekty HW řešení (čipové karty, tokeny, security modely), SW řešení OS, embedovaných systémů a jejich aplikace a komplexními zákaznickými řešeními (customizace a personalizace embed.produktů, platformy pro kontaktní a bezkontaktní služby). Nabízíme možnost geografické mobility (Francie, Německo, Singapore, Filipíny, USA), mezitýmové mobility a spolupráce, prostor pro dlouhodobý kariérní postup či každoroční školení. Naši zaměstnanci využívají unikátní technologie (embedované bezpečnostní elementy, bezdrátové technologie, kryptografie a biometrie) a řeší široké spektrum projektů od embedovaného vývoje po rozsáhlé distribuované systémy s vysokou dostupností (zálohované clustery). Máme špičkové zákazníky a partnery jako je T-mobile, Vodafone, O2, Barclays, Microsoft, Apple a Samsung.</p>" +
@@ -407,7 +407,7 @@ function initPartners() {
         {
             name: "Nangu.TV",
             logo: "nangu.svg",
-            type: "bronze",
+            type: "sponsor",
             page: "http://nangu.tv/jobs/",
             description: "<p>Nangu.TV je česká softwarová firma zabývající se vývojem kompletního řešení pro IPTV a OTT multimediální platformy, která se v tomto velmi dynamickém odvětví pohybuje už více než 10 let a vybudovala si pozici leadra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a napříč našimi zákazníky evidujeme více než půl milionu zařízení připojených k nangu.TV platformě. Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a můžeme se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku.</p>" +
             "<div class='expandable'><p>Nangu.TV umožňuje operátorům a poskytovatelům internetových služeb obohatit jejich stávající nabídku o interaktivní televizní zážitek. K základním nabízených funkcionalitám patří sledování pořadů i několik týdnů zpětně (timeshift), možnost si program na chvíli zastavit, videotéka, konzumace video obsahu na různých zařízeních jako jsou TV, mobilní telefony, tablety nebo PC (tzv. Multiscreen). Komponenty si vyvíjíme sami „in-house“ a jsme tak schopni dodat end-2-end řešení, čímž se odlišujeme od většiny našich konkurentů. Nabízíme rozvojové aktivity jako účast na odborných školeních/kurzech, účast na konferencích, jazykové kurzy, soft skills kurzy, možný kariérní posun v rámci týmu i firmy. Jsme otevřeni nápadům zaměstnanců jak z hlediska osobního, tak pracovního rozvoje.</p>" +
@@ -447,7 +447,7 @@ function initPartners() {
         {
             name: "Ataccama Software",
             logo: "atacama.png",
-            type: "bronze",
+            type: "sponsor",
             page: "https://jobs.ataccama.com",
             description: "<p>Ataccama je česko-kanadská softwarová společnost, která pomáhá firmám maximálně využít potenciálu Big Data a je významným hráčem na mezinárodním trhu v oblasti datové kvality. Na technologická řešení společnosti Ataccama spoléhá více než 250 zákazníků, od velkých nadnárodních korporací po středně velké organizace napříč odvětvími, a to především v Kanadě, Spojených státech, střední a západní Evropě. Analytická společnost Gartner zařadila společnost Ataccama na prestižní Gartner Magic Quadrant v oblasti nástrojů datové kvality a master data managamentu.</p>",
             upper_skills: [
@@ -479,7 +479,7 @@ function initPartners() {
         {
             name: "SWATCH group",
             logo: "asicentrum.png",
-            type: "bronze",
+            type: "sponsor",
             page: "http://www.swatchgroup.com/en/human_resources/working_at_swatch_group",
             description: "<p>ASICentrum, established 1992 in Prague, Czech Republic, is a design center of EM Microelectronic. The team of designers is highly experienced in the submicron design technologies of ultra-low power, low voltage silicon chips, in the development of embedded software and various applications related to mobile devices and wireless communication. ASICentrum has long tradition in cooperation with many Czech technical universities. We offer permanent (full-time employment) or internship (part-time job) for students and thesis entering.</p>",
             upper_skills: [
@@ -513,7 +513,7 @@ function initPartners() {
         {
             name: "Randstad s.r.o.",
             logo: "randstad.png",
-            type: "bronze",
+            type: "sponsor",
             page: "https://www.randstad.cz/pridejte-se-k-nam/",
             description: "<p>Svět práce se vyvíjí a my s ním. Utváříme ho, aby byl lepším místem jak pro zaměstnance, tak pro firmy, které jim dávají práci. Poskytneme vám podporu během celého procesu a pomůžeme vám najít vysněnou práci. Dosadit toho správného člověka na tu správnou pozici je základem veškeré naší činnosti, to je práce, která nás baví a dává nám smysl, protože mění pozitivním směrem životy našich klientů i kandidátů. Naším cílem a posláním je propojovat firmy s talenty.</p>" +
             "<div class='expandable'><p></p>" +
