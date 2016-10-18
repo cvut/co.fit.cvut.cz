@@ -103,6 +103,23 @@ function scrollAnimate($target, callback) {
     }, 500, callback);
 }
 
+function getPosition(partner) {
+    var score;
+    if (partner.type == "gold") {
+        score = 1;
+    } else if (partner.type == "silver") {
+        score = 2;
+    } else if (partner.type == "bronze") {
+        score = 3;
+    } else {
+        score = 7;
+    }
+    if (partner.sponsor) {
+        score += 3;
+    }
+    return score;
+}
+
 function initPartners() {
     partners = [
         {
@@ -110,8 +127,8 @@ function initPartners() {
             logo: "kb.png",
             type: "gold",
             page: "https://www.kb.cz/cs/o-bance/kariera/?wt_mc=interni.header.careers",
-            description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v ČR a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví.</p>" +
-            "<div class='expandable'><p>Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví, inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), Big Data nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet, Apple Pay).</p>" +
+            description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v ČR a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví. Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví, inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), Big Data nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet, Apple Pay).</p>" +
+            "<div class='expandable'>" +
             "<p>Talentovaní studenti mají možnost zúčastnit se integračního a rozvojového programu Connecting a Connecting +. Poznají zde sami sebe a zároveň fungování banky z odlišných pohledů (finance, marketing, HR, Risk a Distribuce). V průběhu kariérního postupu nabízíme mnoho školení jak v oblasti technických dovedností, tak soft skills. Díky stabilnímu prostředí velké organizace a široké škále využívaných a provozovaných technologií, metodik a produktů se v KB mohou uplatit studenti nejrůznějších zaměření. Dokážeme nabídnout široké spektrum témat od serverové virtualizace či IT architektury až po témata zabývající se digitálním marketingem nebo sociálními sítěmi. V rámci naší IT Inovační laboratoře již teď působí řada studentů ČVUT, kteří obhájili nebo zpracovávají diplomové práce zaměřené na praktickou aplikovatelnost jejich výsledku. Pokud máte zájem se o našem týmu a nabízených příležitostech dozvědět více, neváhejte nás kontaktovat u našeho kiosku na Co@FITu!</p></div>",
             upper_skills: [
                 {
@@ -321,7 +338,8 @@ function initPartners() {
         {
             name: "Gemalto",
             logo: "gemalto.svg",
-            type: "sponsor",
+            type: "bronze",
+            sponsor: true,
             page: "http://www.gemalto.com/companyinfo/careers",
             description: "<p>Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Má přes 14 000 zaměstnanců v 45 zemích. Mezi naše produkty patří kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
             "<div class='expandable'><p>Poskytujeme zabezpečovací software, bezpečnostní osobní zařízení a řízení služeb pro mnohé přední světové mobilní operátory, banky, podniky a vládní agentury. Zabýváme se projekty HW řešení (čipové karty, tokeny, security modely), SW řešení OS, embedovaných systémů a jejich aplikace a komplexními zákaznickými řešeními (customizace a personalizace embed.produktů, platformy pro kontaktní a bezkontaktní služby). Nabízíme možnost geografické mobility (Francie, Německo, Singapore, Filipíny, USA), mezitýmové mobility a spolupráce, prostor pro dlouhodobý kariérní postup či každoroční školení. Naši zaměstnanci využívají unikátní technologie (embedované bezpečnostní elementy, bezdrátové technologie, kryptografie a biometrie) a řeší široké spektrum projektů od embedovaného vývoje po rozsáhlé distribuované systémy s vysokou dostupností (zálohované clustery). Máme špičkové zákazníky a partnery jako je T-mobile, Vodafone, O2, Barclays, Microsoft, Apple a Samsung.</p>" +
@@ -407,7 +425,8 @@ function initPartners() {
         {
             name: "Nangu.TV",
             logo: "nangu.svg",
-            type: "sponsor",
+            type: "bronze",
+            sponsor: true,
             page: "http://nangu.tv/jobs/",
             description: "<p>Nangu.TV je česká softwarová firma zabývající se vývojem kompletního řešení pro IPTV a OTT multimediální platformy, která se v tomto velmi dynamickém odvětví pohybuje už více než 10 let a vybudovala si pozici leadra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a napříč našimi zákazníky evidujeme více než půl milionu zařízení připojených k nangu.TV platformě. Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a můžeme se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku.</p>" +
             "<div class='expandable'><p>Nangu.TV umožňuje operátorům a poskytovatelům internetových služeb obohatit jejich stávající nabídku o interaktivní televizní zážitek. K základním nabízených funkcionalitám patří sledování pořadů i několik týdnů zpětně (timeshift), možnost si program na chvíli zastavit, videotéka, konzumace video obsahu na různých zařízeních jako jsou TV, mobilní telefony, tablety nebo PC (tzv. Multiscreen). Komponenty si vyvíjíme sami „in-house“ a jsme tak schopni dodat end-2-end řešení, čímž se odlišujeme od většiny našich konkurentů. Nabízíme rozvojové aktivity jako účast na odborných školeních/kurzech, účast na konferencích, jazykové kurzy, soft skills kurzy, možný kariérní posun v rámci týmu i firmy. Jsme otevřeni nápadům zaměstnanců jak z hlediska osobního, tak pracovního rozvoje.</p>" +
@@ -447,7 +466,8 @@ function initPartners() {
         {
             name: "Ataccama Software",
             logo: "atacama.png",
-            type: "sponsor",
+            type: "bronze",
+            sponsor: true,
             page: "https://jobs.ataccama.com",
             description: "<p>Ataccama je česko-kanadská softwarová společnost, která pomáhá firmám maximálně využít potenciálu Big Data a je významným hráčem na mezinárodním trhu v oblasti datové kvality. Na technologická řešení společnosti Ataccama spoléhá více než 250 zákazníků, od velkých nadnárodních korporací po středně velké organizace napříč odvětvími, a to především v Kanadě, Spojených státech, střední a západní Evropě. Analytická společnost Gartner zařadila společnost Ataccama na prestižní Gartner Magic Quadrant v oblasti nástrojů datové kvality a master data managamentu.</p>",
             upper_skills: [
@@ -479,7 +499,8 @@ function initPartners() {
         {
             name: "SWATCH group",
             logo: "asicentrum.png",
-            type: "sponsor",
+            type: "bronze",
+            sponsor: true,
             page: "http://www.swatchgroup.com/en/human_resources/working_at_swatch_group",
             description: "<p>ASICentrum, established 1992 in Prague, Czech Republic, is a design center of EM Microelectronic. The team of designers is highly experienced in the submicron design technologies of ultra-low power, low voltage silicon chips, in the development of embedded software and various applications related to mobile devices and wireless communication. ASICentrum has long tradition in cooperation with many Czech technical universities. We offer permanent (full-time employment) or internship (part-time job) for students and thesis entering.</p>",
             upper_skills: [
@@ -513,7 +534,8 @@ function initPartners() {
         {
             name: "Randstad s.r.o.",
             logo: "randstad.png",
-            type: "sponsor",
+            type: "bronze",
+            sponsor: true,
             page: "https://www.randstad.cz/pridejte-se-k-nam/",
             description: "<p>Svět práce se vyvíjí a my s ním. Utváříme ho, aby byl lepším místem jak pro zaměstnance, tak pro firmy, které jim dávají práci. Poskytneme vám podporu během celého procesu a pomůžeme vám najít vysněnou práci. Dosadit toho správného člověka na tu správnou pozici je základem veškeré naší činnosti, to je práce, která nás baví a dává nám smysl, protože mění pozitivním směrem životy našich klientů i kandidátů. Naším cílem a posláním je propojovat firmy s talenty.</p>" +
             "<div class='expandable'><p></p>" +
@@ -1167,19 +1189,32 @@ function initPartners() {
         }
 
     ];
+    partners.sort(function(parA, parB){
+        return getPosition(parA) - getPosition(parB);
+    });
     $.each(partners, function (e) {
         var partnersField;
         var skills = "";
-        if (this.type == "gold") {
-            partnersField = $('.partners-list .gold');
-        } else if (this.type == "silver") {
-            partnersField = $('.partners-list .silver');
-        } else if (this.type == "bronze") {
-            partnersField = $('.partners-list .bronze');
-        }else if (this.type == "sponsor"){
-            partnersField = $('.partners-list .sponsors')
+        if (!this.sponsor) {
+            if (this.type == "gold") {
+                partnersField = $('.partners-list .gold');
+            } else if (this.type == "silver") {
+                partnersField = $('.partners-list .silver');
+            } else if (this.type == "bronze") {
+                partnersField = $('.partners-list .bronze');
+            } else {
+                partnersField = $('');
+            }
         } else {
-            partnersField = $('');
+            if (this.type == "gold") {
+                partnersField = $('.sponsors-list .gold');
+            } else if (this.type == "silver") {
+                partnersField = $('.sponsors-list .silver');
+            } else if (this.type == "bronze") {
+                partnersField = $('.sponsors-list .bronze');
+            } else {
+                partnersField = $('');
+            }
         }
 
         if (this.visit){

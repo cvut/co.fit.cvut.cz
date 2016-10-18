@@ -413,70 +413,63 @@ body > .content p {
     margin-top: 0.4em;
 }
 
+.content .sponsors,
 .content .partners {
     font-size: 0;
     margin: 0 -1%;
+    text-align: center;
 }
 
-.content .partners-list .partner {
+.content .companies .partner {
     display: inline-block;
     vertical-align: top;
     text-align: center;
     margin: 1%;
 }
 
-.content .partners {
-    text-align: center;
-}
-
-.content .partners.gold .partner {
+.content .companies .gold .partner {
     width: 100%;
     color: #f9bc3d;
 }
 
-.content .partners.gold .partner .status {
+.content .companies .gold .partner .status {
     background-color: rgba(249, 188, 61, 0.7);
 }
 
-.content .partners.silver .partner {
+.content .companies .silver .partner {
     width: 48%;
     color: #64615c;
 }
 
-.content .partners.silver .partner .status {
+.content .companies .silver .partner .status {
     background-color: rgba(100, 97, 92, 0.7);
 }
 
-.content .partners.bronze .partner {
+.content .companies .bronze .partner {
     width: 31.3%;
     color: #d5aa57;
 }
 
-.content .partners.bronze .partner .status {
+.content .companies .bronze .partner .status {
     background-color: rgba(213, 170, 87, 0.7);
 }
 
-.content .partners.sponsors .partner {
-    width: 31.3%;
-    color: #64615c;
-}
-
-.content .partners.gold .partner .logo img {
+.content .companies .gold .partner .logo img {
     max-height: 400px;
     max-width: 90%;
 }
 
-.content .partners.silver .partner .logo img {
+.content .companies .silver .partner .logo img {
     max-height: 70px;
     max-width: 90%;
 }
 
-.content .partners.bronze .partner .logo img {
+.content .companies .bronze .partner .logo img {
     max-height: 40px;
     max-width: 90%;
 }
 
-.content .partners.sponsors .partner .logo img {
+.content .companies .sponsors .partner .logo img {
     max-height: 40px;
     max-width: 90%;
 }
