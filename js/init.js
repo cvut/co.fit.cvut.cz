@@ -573,7 +573,7 @@ function initPartners() {
             page: "http://www-05.ibm.com/employment/cz-cs/?lnk=mca_czcs",
             description: "<p>IBM je přední světová společnost v oboru informačních technologií. Mezi hlavní činnosti společnosti patří v současnosti výroba a prodej počítačového softwaru, hardwaru a desítky služeb.</p>",
             upper_skills: [],
-            visit: true
+            visit: false
         },
 
         {
