@@ -32,6 +32,9 @@
         $('.partners-list .gold .status').html("Gold partner");
         $('.partners-list .silver .status').html("Silver partner");
         $('.partners-list .bronze .status').html("Bronze partner");
+        $('.sponsors-list .gold .status').html("Gold sponsor");
+        $('.sponsors-list .silver .status').html("Silver sponsor");
+        $('.sponsors-list .bronze .status').html("Bronze sponsor");
     });
 </script>
 <header>
@@ -44,7 +47,7 @@
         <div class="row">
             <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico4"/></div>
             <div class="cell dark"><img alt="" src="img/cell-light.png"/><span
-                class="text">19 October<br/>2016</span></div>
+                class="text">April<br/>2017</span></div>
         </div>
         <nav class="row navigation">
             <a class="cell" href="#info" title="About Co@FIT"><img alt="" src="img/cell-light.png"/>
@@ -101,9 +104,7 @@
             <a href="#student" title="I am student">
                 For students
             </a>
-            <a href="#whoComes" title="What companies can you meet?">
-                Attending companies
-            </a>
+
             <a href="#aboutPortal" title="About Cooperation with Industry portal">
                 SSP portal
             </a>
@@ -127,8 +128,8 @@
         </p>
 
         <p>
-            Career fair Co@FIT brings SSP portal in cooperation with companies for the fifth time. This winter semester
-            2016/2017 it will take place in the atrium of The New Building of Faculty of Information Technology.
+            Career fair Co@FIT brings SSP portal in cooperation with companies for the sixth time. In summer semester
+            of 2016/2017 it will take place in the atrium of The New Building of Faculty of Information Technology.
             Informational kiosk of SSP portal will be ready for students and companies. There you can get more
             information about Co@FIT and sign in to SSP.
 
@@ -143,7 +144,7 @@
             short lectures of our golden and silver partners and also FIT-raffle.
         </p>
 
-        <section id="partners" class="companies">
+        <section id="partners" class="companies" style="display: none" >
             <div class="partners-column partners-list">
                 <h2>
                     Our partners
@@ -222,6 +223,16 @@
                     <li><img alt="" src="gallery/54.jpg"/></li>
                     <li><img alt="" src="gallery/55.jpg"/></li>
                     <li><img alt="" src="gallery/56.jpg"/></li>
+                    <li><img alt="" src="gallery/57.jpg"/></li>
+                    <li><img alt="" src="gallery/58.jpg"/></li>
+                    <li><img alt="" src="gallery/59.jpg"/></li>
+                    <li><img alt="" src="gallery/60.jpg"/></li>
+                    <li><img alt="" src="gallery/61.jpg"/></li>
+                    <li><img alt="" src="gallery/62.jpg"/></li>
+                    <li><img alt="" src="gallery/63.jpg"/></li>
+                    <li><img alt="" src="gallery/64.jpg"/></li>
+                    <li><img alt="" src="gallery/65.jpg"/></li>
+                    <li><img alt="" src="gallery/66.jpg"/></li>
                 </ul>
             </div>
         </section>
@@ -233,8 +244,7 @@
         </h2>
 
         <p>
-            Co@FIT is also in this semester. See below for the
-            <a class="textbtn" style="font-weight: bold" href="#timetableForIndustry">time schedule</a>. There are
+            Co@FIT is also in this academic year. There are
             many ways how to cooperate with
             us. Do not miss the opportunity to present your company and communicate with FIT students - offer
             cooperation on various projects, assigments to SSP portal, semestral projects or thesis. This service is
@@ -242,7 +252,7 @@
             presentation during the main program.
         </p>
 
-        <section id="timetableForIndustry">
+        <section id="timetableForIndustry" style="display: none;">
             <h3>
                 Time schedule
             </h3>
@@ -430,6 +440,26 @@
             </div>
         </section>
 
+        <section id="interestedInNextEvent">
+            <div>
+                <h3>
+                    Are you interested in next Co@FIT event?
+                </h3>
+
+                <p>
+
+                    If you are interested in next Co@FIT event, which takes place in April of 2017, please contact and
+                    arrange your attendance with
+                    <a class="textbtn" href="mailto:lucie.kolomaznikova@fit.cvut.cz">Ing. Lucie Kolomazníková</a>.
+                </p>
+                <div class="pull-center">
+                    <a class="btn" target="_blank" href="#contact">
+                        I'm interested
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <section id="aboutFitPartners">
             <h3>
                 Partnership and sponsoring
@@ -518,7 +548,7 @@
 
     </section>
 
-    <section id="student">
+    <section id="student" style="display: none;">
         <h2>
             For students
         </h2>
@@ -641,23 +671,23 @@
             </p>
         </section>
 
-        <section id="whoComes">
 
-            <h2 style="display: inline-block">
-                Attending companies
-            </h2>
-
-            <form class="filter">
-                <label>
-                    <input placeholder="Filter by name or skills" type="text"/>
-                </label>
-            </form>
-
-            <div class="comming-partners">
-            </div>
-        </section>
     </section>
+    <section id="whoComes" style="display: none;">
 
+        <h2 style="display: inline-block">
+            Partners and sponsors
+        </h2>
+
+        <form class="filter" style="display: none;">
+            <label>
+                <input placeholder="Filter by name or skills" type="text"/>
+            </label>
+        </form>
+
+        <div class="comming-partners">
+        </div>
+    </section>
     <section id="aboutPortal">
         <h2>
             SSP portal

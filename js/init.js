@@ -310,7 +310,7 @@ function initPartners() {
                 },
                 {department: "Cizí jazyky", skills: ["Angličtina", "Italština"]},
             ],
-            visit: false
+            visit: true
         },
 
 
@@ -734,7 +734,7 @@ function initPartners() {
         {
             name: "Valeo",
             logo: "valeo.svg",
-            type: "foreign",
+            type: "bronze",
             page: "http://www.valeo-czechrepublic.com/",
             description: "<p>Jsme předním dodavatelem pro automobilový průmysl. Navrhujeme inovativní produkty a systémy, které přispívají ke snižování emisí CO2, ke zlepšení výkonu vozidel a k vývoji intuitivního řízení. V ČR máme přes 3000 zaměstnanců a 3 výrobní závody v Rakovníku, Žebráku a Humpolci, kde vyrábíme klimatizační jednotky, kompresory, výměníky tepla a kontrolní panely. V R&D centru v Praze vyvíjíme i senzory a software pro autonomní auta: parkovací asistenty, kamery, automatické nouzové brzděni, hlídání mrtvého úhlu a adaptivní tempomaty. V oblasti vývoje parkovacích asistenčních systémů a integrace senzorů do automobilů je Valeo lídrem na trhu.</p>" +
             "<div class='expandable'><p>Zabezpečujeme komplexní vývoj od sběru zákaznických požadavků, SW designu, HW designu, mechanického designu, elektrických testů, až po systémové testy přímo na autech na našem rozlehlém testovacím polygonu v Milovicích nebo v reálném silničním provozu. Hledáme kolegyně a kolegy, které baví IT, chtějí se neustále vzdělávat, spolupracovat s kolegy v zahraničí, jsou zodpovědní a proaktivní, lidi s vizí a zapálením pro svou práci a pro moderní automobilové technologie. Nabízíme možnost vývoje kariéry a osobního růstu podpořeného technickým a jazykovým školením. Jsme „Top Employer Czech Republic 2016“ a „Zaměstnavatel Roku 2015“. Nabízíme zaměstnancům širokou škálu bonusů a benefitů, jakými jsou např. bonusy závislé na výsledcích týmu a firmy nebo 4 týdny dovolené + 2 týdny placeného volna.</p></div>",
@@ -1237,8 +1237,8 @@ function initPartners() {
                 + this.type + ' expandable-container follow"><div class="logo">'
                 + (this.logo == null ? '<h3>' + this.name + '</h3>' : '<img src="img/partners/' + this.logo + '"/>')
                 + '</div><div class="description"><h3 style="display: none;">'
-                + this.name + '</h3>' + (this.description == '' ? 'Popis připravujeme' : this.description) + '</div><div class="expandable">'
-                + '<ul class="skills">' + skills + '</ul>'
+                + this.name + '</h3>' + (this.description == '' ? 'Popis připravujeme' : this.description) + '</div><div class="expandable" >'
+                + '<ul class="skills" style="display: none;">' + skills + '</ul>'
                 + '<div class="pull-right"><a href="'
                 + this.page + '" target="_blank" class="btn" title="Přejít na stránky společnosti">Stránky společnosti</a></div></div></div>');
         }
