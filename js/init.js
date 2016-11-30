@@ -93,7 +93,9 @@ function initAll() {
                     $(this).css('display', 'none');
                 }
             });
+
         });
+
     });
 }
 
@@ -273,45 +275,6 @@ function initPartners() {
         },
 
 
-        {
-            name: "Česká pojišťovna",
-            logo: "ceskapojistovna.png",
-            type: "silver",
-            page: "http://www.ceskapojistovna.cz/",
-            description: "<p>Jsme největší pojišťovnou na českém pojistném trhu s více než 185letou bohatou tradicí. Poskytujeme jak individuální životní a neživotní pojištění, tak i pojištění pro malé, střední a velké klienty v oblasti průmyslových, podnikatelských rizik a zemědělství. Přibližně 3900 zaměstnanců a 5600 obchodních zástupců se na více než 4500 obchodních místech stará o maximální spokojenost klientů. Česká pojišťovna spravuje téměř osm milionů pojistných smluv a její tržní podíl na domácím trhu dosahuje 23,9 procent.</p>" +
-            "<div class='expandable'><p>Absolventi představují pro naši společnost silný náboj, provzdušnění, oživení svým nadšením, spontaneitou a neotřelými úhly pohledu na věc. V České pojišťovně pracuje řada zaměstnanců, kteří se v mnoha případech vypracovali z pozic čerstvých absolventů na pozice specialistů a lídrů. Jsme si jako moderní společnost vědomi potenciálu, který v zaměstnávání absolventů dřímá. Dáváme absolventům rádi šanci, kdykoli je to jen trochu možné. Když se jí rádi chopí a využijí ji, pak vzniká synergie, která je nesmírně obohacující.</p></div>",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Týmovost"]
-                },
-                {department: "Programování", skills: ["C", "C++", ".NET", "Java", "Javascript", "C#", "Matlab, R"]},
-                {
-                    department: "Databáze",
-                    skills: ["Relační DB", "Dokumentové DB", "Objektové DB", "Návrh DB", "Optimalizace DB"]
-                },
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "UML", "Verzování zdrojového kódu", "BPMN", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                },
-                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
-                {
-                    department: "Matematika",
-                    skills: ["Optimalizace", "Spojitá", "Diskrétní", "Statistika", "pojistná matematika"]
-                },
-                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová"]},
-                {
-                    department: "Operační systémy",
-                    skills: ["Unix", "FreeBSD", "Systémy reálného času", "Windows", "iOS", "Android", "Windows Phone"]
-                },
-                {
-                    department: "Počítačové inženýrství",
-                    skills: ["Architektura počítačů", "Logický návrh", "Vestavěné systémy", "Programovatelný hardware", "Testování a spolehlivost"]
-                },
-                {department: "Cizí jazyky", skills: ["Angličtina", "Italština"]},
-            ],
-            visit: true
-        },
 
 
         {
@@ -332,45 +295,6 @@ function initPartners() {
             description: "<p>NN (odvozeno od Nationale Nederlanden) není v ČR novým pojmem. Ve skutečnosti zde působíme od roku 1992 a dlouho jste nás mohli znát jako ING pojišťovnu. Jsme společnost s bohatou historií, jejímž středobodem nejsou pojistné smlouvy, ale lidé. Součástí NN je také oddělení regionálního IT s názvem IT Hub Prague se sídlem v centru Prahy. Naší úlohou je poskytování a dodávání IT služeb pro 18 zemí. Našim zákazníkům dodáváme služby především v oblasti bezpečnosti, podpory a údržby regionálních aplikací a systémů, hosting service a jiných podpůrných služeb. Naše osazenstvo je multikulturní a prostředí inspirující. </p>"
             + "<div class='expandable'><p>Pracujeme s nejnovějšími technologiemi na zajímavých projektech pro celý svět. Mezi naše hodnoty patří CLEAR – CARE – COMIT. CLEAR – jsme féroví, říkáme věci na rovinu a na nic si nehrajeme. CARE – je pro nás důležité udržet rovnováhu mezi rodinou a prací, a proto si svůj čas řídíme sami. COMMIT – víme co a proč děláme a za naší prací a rozhodnutím si stojíme. Nabízíme práci v mezinárodním prostředí, aktivní využití anglického jazyka, možnost cestovat a poznávat jiné kultury. Orientujeme se na práci s nejnovějšími technologiemi. Máme mladý dynamický tým a jsme otevřeni spolupráci se studenty a absolventy SŠ a VŠ. Nabízíme nadstandardní zaměstnanecké benefity. Sídlíme přímo v centru Prahy (Anděl).</p></div>",
             upper_skills: [],
-            visit: true
-        },
-
-        {
-            name: "Gemalto",
-            logo: "gemalto.svg",
-            type: "bronze",
-            sponsor: true,
-            page: "http://www.gemalto.com/companyinfo/careers",
-            description: "<p>Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Má přes 14 000 zaměstnanců v 45 zemích. Mezi naše produkty patří kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
-            "<div class='expandable'><p>Poskytujeme zabezpečovací software, bezpečnostní osobní zařízení a řízení služeb pro mnohé přední světové mobilní operátory, banky, podniky a vládní agentury. Zabýváme se projekty HW řešení (čipové karty, tokeny, security modely), SW řešení OS, embedovaných systémů a jejich aplikace a komplexními zákaznickými řešeními (customizace a personalizace embed.produktů, platformy pro kontaktní a bezkontaktní služby). Nabízíme možnost geografické mobility (Francie, Německo, Singapore, Filipíny, USA), mezitýmové mobility a spolupráce, prostor pro dlouhodobý kariérní postup či každoroční školení. Naši zaměstnanci využívají unikátní technologie (embedované bezpečnostní elementy, bezdrátové technologie, kryptografie a biometrie) a řeší široké spektrum projektů od embedovaného vývoje po rozsáhlé distribuované systémy s vysokou dostupností (zálohované clustery). Máme špičkové zákazníky a partnery jako je T-mobile, Vodafone, O2, Barclays, Microsoft, Apple a Samsung.</p>" +
-            "</div>",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost", "prezentační dovednosti"]
-                },
-                {
-                    department: "Programování",
-                    skills: ["C", "C++", "Ruby", ".NET", "Java", "Javascript", "C#", "Groovy", "ObjectiveC", "Python", "J2EE", "Spring", "Back-end technologie"]
-                },
-                {
-                    department: "Databáze",
-                    skills: ["LDAP", "Relační DB", "Návrh DB", "Optimalizace DB", "DB administrace"]
-                },
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                },
-                {department: "Datamining", skills: ["Pattern recognition"]},
-                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová"]},
-                {
-                    department: "Operační systémy",
-                    skills: ["Unix", "FreeBSD", "Windows", "iOS", "Android", "Windows Phone"]
-                },
-                {department: "Uživatelské rozhraní", skills: ["Testování UI"]},
-                {department: "Cizí jazyky", skills: ["Angličtina", "Francouzština"]},
-                {department: "Technologie", skills: ["OOP", "Procedurální", "Strukturované", "Algoritmizace"]}
-            ],
             visit: true
         },
 
@@ -418,6 +342,173 @@ function initPartners() {
                     department: "Další technologie",
                     skills: ["PostgreSQL", "Vertica"]
                 }
+            ],
+            visit: true
+        },
+
+        {
+            name: "Valeo",
+            logo: "valeo.svg",
+            type: "bronze",
+            page: "http://www.valeo-czechrepublic.com/",
+            description: "<p>Není nás vidět a stejně jsme přítomni. Vylepšujeme auta tak, aby se lépe řídilo. Naše umění tkví v bezpečné a příjemné jízdě. Pomáháme při parkování v nákupních centrech v podobě sebeparkovacích aut, při nenadálých okolnostech v podobě automatického brzdění, při předjíždění v podobě hlídaní mrtvého úhlu. S prototypem samořídícího auta, „Cruise4U“, jsme již zdolali více než čtyřicet tisíc testovacích kilometrů po Evropě a Spojených Státech a stále jedeme dál. Jsme průkopníkem i v hybridizaci aut: vynalezli jsme stop-start systém a vloni jsme dodali automobilkám první sériové elektrické turbodmychadlo. A to se ani při té vší práci nezapotíme, my totiž umíme i autoklimatizace.</p>" +
+            "<div class='expandable'><p>V ČR vyrábíme na 3 místech (Humpolci, Žebráku a Rakovníku), vyvíjíme a zkoumáme v Praze a testujeme na polygonu v Milovicích. Celosvětově investujeme každý rok 10 % tržeb do výzkumu a vývoje, mimo jiné i do výstavby nového špičkového vývojového areálu v Praze-Hostivaři za 600 milionů korun.</p>" +
+            "<p>Máte vzdělání v technickém oboru: strojní, elektro nebo IT? Baví vás neustále se vzdělávat? Chcete spolupracovat s kolegy na jiných pobočkách firmy v zahraničí a využívat angličtinu na denní bázi? Máte zodpovědný a proaktivní přístup k úkolům? Do našich týmů ve vývoji či výrobě hledáme právě takové kolegyně a kolegy. Lidi s vizí a zapálením pro svou práci a pro moderní automobilové technologie.</p>" +
+            "Patříme mezi nejlépe hodnocené zaměstnavatele v ČR. Získali jsme opakovaně titul „Zaměstnavatel Roku“ pro Středočeský kraj a v roce 2016 i cenu „Top Employer Czech Republic“. Svým zaměstnancům také nabízíme nespočet benefitů.</div>",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
+                },
+                {department: "Programování", skills: ["C", "C++", "C#", "Python"]},
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Objektový návrh", "Testování", "UML", "Verzování zdrojového kódu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky", "Automotive SPICE"]
+                },
+                {department: "Matematika", skills: ["Algebra", "Diskrétní", "Statistika"]},
+                {department: "Bezpečnost", skills: ["Systémová"]},
+                {department: "Operační systémy", skills: ["Systémy reálného času", "OSEK/VDX"]},
+                {department: "Umělá inteligence", skills: ["Machine learning", "Robotika"]},
+                {department: "Počítání", skills: ["Paralelní", "GPU"]},
+                {department: "Počítačové inženýrství", skills: ["Vestavěné systémy", "Testování a spolehlivost"]},
+                {department: "Technologie", skills: ["OOP", "Procedurální", "Algoritmizace"]},
+                {department: "Cizí jazyky", skills: ["Angličtina"]}
+            ],
+            visit: true
+        },
+
+        {
+            name: "Deloitte Advisory",
+            logo: "deloitte.svg",
+            type: "bronze",
+            page: "http://www2.deloitte.com/",
+            description: "<p>Jsme Deloitte, mezinárodní firma, která je pro většinu lidí spojená s auditem či daňovým poradenstvím. Děláme také podnikové poradenství v nejrůznějších oblastech. Zabýváme se IT a máme specialisty na aplikovanou analytiku či Big Data. Rozumíme datovým skladům a datové kvalitě. Naši experti se věnují informační bezpečnosti, IT auditu, řízení velkých IT projektů nebo využití nových digitálních technologií pro transformaci firem. Ve výsledku se na nás obrací klienti tam, kde potřebují udělat opravdu velký skok kupředu či mají složitý problém.</p>" +
+            "<div class='expandable'><p>Řídíme implementační projekty, tvoříme datové sklady, kterým rozumí byznys uživatelé, děláme penetrační testování mobilních aplikací, implementujeme cloudová CRM nebo moderní eCommerce řešení. Každé oddělení má svůj propracovaný systém vzdělávání specificky zaměřený na danou problematiku, nabízíme množství profesních zkoušek a interních školení. Máme jasně stanovený systém hodnocení výkonu a od něj odvíjející se kariérní růst. Pracujeme na zajímavých projektech pro zajímavé klienty. V poradenství je nás více než 200, tudíž se stále máme od koho učit.</p>" +
+            "</div>",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
+                },
+                {
+                    department: "Programování",
+                    skills: [".NET", "Java", "Javascript", "PHP", "C#", "ObjectiveC", "Python", "Matlab", "R"]
+                },
+                {
+                    department: "Databáze",
+                    skills: ["Relační DB", "Dokumentové DB", "Grafové DB", "Objektové DB", "Návrh DB"]
+                },
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Bugtracking", "Tiketové systémy", "Metodiky"]
+                },
+                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
+                {department: "Matematika", skills: ["Algebra", "Optimalizace", "Statistika", "teorie grafu"]},
+                {department: "Bezpečnost", skills: ["Softwarová", "Síťová", "Systémová", "Managerská"]},
+                {department: "Umělá inteligence", skills: ["Machine learning"]},
+                {
+                    department: "Uživatelské rozhraní",
+                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
+                },
+                {department: "Počítání", skills: ["Paralelní", "Distribuované"]},
+                {department: "Cizí jazyky", skills: ["Angličtina"]},
+                {
+                    department: "Technologie",
+                    skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
+                }
+            ],
+            visit: true
+        },
+
+
+        {
+            name: "Home Credit a.s.",
+            logo: "homecredit.svg",
+            type: "gold",
+            sponsor: true,
+            page: "https://www.homecredit.cz/kariera/program-pro-studenty/",
+            description: "<p>Společnost Home Credit a.s. je jedním z předních poskytovatelů spotřebitelského financování v ČR. Společnost nabízí širokou škálu úvěrových produktů: půjčky v místě prodeje, úvěry na automobily, hotovostní půjčky, kreditní karty a konsolidaci úvěrů.</p>"+
+            "<div class='expandable'><p>Máš duši dobrodruha a sníš o práci v zahraničí? Jsi analytik, který používá selský rozum a baví tě práce s čísly? Hledáš výzvu a přemýšlíš nad tím, kam po státnicích? Pokud je tvá odpověď na tyto otázky ano a domluvíš se bez problémů anglicky, pak hledáme právě tebe! Jak stáž probíhá? První rok budeš pracovat u nás na centrále v Brně na zkrácený úvazek. Pracovní dobu přizpůsobíme tvému rozvrhu a podpoříme tě během státnic. Staneš se součástí jednoho z našich analytických týmů – finance, business analýzy, CRM, řízení rizik nebo collections. Stáž ti ušijeme na míru a po celou dobu tě bude provázet mentor. V druhém roce procestuješ několik zemí skupiny Home Credit a zjistíš, jakým způsobem se pracuje i jinde ve světě. Následně od nás dostaneš dlouhodobý pracovní kontrakt v jedné ze zemí skupiny Home Credit. Naše stáž ti umožní dostat se hned po škole mnohem dál, než ostatní – vzdáleností a hlavně kariérně!</p></div>",
+
+            visit: true
+        },
+
+        {
+            name: "Česká pojišťovna",
+            logo: "ceskapojistovna.png",
+            type: "silver",
+            sponsor: true,
+            page: "http://www.ceskapojistovna.cz/",
+            description: "<p>Jsme největší pojišťovnou na českém pojistném trhu s více než 185letou bohatou tradicí. Poskytujeme jak individuální životní a neživotní pojištění, tak i pojištění pro malé, střední a velké klienty v oblasti průmyslových, podnikatelských rizik a zemědělství. Přibližně 3900 zaměstnanců a 5600 obchodních zástupců se na více než 4500 obchodních místech stará o maximální spokojenost klientů. Česká pojišťovna spravuje téměř osm milionů pojistných smluv a její tržní podíl na domácím trhu dosahuje 23,9 procent.</p>" +
+            "<div class='expandable'><p>Absolventi představují pro naši společnost silný náboj, provzdušnění, oživení svým nadšením, spontaneitou a neotřelými úhly pohledu na věc. V České pojišťovně pracuje řada zaměstnanců, kteří se v mnoha případech vypracovali z pozic čerstvých absolventů na pozice specialistů a lídrů. Jsme si jako moderní společnost vědomi potenciálu, který v zaměstnávání absolventů dřímá. Dáváme absolventům rádi šanci, kdykoli je to jen trochu možné. Když se jí rádi chopí a využijí ji, pak vzniká synergie, která je nesmírně obohacující.</p></div>",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Týmovost"]
+                },
+                {department: "Programování", skills: ["C", "C++", ".NET", "Java", "Javascript", "C#", "Matlab, R"]},
+                {
+                    department: "Databáze",
+                    skills: ["Relační DB", "Dokumentové DB", "Objektové DB", "Návrh DB", "Optimalizace DB"]
+                },
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "UML", "Verzování zdrojového kódu", "BPMN", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
+                },
+                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
+                {
+                    department: "Matematika",
+                    skills: ["Optimalizace", "Spojitá", "Diskrétní", "Statistika", "pojistná matematika"]
+                },
+                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová"]},
+                {
+                    department: "Operační systémy",
+                    skills: ["Unix", "FreeBSD", "Systémy reálného času", "Windows", "iOS", "Android", "Windows Phone"]
+                },
+                {
+                    department: "Počítačové inženýrství",
+                    skills: ["Architektura počítačů", "Logický návrh", "Vestavěné systémy", "Programovatelný hardware", "Testování a spolehlivost"]
+                },
+                {department: "Cizí jazyky", skills: ["Angličtina", "Italština"]},
+            ],
+            visit: true
+        },
+
+        {
+            name: "Gemalto",
+            logo: "gemalto.svg",
+            type: "bronze",
+            sponsor: true,
+            page: "http://www.gemalto.com/companyinfo/careers",
+            description: "<p>Gemalto je světový lídr v oblasti digitálního zabezpečení a největší světový výrobce komplexních digitálních a čipových karet. Má přes 14 000 zaměstnanců v 45 zemích. Mezi naše produkty patří kreditní/debetní a bezkontaktní platební karty, osobní mobilní služby, ochrana identity, zabezpečení plateb, ověřování on-line služeb, cloud computing pro přístup, e-zdravotnictví a služby e-governmentu (cestovní pasy a občanské průkazy), moduly pro M2M.</p>" +
+            "<div class='expandable'><p>Poskytujeme zabezpečovací software, bezpečnostní osobní zařízení a řízení služeb pro mnohé přední světové mobilní operátory, banky, podniky a vládní agentury. Zabýváme se projekty HW řešení (čipové karty, tokeny, security modely), SW řešení OS, embedovaných systémů a jejich aplikace a komplexními zákaznickými řešeními (customizace a personalizace embed.produktů, platformy pro kontaktní a bezkontaktní služby). Nabízíme možnost geografické mobility (Francie, Německo, Singapore, Filipíny, USA), mezitýmové mobility a spolupráce, prostor pro dlouhodobý kariérní postup či každoroční školení. Naši zaměstnanci využívají unikátní technologie (embedované bezpečnostní elementy, bezdrátové technologie, kryptografie a biometrie) a řeší široké spektrum projektů od embedovaného vývoje po rozsáhlé distribuované systémy s vysokou dostupností (zálohované clustery). Máme špičkové zákazníky a partnery jako je T-mobile, Vodafone, O2, Barclays, Microsoft, Apple a Samsung.</p>" +
+            "</div>",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost", "prezentační dovednosti"]
+                },
+                {
+                    department: "Programování",
+                    skills: ["C", "C++", "Ruby", ".NET", "Java", "Javascript", "C#", "Groovy", "ObjectiveC", "Python", "J2EE", "Spring", "Back-end technologie"]
+                },
+                {
+                    department: "Databáze",
+                    skills: ["LDAP", "Relační DB", "Návrh DB", "Optimalizace DB", "DB administrace"]
+                },
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Bugtracking", "Tiketové systémy", "Metodiky"]
+                },
+                {department: "Datamining", skills: ["Pattern recognition"]},
+                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová"]},
+                {
+                    department: "Operační systémy",
+                    skills: ["Unix", "FreeBSD", "Windows", "iOS", "Android", "Windows Phone"]
+                },
+                {department: "Uživatelské rozhraní", skills: ["Testování UI"]},
+                {department: "Cizí jazyky", skills: ["Angličtina", "Francouzština"]},
+                {department: "Technologie", skills: ["OOP", "Procedurální", "Strukturované", "Algoritmizace"]}
             ],
             visit: true
         },
@@ -545,48 +636,7 @@ function initPartners() {
             visit: true
         },
 
-        {
-            name: "Deloitte Advisory",
-            logo: "deloitte.svg",
-            type: "bronze",
-            page: "http://www2.deloitte.com/",
-            description: "<p>Jsme Deloitte, mezinárodní firma, která je pro většinu lidí spojená s auditem či daňovým poradenstvím. Děláme také podnikové poradenství v nejrůznějších oblastech. Zabýváme se IT a máme specialisty na aplikovanou analytiku či Big Data. Rozumíme datovým skladům a datové kvalitě. Naši experti se věnují informační bezpečnosti, IT auditu, řízení velkých IT projektů nebo využití nových digitálních technologií pro transformaci firem. Ve výsledku se na nás obrací klienti tam, kde potřebují udělat opravdu velký skok kupředu či mají složitý problém.</p>" +
-            "<div class='expandable'><p>Řídíme implementační projekty, tvoříme datové sklady, kterým rozumí byznys uživatelé, děláme penetrační testování mobilních aplikací, implementujeme cloudová CRM nebo moderní eCommerce řešení. Každé oddělení má svůj propracovaný systém vzdělávání specificky zaměřený na danou problematiku, nabízíme množství profesních zkoušek a interních školení. Máme jasně stanovený systém hodnocení výkonu a od něj odvíjející se kariérní růst. Pracujeme na zajímavých projektech pro zajímavé klienty. V poradenství je nás více než 200, tudíž se stále máme od koho učit.</p>" +
-            "</div>",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
-                },
-                {
-                    department: "Programování",
-                    skills: [".NET", "Java", "Javascript", "PHP", "C#", "ObjectiveC", "Python", "Matlab", "R"]
-                },
-                {
-                    department: "Databáze",
-                    skills: ["Relační DB", "Dokumentové DB", "Grafové DB", "Objektové DB", "Návrh DB"]
-                },
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                },
-                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
-                {department: "Matematika", skills: ["Algebra", "Optimalizace", "Statistika", "teorie grafu"]},
-                {department: "Bezpečnost", skills: ["Softwarová", "Síťová", "Systémová", "Managerská"]},
-                {department: "Umělá inteligence", skills: ["Machine learning"]},
-                {
-                    department: "Uživatelské rozhraní",
-                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
-                },
-                {department: "Počítání", skills: ["Paralelní", "Distribuované"]},
-                {department: "Cizí jazyky", skills: ["Angličtina"]},
-                {
-                    department: "Technologie",
-                    skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
-                }
-            ],
-            visit: true
-        },
+
 
         {
             name: "IBM",
@@ -643,7 +693,7 @@ function initPartners() {
                     skills: ["Google closure", "ReactJS", "Less", "Gulp", "DWR", "MongoDB", "Guava", "NodeJS", "SocketIO", "REST API", "Hibernate", "JBoss server", "Oracle", "ActiveMQ", "Gradle", "Jenkins"]
                 }
             ],
-            visit: true
+            visit: false
         },
 
         {
@@ -665,7 +715,7 @@ function initPartners() {
             description: "<p>Cleverbee solutions je česko-švýcarská sw společnost, která se orientuje na vývoj J2EE aplikací. Zaměřuje se na vývoj sw na zakázku a systémovou integraci. Nabízí sw řešení v oblasti portálových řešení - Liferay portál, řešení pro správu dokumentů - Alfresco a BI systém Pentaho. Nabízíme pozici Java developer zaměřenou jak na vývoj frontendových aplikací (JavaScript, Jquery, HTML, CSS, minoritně Java), tak i zaměření na vývoj backendových aplikací (Spring, Hibernate, EJB). </p>"
             + "<div class='expandable'><p>Vývojář spolupracuje na návrhu, implementaci, testu a údržbě v rámci SW projektů. Projektová orientace skýtá možnost různých rolí v rámci vývojového cyklu pro rozmanité technologické platformy. Nabízíme práci ve středně velkém týmu, možnost implementace v širokém spektru programovacích jazyků pod různými operačními systémy a databázemi. Myslíme si, že máme přátelské a otevřené prostředí, spoustu chytrých lidí, kteří rádi pomohou druhému. Nabízíme možnosti dalšího odborného vzdělávání se a posunu na seniornější pozici. Máte zájem pracovat jako JAVA Developer? Chcete pracovat s nejnovějšími technologiemi? Už vás nebaví ty jasně vymezené mantinely Vašich pravomocí, které jsou prostě dané a přes které nejede vlak? Máte nápady jak dělat věci jinak a chcete mít možnost a prostor to zkusit a tím i celou firmu třeba posunout někam jinam? Připojte se k nám. :-)</p></div>",
             upper_skills: [],
-            visit: true
+            visit: false
         },
 
         {
@@ -695,7 +745,7 @@ function initPartners() {
                 {department: "Cizí jazyky", skills: ["Angličtina"]},
                 {department: "Technologie", skills: ["OOP"]}
             ],
-            visit: true
+            visit: false
         },
 
         {
@@ -728,37 +778,10 @@ function initPartners() {
             description: "<p>Všechno to začalo nevinnou větou. „Postavme si robota.“ Už jako kluci jsme měli společný sen. Dělat věci, které jsou cool a stanou se součástí historie. Cool věci umíme opravdu dobře, ale samotný nápad není vše. Je potřeba se vždycky zamyslet nad reálným přínosem, aby nic nezůstalo ležet na dně nadějného šuplíku. Nejraději máme projekty z oblasti autonomní robotiky, telekomunikací, moderních dopravních prostředků, armády či bezpečnosti. Začínali jsme na malých webech, nyní realizujeme největší portály v ČR.</p>" +
             "<div class='expandable'><p>Dodáváme hotová řešení od návrhu, analýzy, vývoje až po implementaci a správy softwaru. Nejčastěji spolu s portály dodáváme databáze a mobilní aplikace pro všechny platformy. Nabízíme informační systémy postavené na různých technologiích a frameworcích, v mnoha programovacích jazycích (Java, C, PHP, .NET a další). Ovládáme všechny mainstreamové technologie iOS, Android, Windows Phone, Blackberry. Také se zabýváme vývojem a kustomizací speciální elektroniky. Švábi kam se podíváš, všichni zasypaní součástkami až po uši a věčně začouzená místnost od kalafuny. Jakmile se však rozrazí dveře, dostáváme do rukou čerstvě upečenou elektroniku, která například dodá lunárnímu vozítku šestý smysl na hledání mikroorganismů nebo ovládá skutečnou helikoptéru. Tak vypadá naše mikrolaboratoř na vývoj speciální, prototypové elektroniky. Nejčastěji se u nás dělají řídící obvody motorů, senzorické desky, unikátní senzory, a mnohé další.</p></div>",
             upper_skills: [],
-            visit: true
+            visit: false
         },
 
-        {
-            name: "Valeo",
-            logo: "valeo.svg",
-            type: "bronze",
-            page: "http://www.valeo-czechrepublic.com/",
-            description: "<p>Jsme předním dodavatelem pro automobilový průmysl. Navrhujeme inovativní produkty a systémy, které přispívají ke snižování emisí CO2, ke zlepšení výkonu vozidel a k vývoji intuitivního řízení. V ČR máme přes 3000 zaměstnanců a 3 výrobní závody v Rakovníku, Žebráku a Humpolci, kde vyrábíme klimatizační jednotky, kompresory, výměníky tepla a kontrolní panely. V R&D centru v Praze vyvíjíme i senzory a software pro autonomní auta: parkovací asistenty, kamery, automatické nouzové brzděni, hlídání mrtvého úhlu a adaptivní tempomaty. V oblasti vývoje parkovacích asistenčních systémů a integrace senzorů do automobilů je Valeo lídrem na trhu.</p>" +
-            "<div class='expandable'><p>Zabezpečujeme komplexní vývoj od sběru zákaznických požadavků, SW designu, HW designu, mechanického designu, elektrických testů, až po systémové testy přímo na autech na našem rozlehlém testovacím polygonu v Milovicích nebo v reálném silničním provozu. Hledáme kolegyně a kolegy, které baví IT, chtějí se neustále vzdělávat, spolupracovat s kolegy v zahraničí, jsou zodpovědní a proaktivní, lidi s vizí a zapálením pro svou práci a pro moderní automobilové technologie. Nabízíme možnost vývoje kariéry a osobního růstu podpořeného technickým a jazykovým školením. Jsme „Top Employer Czech Republic 2016“ a „Zaměstnavatel Roku 2015“. Nabízíme zaměstnancům širokou škálu bonusů a benefitů, jakými jsou např. bonusy závislé na výsledcích týmu a firmy nebo 4 týdny dovolené + 2 týdny placeného volna.</p></div>",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
-                },
-                {department: "Programování", skills: ["C", "C++", "C#", "Python"]},
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Objektový návrh", "Testování", "UML", "Verzování zdrojového kódu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky", "Automotive SPICE"]
-                },
-                {department: "Matematika", skills: ["Algebra", "Diskrétní", "Statistika"]},
-                {department: "Bezpečnost", skills: ["Systémová"]},
-                {department: "Operační systémy", skills: ["Systémy reálného času", "OSEK/VDX"]},
-                {department: "Umělá inteligence", skills: ["Machine learning", "Robotika"]},
-                {department: "Počítání", skills: ["Paralelní", "GPU"]},
-                {department: "Počítačové inženýrství", skills: ["Vestavěné systémy", "Testování a spolehlivost"]},
-                {department: "Technologie", skills: ["OOP", "Procedurální", "Algoritmizace"]},
-                {department: "Cizí jazyky", skills: ["Angličtina"]}
-            ],
-            visit: true
-        },
+
 
         {
             name: "KPMG",
@@ -774,7 +797,7 @@ function initPartners() {
                 },
                 {department: "Cizí jazyky", skills: ["Angličtina"]}
             ],
-            visit: true
+            visit: false
         },
 
 
@@ -1225,7 +1248,8 @@ function initPartners() {
             );
         }
 
-        if (this.visit) {
+
+        if (this.visit && !this.sponsor) {
             $.each(this.upper_skills, function (index, upperSkill) {
                 skills += '<li class="upper-skill"><span class="upper-skill-name">' + upperSkill.department + '</span><ul class="lower-skills">';
                 $.each(upperSkill.skills, function (index, lowerSkill) {
@@ -1234,6 +1258,16 @@ function initPartners() {
                 skills += '</ul></li>'
             });
             $('.comming-partners').append('<div class="company '
+                + this.type + ' expandable-container follow"><div class="logo">'
+                + (this.logo == null ? '<h3>' + this.name + '</h3>' : '<img src="img/partners/' + this.logo + '"/>')
+                + '</div><div class="description"><h3 style="display: none;">'
+                + this.name + '</h3>' + (this.description == '' ? 'Popis připravujeme' : this.description) + '</div><div class="expandable" >'
+                + '<ul class="skills" style="display: none;">' + skills + '</ul>'
+                + '<div class="pull-right"><a href="'
+                + this.page + '" target="_blank" class="btn" title="Přejít na stránky společnosti">Stránky společnosti</a></div></div></div>');
+        }
+        if (this.visit && this.sponsor) {
+            $('.comming-sponsors').append('<div class="company '
                 + this.type + ' expandable-container follow"><div class="logo">'
                 + (this.logo == null ? '<h3>' + this.name + '</h3>' : '<img src="img/partners/' + this.logo + '"/>')
                 + '</div><div class="description"><h3 style="display: none;">'
