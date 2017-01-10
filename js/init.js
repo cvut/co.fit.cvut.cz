@@ -299,54 +299,6 @@ function initPartners() {
         },
 
         {
-            name: "GoodData",
-            logo: "gooddata.png",
-            type: "bronze",
-            page: "http://www.gooddata.com/company/careers",
-            description: "<p>Jsme česká firma založená Romanem Staňkem v roce 2007, v současnosti s pobočkami v Praze a Brně, San Franciscu a Portlandu. Využíváme nejnovější technologie k vytvoření moderní vysoce zabezpečené cloudové platformy pro extrakci, správu a multidimenzionální analýzu podnikových dat. Náš produkt využívá přes 40 % společností z žebříčku Fortune 500. </p>" +
-            "<div class='expandable'><p>V GoodData vyvíjíme vysoce dostupné distribuované komponenty v Erlangu a Javě, zatímco UX tým designuje novou verzi javascriptové aplikace pro datové analytiky. Součástí týmu jsou administrátoři, kteří se starají o privátní cloud, v němž databáze HP Vertica, Postgres nebo MongoDB mají k dispozici desítky TB paměti. Toto vše pak využívá náš algebraický engine, který zajišťuje překlad z multidimenzionálního dotazovacího jazyka MAQL do SQL, který je proveden nad relačními SQL databázemi se zákaznickými daty. Nabízíme možnost pracovat na vývoji a zajištění produkce silně škálovatelné (moderně navržené) platformy, která zvládá analytické úlohy pro desítky tisíc uživatelů a zajišťuje stovky TB zákaznických dat. V ČR je minimum podobně rozsáhlých projektů. Ve firmě se také masivně používá Open Source a webové technologie. Pro své zaměstnance pořádáme Hackathony, zúčastňujeme se konferencí v ČR i v zahraničí, pořádáme interní technická školení. Nabízíme stáže pro studenty, kteří mají zájem prohloubit svoje zkušenosti a budovat kariéru. Studentům vycházíme vstříc jak ve formě úvazku, tak v počtu odpracovaných hodin a po skončení studií lze přejít na plný pracovní úvazek. Umožňujeme práci z domova. Pokud má student zájem o konkrétní problematiku / technologie, zprostředkujeme setkání s managerem (student může přijít s nápadem, který mu pomůžeme realizovat). Nabízíme mentoring pro případ školních prací a vypisujeme diplomové práce.</p></div> ",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
-                },
-                {
-                    department: "Programování",
-                    skills: ["Java", "Javascript", "PHP", "Erlang", "Perl"]
-                },
-                {
-                    department: "Databáze",
-                    skills: ["LDAP", "Relační DB", "Dokumentové DB", "Optimalizace DB"]
-                },
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Integrace aplikací", "Testování", "Verzování zdrojového kódu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                },
-                {department: "Matematika", skills: ["Algebra", "Optimalizace", "Statistika"]},
-                {department: "Bezpečnost", skills: ["Softwarová", "Síťová"]},
-                {
-                    department: "Operační systémy",
-                    skills: ["Unix"]
-                },
-                {
-                    department: "Uživatelské rozhraní",
-                    skills: ["Testování UI", "Grafika", "Kódování UI"]
-                },
-                {department: "Počítání", skills: ["Paralelní", "Distribuované", "Škálovatelné"]},
-                {department: "Cizí jazyky", skills: ["Angličtina"]},
-                {
-                    department: "Technologie",
-                    skills: ["OOP", "Funkcionální"]
-                },
-                {
-                    department: "Další technologie",
-                    skills: ["PostgreSQL", "Vertica"]
-                }
-            ],
-            visit: true
-        },
-
-        {
             name: "Valeo",
             logo: "valeo.svg",
             type: "bronze",
@@ -422,14 +374,12 @@ function initPartners() {
 
 
         {
-            name: "Home Credit a.s.",
-            logo: "homecredit.svg",
+            name: "EmbedIT",
+            logo: "embedit.png",
             type: "gold",
             sponsor: true,
-            page: "https://www.homecredit.cz/kariera/program-pro-studenty/",
-            description: "<p>Společnost Home Credit a.s. je jedním z předních poskytovatelů spotřebitelského financování v ČR. Společnost nabízí širokou škálu úvěrových produktů: půjčky v místě prodeje, úvěry na automobily, hotovostní půjčky, kreditní karty a konsolidaci úvěrů.</p>"+
-            "<div class='expandable'><p>Máš duši dobrodruha a sníš o práci v zahraničí? Jsi analytik, který používá selský rozum a baví tě práce s čísly? Hledáš výzvu a přemýšlíš nad tím, kam po státnicích? Pokud je tvá odpověď na tyto otázky ano a domluvíš se bez problémů anglicky, pak hledáme právě tebe! Jak stáž probíhá? První rok budeš pracovat u nás na centrále v Brně na zkrácený úvazek. Pracovní dobu přizpůsobíme tvému rozvrhu a podpoříme tě během státnic. Staneš se součástí jednoho z našich analytických týmů – finance, business analýzy, CRM, řízení rizik nebo collections. Stáž ti ušijeme na míru a po celou dobu tě bude provázet mentor. V druhém roce procestuješ několik zemí skupiny Home Credit a zjistíš, jakým způsobem se pracuje i jinde ve světě. Následně od nás dostaneš dlouhodobý pracovní kontrakt v jedné ze zemí skupiny Home Credit. Naše stáž ti umožní dostat se hned po škole mnohem dál, než ostatní – vzdáleností a hlavně kariérně!</p></div>",
-
+            page: "https://www.embedit.cz/Career",
+            description: "<p>EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.</p>",
             visit: true
         },
 
