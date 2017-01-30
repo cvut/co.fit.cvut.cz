@@ -454,8 +454,13 @@ body > .content p {
     background-color: rgba(213, 170, 87, 0.7);
 }
 
+.content .companies .sponsors .partner .logo img {
+    max-height: 40px;
+    max-width: 90%;
+}
+
 .content .companies .gold .partner .logo img {
-    max-height: 400px;
+    max-height: 200px;
     max-width: 90%;
 }
 
@@ -469,10 +474,6 @@ body > .content p {
     max-width: 90%;
 }
 
-.content .companies .sponsors .partner .logo img {
-    max-height: 40px;
-    max-width: 90%;
-}
 .content .partner .border {
     overflow: hidden;
     font-size: large;

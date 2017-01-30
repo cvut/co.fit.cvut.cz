@@ -169,28 +169,6 @@ function initPartners() {
         },
 
         {
-            name: "Lely",
-            logo: "lely.png",
-            type: "gold",
-            page: "https://www.lely.com/careers/",
-            description: "<p>Our area is innovation in agriculture, we use artificial intelligence techniques to make farms more profitable and durable, and farmer’s life easier and more enjoyable. Our most know invention is automated milking robot (Lely Astronaut). However, we supply the agricultural sector with a complete portfolio of products and services ranging from milking robots, automated feeding systems and barn cleaners to forage harvesting. Lely is active in more than 60 countries and employs some 2,000 people.</p>" +
-            "<div class='expandable'><p> In cooperation with FIT CTU we mainly work on AI projects. That includes machine learning techniques to improve robot behavior or data mining and data science techniques to extract information from robots data. It is not only about the work it is about passion to do to something new and innovative.</p>" +
-            "<p> We offer assignments for graduate as well as undergraduate students through Portal for Cooperation with Industry (SSP).</p></div>",
-            upper_skills: [
-                {
-                    department: "Programování",
-                    skills: ["C", "C++", ".NET", "Java", "Javascript", "C#", "Python", "Matlab", "R", "Scala"]
-                },
-                {department: "Datamining", skills: ["Pattern recognition"]},
-                {department: "Matematika", skills: ["Optimalizace"]},
-                {department: "Umělá inteligence", skills: ["Machine learning", "Robotika"]},
-                {department: "Cizí jazyky", skills: ["Angličtina"]},
-                {department: "Technologie", skills: ["OOP", "Funkcionální"]}
-            ],
-            visit: false
-        },
-
-        {
             name: "Profinit",
             logo: "profinit.svg",
             type: "gold",
@@ -273,8 +251,27 @@ function initPartners() {
             ],
             visit: true
         },
-
-
+        {
+            name: "Datamole",
+            logo: "Datamole_logo.svg",
+            type: "gold",
+            page: "https://www.datamole.cz/",
+            description: "<p>Our area is innovation in agriculture, we use artificial intelligence techniques to make farms more profitable and durable, and farmer’s life easier and more enjoyable. Our most know invention is automated milking robot. However, we supply the agricultural sector with a complete portfolio of products and services ranging from milking robots, automated feeding systems and barn cleaners to forage harvesting. Datamole is active in more than 60 countries and employs some 2,000 people.</p>" +
+            "<div class='expandable'><p> In cooperation with FIT CTU we mainly work on AI projects. That includes machine learning techniques to improve robot behavior or data mining and data science techniques to extract information from robots data. It is not only about the work it is about passion to do to something new and innovative.</p>" +
+            "<p> We offer assignments for graduate as well as undergraduate students through Portal for Cooperation with Industry (SSP).</p></div>",
+            upper_skills: [
+                {
+                    department: "Programování",
+                    skills: ["C", "C++", ".NET", "Java", "Javascript", "C#", "Python", "Matlab", "R", "Scala"]
+                },
+                {department: "Datamining", skills: ["Pattern recognition"]},
+                {department: "Matematika", skills: ["Optimalizace"]},
+                {department: "Umělá inteligence", skills: ["Machine learning", "Robotika"]},
+                {department: "Cizí jazyky", skills: ["Angličtina"]},
+                {department: "Technologie", skills: ["OOP", "Funkcionální"]}
+            ],
+            visit: false
+        },
 
 
         {
@@ -587,7 +584,6 @@ function initPartners() {
         },
 
 
-
         {
             name: "IBM",
             logo: "ibm.png",
@@ -732,7 +728,6 @@ function initPartners() {
         },
 
 
-
         {
             name: "KPMG",
             logo: "kmpg.png",
@@ -749,7 +744,6 @@ function initPartners() {
             ],
             visit: false
         },
-
 
 
         {
@@ -1159,10 +1153,31 @@ function initPartners() {
             description: "",
             upper_skills: [],
             visit: false
+        },
+        {
+            name: "Greyson",
+            logo: "greyson.gif",
+            type: "bronze",
+            page: "http://www.greyson.eu/careers",
+            description: "",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
+        },
+        {
+            name: "eMan",
+            logo: "eman.png",
+            type: "bronze",
+            page: "https://www.eman.cz/kariera/",
+            description: "",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
         }
 
+
     ];
-    partners.sort(function(parA, parB){
+    partners.sort(function (parA, parB) {
         return getPosition(parA) - getPosition(parB);
     });
     $.each(partners, function (e) {
@@ -1190,13 +1205,10 @@ function initPartners() {
             }
         }
 
-        if (this.visit){
-            partnersField.append('<div class="partner"><div class="border"><div class="logo">'
-                + '<a href="' + this.page + '" target="_blank"><img alt="" src="img/partners/'
-                + this.logo + '"/></a></div><div class="info">'
-                + '<span class="status"></span></div></div></div>'
-            );
-        }
+        partnersField.append('<div class="partner"><div class="border"><div class="logo">'
+            + '<a href="' + this.page + '" target="_blank"><img alt="" src="img/partners/'
+            + this.logo + '"/></a></div><div class="info">'
+            + '<span class="status"></span></div></div></div>');
 
 
         if (this.visit && !this.sponsor) {
