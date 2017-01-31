@@ -126,7 +126,7 @@ function initPartners() {
     partners = [
         {
             name: "Komerční banka",
-            logo: "kb.png",
+            logo: "kb2017.png",
             type: "gold",
             page: "https://www.kb.cz/cs/o-bance/kariera/?wt_mc=interni.header.careers",
             description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v ČR a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví. Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví, inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), Big Data nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet, Apple Pay).</p>" +
@@ -276,7 +276,7 @@ function initPartners() {
 
         {
             name: "Ackee",
-            logo: "ackee.png",
+            logo: "ackee2017.png",
             type: "bronze",
             page: "https://www.ackee.cz/o-nas#contact",
             description: "<p>Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys. Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci. V Ackee máme pořád dveře otevřené. Bereme stážisty, juniory i seniory. Jestli není tvá pozice zrovna vypsaná, pošli nám i tak CV, třeba hledáme právě tebe. Momentálně sháníme kandidáty na pozice Android Developer, iOS Developer, Frontend Web Developer.</p>",
@@ -286,7 +286,7 @@ function initPartners() {
 
         {
             name: "NN",
-            logo: "nn.png",
+            logo: "nn.svg",
             type: "bronze",
             page: "https://kariera.nn.cz",
             description: "<p>NN (odvozeno od Nationale Nederlanden) není v ČR novým pojmem. Ve skutečnosti zde působíme od roku 1992 a dlouho jste nás mohli znát jako ING pojišťovnu. Jsme společnost s bohatou historií, jejímž středobodem nejsou pojistné smlouvy, ale lidé. Součástí NN je také oddělení regionálního IT s názvem IT Hub Prague se sídlem v centru Prahy. Naší úlohou je poskytování a dodávání IT služeb pro 18 zemí. Našim zákazníkům dodáváme služby především v oblasti bezpečnosti, podpory a údržby regionálních aplikací a systémů, hosting service a jiných podpůrných služeb. Naše osazenstvo je multikulturní a prostředí inspirující. </p>"
@@ -503,7 +503,7 @@ function initPartners() {
 
         {
             name: "Ataccama Software",
-            logo: "atacama.png",
+            logo: "atacama2017.png",
             type: "bronze",
             sponsor: true,
             page: "https://jobs.ataccama.com",
