@@ -1211,7 +1211,8 @@ function initPartners() {
             + '<span class="status"></span></div></div></div>');
 
 
-        if (this.visit && !this.sponsor) {
+        if ((this.type=="gold" || this.type=="silver" || this.type=="bronze") && !this.sponsor) {
+        //if (this.visit && !this.sponsor) {
             $.each(this.upper_skills, function (index, upperSkill) {
                 skills += '<li class="upper-skill"><span class="upper-skill-name">' + upperSkill.department + '</span><ul class="lower-skills">';
                 $.each(upperSkill.skills, function (index, lowerSkill) {
@@ -1228,7 +1229,8 @@ function initPartners() {
                 + '<div class="pull-right"><a href="'
                 + this.page + '" target="_blank" class="btn" title="Přejít na stránky společnosti">Stránky společnosti</a></div></div></div>');
         }
-        if (this.visit && this.sponsor) {
+        if ((this.type=="gold" || this.type=="silver" || this.type=="bronze") && this.sponsor) {
+        //if (this.visit && this.sponsor) {
             $('.comming-sponsors').append('<div class="company '
                 + this.type + ' expandable-container follow"><div class="logo">'
                 + (this.logo == null ? '<h3>' + this.name + '</h3>' : '<img src="img/partners/' + this.logo + '"/>')
