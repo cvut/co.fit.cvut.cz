@@ -9,25 +9,19 @@ html, body {
     background-color: #f4f4f4;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 a:active {
     outline: none;
 }
 
-p a {
-    text-decoration: underline;
-    color: #222;
+a {
+    text-decoration: none;
+    color: #64615c;
+    font-weight: bold;
 }
 
-p a:hover {
-    text-decoration: none;
+a:hover {
+    color: #f9bc3d;
+    text-decoration: underline;
 }
 
 ul ul {
@@ -78,6 +72,7 @@ section {
 .btn:hover {
     background-color: #d39e35;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .pull-left {
@@ -94,16 +89,6 @@ section {
     display: none;
     -webkit-transition: none;
     transition: none;
-}
-
-.textbtn {
-    text-decoration: none;
-}
-.textbtn:hover {
-    color: #f9bc3d;
-}
-.textbtn .zde {
-    font-weight: bold;
 }
 
 /*=========header=========*/
