@@ -125,50 +125,6 @@ function getPosition(partner) {
 function initPartners() {
     partners = [
         {
-            name: "Komerční banka",
-            logo: "kb2017.png",
-            type: "gold",
-            page: "https://www.kb.cz/cs/o-bance/kariera/?wt_mc=interni.header.careers",
-            description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v ČR a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví. Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví, inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), Big Data nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet, Apple Pay).</p>" +
-            "<div class='expandable'>" +
-            "<p>Talentovaní studenti mají možnost zúčastnit se integračního a rozvojového programu Connecting a Connecting +. Poznají zde sami sebe a zároveň fungování banky z odlišných pohledů (finance, marketing, HR, Risk a Distribuce). V průběhu kariérního postupu nabízíme mnoho školení jak v oblasti technických dovedností, tak soft skills. Díky stabilnímu prostředí velké organizace a široké škále využívaných a provozovaných technologií, metodik a produktů se v KB mohou uplatit studenti nejrůznějších zaměření. Dokážeme nabídnout široké spektrum témat od serverové virtualizace či IT architektury až po témata zabývající se digitálním marketingem nebo sociálními sítěmi. V rámci naší IT Inovační laboratoře již teď působí řada studentů ČVUT, kteří obhájili nebo zpracovávají diplomové práce zaměřené na praktickou aplikovatelnost jejich výsledku. Pokud máte zájem se o našem týmu a nabízených příležitostech dozvědět více, neváhejte nás kontaktovat u našeho kiosku na Co@FITu!</p></div>",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
-                },
-                {
-                    department: "Programování",
-                    skills: ["C", "C++", "Ruby", ".NET", "Java", "Javascript", "PHP", "C#", "Python", "R"]
-                },
-                {
-                    department: "Databáze",
-                    skills: ["Relační DB", "Dokumentové DB", "Grafové DB", "Objektové DB", "Návrh DB", "Optimalizace DB"]
-                },
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky", "Kvalita kódu", "bezpečnost", "agilní vývoj", "SCRUM", "RUP", "optimalizace", "front end", "API", "middleware"]
-                },
-                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
-                {department: "Matematika", skills: ["Statistika"]},
-                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová", "Managerská"]},
-                {department: "Umělá inteligence", skills: ["Machine learning"]},
-                {department: "Operační systémy", skills: ["Unix", "Windows", "iOS", "Android", "Windows Phone"]},
-                {
-                    department: "Uživatelské rozhraní",
-                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
-                },
-                {department: "Počítání", skills: ["Škálovatelné"]},
-                {department: "Cizí jazyky", skills: ["Angličtina", "Francouzština"]},
-                {
-                    department: "Technologie",
-                    skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
-                }
-            ],
-            visit: true
-        },
-
-        {
             name: "Profinit",
             logo: "profinit.svg",
             type: "gold",
@@ -212,6 +168,7 @@ function initPartners() {
             visit: true
         },
 
+
         {
             name: "Accenture",
             logo: "accenture.png",
@@ -251,6 +208,7 @@ function initPartners() {
             ],
             visit: true
         },
+
         {
             name: "Datamole",
             logo: "Datamole_logo.svg",
@@ -273,6 +231,49 @@ function initPartners() {
             visit: false
         },
 
+        {
+            name: "Komerční banka",
+            logo: "kb2017.png",
+            type: "gold",
+            page: "https://www.kb.cz/cs/o-bance/kariera/?wt_mc=interni.header.careers",
+            description: "<p>Komerční banka, a.s. patří mezi přední bankovní instituce v ČR a v regionu střední a východní Evropy. Je univerzální bankou se širokou nabídkou služeb v oblasti retailového, podnikového a investičního bankovnictví. Zabýváme se velkými transformačními programy či komplexním vývojem bankovních systémů a internetového (a mobilního) bankovnictví, inovativními přístupy a nápady pro zkvalitnění zákaznické zkušenosti jako zjednodušení práce s platbami, využívání chytrých zařízení (smartwatch), Big Data nebo hledání nových scénářů pro bankovní a finanční služby (Google Wallet, Apple Pay).</p>" +
+            "<div class='expandable'>" +
+            "<p>Talentovaní studenti mají možnost zúčastnit se integračního a rozvojového programu Connecting a Connecting +. Poznají zde sami sebe a zároveň fungování banky z odlišných pohledů (finance, marketing, HR, Risk a Distribuce). V průběhu kariérního postupu nabízíme mnoho školení jak v oblasti technických dovedností, tak soft skills. Díky stabilnímu prostředí velké organizace a široké škále využívaných a provozovaných technologií, metodik a produktů se v KB mohou uplatit studenti nejrůznějších zaměření. Dokážeme nabídnout široké spektrum témat od serverové virtualizace či IT architektury až po témata zabývající se digitálním marketingem nebo sociálními sítěmi. V rámci naší IT Inovační laboratoře již teď působí řada studentů ČVUT, kteří obhájili nebo zpracovávají diplomové práce zaměřené na praktickou aplikovatelnost jejich výsledku. Pokud máte zájem se o našem týmu a nabízených příležitostech dozvědět více, neváhejte nás kontaktovat u našeho kiosku na Co@FITu!</p></div>",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
+                },
+                {
+                    department: "Programování",
+                    skills: ["C", "C++", "Ruby", ".NET", "Java", "Javascript", "PHP", "C#", "Python", "R"]
+                },
+                {
+                    department: "Databáze",
+                    skills: ["Relační DB", "Dokumentové DB", "Grafové DB", "Objektové DB", "Návrh DB", "Optimalizace DB"]
+                },
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kódu", "BPMN", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky", "Kvalita kódu", "bezpečnost", "agilní vývoj", "SCRUM", "RUP", "optimalizace", "front end", "API", "middleware"]
+                },
+                {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
+                {department: "Matematika", skills: ["Statistika"]},
+                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová", "Managerská"]},
+                {department: "Umělá inteligence", skills: ["Machine learning"]},
+                {department: "Operační systémy", skills: ["Unix", "Windows", "iOS", "Android", "Windows Phone"]},
+                {
+                    department: "Uživatelské rozhraní",
+                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
+                },
+                {department: "Počítání", skills: ["Škálovatelné"]},
+                {department: "Cizí jazyky", skills: ["Angličtina", "Francouzština"]},
+                {
+                    department: "Technologie",
+                    skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
+                }
+            ],
+            visit: true
+        },
 
         {
             name: "Ackee",
@@ -368,7 +369,6 @@ function initPartners() {
             ],
             visit: true
         },
-
 
         {
             name: "EmbedIT",
@@ -583,7 +583,6 @@ function initPartners() {
             visit: true
         },
 
-
         {
             name: "IBM",
             logo: "ibm.png",
@@ -728,7 +727,6 @@ function initPartners() {
             visit: false
         },
 
-
         {
             name: "KPMG",
             logo: "kmpg.png",
@@ -745,7 +743,6 @@ function initPartners() {
             ],
             visit: false
         },
-
 
         {
             name: "Suse",
@@ -1155,6 +1152,7 @@ function initPartners() {
             upper_skills: [],
             visit: false
         },
+
         {
             name: "Greyson",
             logo: "greyson.gif",
@@ -1166,6 +1164,7 @@ function initPartners() {
             visit: false,
             sponsor: true
         },
+
         {
             name: "eMan",
             logo: "eman.png",
@@ -1178,6 +1177,7 @@ function initPartners() {
             visit: false,
             sponsor: true
         },
+
         {
             name: "Epam",
             logo: "epam.svg",
@@ -1191,8 +1191,8 @@ function initPartners() {
             sponsor: true
         }
 
-
     ];
+        console.log(partners);
     partners.sort(function (parA, parB) {
         return getPosition(parA) - getPosition(parB);
     });
