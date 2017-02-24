@@ -119,6 +119,9 @@ function getPosition(partner) {
     if (partner.sponsor) {
         score += 3;
     }
+    if (partner.importance) {
+        score += -partner.importance/10 + 0.1
+    }
     return score;
 }
 
@@ -165,48 +168,8 @@ function initPartners() {
                     skills: ["OOP", "Procedurální", "Strukturované", "Algoritmizace"]
                 }
             ],
-            visit: true
-        },
-
-
-        {
-            name: "Accenture",
-            logo: "accenture.png",
-            type: "gold",
-            page: "https://www.accenture.com/cz-cs/careers",
-            description: "<p>Accenture je vedoucí, globální společnost nabízející odborné služby v oblasti strategie, poradenství, digitálních technologií, technologických služeb a podpory podnikových procesů prostřednictvím přibližně 373 000 pracovníků ve více než 120 zemích světa. Největším a nejvýznamnějším firmám ze všech odvětví pomáháme nastavit úspěšné strategie, navrhnout a implementovat plány, využít sílu digitálního světa – za pomoci tradičních i nových technologií – a dodat řešení. Našim klientům se dokážeme postarat o provoz jejich podnikových procesů, infrastruktury i cloudových služeb. Accenture je jediná firma se schopností poskytovat takto široké spektrum služeb a řešení upravených pro jednotlivá odvětví. V ČR působíme přes 25 let a máme více jak 1800 zaměstnanců.</p>" +
-            "<div class='expandable'><p>Čerstvým absolventům nabízíme zajímavou práci v mezinárodních týmech na různorodých projektech v ČR i zahraničí. Jsme číslo 1 v rámci aktuálního žebříčku časopisu Fortune “World’s Most Admired Companies” v kategorii IT Služby. Naše pozice v konzultantské divizi jsou vhodné především pro vysokoškoláky se silným analytickým a logickým myšlením. Nabízíme zajímavou práci v oblasti konzultačních služeb, moderních IT nebo podpory podnikových procesů pro prestižní firmy, praktické zkušenosti, skvělé kolegy, špičkové vzdělávací programy, atraktivní ohodnocení a štědrý balíček benefitů. Work hard, play hard – umíme se bavit a žijeme i sportem – od celosvětové Accenture Ski Challenge až po We Run Prague. V neposlední řadě se zapojujeme do různých dobročinných a charitativních aktivit, jako je náš mezinárodně oceňovaný český projekt Accenture Academy pro děti z domovů.</p>" +
-            "</div> ",
-            upper_skills: [
-                {
-                    department: "Soft skills",
-                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
-                },
-                {
-                    department: "Programování",
-                    skills: ["C", "C++", ".NET", "Java", "Javascript", "PHP", "C#", "Groovy", "Python", "Perl"]
-                },
-                {
-                    department: "Databáze",
-                    skills: ["Relační DB", "Návrh DB", "Optimalizace DB"]
-                },
-                {
-                    department: "Softwarové inženýrství",
-                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kodu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                },
-                {department: "Datamining", skills: ["Pattern recognition", "Text mining"]},
-                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová"]},
-                {
-                    department: "Operační systémy",
-                    skills: ["Unix", "Windows"]
-                },
-                {
-                    department: "Uživatelské rozhraní",
-                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
-                },
-                {department: "Cizí jazyky", skills: ["Angličtina"]}
-            ],
-            visit: true
+            visit: true,
+            importance: 10
         },
 
         {
@@ -228,7 +191,8 @@ function initPartners() {
                 {department: "Cizí jazyky", skills: ["Angličtina"]},
                 {department: "Technologie", skills: ["OOP", "Funkcionální"]}
             ],
-            visit: false
+            visit: false,
+            importance: 9
         },
 
         {
@@ -272,7 +236,49 @@ function initPartners() {
                     skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
                 }
             ],
-            visit: true
+            visit: true,
+            importance: 8
+        },
+
+        {
+            name: "Accenture",
+            logo: "accenture.png",
+            type: "gold",
+            page: "https://www.accenture.com/cz-cs/careers",
+            description: "<p>Accenture je vedoucí, globální společnost nabízející odborné služby v oblasti strategie, poradenství, digitálních technologií, technologických služeb a podpory podnikových procesů prostřednictvím přibližně 373 000 pracovníků ve více než 120 zemích světa. Největším a nejvýznamnějším firmám ze všech odvětví pomáháme nastavit úspěšné strategie, navrhnout a implementovat plány, využít sílu digitálního světa – za pomoci tradičních i nových technologií – a dodat řešení. Našim klientům se dokážeme postarat o provoz jejich podnikových procesů, infrastruktury i cloudových služeb. Accenture je jediná firma se schopností poskytovat takto široké spektrum služeb a řešení upravených pro jednotlivá odvětví. V ČR působíme přes 25 let a máme více jak 1800 zaměstnanců.</p>" +
+            "<div class='expandable'><p>Čerstvým absolventům nabízíme zajímavou práci v mezinárodních týmech na různorodých projektech v ČR i zahraničí. Jsme číslo 1 v rámci aktuálního žebříčku časopisu Fortune “World’s Most Admired Companies” v kategorii IT Služby. Naše pozice v konzultantské divizi jsou vhodné především pro vysokoškoláky se silným analytickým a logickým myšlením. Nabízíme zajímavou práci v oblasti konzultačních služeb, moderních IT nebo podpory podnikových procesů pro prestižní firmy, praktické zkušenosti, skvělé kolegy, špičkové vzdělávací programy, atraktivní ohodnocení a štědrý balíček benefitů. Work hard, play hard – umíme se bavit a žijeme i sportem – od celosvětové Accenture Ski Challenge až po We Run Prague. V neposlední řadě se zapojujeme do různých dobročinných a charitativních aktivit, jako je náš mezinárodně oceňovaný český projekt Accenture Academy pro děti z domovů.</p>" +
+            "</div> ",
+            upper_skills: [
+                {
+                    department: "Soft skills",
+                    skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
+                },
+                {
+                    department: "Programování",
+                    skills: ["C", "C++", ".NET", "Java", "Javascript", "PHP", "C#", "Groovy", "Python", "Perl"]
+                },
+                {
+                    department: "Databáze",
+                    skills: ["Relační DB", "Návrh DB", "Optimalizace DB"]
+                },
+                {
+                    department: "Softwarové inženýrství",
+                    skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Process modeling", "UML", "Verzování zdrojového kodu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
+                },
+                {department: "Datamining", skills: ["Pattern recognition", "Text mining"]},
+                {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová"]},
+                {
+                    department: "Operační systémy",
+                    skills: ["Unix", "Windows"]
+                },
+                {
+                    department: "Uživatelské rozhraní",
+                    skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI"]
+                },
+                {department: "Cizí jazyky", skills: ["Angličtina"]}
+            ],
+            visit: true,
+            importance: 7
         },
 
         {
@@ -1192,7 +1198,6 @@ function initPartners() {
         }
 
     ];
-        console.log(partners);
     partners.sort(function (parA, parB) {
         return getPosition(parA) - getPosition(parB);
     });
