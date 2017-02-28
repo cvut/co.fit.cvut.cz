@@ -178,7 +178,9 @@ body > header .main-nav a:hover {
 /*---------icons---------*/
 
 body > header .cells .cell .ico,
-body > header .cells .cell .text {
+body > header .cells .cell .text,
+body > footer .cells .cell .ico,
+body > footer .cells .cell .text {
     display: inline-block;
     position: absolute;
     top: 50%;
@@ -193,7 +195,8 @@ body > header .cells .cell .text {
 background-size: 115%;
 }
 
-body > header .cells .cell .ico {
+body > header .cells .cell .ico,
+body > footer .cells .cell .ico {
     width: 76%;
     height: 57%;
     background-repeat: repeat-x;
@@ -201,22 +204,26 @@ body > header .cells .cell .ico {
     background-position: left center;
 }
 
-body > header .cells .cell:hover .ico {
+body > header .cells .cell:hover .ico,
+body > footer .cells .cell:hover .ico {
     width: 86%;
     height: 64.5%;
 }
 
-body > header .cells .cell:hover .text {
+body > header .cells .cell:hover .text,
+body > footer .cells .cell:hover .text {
 width: 100%;
 font-size: 120%;
 }
 
 @media (max-width: 1150px) {
-    body > header .cells .cell .text {
+    body > header .cells .cell .text,
+    body > footer .cells .cell .text {
         font-size: medium;
     }
 
-    body > header .cells .cell:hover .text {
+    body > header .cells .cell:hover .text,
+    body > footer .cells .cell:hover .text {
         font-size: 100%;
     }
 }
@@ -224,7 +231,6 @@ font-size: 120%;
 body > header .cells .cell .ico.random {
     background-size: 1200%;
 }
-
 body > header .cells .cell .ico.random {
     background-position: 9.091% center;
 }
@@ -244,58 +250,73 @@ body > header .cells .cell .ico.random.ico6 {
     background-position: 100% center;
 }
 
-body > header .cells .cell .ico {
+body > header .cells .cell .ico,
+body > footer .cells .cell .ico {
     background-size: 200%;
 }
 
 body > header .cells .cell.active .ico,
 body > header .cells .cell.hovered .ico,
-body > header .cells .cell:hover .ico {
+body > header .cells .cell:hover .ico,
+body > footer .cells .cell.active .ico,
+body > footer .cells .cell.hovered .ico,
+body > footer .cells .cell:hover .ico {
     background-position: right center;
 }
 
-body > header .cells a.cell {
+body > header .cells a.cell,
+body > footer .cells a.cell {
     background-image: url("../img/cell-link.svg");
 
 }
 
-body > header .cells .cell .ico.ssp {
+body > header .cells .cell .ico.ssp,
+body > footer .cells .cell .ico.ssp {
     background-image: url("../img/ico-ssp.svg");
 }
 
-body > header .cells .cell .ico.industry {
+body > header .cells .cell .ico.industry,
+body > footer .cells .cell .ico.industry {
     background-image: url("../img/ico-industry.svg");
 }
 
-body > header .cells .cell .ico.student {
+body > header .cells .cell .ico.student,
+body > footer .cells .cell .ico.student {
     background-image: url("../img/ico-student.svg");
 }
 
-body > header .cells .cell .ico.info {
+body > header .cells .cell .ico.info,
+body > footer .cells .cell .ico.info {
     background-image: url("../img/ico-info.svg");
 }
 
-body > header .cells .cell .ico.contact {
+body > header .cells .cell .ico.contact,
+body > footer .cells .cell .ico.contact {
     background-image: url("../img/ico-contact.svg");
 }
 
-body > header .cells .cell .ico.facebook {
+body > header .cells .cell .ico.facebook,
+body > footer .cells .cell .ico.facebook {
     background-image: url("../img/ico-facebook.svg");
 }
 
-body > header .cells .cell .ico.twitter {
+body > header .cells .cell .ico.twitter,
+body > footer .cells .cell .ico.twitter {
     background-image: url("../img/ico-twitter.svg");
 }
 
-body > header .cells .cell .ico.cs {
+body > header .cells .cell .ico.cs,
+body > footer .cells .cell .ico.cs {
     background-image: url("../img/ico-cs.svg");
 }
 
-body > header .cells .cell .ico.en {
+body > header .cells .cell .ico.en,
+body > footer .cells .cell .ico.en {
     background-image: url("../img/ico-en.svg");
 }
 
-body > header .cells .row {
+body > header .cells .row,
+body > footer .cells .row {
     margin-top: -9%;
 }
 
@@ -638,7 +659,7 @@ body > .content p {
 /*=========footer=========*/
 
 body > footer {
-    margin-top: 5%;
+    margin: 3% 0;
 }
 
 body > footer h2 {
@@ -677,4 +698,46 @@ body > footer .partner.silver {
 
 body > footer .partner.bronze {
     background-image: url("../img/cell-bronze.svg");
+}
+
+body > footer > div {
+    /*width: 35%;*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body > footer .cells {
+    /*width: 100%;*/
+    height: auto;
+}
+
+body > footer .cells img {
+    width: 100%;
+    display: inline-block;
+    visibility: hidden;
+}
+
+body > footer .cells .cell {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    position: relative;
+    font-size: x-large;
+    background-image: url("../img/cell-light.svg");
+}
+
+body > footer .cells .cell.dark {
+    background-image: url("../img/cell-dark.svg");
+}
+
+body > footer h2 {
+    margin-bottom: 5rem;
+}
+
+#copyright {
+    text-align: center;
+    margin: 2rem 0 -2rem 0;
 }
