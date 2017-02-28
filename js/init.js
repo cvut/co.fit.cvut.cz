@@ -101,7 +101,7 @@ function initAll() {
 
 function scrollAnimate($target, callback) {
     $('html, body').stop().animate({
-        'scrollTop': $target.offset().top
+        'scrollTop': $target.offset().top - $('.main-nav').height()
     }, 500, callback);
 }
 
