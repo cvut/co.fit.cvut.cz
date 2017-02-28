@@ -1188,7 +1188,7 @@ function initPartners() {
             name: "Epam",
             logo: "epam.svg",
             type: "bronze",
-            page: "https://www.epam.com/careers",
+            page: "www.epamsystems.cz",
             description: "<p>Established in 1993, EPAM Systems, Inc. is recognized as a leader in software product development by independent research agencies. Headquartered in the United States, EPAM serves clients worldwide utilizing its award-winning global delivery platform and its locations in 20 countries across North America, Europe, Asia and Australia. In 2015 EPAM opened the Czech Republic IT delivery center in Prague, in the iconic City Tower in Pankrac.</p>" +
             "<div class='expandable'><p>Engineering is in our DNA. Since 1993, we’ve helped the world’s leading companies to imagine, design, engineer and deliver software that changes the world. Today, we are more than developers. We are the experts that will take our clients’ business to the next level. We think globally, but act locally to help them strengthen their brands.</p>" +
             "<p>We believe that the team you build is the company you build. Our offices are digital laboratories. Our clients are major global brands. We’re always looking for talented teammates. Think you’ve got what it takes?</p></div>",
