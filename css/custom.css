@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     text-align: center;
-    font-family: Calibri, Tahoma, Arial;
+    font-family: Calibri, Tahoma, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: large;
     background-color: #f4f4f4;
