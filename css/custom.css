@@ -150,8 +150,12 @@ body > header .cells .cell.dark {
 body > header .main-nav {
     font-size: x-large;
     width: 100%;
-    background-color: #e8e8e8;
+    background-color: #f4f4f4;
     margin-top: 1%;
+
+    border-color: #64615c;
+    border-bottom-style: solid;
+    border-width: 5px;
 }
 
 body > header .main-nav > nav {
