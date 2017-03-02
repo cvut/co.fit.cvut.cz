@@ -581,10 +581,10 @@ function initPartners() {
             type: "bronze",
             sponsor: true,
             page: "https://www.randstad.cz/pridejte-se-k-nam/",
-            description: "<p>Svět práce se vyvíjí a my s ním. Utváříme ho, aby byl lepším místem jak pro zaměstnance, tak pro firmy, které jim dávají práci. Poskytneme vám podporu během celého procesu a pomůžeme vám najít vysněnou práci. Dosadit toho správného člověka na tu správnou pozici je základem veškeré naší činnosti, to je práce, která nás baví a dává nám smysl, protože mění pozitivním směrem životy našich klientů i kandidátů. Naším cílem a posláním je propojovat firmy s talenty.</p>" +
-            "<div class='expandable'><p></p>" +
-            "<p>V oblasti personalistiky poskytujeme komplexní řešení, která přizpůsobujeme konkrétním situacím, ve kterých se naši klienti právě nachází. Spolupracujeme s celou řadou atraktivních zaměstnavatelů, kteří stále hledají vhodné specialisty na rozličné technické pozice. V tuto chvíli dodáváme nejvíce zaměstnanců do společností působících v oblastech Automotive, Engineering, IT, Finance, Logistika a FMCG. Stále studujete nebo jste úspěšně studium ukončili a hledáte své první uplatnění? Obraťte se na nás! Spolupracujeme se zajímavými zaměstnavateli, z nichž mnozí rádi dají šanci šikovným mladým lidem, kteří na sobě chtějí pracovat. Ať už jste při škole získali nějaké zkušenosti nebo jste na trhu práce úplným nováčkem, můžeme vám pomoci najít cestu k vaší vysněné práci! V globálním měřítku tvoří 80 procent managementu lidé, kteří u nás kariérně vyrostli. Klademe velký důraz na rozvoj našich zaměstnanců, naše konzultanty vzděláváme, aby mohli být rovnocennými partnery našich klientů a stát se skutečnými experty ve svém oboru. V Randstadu si zakládáme na otevřené a přátelské kultuře a pro naše zaměstnance vytváříme kreativní a inspirující pracovní prostředí, kde je prostor pro diskuzi a svobodné vyjadřování. Základem všeho je týmová spolupráce. Neuznáváme striktní hierarchie ani skleněné stropy. Dáváme šanci a příležitost všem talentovaným a pilným lidem, kteří na sobě chtějí pracovat.</p>" +
-            "</div>",
+            description: "<p>Svět práce se vyvíjí a my s ním. Utváříme ho, aby byl lepším místem jak pro zaměstnance, tak pro firmy, které jim dávají práci. Poskytneme vám podporu během celého procesu a pomůžeme vám najít vysněnou práci. Dosadit toho správného člověka na tu správnou pozici je základem veškeré naší činnosti. Naším cílem a posláním je propojovat firmy s talenty.</p>" +
+            "<div class='expandable'><p>Spolupracujeme s celou řadou atraktivních zaměstnavatelů, kteří stále hledají vhodné specialisty na rozličné technické pozice. V tuto chvíli dodáváme nejvíce zaměstnanců do společností působících v oblastech Automotive, Engineering, IT, Finance, Logistika a FMCG. Stále studujete nebo jste úspěšně studium ukončili a hledáte své první uplatnění? Ať už jste při škole získali nějaké zkušenosti nebo jste na trhu práce úplným nováčkem, můžeme vám pomoci najít cestu k vaší vysněné práci! </p>" +
+            "<p>V globálním měřítku tvoří 80 % managementu lidé, kteří u nás kariérně vyrostli. Klademe velký důraz na rozvoj našich zaměstnanců, naše konzultanty vzděláváme, aby mohli být rovnocennými partnery našich klientů a stát se skutečnými experty ve svém oboru. V Randstadu si zakládáme na otevřené a přátelské kultuře a pro naše zaměstnance vytváříme kreativní a inspirující pracovní prostředí, kde je prostor pro diskuzi a svobodné vyjadřování. Základem všeho je týmová spolupráce. Neuznáváme striktní hierarchie ani skleněné stropy.</p>" +
+            "<p>Na našem stánku můžete čekat partu pohodových konzultantů, kteří jsou připraveni s Vámi konzultovat životopis nebo sdílet hinty, jak zaujmout na pohovoru a získat job snů. Dozvíte se více o aktuálních pracovních příležitostí na part-time i full-time pro české i mezinárodní společnosti. Nabídneme vám nové vydání našeho magazínu pro ICT odborníky s oblíbenými přehledy o platech a zajímavými rozhovory s kandidáty i klienty. Připravena bude tombola, ve které můžete získat designové flash-disky, powerbanky, usb rozdvojky.</p></div>",
             upper_skills: [],
             visit: true
         },
@@ -1189,9 +1189,32 @@ function initPartners() {
             logo: "epam.svg",
             type: "bronze",
             page: "http://www.epamsystems.cz/",
-            description: "<p>Established in 1993, EPAM Systems, Inc. is recognized as a leader in software product development by independent research agencies. Headquartered in the United States, EPAM serves clients worldwide utilizing its award-winning global delivery platform and its locations in 20 countries across North America, Europe, Asia and Australia. In 2015 EPAM opened the Czech Republic IT delivery center in Prague, in the iconic City Tower in Pankrac.</p>" +
-            "<div class='expandable'><p>Engineering is in our DNA. Since 1993, we’ve helped the world’s leading companies to imagine, design, engineer and deliver software that changes the world. Today, we are more than developers. We are the experts that will take our clients’ business to the next level. We think globally, but act locally to help them strengthen their brands.</p>" +
-            "<p>We believe that the team you build is the company you build. Our offices are digital laboratories. Our clients are major global brands. We’re always looking for talented teammates. Think you’ve got what it takes?</p></div>",
+            description: "<p>Since 1993, EPAM Systems, Inc. (NYSE:EPAM), has leveraged its core engineering expertise to become a leading global product development and digital platform engineering services company. Through its ‘Engineering DNA’ and innovative strategy, consulting, and design capabilities, EPAM works in collaboration with its customers to deliver innovative solutions that turn complex business challenges into real business opportunities. EPAM’s global teams serve customers in over 25 countries across North America, Europe, Asia and Australia. EPAM is a recognized market leader among independent research agencies and was ranked #8 in FORBES 25 Fastest Growing Public Tech Companies, as a top information technology services company on FORTUNE’S 100 Fastest Growing Companies, and as a top UK Digital Design & Build Agency.</p>" +
+            "<div class='expandable'><p>EPAM Systems Czech Republic concentrates on  support of global EPAM customers, especially in the area of finance and pharma industry.</p>" +
+            "<p>After people join us, they receive a comprehensive set of benefits. We invest a lot into EPAMers’ professional development, there are a lot of educational activities, such as webinars, conferences, courses. There are different IT events, people can either share their knowledge or learn something new. Having that many nationalities we need to speak the same language, which is why we offer our employees English courses to boost their skills. What is very attractive benefit, is possibility to work on international project and possibility to go work (of course, after certain time) to another EPAM location  in over 25 countries around the world.</p>" +
+            "<p>We know, that there is a big competition on IT market, but we are committed to making EPAM a great place to work through our culture, training and global mobility program. We know how to work hard, and we know how to have a great time.  </p></div>",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
+        },
+
+        {
+            name: "2N TELEKOMUNIKACE a.s.",
+            logo: "Logo2N.png",
+            type: "bronze",
+            page: "https://www.2n.cz",
+            description: "<p>Vytváříme originální produkty a řešení vycházející z nejnovějších IP technologií a udáváme tak trendy v oblasti komunikace a bezpečnosti. Jsme celosvětovou jedničkou na trhu v oblasti IP interkomů, které se prodávají ve více než 130 zemí světa. Hledáme nové talenty v oblasti  programování embedded systémů. Nabízíme flexibilní úvazky během studií s možností přejít na full time po dokončení studií.</p>",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
+        },
+
+        {
+            name: "LMC s.r.o.",
+            logo: "lmc.svg",
+            type: "bronze",
+            page: "https://www.lmc.eu",
+            description: "<p>Naším snem je, aby lidé měli svou práci rádi. A více než 1.000.000 z nich jsme s tím už pomohli. Umíme najít skvělé zaměstnance, usnadnit nábor i vzdělávat lidi v týmu. Díky tomu všemu s námi spolupracuje již přes 17.000 klientů. Patříme do mezinárodní skupiny Alma Career a dosáhneme tak do 15 evropských zemí.</p>",
             upper_skills: [],
             visit: false,
             sponsor: true
