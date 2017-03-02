@@ -659,11 +659,11 @@ body > .content p {
 /*=========footer=========*/
 
 body > footer {
-    margin: 3% 0;
+    margin: 2rem 1.5rem 5rem;
 }
 
 body > footer h2 {
-    margin-bottom: 1em;
+    margin-bottom: 1.3em;
 }
 
 body > footer .partner {
@@ -731,10 +731,6 @@ body > footer .cells .cell {
 
 body > footer .cells .cell.dark {
     background-image: url("../img/cell-dark.svg");
-}
-
-body > footer h2 {
-    margin-bottom: 5rem;
 }
 
 #copyright {

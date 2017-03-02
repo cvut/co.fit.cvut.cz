@@ -114,12 +114,17 @@ body > header nav.links {
         width: 100%;
     }
 
-    .comming-partners .company .logo {
+    .comming-partners .company .logo,
+    .comming-sponsors .company .logo {
         display: block;
         width: 100%;
+        margin-bottom: -2rem;
+        padding-top: 1rem;
+        margin-top: 1rem;
     }
 
-    .comming-partners .company .description {
+    .comming-partners .company .description,
+    .comming-sponsors .company .description {
         width: 90%;
         padding: 2em 5%;
     }
