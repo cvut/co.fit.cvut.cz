@@ -741,3 +741,11 @@ body > footer .cells .cell.dark {
     text-align: center;
     margin: 2rem 0 -2rem 0;
 }
+
+body > .content p.date {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #64615c;
+    margin: 2rem 0;
+}
