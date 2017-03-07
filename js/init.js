@@ -177,9 +177,10 @@ function initPartners() {
             logo: "Datamole_logo.svg",
             type: "gold",
             page: "https://www.datamole.cz/",
-            description: "<p>Our area is innovation in agriculture, we use artificial intelligence techniques to make farms more profitable and durable, and farmer’s life easier and more enjoyable. Our most know invention is automated milking robot. However, we supply the agricultural sector with a complete portfolio of products and services ranging from milking robots, automated feeding systems and barn cleaners to forage harvesting. Datamole is active in more than 60 countries and employs some 2,000 people.</p>" +
-            "<div class='expandable'><p> In cooperation with FIT CTU we mainly work on AI projects. That includes machine learning techniques to improve robot behavior or data mining and data science techniques to extract information from robots data. It is not only about the work it is about passion to do to something new and innovative.</p>" +
-            "<p> We offer assignments for graduate as well as undergraduate students through Portal for Cooperation with Industry (SSP).</p></div>",
+            description: "<p>We are an aspiring start-up fully focused on data science. Utilizing artificial intelligence techniques and data driven methods we deliver innovative and highly added value solutions to our customers.</p>" +
+            "<div class='expandable'><p>We are curiosity driven, each project is a new challenge. We are enthusiastic about new approaches, frameworks and tools related to data analysis, machine learning, data mining and big data. These fields are evolving rapidly and we want to be on the edge at all times and use state of the art technologies. Our team consist of experts for machine learning & data mining, (big) data processing & cluster computing, software engineering & architecture, analysis & visualisation. We believe it is our collective drive, individual expertise and shared knowledge that allow us to deliver creative and innovative solutions.</p>" +
+            "<p>It is not a coincidence that we closely collaborate with the CTU FIT; many of us are proud absolvents. We are active in joint research resulting in establishing a joint laboratory at the FIT premises in 2015 (TH:A-1349). Additionally our team members also teach AI oriented courses at the FIT.</p>" +
+            "<p>For students, we publish assignments on the portal SSP and supervise Bachelor's as well as Master's theses. We also offer internships and for absolvents we offer various positions, refer https://www.datamole.cz/#joinus. Would you like to meet us and see if Datamole has an opportunity for you? Do not hesitate to contact us on info@datamole.cz!</p></div>",
             upper_skills: [
                 {
                     department: "Programování",
@@ -1215,6 +1216,20 @@ function initPartners() {
             type: "bronze",
             page: "https://www.lmc.eu",
             description: "<p>Naším snem je, aby lidé měli svou práci rádi. A více než 1.000.000 z nich jsme s tím už pomohli. Umíme najít skvělé zaměstnance, usnadnit nábor i vzdělávat lidi v týmu. Díky tomu všemu s námi spolupracuje již přes 17.000 klientů. Patříme do mezinárodní skupiny Alma Career a dosáhneme tak do 15 evropských zemí.</p>",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
+        },
+
+        {
+            name: "NCR",
+            logo: "ncr.jpeg",
+            type: "bronze",
+            page: "https://www.ncr.com/careers",
+            description: "<p>NCR is a diverse business with 29,000 people in over 180 locations worldwide with a history, present and future of firsts. Founded in 1884 (as National Cash Register Company) maker of the first mechanical cash registers. NCR holds the Hospitality market leadership with a solution encompassing Point of Sale, Online and Mobile Ordering, Real Time Reporting, Theft and Loss Prevention. As the Omni-Channel leader NCR changes future of business by connecting consumer transaction data from all the industries served by NCR and presenting consumers with their complete financial picture.</p>" +
+            "<div class='expandable'><p>Among our projects are 3rd party system integration (electronic payments, loyalty, online ordering), implementation of legal regulations (fiscal, labor law), multi-platformness, next Generation UI, real Time Reporting, theft and Loss Prevention and Big Data.</p>" +
+            "<p>Students can join NCR as interns or part timers to balance their study and employment changing to full time employment once graduated. Starting as junior Software or Quality Engineers they can specialize and become Software Architects, Product Owners or Engineering Managers. We at NCR prefer to grow our people.</p>" +
+            "<p>Do you value friendly and ethical environment, team work, highly skilled and motivated coworkers, innovative solutions (like the real time reporting and theft prevention)? Then NCR is the right choice for you!</p></div>",
             upper_skills: [],
             visit: false,
             sponsor: true
