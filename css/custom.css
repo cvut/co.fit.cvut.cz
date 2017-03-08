@@ -91,67 +91,96 @@ section {
     transition: none;
 }
 
-/*=========header=========*/
-
-body > header {
-    font-size: 0;
-    padding-top: 3%;
-    max-width: 1980px;
-    margin: auto;
-}
-
-body > header > div {
-    width: 35%;
-    display: inline-block;
-    vertical-align: middle;
-
-}
-
-body > header .logo {
-    width: 26%;
-}
-
-body > header .logo img {
-    width: 100%;
-}
-
-body > header .cells {
-    /*width: 100%;*/
-    height: auto;
-}
-
-body > header .cells img {
-    width: 100%;
-    display: inline-block;
-    visibility: hidden;
-}
-
 * {
     -webkit-transition: all 500ms;
     transition: all 500ms;
 }
 
-body > header .cells .cell {
-    display: inline-block;
-    width: 30%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center center;
-    position: relative;
-    font-size: x-large;
-    background-image: url("../img/cell-light.svg");
+/*=========header=========*/
+
+body > header {
+    padding-top: 3%;
+    max-width: 1980px;
+    margin: auto;
 }
 
-body > header .cells .cell.dark {
-    background-image: url("../img/cell-dark.svg");
+/*body > header > div {*/
+/*width: 35%;*/
+/*display: inline-block;*/
+/*vertical-align: middle;*/
+
+/*}*/
+
+/*body > header .logo {*/
+/*width: 26%;*/
+/*}*/
+
+/*body > header .logo img {*/
+    /*width: 100%;*/
+/*}*/
+
+/*body > header .cells {*/
+/*!*width: 100%;*!*/
+/*height: auto;*/
+/*}*/
+
+/*body > header .cells img {*/
+/*width: 100%;*/
+/*display: inline-block;*/
+/*visibility: hidden;*/
+/*}*/
+
+/*body > header .cells .cell {*/
+/*display: inline-block;*/
+/*width: 30%;*/
+/*height: auto;*/
+/*background-repeat: no-repeat;*/
+/*background-size: 100%;*/
+/*background-position: center center;*/
+/*position: relative;*/
+/*font-size: x-large;*/
+/*background-image: url("../img/cell-light.svg");*/
+/*}*/
+
+/*body > header .cells .cell.dark {*/
+/*background-image: url("../img/cell-dark.svg");*/
+/*}*/
+
+body > header {
+    min-height: 80vh;
+    position: relative;
+
+    background-image: url("../img/fa.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+body > header > h1 {
+    color: black;
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 15%;
+
+    position: absolute;
+    top: 30%;
+}
+
+body > header > h1 > span {
+    display: block;
+    font-size: 5rem;
 }
 
 body > header .main-nav {
     font-size: x-large;
     width: 100%;
     background-color: #f4f4f4;
-    margin-top: 1%;
+
+    position: absolute;
+    bottom: 0;
+
+    padding: 0;
 
     border-color: #64615c;
     border-bottom-style: solid;

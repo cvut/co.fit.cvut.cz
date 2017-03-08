@@ -134,7 +134,7 @@ function initPartners() {
             page: "https://www.profinit.eu/kariera/",
             description: "<p>Od roku 1998 poskytujeme komplexní IT služby od návrhu business a IT architektury až po dodávky celých řešení. Pracujeme pro více než 50 významných společností z oblastí financí, telekomunikací a státní správy. V České republice jsou to mj. Česká spořitelna, Komerční banka, ČSOB, Vodafone nebo O2. V našem týmu najdete více než 350 nadšených a zkušených profesionálů. Patříme ke špičce v oblasti vývoje SW na zakázku, data managementu, datových skladů, business intelligence a big data science.</p>" +
             "<div class='expandable'><p>Naši konzultanti se zabývají analýzou, návrhem a vývojem moderních IT systémů. Většinou působí na projektech přímo u zákazníků. Právě možnost pracovat na různých projektech je na práci v Profinitu unikátní. U nás je možné získat zkušenosti rychleji a do hloubky. Nejsme korporace, kde hraje roli politika nebo tisíc pravidel a nařízení, chováme se k sobě přátelsky a pomáháme si. Charakter a dobrá organizace práce nám umožňují nabízet studentům pružné pracovní úvazky.</p>" +
-            "<p>S FIT ČVUT dlouhodobě spolupracujeme v oblastech pokročilého zpracování dat, data analytics, syntaktické a sémantické analýze kódu či konceptuálních modelů. Naši odborníci vyučují a cvičí specializované předměty přímo na fakultě. Mimo společných výzkumných projektů nabízíme také zajímavá témata v podobě semestrálních projektů, diplomových a bakalářských prací.  Společně s dalšími českými a slovenskými technickými vysokými školami a pod záštitou mezinárodní odborné organizace ACM organizujeme soutěž IT SPY, ve které odborná porota vybírá nejlepší diplomovou práci z oblasti informatiky a informačních technologií.</p></div>", 
+            "<p>S FIT ČVUT dlouhodobě spolupracujeme v oblastech pokročilého zpracování dat, data analytics, syntaktické a sémantické analýze kódu či konceptuálních modelů. Naši odborníci vyučují a cvičí specializované předměty přímo na fakultě. Mimo společných výzkumných projektů nabízíme také zajímavá témata v podobě semestrálních projektů, diplomových a bakalářských prací.  Společně s dalšími českými a slovenskými technickými vysokými školami a pod záštitou mezinárodní odborné organizace ACM organizujeme soutěž IT SPY, ve které odborná porota vybírá nejlepší diplomovou práci z oblasti informatiky a informačních technologií.</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -607,8 +607,10 @@ function initPartners() {
             type: "bronze",
             sponsor: true,
             page: "https://tipsport.jobs.cz/volna-mista/",
-            description: "<p>Většina sázek je v dnešní době přijímána online a tak lze Tipsport označit za technologickou firmu. Naše IT oddělení je proto opravdu hýčkané. Jen náš tým developerů má 26 lidí, a protože v kurzovém sázení stále přibývají nové funkcionality i související služby, už zase je nás málo. :-) Pokud naskočíš do našeho týmu, nejdříve Tě čeká zaškolení pod vedením některého ze zkušených vývojářů. Provedeme Tě zvlášť frontendovou a backendovou částí aplikace. </p>"
-            + "<div class='expandable'><p>Podle toho, co Ti bude bližší, si sám vybereš, jestli se budeš raději věnovat frontendu či backendu. Až projdeš fází zaškolení, budeš se v kooperaci s kolegy podílet na vývoji systémů, které tvoříme a optimalizujeme na vysokou zátěž a provoz s maximální dostupností, vždyť obsluhují tisíce dotazů a poskytují služby 24x7. Pracujeme v neformálním a přátelském kolektivu. Nabízíme možnost profesního i osobního růstu, možnost podílet se na vývoji a optimalizaci systémů stavěných na vysokou zátěž, možnost zúčastnit se odborných kurzů a školení, prostor pro sebevzdělávání a zkoumání nových technologií, možnost práce z domova, flexibilní pracovní dobu, sick days, odborné tréninky a školení a v neposlední řadě také zajímavé mzdové ohodnocení a široký systém dalších zaměstnaneckých benefitů. </p></div>",
+            description: "<p>Tipsport mění svět kurzového sázení, v prostředí jedinečné sázkařské komunity umožňuje svým klientům sdílet informace a nacházet inspiraci. Společnost, která dominuje českému trhu, tak zároveň výrazně překračuje jeho hranice. V roce 1991 Tipsport vznikl jako lokální společnost s jedinou pobočkou ve středočeském Berouně. Dnes je mezinárodním holdingem s 3000 zaměstnanců, kteří v Česku pracují pro značky Tipsport a Chance a na Slovensku pro značku Tipsport.</p>" +
+            "<div class='expandable'><p>U nás se můžeš věnovat vývoji komunitního webu, mobilních aplikací či interních systémů. Naše systémy jsou navrhovány, vytvářeny a optimalizovány na vysokou zátěž a provoz s maximální dostupností, kdy obsluhují tisíce dotazů za vteřinu a poskytují služby 24/7/365. A to nejen pro sázkovou společnost Tipsport, ale i pro naše dceřiné firmy Chance a Tipsport Slovensko.</p>" +
+            "<p>Díky způsobu vývoje u nás není problém najít prostor na studium, testování či implementaci nových technologií. Naši vývojáři nežijí ve stresu z termínů, ale mají prostor dělat to, co je baví. Vždy se najde čas na péči o kód – doplnění testů, komentářů, refaktoring, optimalizace a všechno pilujeme k dokonalosti. Navíc máme na vzdělávání připravený i pěkný budget a v rozletu Ti u nás nebudou bránit žádné mantinely.</p>" +
+            "<p>V Tipsportu víme, jak je vývoj informačních technologií důležitý. Proto je IT hýčkanou divizí s nadstandardními výhodami. Volná pracovní doba, práce z domova je u nás běžnou záležitostí a do Plzně si pro kolegy jezdíme vlastní dopravou. A protože jen prací člověk být živ nemůže, vyřádíme se na různých teambuildingových akcích: motokáry, paintball, arkádové hry, návštěva restauračních zařízení… IT tým se každým rokem rozrůstá a platí u nás, že šikovných kolegů není nikdy dostatek! Rádi uvítáme ostřílené profíky i čerstvé absolventy bez praxe.</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -1216,7 +1218,10 @@ function initPartners() {
             logo: "lmc.svg",
             type: "bronze",
             page: "https://www.lmc.eu",
-            description: "<p>Naším snem je, aby lidé měli svou práci rádi. A více než 1.000.000 z nich jsme s tím už pomohli. Umíme najít skvělé zaměstnance, usnadnit nábor i vzdělávat lidi v týmu. Díky tomu všemu s námi spolupracuje již přes 17.000 klientů. Patříme do mezinárodní skupiny Alma Career a dosáhneme tak do 15 evropských zemí.</p>",
+            description: "<p>LMC vyvíjí a provozuje nejenom největší kariérní portály Jobs.cz a Prace.cz, ale i řadu dalších služeb pro online svět práce a vzdělávání, jako např. Teamio.com, Easytask.cz, Jobote.com nebo Seduo.cz. Naším snem je, aby lidé měli svou práci rádi. </p>" +
+            "<div class='expandable'><p>Soustředíme se na vývoj zmíněných služeb pro online trh práce a vzdělávání. Každý produkt má svůj vývojový tým (vývojáři, UX, product manager, business owner, delivery manager/scrum master). Vedle toho samozřejmě máme týmy, které se nadhledově starají o naše služby -  software architecture, R'n'D, system admins, ICT.</p>" +
+            "<p>Vzdělávání a rozvoj je pro nás společně s přátelskou firemní kulturou hlavní prioritou - děláme výměny zkušeností mezi týmy, interní kurzy (např. Měsíc deploymentu, Měsíc databází), kde přednáší lidi z firmy i zvenčí, kurzy soft-skills, jezdíme pravidelně na české i zahraniční konference. Zároveň podporujeme naše lidi v zapojení do odborných komunit. Pokud má někdo ambici se stát leaderem, je pro něj k dispozici leadership program. </p>" +
+            "<p>Důvody, proč se k nám přidat: přátelská atmosféra; důraz na vzdělávání; práce, která má smysl a díky které pomáháš jiným lidem mít víc radosti ze života; více jak milion uživatelů, kteří naše služby využívají; jsme vepředu s agilním vývojem, se kterým máme víc jak 6 let zkušeností; testování a code review bereme vážně; podporujeme komunitu; máme vlastní firemní čajovnu.</p></div>",
             upper_skills: [],
             visit: false,
             sponsor: true
@@ -1224,13 +1229,27 @@ function initPartners() {
 
         {
             name: "NCR",
-            logo: "ncr.jpeg",
+            logo: "ncr.png",
             type: "bronze",
             page: "https://www.ncr.com/careers",
             description: "<p>NCR is a diverse business with 29,000 people in over 180 locations worldwide with a history, present and future of firsts. Founded in 1884 (as National Cash Register Company) maker of the first mechanical cash registers. NCR holds the Hospitality market leadership with a solution encompassing Point of Sale, Online and Mobile Ordering, Real Time Reporting, Theft and Loss Prevention. As the Omni-Channel leader NCR changes future of business by connecting consumer transaction data from all the industries served by NCR and presenting consumers with their complete financial picture.</p>" +
             "<div class='expandable'><p>Among our projects are 3rd party system integration (electronic payments, loyalty, online ordering), implementation of legal regulations (fiscal, labor law), multi-platformness, next Generation UI, real Time Reporting, theft and Loss Prevention and Big Data.</p>" +
             "<p>Students can join NCR as interns or part timers to balance their study and employment changing to full time employment once graduated. Starting as junior Software or Quality Engineers they can specialize and become Software Architects, Product Owners or Engineering Managers. We at NCR prefer to grow our people.</p>" +
             "<p>Do you value friendly and ethical environment, team work, highly skilled and motivated coworkers, innovative solutions (like the real time reporting and theft prevention)? Then NCR is the right choice for you!</p></div>",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
+        },
+
+        {
+            name: "Commerz Systems",
+            logo: "commerz-systems.svg",
+            type: "bronze",
+            page: "http://www.commerzsystems.de/en/",
+            description: "<p>Existuje mnoho variant s pasážemi Lorem Ipsum, nicméně valná většina trpí neduhy v podobě snahy o vtipný text či použití naprosto náhodných slov, což nevypadá zrovna uvěřitelně. Pokud plánujete použít pasáž z Lorem Ipsum, měli byste mít jistotu, že v textu nebude nic, co by jej mohlo narušovat. Všechny generátory Lorem Ipsum na internetu mají tendenci opakovat kusy textu podle potřeby, díky čemuž je tento prvním pravým generátorem svého druhu. Používá totiž slovník více jak 200 latinských slov, která jsou kombinována do vět tak, aby text vypadal rozumně.</p>" +
+            "<div class='expandable'><p></p>" +
+            "<p></p>" +
+            "<p></p></div>",
             upper_skills: [],
             visit: false,
             sponsor: true
