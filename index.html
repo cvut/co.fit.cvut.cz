@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="css/custom-mob.css" media="(max-width: 799px)"/>
     <link rel="stylesheet" href="css/slideme.css"/>
     <script src="js/angular.min.js"></script>
+    <script src="js/angular-sanitize.js"></script>
     <script src="js/app.js"></script>
     <script src="js/sponsor.service.js"></script>
     <script src="js/partner.service.js"></script>
     <script src="js/schedule.service.js"></script>
     <script src="js/directives.js"></script>
-    <script src="js/angular-simple-slideshow.min.js"></script>
     <!--<script src="js/jquery.min.js"></script>-->
     <!--<script src="js/jquery.slideme2.js"></script>-->
     <!--<script src="js/init.js"></script>-->
@@ -56,7 +56,7 @@
         </nav>
     </div>
 </header>
-<div class="content">
+<div class="content" ng-controller="CompanyCtrl">
     <section id="info">
         <h2>O Co@FITu</h2>
         <p><a class="textbtn" href="http://fit.cvut.cz/" target="_blank">Fakulta informačních technologií</a> pořádá pro
@@ -76,7 +76,7 @@
             se tak nabízí jedinečná šance seznámit se s firmami přímo na akademické půdě. Akce je doporučena pro
             studenty všech ročníků a oborů FIT. Není nutná registrace, vstup volný.</p>
     </section>
-    <section id="partners" class="companies" ng-controller="CompanyCtrl">
+    <section id="partners" class="companies">
         <div class="partners-column partners-list">
             <h2>
                 Partneři FIT
@@ -555,8 +555,10 @@
         <h2 style="display: inline-block">
             Partneři
         </h2>
-
         <div class="comming-partners">
+            <company-detail company="partner" ng-repeat="partner in partners.gold"></company-detail>
+            <company-detail company="partner" ng-repeat="partner in partners.silver"></company-detail>
+            <company-detail company="partner" ng-repeat="partner in partners.bronze"></company-detail>
         </div>
 
         <h2 style="display: inline-block">
@@ -564,7 +566,9 @@
         </h2>
 
         <div class="comming-sponsors">
-
+            <company-detail company="sponsor" ng-repeat="sponsor in sponsors.gold"></company-detail>
+            <company-detail company="sponsor" ng-repeat="sponsor in sponsors.silver"></company-detail>
+            <company-detail company="sponsor" ng-repeat="sponsor in sponsors.bronze"></company-detail>
         </div>
     </section>
     <section id="aboutPortal">

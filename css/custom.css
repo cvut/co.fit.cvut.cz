@@ -544,28 +544,6 @@ body > .content p {
     text-align: center;
 }
 
-.expandable-container {
-    font-weight: 400;
-    background-color: #f4f4f4;
-    margin: 0.1em;
-    cursor: pointer;
-}
-
-.expandable-container:hover {
-    background-color: #e8e8e8;
-}
-
-.expandable-container h4 {
-    padding: 0.5em 5%;
-    margin-bottom: 0;
-}
-
-.expandable-container > .expandable {
-    margin: 0;
-    padding: 0 5% 1em;
-    cursor: auto;
-}
-
 .company .logo {
     width: 30%;
     display: inline-block;
@@ -579,22 +557,6 @@ body > .content p {
     vertical-align: middle;
     padding: 1em 0;
 }
-
-.company .description:after {
-    content: "...";
-    color: #686868;
-    font-size: 200%;
-    font-weight: 800;
-    margin-top: -1em;
-    display: block;
-    text-align: center;
-    min-height: 1em;
-}
-
-.company .description.expanded:after {
-    visibility: hidden;
-}
-
 .company .logo img {
     max-width: 60%;
     max-height: 5em;
@@ -604,6 +566,20 @@ body > .content p {
 .company h3 {
     display: inline-block;
     margin: 0;
+}
+
+.expansion-controller {
+    background: none;
+    border: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: #b5b5b5;
+    font-size: small;
+}
+
+.expansion-controller:hover {
+    color: #f9bc3d;
 }
 
 .company.gold {

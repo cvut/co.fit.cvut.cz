@@ -29,7 +29,7 @@
         };
     });
 
-    angular.module('app').directive('companyDetail', function () {
+    angular.module('app').directive('companyDetail', function ($sce) {
         return {
             restrict: 'E',
             replace: true,
@@ -38,11 +38,13 @@
             template: '<div class="company expandable-container follow"><div class="logo">'
             + '<h3 ng-show="!company.logo">{{company.name}}</h3>'
             + '<img ng-show="company.logo" src="img/partners/{{company.logo}}"/>'
-            + '</div><div class="description">'
-            + '{{company.description}}</div><div class="expandable" ng-show="company.expanded"><div ng-bind-html="company.extendedDescription}}"></div>'
-            + '<ul class="skills" style="display: none;">' + skills + '</ul>'
-            + '<div class="pull-right"><a ng-href="company.page" target="_blank" class="btn" title="Přejít na stránky společnosti">Stránky společnosti</a></div></div></div>',
+            + '</div><div class="description">{{company.description}}' +
+            '<button class="expansion-controller" style="font-size: 35px" ng-click="showMore = true;" ng-show="!showMore">...</button>' +
+            '<div ng-show="showMore"><div ng-bind-html="extendedDescription"></div>' +
+            '<div class="pull-right"><a ng-href="company.page" target="_blank" class="btn pull-right" title="Přejít na stránky společnosti">Stránky společnosti</a></div>' +
+            '<button class="expansion-controller" ng-click="showMore = false">{{"SHOW_LESS"}}</button></div></div></div>',
             link: function (scope, elem, attrs) {
+                scope.extendedDescription = scope.company.extendedDescription;
             }
         };
     });
@@ -65,7 +67,10 @@
 
                 scope.setSlide = function (index) {
                     scope.currentSlide = scope.slides[index];
-                    setTimeout(function() {scope.nextSlide(); scope.$apply();}, timeout);
+                    setTimeout(function () {
+                        scope.nextSlide();
+                        scope.$apply();
+                    }, timeout);
                 };
 
                 scope.nextSlide = function () {

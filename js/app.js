@@ -1,7 +1,7 @@
 (function (angular) {
-    angular.module("app", []);
+    angular.module("app", ['ngSanitize']);
 
-    angular.module("app").controller("CompanyCtrl", function ($scope, PartnerService, SponsorService) {
+    angular.module("app").controller("CompanyCtrl", function ($scope, $sce, PartnerService, SponsorService) {
         $scope.partners = PartnerService.getAllPartners();
         $scope.sponsors = SponsorService.getAllSponsors();
     });
