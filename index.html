@@ -18,78 +18,19 @@
     <link rel="stylesheet" href="css/custom-desk.css" media="(min-width: 800px)"/>
     <link rel="stylesheet" href="css/custom-mob.css" media="(max-width: 799px)"/>
     <link rel="stylesheet" href="css/slideme.css"/>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.slideme2.js"></script>
-    <script src="js/init.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/sponsor.service.js"></script>
+    <script src="js/partner.service.js"></script>
+    <script src="js/schedule.service.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/angular-simple-slideshow.min.js"></script>
+    <!--<script src="js/jquery.min.js"></script>-->
+    <!--<script src="js/jquery.slideme2.js"></script>-->
+    <!--<script src="js/init.js"></script>-->
 </head>
-<body>
-<script type="text/javascript">
-    $(document).ready(function () {
-        initPartners();
-        initAll();
-        $('.slideme-container > .prev').html("Předchozí");
-        $('.slideme-container > .next').html("Další");
-        $('.partners-list .gold .status').html("Zlatý partner");
-        $('.partners-list .silver .status').html("Stříbrný partner");
-        $('.partners-list .bronze .status').html("Bronzový partner");
-        $('.sponsors-list .gold .status').html("Zlatý sponzor");
-        $('.sponsors-list .silver .status').html("Stříbrný sponzor");
-        $('.sponsors-list .bronze .status').html("Bronzový sponzor");
-    });
-</script>
+<body ng-app="app">
 <header>
-    <div class="cells left">
-        <div class="row">
-            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico1"/></div>
-            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico2"/></div>
-            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico3"/></div>
-        </div>
-        <div class="row">
-            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico4"/></div>
-            <div class="cell dark"><img alt="" src="img/cell-light.png"/>
-                <span class="text">15. 3. 2017</span>
-            </div>
-        </div>
-        <nav class="row navigation">
-            <a class="cell" href="#info" title="Informace o Co@FITu"><img alt="" src="img/cell-light.png"/>
-                <span class="ico info"/>
-            </a>
-            <a href="#industry" class="cell" title="Jsem zástupce firmy"><img alt="" src="img/cell-light.png"/>
-                <span class="ico industry"/>
-            </a>
-            <a href="#student" class="cell" title="Jsem student"><img alt="" src="img/cell-light.png"/>
-                <span class="ico student"/>
-            </a>
-        </nav>
-    </div>
-    <div class="logo">
-        <img alt="" src="img/logo.svg"/>
-    </div>
-    <div class="cells right">
-        <div class="row">
-            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico5"/></div>
-            <a href="index.html" title="Česká verze" class="cell active"><img alt="" src="img/cell-light.png"/><span
-                class="ico language cs"/></a>
-            <a href="index.en.html" title="English version" class="cell"><img alt="" src="img/cell-light.png"/><span
-                class="ico language en"/></a>
-        </div>
-        <div class="row">
-            <a class="cell dark" href="http://fit.cvut.cz/" target="_blank"><img alt="" src="img/cell-light.png"/>
-                <span class="text" title="Fakulta informačních technologií ČVUT v Praze">
-                    FIT<br/>ČVUT
-                </span>
-            </a>
-            <div class="cell"><img alt="" src="img/cell-light.png"/><span class="ico random ico1"/></div>
-        </div>
-        <nav class="row links">
-            <a class="cell" href="https://ssp.test.fit.cvut.cz/" target="_blank" title="Portál Spolupráce s průmyslem">
-                <img alt="" src="img/cell-light.png"/><span class="ico ssp"/></a>
-            <a class="cell" href="https://twitter.com/sspfit" target="_blank" title="Náš Twitter">
-                <img alt="" src="img/cell-light.png"/><span class="ico twitter"/></a>
-            <a class="cell" href="https://www.facebook.com/fitssp" target="_blank" title="Náš Facebook">
-                <img alt="" src="img/cell-light.png"/><span class="ico facebook"/></a>
-        </nav>
-    </div>
     <div class="main-nav">
         <nav>
             <a href="#info" title="Informace o Co@FITu">
@@ -133,20 +74,20 @@
             se tak nabízí jedinečná šance seznámit se s firmami přímo na akademické půdě. Akce je doporučena pro
             studenty všech ročníků a oborů FIT. Není nutná registrace, vstup volný.</p>
     </section>
-    <section id="partners" class="companies">
+    <section id="partners" class="companies" ng-controller="CompanyCtrl">
         <div class="partners-column partners-list">
             <h2>
                 Partneři FIT
             </h2>
 
             <div class="partners gold">
-
+                <company-preview ng-repeat="partner in partners.gold" company="partner"></company-preview>
             </div>
             <div class="partners silver">
-
+                <company-preview ng-repeat="partner in partners.silver" company="partner"></company-preview>
             </div>
             <div class="partners bronze">
-
+                <company-preview ng-repeat="partner in partners.bronze" company="partner"></company-preview>
             </div>
         </div>
         <div class="sponsors-column sponsors-list">
@@ -154,13 +95,13 @@
                 Sponzoři FIT
             </h2>
             <div class="sponsors gold">
-
+                <company-preview ng-repeat="sponsor in sponsors.gold" company="sponsor"></company-preview>
             </div>
             <div class="sponsors silver">
-
+                <company-preview ng-repeat="sponsor in sponsors.silver" company="sponsor"></company-preview>
             </div>
             <div class="sponsors bronze">
-
+                <company-preview ng-repeat="sponsor in sponsors.bronze" company="sponsor"></company-preview>
             </div>
         </div>
 
@@ -171,61 +112,13 @@
         </div>
     </section>
 
-    <section id="images">
+    <section id="images" ng-controller="SlideShowCtrl">
         <h3>
             Galerie z minulých ročníků
         </h3>
 
-        <div id="gallery" class="slideme-container">
-            <ul class="slideme" style="height: 900px">
-                <li><img alt="" src="gallery/22.jpg"/></li>
-                <li><img alt="" src="gallery/23.jpg"/></li>
-                <li><img alt="" src="gallery/24.jpg"/></li>
-                <li><img alt="" src="gallery/25.jpg"/></li>
-                <li><img alt="" src="gallery/26.jpg"/></li>
-                <li><img alt="" src="gallery/27.jpg"/></li>
-                <li><img alt="" src="gallery/28.jpg"/></li>
-                <li><img alt="" src="gallery/29.jpg"/></li>
-                <li><img alt="" src="gallery/30.jpg"/></li>
-                <li><img alt="" src="gallery/31.jpg"/></li>
-                <li><img alt="" src="gallery/32.jpg"/></li>
-                <li><img alt="" src="gallery/33.jpg"/></li>
-                <li><img alt="" src="gallery/34.jpg"/></li>
-                <li><img alt="" src="gallery/35.jpg"/></li>
-                <li><img alt="" src="gallery/36.jpg"/></li>
-                <li><img alt="" src="gallery/37.jpg"/></li>
-                <li><img alt="" src="gallery/38.jpg"/></li>
-                <li><img alt="" src="gallery/39.jpg"/></li>
-                <li><img alt="" src="gallery/40.jpg"/></li>
-                <li><img alt="" src="gallery/41.jpg"/></li>
-                <li><img alt="" src="gallery/42.jpg"/></li>
-                <li><img alt="" src="gallery/43.jpg"/></li>
-                <li><img alt="" src="gallery/44.jpg"/></li>
-                <li><img alt="" src="gallery/45.jpg"/></li>
-                <li><img alt="" src="gallery/46.jpg"/></li>
-                <li><img alt="" src="gallery/47.jpg"/></li>
-                <li><img alt="" src="gallery/48.jpg"/></li>
-                <li><img alt="" src="gallery/49.jpg"/></li>
-                <li><img alt="" src="gallery/50.jpg"/></li>
-                <li><img alt="" src="gallery/51.jpg"/></li>
-                <li><img alt="" src="gallery/52.jpg"/></li>
-                <li><img alt="" src="gallery/53.jpg"/></li>
-                <li><img alt="" src="gallery/54.jpg"/></li>
-                <li><img alt="" src="gallery/55.jpg"/></li>
-                <li><img alt="" src="gallery/56.jpg"/></li>
-                <li><img alt="" src="gallery/57.jpg"/></li>
-                <li><img alt="" src="gallery/58.jpg"/></li>
-                <li><img alt="" src="gallery/59.jpg"/></li>
-                <li><img alt="" src="gallery/60.jpg"/></li>
-                <li><img alt="" src="gallery/61.jpg"/></li>
-                <li><img alt="" src="gallery/62.jpg"/></li>
-                <li><img alt="" src="gallery/63.jpg"/></li>
-                <li><img alt="" src="gallery/64.jpg"/></li>
-                <li><img alt="" src="gallery/65.jpg"/></li>
-                <li><img alt="" src="gallery/66.jpg"/></li>
-
-
-            </ul>
+        <div id="gallery" class="">
+            <slideshow slides="slides" slides-folder="{{slidesFolder}}"></slideshow>
         </div>
     </section>
 
@@ -261,7 +154,7 @@
                         </h4>
 
                         <p>
-                            Informace o portálu SSP a organizační kiosek pro firmy a studenty. 
+                            Informace o portálu SSP a organizační kiosek pro firmy a studenty.
                         </p>
 
                         <p>
@@ -387,13 +280,13 @@
                     a témata semestrálních a diplomových prací pro studenty. Rozměry stolů pro zlaté partnery/sponzory jsou 216x123 cm, pro stříbrné a bronzové partnery/sponzory 160x80 cm.
                 </p>
             </div>
-            
+
             <div class="expandable-container">
                 <h4>Jsem partner a prezentuji, jak se mám připravit?</h4>
 
                 <div class="expandable">
                     <p>
-                        Jako zlatý/stříbrný partner máte možnost prezentovat svoji firmu během hlavní přednášky. Na prezentaci mají zlatí partneři vyhrazeno 15 minut, stříbrní partneři 10 min. 
+                        Jako zlatý/stříbrný partner máte možnost prezentovat svoji firmu během hlavní přednášky. Na prezentaci mají zlatí partneři vyhrazeno 15 minut, stříbrní partneři 10 min.
                         Forma a obsah prezentace je na Vás. Zde se můžete inspirovat:
                     </p>
 
@@ -623,14 +516,14 @@
 
                         <p>
                             Nenechte si ujít exkluzivní prezentace zástupců našich zlatých
-                            partnerů FIT - Profinit, Datamole, Komerční banka a Accenture.  
+                            partnerů FIT - Profinit, Datamole, Komerční banka a Accenture.
                         </p>
                         <h4>
                             FIT-tombola
                         </h4>
 
                         <p>
-                            Chceš vyhrát elektroniku sponzorovanou našimi partnery? Každý student FITu, který přijde na přednášku partnerů, obdrží lístek do FIT-tomboly. 
+                            Chceš vyhrát elektroniku sponzorovanou našimi partnery? Každý student FITu, který přijde na přednášku partnerů, obdrží lístek do FIT-tomboly.
                             Během přednášky bude probíhat slosování. Ve hře je 5ks externích HDD.
                         </p>
                     </div>
@@ -660,12 +553,6 @@
         <h2 style="display: inline-block">
             Partneři
         </h2>
-
-        <form class="filter" style="display: none;">
-            <label>
-                <input placeholder="Filtrovat podle názvu nebo dovedností" type="text"/>
-            </label>
-        </form>
 
         <div class="comming-partners">
         </div>
