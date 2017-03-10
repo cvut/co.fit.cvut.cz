@@ -134,7 +134,7 @@ function initPartners() {
             page: "https://www.profinit.eu/kariera/",
             description: "<p>Od roku 1998 poskytujeme komplexní IT služby od návrhu business a IT architektury až po dodávky celých řešení. Pracujeme pro více než 50 významných společností z oblastí financí, telekomunikací a státní správy. V České republice jsou to mj. Česká spořitelna, Komerční banka, ČSOB, Vodafone nebo O2. V našem týmu najdete více než 350 nadšených a zkušených profesionálů. Patříme ke špičce v oblasti vývoje SW na zakázku, data managementu, datových skladů, business intelligence a big data science.</p>" +
             "<div class='expandable'><p>Naši konzultanti se zabývají analýzou, návrhem a vývojem moderních IT systémů. Většinou působí na projektech přímo u zákazníků. Právě možnost pracovat na různých projektech je na práci v Profinitu unikátní. U nás je možné získat zkušenosti rychleji a do hloubky. Nejsme korporace, kde hraje roli politika nebo tisíc pravidel a nařízení, chováme se k sobě přátelsky a pomáháme si. Charakter a dobrá organizace práce nám umožňují nabízet studentům pružné pracovní úvazky.</p>" +
-            "<p>S FIT ČVUT dlouhodobě spolupracujeme v oblastech pokročilého zpracování dat, data analytics, syntaktické a sémantické analýze kódu či konceptuálních modelů. Naši odborníci vyučují a cvičí specializované předměty přímo na fakultě. Mimo společných výzkumných projektů nabízíme také zajímavá témata v podobě semestrálních projektů, diplomových a bakalářských prací.  Společně s dalšími českými a slovenskými technickými vysokými školami a pod záštitou mezinárodní odborné organizace ACM organizujeme soutěž IT SPY, ve které odborná porota vybírá nejlepší diplomovou práci z oblasti informatiky a informačních technologií.</p></div>", 
+            "<p>S FIT ČVUT dlouhodobě spolupracujeme v oblastech pokročilého zpracování dat, data analytics, syntaktické a sémantické analýze kódu či konceptuálních modelů. Naši odborníci vyučují a cvičí specializované předměty přímo na fakultě. Mimo společných výzkumných projektů nabízíme také zajímavá témata v podobě semestrálních projektů, diplomových a bakalářských prací.  Společně s dalšími českými a slovenskými technickými vysokými školami a pod záštitou mezinárodní odborné organizace ACM organizujeme soutěž IT SPY, ve které odborná porota vybírá nejlepší diplomovou práci z oblasti informatiky a informačních technologií.</p></div>",
             upper_skills: [
                 {
                     department: "Soft skills",
@@ -826,11 +826,12 @@ function initPartners() {
         {
             name: "Barclays",
             logo: "barclays.svg",
-            type: "foreign",
+            type: "bronze",
             page: "http://www.barclays.co.uk/",
             description: "<p>Barclays is a British multinational banking & financial services company headquartered in London. It is a universal bank with operations in retail, wholesale and investment banking, as well as wealth management, mortgage lending and credit cards. It has operations in over 50 countries and territories and has around 48 million customers. Barclays is organised into four core business: Personal & Corporate (Personal Banking, Corporate Banking, Wealth & Investment Management), Barclaycard, Investment Banking and Africa.</p>",
             upper_skills: [],
-            visit: false
+            visit: false,
+            sponsor: true
         },
 
         {
@@ -1224,13 +1225,26 @@ function initPartners() {
 
         {
             name: "NCR",
-            logo: "ncr.jpeg",
+            logo: "ncr.png",
             type: "bronze",
             page: "https://www.ncr.com/careers",
             description: "<p>NCR is a diverse business with 29,000 people in over 180 locations worldwide with a history, present and future of firsts. Founded in 1884 (as National Cash Register Company) maker of the first mechanical cash registers. NCR holds the Hospitality market leadership with a solution encompassing Point of Sale, Online and Mobile Ordering, Real Time Reporting, Theft and Loss Prevention. As the Omni-Channel leader NCR changes future of business by connecting consumer transaction data from all the industries served by NCR and presenting consumers with their complete financial picture.</p>" +
             "<div class='expandable'><p>Among our projects are 3rd party system integration (electronic payments, loyalty, online ordering), implementation of legal regulations (fiscal, labor law), multi-platformness, next Generation UI, real Time Reporting, theft and Loss Prevention and Big Data.</p>" +
             "<p>Students can join NCR as interns or part timers to balance their study and employment changing to full time employment once graduated. Starting as junior Software or Quality Engineers they can specialize and become Software Architects, Product Owners or Engineering Managers. We at NCR prefer to grow our people.</p>" +
             "<p>Do you value friendly and ethical environment, team work, highly skilled and motivated coworkers, innovative solutions (like the real time reporting and theft prevention)? Then NCR is the right choice for you!</p></div>",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
+        },
+
+        {
+            name: "Commerz Systems",
+            logo: "commerz-systems.svg",
+            type: "bronze",
+            page: "http://www.commerzsystems.de/en/",
+            description: "<p>Commerz Systems is a 100% IT daughter company of Commerzbank AG in Germany and employing more than 50 000 people. In our Czech offices located in Prague City Center, we employ more than 300 employees from 35 different countries. We are successful in providing a wide range of quality IT solutions that we deliver to Commerzbank and we are expecting further growth by providing new services and projects to help creating the future of digitalization.</p>" +
+            "<div class='expandable'><p>We are looking for an open minded and proactive team player, who’s passion is communication and software development. You can participate in software design, development, and all technical aspects of a project’s lifecycle. Cooperation with other developers and business is very frequent.</p>" +
+            "<p>We can offer friendly multicultural environment, a competitive salary, the possibility of professional training and growth, interesting bonus systém, location in Prague City Center, being part of challenging projects or relax corner where you can recharge your batteries.</p></div>",
             upper_skills: [],
             visit: false,
             sponsor: true
