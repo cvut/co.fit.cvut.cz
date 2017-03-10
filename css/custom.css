@@ -78,9 +78,11 @@ section {
 .pull-left {
     text-align: left;
 }
+
 .pull-center {
     text-align: center;
 }
+
 .pull-right {
     text-align: right;
 }
@@ -116,7 +118,7 @@ body > header {
 /*}*/
 
 /*body > header .logo img {*/
-    /*width: 100%;*/
+/*width: 100%;*/
 /*}*/
 
 /*body > header .cells {*/
@@ -219,13 +221,13 @@ body > footer .cells .cell .text {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #FFFFFF;
     font-weight: bold;
 }
 
 .cells .cell:hover {
-background-size: 115%;
+    background-size: 115%;
 }
 
 body > header .cells .cell .ico,
@@ -245,8 +247,8 @@ body > footer .cells .cell:hover .ico {
 
 body > header .cells .cell:hover .text,
 body > footer .cells .cell:hover .text {
-width: 100%;
-font-size: 120%;
+    width: 100%;
+    font-size: 120%;
 }
 
 @media (max-width: 1150px) {
@@ -264,21 +266,27 @@ font-size: 120%;
 body > header .cells .cell .ico.random {
     background-size: 1200%;
 }
+
 body > header .cells .cell .ico.random {
     background-position: 9.091% center;
 }
+
 body > header .cells .cell .ico.random.ico2 {
     background-position: 27.27% center;
 }
+
 body > header .cells .cell .ico.random.ico3 {
     background-position: 45.455% center;
 }
+
 body > header .cells .cell .ico.random.ico4 {
     background-position: 63.637% center;
 }
+
 body > header .cells .cell .ico.random.ico5 {
     background-position: 81.819% center;
 }
+
 body > header .cells .cell .ico.random.ico6 {
     background-position: 100% center;
 }
@@ -555,12 +563,23 @@ body > .content p {
     width: 65%;
     display: inline-block;
     vertical-align: middle;
-    padding: 1em 0;
+    padding: 25px 0;
 }
+
 .company .logo img {
     max-width: 60%;
     max-height: 5em;
     padding: 1em 0;
+}
+
+.company .logo .btn {
+    background: none;
+    color: #818181;
+    font-size: 16px;
+}
+
+.company .logo:hover .btn {
+    color: #edac02;
 }
 
 .company h3 {
@@ -568,19 +587,30 @@ body > .content p {
     margin: 0;
 }
 
+.faq .expandable-container,
+.company.expandable-container {
+    background: #f4f4f4;
+    margin-bottom: 10px;
+}
+
 .expansion-controller {
+    color: #818181;
+    cursor: pointer;
+}
+
+.company .expansion-controller {
     background: none;
     border: none;
     display: block;
     text-align: center;
     width: 100%;
-    color: #b5b5b5;
-    font-size: small;
+    font-size: 16px;
 }
 
 .expansion-controller:hover {
     color: #f9bc3d;
 }
+
 
 .company.gold {
     border-left: 10px solid #f9bc3d;
@@ -684,7 +714,7 @@ body > footer .partner {
     margin: -35px 0;
 }
 
-body > footer .partner span{
+body > footer .partner span {
     width: 100%;
     height: 100%;
     display: block;

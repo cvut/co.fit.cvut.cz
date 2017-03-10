@@ -20,103 +20,51 @@
     <link rel="stylesheet" href="css/slideme.css"/>
     <script src="js/angular.min.js"></script>
     <script src="js/angular-sanitize.js"></script>
+    <script src="js/angular-translate.min.js"></script>
+    <script src="js/angular-translate-loader-static-files.js"></script>
+    <script src="js/angular-translate-storage-cookie.js"></script>
+    <script src="js/angular-cookies.js"></script>
     <script src="js/app.js"></script>
     <script src="js/sponsor.service.js"></script>
     <script src="js/partner.service.js"></script>
     <script src="js/schedule.service.js"></script>
     <script src="js/directives.js"></script>
-    <!--<script src="js/jquery.min.js"></script>-->
-    <!--<script src="js/jquery.slideme2.js"></script>-->
-    <!--<script src="js/init.js"></script>-->
-</head>
 <body ng-app="app">
 <header>
     <h1>Kariérní veletrh<span>Companies at FIT</span>2017</h1>
 
     <div class="main-nav">
         <nav>
-            <a href="#info" title="Informace o Co@FITu">
-                O akci
+            <a href="#info" title="{{'ABOUT_ACTION_EXT' | translate}}">
+                {{'ABOUT_ACTION' | translate}}
             </a>
-            <a href="#industry" title="Jsem zástupce firmy">
-                Pro firmy
+            <a href="#industry" title="{{'FOR_COMPANIES_EXT' | translate}}">
+                {{'FOR_COMPANIES' | translate}}
             </a>
-            <a href="#student" title="Jsem student">
-                Pro studenty
+            <a href="#student" title="{{'FOR_STUDENTS_EXT' | translate}}">
+                {{'FOR_STUDENTS' | translate}}
             </a>
-            <a href="#whoComes" title="Na koho se můžete těšit?">
-                Partneři a sponzoři
+            <a href="#whoComes" title="{{'PARTNERS_AND_SPONSORS_EXT' | translate}}">
+                {{'PARTNERS_AND_SPONSORS' | translate}}
             </a>
-            <a href="#aboutPortal" title="O Portálu spolupráce s průmyslem">
-                SSP
+            <a href="#aboutPortal" title="{{'CWI_EXT' | translate}}">
+                {{'CWI' | translate}}
             </a>
-            <a href="#contact" title="Kontakt">
-                Kontakt
+            <a href="#contact" title="{{'CONTACT' | translate}}">
+                {{'CONTACT' | translate}}
             </a>
         </nav>
     </div>
 </header>
-<div class="content" ng-controller="CompanyCtrl">
-    <section id="info">
-        <h2>O Co@FITu</h2>
-        <p><a class="textbtn" href="http://fit.cvut.cz/" target="_blank">Fakulta informačních technologií</a> pořádá pro
-            své studenty kariérní veletrh Co@FIT (Companies at FIT). Cílem je zprostředkovat studentům kontakt s
-            průmyslem, zejména s dlouhodobými partnery FITu. Kariérní veletrh Co@FIT přináší portál <a
-                class="textbtn" href="https://ssp.test.fit.cvut.cz/" target="_blank">Spolupráce s průmyslem (SSP)</a>
-            společně s firmami již po šesté.</p>
-        <p class="date">15.&thinsp;3.&thinsp;2017</p>
-        <p>V tomto letním semestru 2016/2017 se akce uskuteční 15.3.2017 od 12:30 do 18:00 v prostorách <a class="textbtn"
-                                                                                                  href="http://fit.cvut.cz/"
-                                                                                                  target="_blank">Fakulty
-            informačních technologií</a>. V atriu Nové budovy bude připraven informační kiosek portálu SSP, kde budou v
-            průběhu poskytovány informace o portálu SSP a Co@FITu. Budou zde také rozmístěny kiosky firem s jejich
-            zástupci, kde se mohou studenti dozvědět více o oblastech působení firem, používaných technologií a
-            možnostech spolupráce. Dále si mohou domluvit témata semestrálních a diplomových prací. Závěrem proběhne přednáška <a class="textbtn" href="#partners">zlatých a
-                stříbrných partnerů FIT</a>, jejíž součástí je i soutěž o elektroniku. Studentům
-            se tak nabízí jedinečná šance seznámit se s firmami přímo na akademické půdě. Akce je doporučena pro
-            studenty všech ročníků a oborů FIT. Není nutná registrace, vstup volný.</p>
+<div class="content" ng-controller="MainCtrl">
+    <section id="info" ng-include src="'templates/' + lang + '.info.section.html'">
     </section>
-    <section id="partners" class="companies">
-        <div class="partners-column partners-list">
-            <h2>
-                Partneři FIT
-            </h2>
-
-            <div class="partners gold">
-                <company-preview ng-repeat="partner in partners.gold" company="partner"></company-preview>
-            </div>
-            <div class="partners silver">
-                <company-preview ng-repeat="partner in partners.silver" company="partner"></company-preview>
-            </div>
-            <div class="partners bronze">
-                <company-preview ng-repeat="partner in partners.bronze" company="partner"></company-preview>
-            </div>
-        </div>
-        <div class="sponsors-column sponsors-list">
-            <h2>
-                Sponzoři FIT
-            </h2>
-            <div class="sponsors gold">
-                <company-preview ng-repeat="sponsor in sponsors.gold" company="sponsor"></company-preview>
-            </div>
-            <div class="sponsors silver">
-                <company-preview ng-repeat="sponsor in sponsors.silver" company="sponsor"></company-preview>
-            </div>
-            <div class="sponsors bronze">
-                <company-preview ng-repeat="sponsor in sponsors.bronze" company="sponsor"></company-preview>
-            </div>
-        </div>
-
-        <br>
-
-        <div class="pull-center" style="display: none">
-            <a class="btn" href="#whoComes">Kdo se letos zúčastní?</a>
-        </div>
+    <section ng-include src="'templates/' + lang + '.company-previews.section.html'">
     </section>
 
     <section id="images" ng-controller="SlideShowCtrl">
         <h3>
-            Galerie z minulých ročníků
+            {{'GALLERY' | translate}}
         </h3>
 
         <div id="gallery" class="">
@@ -124,581 +72,29 @@
         </div>
     </section>
 
-
-    <section id="industry">
-        <h2>
-            Pro firmy
-        </h2>
-
-        <p>
-            I pro tento akademický rok pořádáme akci Co@FIT, setkání studentů a firem. Existuje několik
-            způsobů, jak můžete spolupracovat s
-            <a class="textbtn" href="http://fit.cvut.cz/" target="_blank">Fakultou informačních technologií ČVUT</a>.
-            Využijte naší nabídky prezentovat na Co@FITu svoji firmu a oslovit tak studenty s nabídkami spolupráce,
-            stáží, zadání do portálu
-            <a class="textbtn" href="https://ssp.test.fit.cvut.cz/" target="_blank">SSP</a>
-            nebo témata semestrálních a diplomových prací.
-        </p>
-
-        <section id="timetableForIndustry">
-            <h3>
-                Časový plán pro partnery
-            </h3>
-            <ol class="timetable">
-                <li>
-                    <div class="time">
-                        11:00 - 18:00
-                        <div class="location">Atrium Nová budova</div>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Informační kiosek portálu SSP
-                        </h4>
-
-                        <p>
-                            Informace o portálu SSP a organizační kiosek pro firmy a studenty.
-                        </p>
-
-                        <p>
-                            Chcete spolupracovat s našimi studenty a ovlivňovat zaměření jejich studia?
-                            Zastavte se u nás a získejte užitečné informace.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="time">
-                        12:00 - 12:30
-                        <div class="location">Místnost č. 153</div>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Zahájení s děkanem Fakulty informačních technologií ČVUT
-                        </h4>
-
-                        <p>
-                            Slavnostní zahájení s děkanem prof. Ing. Pavlem Tvrdíkem, CSc.
-                            Po celou dobu Co@FITu zde bude připravené občerstvení pro zástupce firem.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="time">
-                        12:30 - 18:00
-                        <div class="location">Atrium Nová budova</div>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Informační kiosky firem
-                        </h4>
-
-                        <p>
-                            Prostor pro setkání a představení firmy studentům.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="time">
-                        16:45 - 18:00
-                        <span class="location">Posluchárna T9:111</span>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Přednáška partnerů FIT
-                        </h4>
-
-                        <p>
-                            Prezentace zlatých partnerů FIT - Profinit, Datamole, KB a Accenture. Slosování FIT-tomboly pro studenty.
-                        </p>
-                    </div>
-                </li>
-                <li style="display: none;">
-                    <div class="time">
-                        16:45 - 17:45
-                        <span class="location">Zasedací místnost 364</span>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Informace o partnerství
-                        </h4>
-
-                        <p>
-                            Máte zájem o užší spolupráci? Chcete nás podpořit? Zakládáme si na dlouhodobých a
-                            oboustranně
-                            přínosných vztazích. Proto jsme pro Vás připravili partnerský program. Přijďte se dozvědět
-                            více!
-                        </p>
-                    </div>
-                </li>
-            </ol>
-        </section>
-        <section id="faqForIndustry" class="faq">
-            <h3>
-                Otázky a odpovědi
-            </h3>
-
-            <div class="expandable-container">
-                <h4>V kolik a kam dorazit?</h4>
-
-                <div class="expandable">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1279.501864413418!2d14.389732264942943!3d50.10493717499541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x8eb9c6f77808fa69!2sFakulta+informa%C4%8Dn%C3%ADch+technologi%C3%AD+%C4%8CVUT+v+Praze!5e0!3m2!1scs!2scz!4v1443540642171"
-                        style="width: 100%; height: 450px; border: 0;" frameborder="0" allowfullscreen></iframe>
-                    <p>
-                        V 11:00 budou připravené stoly v atriu Nové budovy FIT, abyste měli dostatek času si vše
-                        připravit. Po příchodu do budovy se vás ujme náš tým SSP a poradí co a jak. Na tento tým se
-                        můžete během průběhu akce obracet s veškerými požadavky či problémy. Ve 12:30 je oficiální
-                        začátek veletrhu.
-
-                    </p>
-                </div>
-            </div>
-            <div class="expandable-container">
-                <h4>Kde zaparkovat?</h4>
-
-                <div class="expandable">
-                    <p>
-                        Parkování je možné pouze v zónách placeného stání. Parkování v budově FIT bohužel možné není.
-                    </p>
-
-                </div>
-            </div>
-            <div class="expandable-container">
-                <h4>Co bude na místě k dispozici?</h4>
-
-                <p class="expandable">
-                    K dispozici bude připojení k WiFi, případně síťové kabely. Ke stolům budou přivedeny
-                    prodlužovací kabely. Bude přítomen i profesionální fotograf,
-                    který bude celou akci dokumentovat. Fotoreport bude poté k dispozici. Připraveno bude také
-                    občerstvení u atria (místnost č. 153).
-
-                </p></div>
-
-            <div class="expandable-container">
-                <h4>Co připravit na svůj kiosek?</h4>
-
-                <p class="expandable">
-                    Jedná se o stoly kancelářského typu se židlemi. Stoly budou označeny logem a názvem firmy. Můžete
-                    si přinést propagační materiály a roll-up. Doporučujeme mít připravený seznam zadání do portálu SSP
-                    a témata semestrálních a diplomových prací pro studenty. Rozměry stolů pro zlaté partnery/sponzory jsou 216x123 cm, pro stříbrné a bronzové partnery/sponzory 160x80 cm.
-                </p>
-            </div>
-
-            <div class="expandable-container">
-                <h4>Jsem partner a prezentuji, jak se mám připravit?</h4>
-
-                <div class="expandable">
-                    <p>
-                        Jako zlatý/stříbrný partner máte možnost prezentovat svoji firmu během hlavní přednášky. Na prezentaci mají zlatí partneři vyhrazeno 15 minut, stříbrní partneři 10 min.
-                        Forma a obsah prezentace je na Vás. Zde se můžete inspirovat:
-                    </p>
-
-                    <h5>Doporučené body prezentace</h5>
-                    <ul>
-                        <li>Čím se zabýváte</li>
-                        <li>Jaké studenty a absolventy hledáte</li>
-                        <li>Nabídka projektů ke spolupráci</li>
-                        <li>Nabídka stáží</li>
-                        <li>Používané technologie a programovací jazyky</li>
-                        <li>Možnosti vzdělávání a rozvoje, benefity, firemní kultura, kariéra
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="expandable-container">
-                <h4>Kolik je očekáváno studentů?</h4>
-
-                <p class="expandable">
-                    Očekáváme, že Co@FIT navštíví ca 500 studentů.
-                </p>
-            </div>
-            <div class="expandable-container">
-                <h4>Mám zájem se zúčastnit.</h4>
-
-                <p class="expandable">
-                    Možnost účasti na Co@FITu mají pouze partneři a sponzoři FITu.
-                    Více informací naleznete <a class="textbtn" href="https://ssp.fit.cvut.cz/partnership/">
-                    zde</a>. Hlavní referentkou je Lucie Kolomazníková
-                    <a class="textbtn" href="mailto:lucie.kolomaznikova@fit.cvut.cz">(lucie.kolomaznikova@fit.cvut.cz),
-                    </a> která Vám poskytne organizační informace.
-                </p>
-            </div>
-        </section>
-
-        <section id="interestedInNextEvent" style="display: none;">
-            <div>
-                <h3>
-                    Mám zájem zúčastnit se Co@FITu
-                </h3>
-
-                <p>
-                    Možnost účasti na Co@FITu mají pouze partneři a sponzoři FITu.
-                    Více informací naleznete <a class="textbtn" href="https://ssp.fit.cvut.cz/partnership/">
-                    zde</a>. Veletrh se koná každý semestr.
-                </p>
-                <div class="pull-center">
-                    <a class="btn" target="_blank" href="#contact">
-                        Mám zájem
-                    </a>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="aboutFitPartners">
-            <h3>
-                Partnerství a sponzoring
-            </h3>
-
-            <p>
-                Naše fakulta se snaží vychovávat špičkové odborníky přispívající ke zvýšení konkurenceschopnosti
-                a inovačního potenciálu podniků a institucí zejména v ČR. Systematicky také budujeme vědeckovýzkumné
-                kapacity, které nám umožňují předávat studentům nejnovější poznatky, ale i nabízet expertní konzultace
-                a realizovat projekty ve spolupráci s podniky a institucemi.
-            </p>
-
-            <p>
-                Silné a dlouhodobé vazby s průmyslovými partnery patří k historické tradici ČVUT. Na
-                <a class="textbtn" href="http://fit.cvut.cz/" target="_blank">Fakultě informačních technologií</a>
-                se snažíme, aby byla spolupráce aplikační sféry s fakultou oboustranně
-                přínosná. Průmysloví partneři pro nás nejsou jen cílovým působištěm našich absolventů, ale také
-                důležitým hráčem při formování studijních programů a směrování výzkumných aktivit. Abychom zlepšili
-                a systematizovali způsob spolupráce, připravili jsme partnerský program. Tento program
-                umožňuje firmám a institucím jednak ovlivnit zaměření našich studentů a přímo se tak podílet na
-                formování absolventů, ale také úzce spolupracovat na výzkumu a jeho aplikaci. Program má
-                různé formy partnerství rozdělených podle angažovanosti ve spolupráci s fakultou.
-            </p>
-
-            <div class="pull-center">
-                <a class="btn" target="_blank" href="https://ssp.fit.cvut.cz/partnership/ ">
-                    Více info
-                </a>
-            </div>
-        </section>
-
-        <section id="aboutFaculty" style="display: none;">
-            <h3>
-                Informace o FITu
-            </h3>
-            <h4>
-                Obory bakalářského studijního programu (BSP):
-            </h4>
-            <ul>
-                <li>Bezpečnost a informační technologie</li>
-                <li>Informační systémy a management</li>
-                <li>Počítačové inženýrství</li>
-                <li>Teoretická informatika</li>
-                <li>Webové a softwarové inženýrství
-                    <ul>
-                        <li>zaměření Počítačová grafika</li>
-                        <li>zaměření Softwarové inženýrství</li>
-                        <li>zaměření Webové inženýrství</li>
-                    </ul>
-                </li>
-                <li>Znalostní inženýrství</li>
-            </ul>
-            <div class="pull-center">
-                <a href="http://fit.cvut.cz/student/bakalarsky-program" target="_blank" class="btn">Více o bakalářských
-                    oborech</a>
-            </div>
-            <br/>
-            <h4>
-                Obory magisterského studijního programu (MSP)
-            </h4>
-            <ul>
-                <li>Počítačová bezpečnost</li>
-                <li>Počítačové systémy a sítě</li>
-                <li>Návrh a programování vestavných systémů</li>
-                <li>Systémové programování
-                    <ul>
-                        <li>zaměření Systémové programování</li>
-                        <li>zaměření Teoretická informatika</li>
-                    </ul>
-                </li>
-                <li>Webové a softwarové inženýrství
-                    <ul>
-                        <li>zaměření Informační systémy a management</li>
-                        <li>zaměření Softwarové inženýrství</li>
-                        <li>zaměření Webové inženýrství</li>
-                    </ul>
-                </li>
-                <li>Znalostní inženýrství</li>
-            </ul>
-            <div class="pull-center">
-                <a href="http://fit.cvut.cz/student/magistersky-program" target="_blank" class="btn">Více o
-                    magisterských oborech</a>
-            </div>
-        </section>
-
+    <section ng-include src="'templates/' + lang + '.for-companies.section.html'">
     </section>
-
-    <section id="student">
-        <h2>
-            Informace pro studenty
-        </h2>
-
-        <section id="timetableForStudents">
-            <h3>
-                Časový plán pro studenty
-            </h3>
-            <ol class="timetable">
-                <li>
-                    <div class="time">
-                        12:30 - 18:00
-                        <div class="location">Atrium Nová budova</div>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Informační kiosky firem
-                        </h4>
-
-                        <p>
-                            Navštivte informační kiosky partnerů a sponzorů FITu. Koho hledají pro
-                            spolupráci? Jaké projekty a témata mají v portálu SSP? Co požadují a co mohou nabídnout?
-                        </p>
-
-                        <h4>
-                            Informační kiosek portálu SSP
-                        </h4>
-
-                        <p>
-                            Na tomto kiosku získáte informace o portálu Spolupráce s průmyslem. Poradíme Vám ohledně
-                            registrace, spolupráce s firmami a můžete zde podepsat NDA. Po celou dobu veletrhu zde bude probíhat soutěž o externí HDD.
-                        </p>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="time">
-                        13:30 - 14:00
-                        <div class="location">Posluchárna T9:107</div>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Jak spolupracovat s průmyslem
-                        </h4>
-                        <p>
-                            Ing. Pavel Kordík, Ph.D. promluví o tom, jak probíhá spolupráce s firmami přes portál SSP.
-                        </p>
-                    </div>
-                </li>
-
-                <li style="display:none;">
-                    <div class="time">
-                        12:40 - 14:00
-                        <div class="location">Posluchárna T9:107</div>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Vytvoř si chatbota
-                        </h4>
-
-                        <p>
-                            Přijďte si vytvořit vlastního chatbota pro Messenger a Telegram, potřebujete k tomu pouze
-                            základní znalost Pythonu a náš framework. Přijďte s vlastním nápadem, nebo se připojte
-                            k vytváření chatbota, který vám díky API
-                            <a class="textbtn" href="http://obedar.fit.cvut.cz" target="_blank">Obědář</a>
-                            doporučí, kam jít na oběd.
-                        </p>
-                        <p>
-                            Registrovat
-                            <a href="https://goo.gl/forms/2J6PCgwEmBsXZ8GF3"
-                               class="textbtn" style="font-weight: bold">zde</a>
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div class="time">
-                        16:45 - 18:00
-                        <div class="location">Posluchárna T9:111</div>
-                    </div>
-                    <div class="info">
-                        <h4>
-                            Přednáška partnerů FIT
-                        </h4>
-
-                        <p>
-                            Nenechte si ujít exkluzivní prezentace zástupců našich zlatých
-                            partnerů FIT - Profinit, Datamole, Komerční banka a Accenture.
-                        </p>
-                        <h4>
-                            FIT-tombola
-                        </h4>
-
-                        <p>
-                            Chceš vyhrát elektroniku sponzorovanou našimi partnery? Každý student FITu, který přijde na přednášku partnerů, obdrží lístek do FIT-tomboly.
-                            Během přednášky bude probíhat slosování. Ve hře je 5ks externích HDD.
-                        </p>
-                    </div>
-                </li>
-            </ol>
-        </section>
-
-        <section class="events" style="display:none;">
-            <h3>
-                FIT-tombola
-            </h3>
-
-            <p>
-                Chceš vyhrát elektroniku sponzorovanou našimi partnery? Každý student FITu, který přijde na
-                <a class="textbtn" href="#timetableForStudents">přednášku partnerů</a>,
-                obdrží při vstupu do posluchárny lístek do tomboly.
-                V průběhu přednášky bude probíhat slosování.
-
-            </p>
-
-
-        </section>
-
-
+    <section ng-include src="'templates/' + lang + '.for-students.section.html'">
     </section>
-    <section id="whoComes">
-        <h2 style="display: inline-block">
-            Partneři
-        </h2>
-        <div class="comming-partners">
-            <company-detail company="partner" ng-repeat="partner in partners.gold"></company-detail>
-            <company-detail company="partner" ng-repeat="partner in partners.silver"></company-detail>
-            <company-detail company="partner" ng-repeat="partner in partners.bronze"></company-detail>
-        </div>
-
-        <h2 style="display: inline-block">
-            Sponzoři
-        </h2>
-
-        <div class="comming-sponsors">
-            <company-detail company="sponsor" ng-repeat="sponsor in sponsors.gold"></company-detail>
-            <company-detail company="sponsor" ng-repeat="sponsor in sponsors.silver"></company-detail>
-            <company-detail company="sponsor" ng-repeat="sponsor in sponsors.bronze"></company-detail>
-        </div>
+    <section ng-include src="'templates/' + lang + '.company-details.section.html'">
     </section>
-    <section id="aboutPortal">
-        <h2>
-            Portál Spolupráce s průmyslem
-        </h2>
-
-        <p>
-            Cílem portálu
-            <a class="textbtn" href="https://ssp.test.fit.cvut.cz/" target="_blank">Spolupráce s průmyslem (SSP)</a>
-            je umožnit efektivní a všestranně prospěšnou spolupráci
-            průmyslových partnerů se studenty
-            <a class="textbtn" href="http://fit.cvut.cz/" target="_blank">Fakulty informačních technologií ČVUT</a>.
-
-        </p>
-
-        <p>
-            Mnoho studentů během studia pracuje, čímž získává potřebnou praxi. Stinnou stránkou je, že jejich práce
-            většinou není nijak provázána s výukou, přestože se mnohdy vyučovaných předmětů úzce týká.
-            <a class="textbtn" href="https://ssp.test.fit.cvut.cz/" target="_blank">SSP</a> umožňuje realizovat
-            projektovou výuku a diplomové práce ve spolupráci s firmami tak, aby byly výstupy
-            přímo použitelné zadávající firmou a zároveň započítané do souvisejících předmětů ve škole. Díky našemu
-            portálu <a class="textbtn" href="https://ssp.test.fit.cvut.cz/" target="_blank">SSP</a>
-            se mohou studenti podílet již při studiu na zajímavých projektech z praxe, rozvíjet svoje
-            dovednosti a postupně si osvojovat technologie a postupy využívané v praxi. Firmy si mohou na univerzitě
-            najít podporu při řešení složitých problémů a formovat své budoucí zaměstnance.
-        </p>
-
-        <p>
-            Rádi bychom tak podporovali zajímavé projekty a vytvořili příjemné prostředí, ve kterém budeme společně
-            pracovat na tom, aby se nejnovější poznatky proměnily v konkrétní inovace. Fakultě dává tento systém silnou
-            zpětnou vazbu, které využívá ke zlepšování praktických částí předmětů.
-        </p>
-
-        <p>
-            Mezi výhody, které SSP přináší průmyslovému partnerovi (firmě), patří zejména možnost spolupráce s mladými
-            talenty a formování jejich budoucího vývoje a zaměření, využívání zkušeností univerzitních expertů a učitelů
-            při řešení úloh, vývoj a testování, zadávání semestrálních a diplomových prací. Studentům naopak
-            zprostředkuje kontakt a spolupráci s firmami, možnost získat praxi v oboru, účastnit se zajímavých
-            projektů a splnit si zároveň úlohy v rámci výuky.
-
-        </p>
-
-        <div class="pull-center">
-            <a href="https://ssp.test.fit.cvut.cz/web/ssp-sandbox/form" target="_blank" class="btn">Přejít do SSP</a>
-        </div>
+    <section ng-include src="'templates/' + lang + '.about-ssp.section.html'">
     </section>
-
-    <section id="contact">
-        <h2>
-            Kontakty
-        </h2>
-
-        <div class="contacts">
-            <div class="contact">
-                <div>
-                    <span class="role">
-                        Referentka
-                    </span>
-
-                    <h3>
-                        Ing. Lucie Kolomazníková
-                    </h3>
-
-                    <div>
-                        <strong>Email:</strong>
-                        <a href="mailto:lucie.kolomaznikova@fit.cvut.cz">lucie.kolomaznikova@fit.cvut.cz</a>
-                    </div>
-                    <div>
-                        <strong>Telefon:</strong>
-                        +420 224 359 834
-                    </div>
-                </div>
-            </div>
-            <div class="contact">
-                <div>
-                    <span class="role">
-                        Proděkan pro rozvoj
-                    </span>
-
-                    <h3>
-                        Ing. Pavel Kordík, Ph.D.
-                    </h3>
-
-                    <div>
-                        <strong>Email:</strong>
-                        <a href="mailto:pavel.kordik@fit.cvut.cz"> pavel.kordik@fit.cvut.cz</a>
-                    </div>
-                    <div>
-                        <strong>Telefon:</strong>
-                        +420 224 359 815
-                    </div>
-                </div>
-            </div>
-            <div class="contact address">
-                <div>
-                <span class="role">
-                    Adresa
-                </span>
-
-                    <h3>
-                        Fakulta informačních technologií
-                    </h3>
-
-                    <div>
-                        České vysoké učení technické v Praze
-                    </div>
-                    <div>
-                        Thákurova 9
-                    </div>
-                    <div>
-                        160 00, Praha 6 - Dejvice
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section ng-include src="'templates/' + lang + '.contacts.section.html'">
     </section>
 </div>
 <footer>
     <div class="cells">
-        <h2>Kde nás najdete?</h2>
+        <h2>{{'FOLLOW_US' | translate}}</h2>
         <nav class="row links">
-            <a class="cell" href="https://ssp.test.fit.cvut.cz/" target="_blank" title="Portál Spolupráce s průmyslem">
+            <a class="cell" href="https://ssp.test.fit.cvut.cz/" target="_blank" title="{{'COOPERATION_WITH_INDUSTRY_PORTAL' | translate}}">
                 <img alt="" src="img/cell-light.png"/><span class="ico ssp"/></a>
-            <a class="cell" href="https://twitter.com/sspfit" target="_blank" title="Náš Twitter">
+            <a class="cell" href="https://twitter.com/sspfit" target="_blank" title="{{'OUR_TWITTER' | translate}}">
                 <img alt="" src="img/cell-light.png"/><span class="ico twitter"/></a>
-            <a class="cell" href="https://www.facebook.com/fitssp" target="_blank" title="Náš Facebook">
+            <a class="cell" href="https://www.facebook.com/fitssp" target="_blank" title="{{'OUR_FACEBOOK' | translate}}">
                 <img alt="" src="img/cell-light.png"/><span class="ico facebook"/></a>
         </nav>
-        <div id="copyright">© 2015 ČESKÉ VYSOKÉ UČENÍ TECHNICKÉ V PRAZE</div>
+        <div id="copyright">© 2015 {{'CZECH_TECHNICAL_UNIVERSITY' | translate}}</div>
     </div>
 </footer>
 </body>

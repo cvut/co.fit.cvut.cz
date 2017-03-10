@@ -1,0 +1,20 @@
+<section id="whoComes">
+    <h2 style="display: inline-block">
+        Partneři
+    </h2>
+    <div class="comming-partners">
+        <company-detail company="partner" ng-repeat="partner in partners.gold"></company-detail>
+        <company-detail company="partner" ng-repeat="partner in partners.silver"></company-detail>
+        <company-detail company="partner" ng-repeat="partner in partners.bronze"></company-detail>
+    </div>
+
+    <h2 style="display: inline-block">
+        Sponzoři
+    </h2>
+
+    <div class="comming-sponsors">
+        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.gold"></company-detail>
+        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.silver"></company-detail>
+        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.bronze"></company-detail>
+    </div>
+</section>

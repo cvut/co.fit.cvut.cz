@@ -35,14 +35,7 @@
             replace: true,
             transclude: false,
             scope: {company: '='},
-            template: '<div class="company expandable-container follow"><div class="logo">'
-            + '<h3 ng-show="!company.logo">{{company.name}}</h3>'
-            + '<img ng-show="company.logo" src="img/partners/{{company.logo}}"/>'
-            + '</div><div class="description">{{company.description}}' +
-            '<button class="expansion-controller" style="font-size: 35px" ng-click="showMore = true;" ng-show="!showMore">...</button>' +
-            '<div ng-show="showMore"><div ng-bind-html="extendedDescription"></div>' +
-            '<div class="pull-right"><a ng-href="company.page" target="_blank" class="btn pull-right" title="Přejít na stránky společnosti">Stránky společnosti</a></div>' +
-            '<button class="expansion-controller" ng-click="showMore = false">{{"SHOW_LESS"}}</button></div></div></div>',
+            templateUrl: 'templates/company-detail.tmpl.html',
             link: function (scope, elem, attrs) {
                 scope.extendedDescription = scope.company.extendedDescription;
             }
