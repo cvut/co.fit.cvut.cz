@@ -32,7 +32,7 @@
     angular.module('app').directive('companyDetail', function ($sce) {
         return {
             restrict: 'E',
-            replace: true,
+            replace: false,
             transclude: false,
             scope: {company: '='},
             templateUrl: 'templates/company-detail.tmpl.html',

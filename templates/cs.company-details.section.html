@@ -2,19 +2,19 @@
     <h2 style="display: inline-block">
         Partneři
     </h2>
-    <div class="comming-partners">
-        <company-detail company="partner" ng-repeat="partner in partners.gold"></company-detail>
-        <company-detail company="partner" ng-repeat="partner in partners.silver"></company-detail>
-        <company-detail company="partner" ng-repeat="partner in partners.bronze"></company-detail>
-    </div>
+    <ul class="comming-partners preview-list">
+        <company-detail company="partner" ng-repeat="partner in partners.gold" class="gold"></company-detail>
+        <company-detail company="partner" ng-repeat="partner in partners.silver" class="silver"></company-detail>
+        <company-detail company="partner" ng-repeat="partner in partners.bronze" class="bronze"></company-detail>
+    </ul>
 
     <h2 style="display: inline-block">
         Sponzoři
     </h2>
 
-    <div class="comming-sponsors">
-        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.gold"></company-detail>
-        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.silver"></company-detail>
-        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.bronze"></company-detail>
-    </div>
+    <ul class="comming-sponsors preview-list">
+        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.gold" class="gold"></company-detail>
+        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.silver" class="silver"></company-detail>
+        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.bronze" class="bronze"></company-detail>
+    </ul>
 </section>
