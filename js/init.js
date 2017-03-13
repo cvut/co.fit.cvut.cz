@@ -662,17 +662,6 @@ function initPartners() {
         },
 
         {
-            name: "Cleverbee",
-            logo: null,
-            type: "foreign",
-            page: "http://www.cleverbee.com/",
-            description: "<p>Cleverbee solutions je česko-švýcarská sw společnost, která se orientuje na vývoj J2EE aplikací. Zaměřuje se na vývoj sw na zakázku a systémovou integraci. Nabízí sw řešení v oblasti portálových řešení - Liferay portál, řešení pro správu dokumentů - Alfresco a BI systém Pentaho. Nabízíme pozici Java developer zaměřenou jak na vývoj frontendových aplikací (JavaScript, Jquery, HTML, CSS, minoritně Java), tak i zaměření na vývoj backendových aplikací (Spring, Hibernate, EJB). </p>"
-            + "<div class='expandable'><p>Vývojář spolupracuje na návrhu, implementaci, testu a údržbě v rámci SW projektů. Projektová orientace skýtá možnost různých rolí v rámci vývojového cyklu pro rozmanité technologické platformy. Nabízíme práci ve středně velkém týmu, možnost implementace v širokém spektru programovacích jazyků pod různými operačními systémy a databázemi. Myslíme si, že máme přátelské a otevřené prostředí, spoustu chytrých lidí, kteří rádi pomohou druhému. Nabízíme možnosti dalšího odborného vzdělávání se a posunu na seniornější pozici. Máte zájem pracovat jako JAVA Developer? Chcete pracovat s nejnovějšími technologiemi? Už vás nebaví ty jasně vymezené mantinely Vašich pravomocí, které jsou prostě dané a přes které nejede vlak? Máte nápady jak dělat věci jinak a chcete mít možnost a prostor to zkusit a tím i celou firmu třeba posunout někam jinam? Připojte se k nám. :-)</p></div>",
-            upper_skills: [],
-            visit: false
-        },
-
-        {
             name: "Mall.cz",
             logo: "mall.png",
             type: "foreign",
@@ -1247,6 +1236,18 @@ function initPartners() {
             description: "<p>Commerz Systems is a 100% IT daughter company of Commerzbank AG in Germany and employing more than 50 000 people. In our Czech offices located in Prague City Center, we employ more than 300 employees from 35 different countries. We are successful in providing a wide range of quality IT solutions that we deliver to Commerzbank and we are expecting further growth by providing new services and projects to help creating the future of digitalization.</p>" +
             "<div class='expandable'><p>We are looking for an open minded and proactive team player, who’s passion is communication and software development. You can participate in software design, development, and all technical aspects of a project’s lifecycle. Cooperation with other developers and business is very frequent.</p>" +
             "<p>We can offer friendly multicultural environment, a competitive salary, the possibility of professional training and growth, interesting bonus systém, location in Prague City Center, being part of challenging projects or relax corner where you can recharge your batteries.</p></div>",
+            upper_skills: [],
+            visit: false,
+            sponsor: true
+        },
+
+        {
+            name: "Cleverbee",
+            logo: "cleverbee.gif",
+            type: "bronze",
+            page: "http://www.cleverbee.com/jobs",
+            description: "<p>Česko-švýcarská společnost nabízí SW řešení v oblastech správy dokumentů (DMS Alfresco), portálová řešení (Liferay), Business Intelligence system Pentaho. Zabýváme se vývojem řešení klientům na míru a systémovou integrací. Sídlíme v Praze a Hradci Králové, jsme středně veliká společnost. Zabýváme se projekty ze sektoru státní správy a finančních institucí. Jedná se o projekty zakázkového vývoje SW a systémové integrace, řešení (aplikace) na platformě Javy.</p>"
+            + "<div class='expandable'><p>Vyvíjíme aplikace na platformě Javy. Nabízíme uplatnění jako Java programátor – juniorní (absolventské) pozice a pozice různé úrovně seniority. U nás máte možnosti růstu na seniorní pozici či posunu do jiné oblasti, např. z pozice programátor na senior programátor nebo na pozici analytika, architekta nebo technického team leadera. Můžete být přímo u vývoje a Váš názor má pro nás velkou cenu. Nabízíme home office, práci s moderními technologiemi, týden dovolené navíc, přátelské, neformální prostředí plné spousty chytrých lidí.</p></div>",
             upper_skills: [],
             visit: false,
             sponsor: true
