@@ -31,10 +31,13 @@
     <script src="js/directives.js"></script>
 <body ng-app="app">
 <header>
-    <h1>Kariérní veletrh<span>Companies at FIT</span>2017</h1>
+    <h1>Kariérní veletrh<span>Companies at FIT</span><span>2017</span></h1>
 
     <div class="main-nav">
         <nav>
+            <a href="index.html" title="">
+                <img src="img/logo.svg"/>
+            </a>
             <a href="#info" title="{{'ABOUT_ACTION_EXT' | translate}}">
                 {{'ABOUT_ACTION' | translate}}
             </a>
@@ -53,6 +56,7 @@
             <a href="#contact" title="{{'CONTACT' | translate}}">
                 {{'CONTACT' | translate}}
             </a>
+            <a class="lang" href="index.en.html" title="English version">En</a>
         </nav>
     </div>
 </header>

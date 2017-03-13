@@ -149,7 +149,7 @@ body > header {
 /*}*/
 
 body > header {
-    min-height: 80vh;
+    min-height: 75vh;
     position: relative;
 
     background-image: url("../img/fa.jpg");
@@ -160,13 +160,19 @@ body > header {
 }
 
 body > header > h1 {
-    color: black;
+    color: #373737;
+    /*text-shadow: 1px 1px 1px white;*/
     font-size: 3rem;
     text-align: left;
     margin-left: 15%;
+}
 
-    position: absolute;
-    top: 30%;
+@media (min-width: 1024px) {
+    body > header > h1 {
+        position: absolute;
+        bottom: 30%;
+
+    }
 }
 
 body > header > h1 > span {
@@ -187,6 +193,10 @@ body > header .main-nav {
     border-color: #64615c;
     border-bottom-style: solid;
     border-width: 5px;
+}
+
+body > header .main-nav img {
+    max-width: 5rem;
 }
 
 body > header .main-nav > nav {

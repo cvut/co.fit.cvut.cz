@@ -78,16 +78,6 @@ body > header nav.links {
         padding-bottom: 50%;
     }
 
-    body > header > .cells > .row {
-        display: none;
-    }
-
-    body > header > .cells > nav.row {
-        display: block;
-        position: absolute;
-        width: 100%;
-    }
-
     body > header nav.navigation {
         left: 0;
     }
