@@ -110,94 +110,97 @@
             Otázky a odpovědi
         </h3>
 
-        <div class="expandable-container">
-            <h4 class="expansion-controller" ng-click="faqShown=0">V kolik a kam dorazit?</h4>
+        <ul class="preview-list">
+            <li class="expandable-container">
+                <h4 class="expansion-controller" ng-click="faqShown=0">V kolik a kam dorazit?</h4>
 
-            <div ng-show="faqShown==0">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1279.501864413418!2d14.389732264942943!3d50.10493717499541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x8eb9c6f77808fa69!2sFakulta+informa%C4%8Dn%C3%ADch+technologi%C3%AD+%C4%8CVUT+v+Praze!5e0!3m2!1scs!2scz!4v1443540642171"
-                    style="width: 100%; height: 450px; border: 0;" frameborder="0" allowfullscreen></iframe>
-                <p>
-                    V 11:00 budou připravené stoly v atriu Nové budovy FIT, abyste měli dostatek času si vše
-                    připravit. Po příchodu do budovy se vás ujme náš tým SSP a poradí co a jak. Na tento tým se
-                    můžete během průběhu akce obracet s veškerými požadavky či problémy. Ve 12:30 je oficiální
-                    začátek veletrhu.
+                <div ng-show="faqShown==0">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1279.501864413418!2d14.389732264942943!3d50.10493717499541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x8eb9c6f77808fa69!2sFakulta+informa%C4%8Dn%C3%ADch+technologi%C3%AD+%C4%8CVUT+v+Praze!5e0!3m2!1scs!2scz!4v1443540642171"
+                        style="width: 100%; height: 450px; border: 0;" frameborder="0" allowfullscreen></iframe>
+                    <p>
+                        V 11:00 budou připravené stoly v atriu Nové budovy FIT, abyste měli dostatek času si vše
+                        připravit. Po příchodu do budovy se vás ujme náš tým SSP a poradí co a jak. Na tento tým se
+                        můžete během průběhu akce obracet s veškerými požadavky či problémy. Ve 12:30 je oficiální
+                        začátek veletrhu.
 
+                    </p>
+                </div>
+            </li>
+            <li class="expandable-container">
+                <h4 class="expansion-controller" ng-click="faqShown=1">Kde zaparkovat?</h4>
+
+                <div ng-show="faqShown==1">
+                    <p>
+                        Parkování je možné pouze v zónách placeného stání. Parkování v budově FIT bohužel možné není.
+                    </p>
+
+                </div>
+            </li>
+            <li class="expandable-container">
+                <h4 class="expansion-controller" ng-click="faqShown=2">Co bude na místě k dispozici?</h4>
+
+                <p ng-show="faqShown==2">
+                    K dispozici bude připojení k WiFi, případně síťové kabely. Ke stolům budou přivedeny
+                    prodlužovací kabely. Bude přítomen i profesionální fotograf,
+                    který bude celou akci dokumentovat. Fotoreport bude poté k dispozici. Připraveno bude také
+                    občerstvení u atria (místnost č. 153).
+
+                </p></li>
+
+            <li class="expandable-container">
+                <h4 class="expansion-controller" ng-click="faqShown=3">Co připravit na svůj kiosek?</h4>
+
+                <p ng-show="faqShown==3">
+                    Jedná se o stoly kancelářského typu se židlemi. Stoly budou označeny logem a názvem firmy. Můžete
+                    si přinést propagační materiály a roll-up. Doporučujeme mít připravený seznam zadání do portálu SSP
+                    a témata semestrálních a diplomových prací pro studenty. Rozměry stolů pro zlaté partnery/sponzory
+                    jsou 216x123 cm, pro stříbrné a bronzové partnery/sponzory 160x80 cm.
                 </p>
-            </div>
-        </div>
-        <div class="expandable-container">
-            <h4 class="expansion-controller" ng-click="faqShown=1">Kde zaparkovat?</h4>
+            </li>
 
-            <div ng-show="faqShown==1">
-                <p>
-                    Parkování je možné pouze v zónách placeného stání. Parkování v budově FIT bohužel možné není.
+            <li class="expandable-container">
+                <h4 class="expansion-controller" ng-click="faqShown=4">Jsem partner a prezentuji, jak se mám
+                    připravit?</h4>
+
+                <div ng-show="faqShown==4">
+                    <p>
+                        Jako zlatý/stříbrný partner máte možnost prezentovat svoji firmu během hlavní přednášky. Na
+                        prezentaci mají zlatí partneři vyhrazeno 15 minut, stříbrní partneři 10 min.
+                        Forma a obsah prezentace je na Vás. Zde se můžete inspirovat:
+                    </p>
+
+                    <h5>Doporučené body prezentace</h5>
+                    <ul>
+                        <li>Čím se zabýváte</li>
+                        <li>Jaké studenty a absolventy hledáte</li>
+                        <li>Nabídka projektů ke spolupráci</li>
+                        <li>Nabídka stáží</li>
+                        <li>Používané technologie a programovací jazyky</li>
+                        <li>Možnosti vzdělávání a rozvoje, benefity, firemní kultura, kariéra
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="expandable-container">
+                <h4 class="expansion-controller" ng-click="faqShown=5">Kolik je očekáváno studentů?</h4>
+
+                <p ng-show="faqShown==5">
+                    Očekáváme, že Co@FIT navštíví ca 500 studentů.
                 </p>
+            </li>
+            <li class="expandable-container">
+                <h4 class="expansion-controller" ng-click="faqShown=6">Mám zájem se zúčastnit.</h4>
 
-            </div>
-        </div>
-        <div class="expandable-container">
-            <h4 class="expansion-controller" ng-click="faqShown=2">Co bude na místě k dispozici?</h4>
-
-            <p ng-show="faqShown==2">
-                K dispozici bude připojení k WiFi, případně síťové kabely. Ke stolům budou přivedeny
-                prodlužovací kabely. Bude přítomen i profesionální fotograf,
-                který bude celou akci dokumentovat. Fotoreport bude poté k dispozici. Připraveno bude také
-                občerstvení u atria (místnost č. 153).
-
-            </p></div>
-
-        <div class="expandable-container">
-            <h4 class="expansion-controller" ng-click="faqShown=3">Co připravit na svůj kiosek?</h4>
-
-            <p ng-show="faqShown==3">
-                Jedná se o stoly kancelářského typu se židlemi. Stoly budou označeny logem a názvem firmy. Můžete
-                si přinést propagační materiály a roll-up. Doporučujeme mít připravený seznam zadání do portálu SSP
-                a témata semestrálních a diplomových prací pro studenty. Rozměry stolů pro zlaté partnery/sponzory
-                jsou 216x123 cm, pro stříbrné a bronzové partnery/sponzory 160x80 cm.
-            </p>
-        </div>
-
-        <div class="expandable-container">
-            <h4 class="expansion-controller" ng-click="faqShown=4">Jsem partner a prezentuji, jak se mám připravit?</h4>
-
-            <div ng-show="faqShown==4">
-                <p>
-                    Jako zlatý/stříbrný partner máte možnost prezentovat svoji firmu během hlavní přednášky. Na
-                    prezentaci mají zlatí partneři vyhrazeno 15 minut, stříbrní partneři 10 min.
-                    Forma a obsah prezentace je na Vás. Zde se můžete inspirovat:
+                <p ng-show="faqShown==6">
+                    Možnost účasti na Co@FITu mají pouze partneři a sponzoři FITu.
+                    Více informací naleznete <a class="textbtn" href="https://ssp.fit.cvut.cz/partnership/">
+                    zde</a>. Hlavní referentkou je Lucie Kolomazníková
+                    <a class="textbtn" href="mailto:lucie.kolomaznikova@fit.cvut.cz">(lucie.kolomaznikova@fit.cvut.cz),
+                    </a> která Vám poskytne organizační informace.
                 </p>
-
-                <h5>Doporučené body prezentace</h5>
-                <ul>
-                    <li>Čím se zabýváte</li>
-                    <li>Jaké studenty a absolventy hledáte</li>
-                    <li>Nabídka projektů ke spolupráci</li>
-                    <li>Nabídka stáží</li>
-                    <li>Používané technologie a programovací jazyky</li>
-                    <li>Možnosti vzdělávání a rozvoje, benefity, firemní kultura, kariéra
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="expandable-container">
-            <h4 class="expansion-controller" ng-click="faqShown=5">Kolik je očekáváno studentů?</h4>
-
-            <p ng-show="faqShown==5">
-                Očekáváme, že Co@FIT navštíví ca 500 studentů.
-            </p>
-        </div>
-        <div class="expandable-container">
-            <h4 class="expansion-controller" ng-click="faqShown=6">Mám zájem se zúčastnit.</h4>
-
-            <p ng-show="faqShown==6">
-                Možnost účasti na Co@FITu mají pouze partneři a sponzoři FITu.
-                Více informací naleznete <a class="textbtn" href="https://ssp.fit.cvut.cz/partnership/">
-                zde</a>. Hlavní referentkou je Lucie Kolomazníková
-                <a class="textbtn" href="mailto:lucie.kolomaznikova@fit.cvut.cz">(lucie.kolomaznikova@fit.cvut.cz),
-                </a> která Vám poskytne organizační informace.
-            </p>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <section id="interestedInNextEvent" style="display: none;">

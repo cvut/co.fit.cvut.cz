@@ -28,7 +28,7 @@ ul ul {
     margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     color: #64615c;
 }
 
@@ -44,6 +44,11 @@ h3 {
 
 h4 {
     font-size: 140%;
+    margin: 0;
+}
+
+h5 {
+    font-size: 105%;
     margin: 0;
 }
 
@@ -576,6 +581,7 @@ body > .content p {
     background: none;
     color: #818181;
     font-size: 16px;
+    display: block;
 }
 
 .company .logo:hover .btn {
@@ -587,10 +593,37 @@ body > .content p {
     margin: 0;
 }
 
-.faq .expandable-container,
-.company.expandable-container {
-    background: #f4f4f4;
-    margin-bottom: 10px;
+.preview-list {
+    margin: 0;
+    padding: 0;
+}
+
+.preview-list > li {
+    display: block;
+    margin: 0;
+    padding: 10px 30px;
+    border-left: 4px solid #b5b5b5;
+}
+
+.preview-list li:hover {
+    border-color: #f9bc3d;
+    background-color: #f4f4f4;
+}
+
+.faq .preview-list > li {
+    padding: 0;
+}
+
+.faq .preview-list li > * {
+    padding: 0 20px 10px;
+    margin: 0;
+}
+.faq .preview-list > li > h4 {
+    padding-top: 10px;
+}
+
+.faq .preview-list > li p {
+    margin: 0;
 }
 
 .expansion-controller {
