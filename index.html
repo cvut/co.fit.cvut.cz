@@ -18,20 +18,30 @@
     <link rel="stylesheet" href="css/custom-desk.css" media="(min-width: 800px)"/>
     <link rel="stylesheet" href="css/custom-mob.css" media="(max-width: 799px)"/>
     <link rel="stylesheet" href="css/slideme.css"/>
+
     <script src="js/angular.min.js"></script>
     <script src="js/angular-sanitize.js"></script>
     <script src="js/angular-translate.min.js"></script>
     <script src="js/angular-translate-loader-static-files.js"></script>
     <script src="js/angular-translate-storage-cookie.js"></script>
-    <script src="js/angular-cookies.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/angular-cookies.js"></script>
     <script src="js/sponsor.service.js"></script>
     <script src="js/partner.service.js"></script>
     <script src="js/schedule.service.js"></script>
     <script src="js/directives.js"></script>
 <body ng-app="app">
-<header>
+<header ng-controller="HeaderCtrl">
     <h1>Kariérní veletrh<span>Companies at FIT</span><span>2017</span></h1>
+
+    <div class="lang-box">
+        <button ng-click="setLanguage('en')" ng-show="lang=='cs'">
+            English
+        </button>
+        <button ng-click="setLanguage('cs')" ng-show="lang=='en'">
+            Česky
+        </button>
+    </div>
 
     <div class="main-nav">
         <nav>
@@ -56,46 +66,38 @@
             <a href="#contact" title="{{'CONTACT' | translate}}">
                 {{'CONTACT' | translate}}
             </a>
-            <a class="lang" href="index.en.html" title="English version">En</a>
         </nav>
     </div>
 </header>
 <div class="content" ng-controller="MainCtrl">
-    <section id="info" ng-include src="'templates/' + lang + '.info.section.html'">
+    <section id="info" ng-include src="'templates/' + lang + '/info.section.html'">
     </section>
-    <section ng-include src="'templates/' + lang + '.company-previews.section.html'">
+    <section id="companies" ng-include src="'templates/company-previews.section.html'">
     </section>
-
-    <section id="images" ng-controller="SlideShowCtrl">
-        <h3>
-            {{'GALLERY' | translate}}
-        </h3>
-
-        <div id="gallery" class="">
-            <slideshow slides="slides" slides-folder="{{slidesFolder}}"></slideshow>
-        </div>
+    <section id="gallery" ng-include src="'templates/gallery.section.html'">
     </section>
-
-    <section ng-include src="'templates/' + lang + '.for-companies.section.html'">
+    <section id="industry" ng-include src="'templates/' + lang + '/for-companies.section.html'">
     </section>
-    <section ng-include src="'templates/' + lang + '.for-students.section.html'">
+    <section id="student" ng-include src="'templates/' + lang + '/for-students.section.html'">
     </section>
-    <section ng-include src="'templates/' + lang + '.company-details.section.html'">
+    <section id="whoComes" ng-include src="'templates/company-details.section.html'">
     </section>
-    <section ng-include src="'templates/' + lang + '.about-ssp.section.html'">
+    <section id="aboutPortal" ng-include src="'templates/' + lang + '/about-ssp.section.html'">
     </section>
-    <section ng-include src="'templates/' + lang + '.contacts.section.html'">
+    <section id="contact" ng-include src="'templates/' + lang + '/contacts.section.html'">
     </section>
 </div>
 <footer>
     <div class="cells">
         <h2>{{'FOLLOW_US' | translate}}</h2>
         <nav class="row links">
-            <a class="cell" href="https://ssp.test.fit.cvut.cz/" target="_blank" title="{{'COOPERATION_WITH_INDUSTRY_PORTAL' | translate}}">
+            <a class="cell" href="https://ssp.test.fit.cvut.cz/" target="_blank"
+               title="{{'COOPERATION_WITH_INDUSTRY_PORTAL' | translate}}">
                 <img alt="" src="img/cell-light.png"/><span class="ico ssp"/></a>
             <a class="cell" href="https://twitter.com/sspfit" target="_blank" title="{{'OUR_TWITTER' | translate}}">
                 <img alt="" src="img/cell-light.png"/><span class="ico twitter"/></a>
-            <a class="cell" href="https://www.facebook.com/fitssp" target="_blank" title="{{'OUR_FACEBOOK' | translate}}">
+            <a class="cell" href="https://www.facebook.com/fitssp" target="_blank"
+               title="{{'OUR_FACEBOOK' | translate}}">
                 <img alt="" src="img/cell-light.png"/><span class="ico facebook"/></a>
         </nav>
         <div id="copyright">© 2015 {{'CZECH_TECHNICAL_UNIVERSITY' | translate}}</div>

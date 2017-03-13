@@ -1,7 +1,7 @@
-<section id="partners" class="companies">
+<div class="companies">
     <div class="partners-column partners-list">
         <h2>
-            Partneři FIT
+            {{'FIT_PARTNERS' | translate}}
         </h2>
 
         <div class="partners gold">
@@ -16,7 +16,7 @@
     </div>
     <div class="sponsors-column sponsors-list">
         <h2>
-            Sponzoři FIT
+            {{'FIT_SPONSORS' | translate}}
         </h2>
         <div class="sponsors gold">
             <company-preview ng-repeat="sponsor in sponsors.gold" company="sponsor"></company-preview>
@@ -28,10 +28,4 @@
             <company-preview ng-repeat="sponsor in sponsors.bronze" company="sponsor"></company-preview>
         </div>
     </div>
-
-    <br>
-
-    <div class="pull-center" style="display: none">
-        <a class="btn" href="#whoComes">Kdo se letos zúčastní?</a>
-    </div>
-</section>
+</div>

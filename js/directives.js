@@ -5,9 +5,7 @@
             replace: true,
             transclude: false,
             scope: {company: '='},
-            template: '<div class="partner"><div class="border"><div class="logo">' +
-            '<a ng-href="{{company.page}}" target="_blank"><img alt="" src="img/partners/{{company.logo}}"/></a>' +
-            '</div><div class="info"><span class="status">{{status}} {{partnerSponsor}}</span></div></div></div>',
+            templateUrl: 'templates/company-preview.tmpl.html',
             link: function (scope, elem, attrs) {
                 if (scope.company.sponsor) {
                     scope.partnerSponsor = 'SPONSOR';
@@ -32,7 +30,7 @@
     angular.module('app').directive('companyDetail', function ($sce) {
         return {
             restrict: 'E',
-            replace: false,
+            replace: true,
             transclude: false,
             scope: {company: '='},
             templateUrl: 'templates/company-detail.tmpl.html',
@@ -48,8 +46,7 @@
             replace: true,
             transclude: false,
             scope: {slides: '='},
-            template: '<div class="slideme_container"><button class="arrow prev" ng-click="prevSlide()">{{"PREV_SLIDE"}}</button><button class="arrow next" ng-click="nextSlide()">{{"NEXT_SLIDE"}}</button>' +
-            '<ul class="slideme slideme-fade" style="height: 900px;"><li ng-class="{current: slide==currentSlide}" ng-repeat="slide in slides"><img src="{{slidesFolder}}/{{slide.name}}"/></li></ul></div>',
+            templateUrl: 'templates/slideshow.tmpl.html',
             link: function (scope, elem, attrs) {
                 var timeout = 5000;
                 if (attrs.timeout) {

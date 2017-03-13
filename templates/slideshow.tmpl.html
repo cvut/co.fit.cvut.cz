@@ -1,0 +1,9 @@
+<div class="slideme_container">
+    <button class="arrow prev" ng-click="prevSlide()">{{"PREV_SLIDE" | translate}}</button>
+    <button class="arrow next" ng-click="nextSlide()">{{"NEXT_SLIDE" | translate}}</button>
+    <ul class="slideme slideme-fade" style="height: 900px;">
+        <li ng-class="{current: slide==currentSlide}" ng-repeat="slide in slides">
+            <img src="{{slidesFolder}}/{{slide.name}}"/>
+        </li>
+    </ul>
+</div>

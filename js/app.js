@@ -1,13 +1,19 @@
 (function (angular) {
     angular.module("app", ['ngSanitize', 'pascalprecht.translate', 'ngCookies']);
 
-    angular.module('app').config(function ($translateProvider) {
+    angular.module('app').config(function ($translateProvider, $locationProvider) {
         $translateProvider.useStaticFilesLoader({
             prefix: 'lang/',
             suffix: '.json'
         });
         $translateProvider.preferredLanguage('cs');
         $translateProvider.useCookieStorage();
+
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false,
+            rewriteLinks: false
+        });
     });
 
     angular.module("app").service("TranslateService", function ($translate) {
@@ -22,11 +28,20 @@
         };
     });
 
-    angular.module("app").controller("MainCtrl", function ($scope, $sce, PartnerService, SponsorService, TranslateService) {
+    angular.module("app").controller("HeaderCtrl", function ($scope, $translate, TranslateService) {
+        $scope.lang = TranslateService.getLanguage();
+
+        $scope.setLanguage = function (languageIdentifier) {
+            $translate.use(languageIdentifier);
+            window.location.reload();
+        }
+    });
+
+
+    angular.module("app").controller("MainCtrl", function ($scope, $translate, PartnerService, SponsorService, TranslateService) {
         $scope.partners = PartnerService.getAllPartners();
         $scope.sponsors = SponsorService.getAllSponsors();
         $scope.lang = TranslateService.getLanguage();
-        console.log($scope.lang)
     });
 
     angular.module("app").controller("SlideShowCtrl", function ($scope) {

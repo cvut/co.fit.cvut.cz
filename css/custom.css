@@ -111,6 +111,22 @@ body > header {
     margin: auto;
 }
 
+body > header .lang-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body > header .lang-box button {
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+body > header .lang-box button:hover {
+    color: #e8e8e8;
+    text-decoration: underline;
+}
 /*body > header > div {*/
 /*width: 35%;*/
 /*display: inline-block;*/
