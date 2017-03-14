@@ -183,22 +183,26 @@ body > header {
 body > header > h1 {
     color: #373737;
     /*text-shadow: 1px 1px 1px white;*/
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
     margin-left: 15%;
 }
 
-@media (min-width: 1024px) {
+body > header > h1 > span {
+    display: block;
+}
+
+@media (min-width: 800px) {
+
     body > header > h1 {
         position: absolute;
         bottom: 30%;
 
     }
-}
 
-body > header > h1 > span {
-    display: block;
-    font-size: 5rem;
+    body > header > h1 > span {
+        font-size: 5rem;
+    }
 }
 
 body > header .main-nav {
