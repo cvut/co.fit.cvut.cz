@@ -1238,7 +1238,7 @@ function initPartners() {
             "<p>We can offer friendly multicultural environment, a competitive salary, the possibility of professional training and growth, interesting bonus systém, location in Prague City Center, being part of challenging projects or relax corner where you can recharge your batteries.</p></div>",
             upper_skills: [],
             visit: false,
-            sponsor: true
+            sponsor: false
         },
 
         {
