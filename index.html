@@ -32,7 +32,23 @@
     <script src="js/directives.js"></script>
 <body ng-app="app">
 <header ng-controller="HeaderCtrl">
-    <h1>Kariérní veletrh<span>Companies at FIT</span><span>2017</span></h1>
+    <button class="show-menu-button" ng-click="shown = !shown">
+    </button>
+    <div class="overlay" ng-click="shown = false" ng-class="{shown: shown}">
+    </div>
+
+    <div class="header-content">
+        <div>
+            <img class="logo" src="img/logo.svg"/>
+        </div>
+        <div>
+            <h1>
+                <span class="sub">{{'CAREER_FAIR' | translate}}</span>
+                <span>Companies at FIT</span>
+                <span>2017</span>
+            </h1>
+        </div>
+    </div>
 
     <div class="lang-box">
         <button ng-click="setLanguage('en')" ng-show="lang=='cs'">
@@ -43,11 +59,11 @@
         </button>
     </div>
 
-    <div class="main-nav">
+    <div id="mainNavigation" class="main-nav" ng-class="{sticky:sticky, shown:shown}" ng-click="shown = false">
         <nav>
-            <a href="index.html" title="">
+            <div class="logo visible">
                 <img src="img/logo.svg"/>
-            </a>
+            </div>
             <a href="#info" title="{{'ABOUT_ACTION_EXT' | translate}}">
                 {{'ABOUT_ACTION' | translate}}
             </a>
@@ -66,6 +82,9 @@
             <a href="#contact" title="{{'CONTACT' | translate}}">
                 {{'CONTACT' | translate}}
             </a>
+            <div class="logo hidden">
+                <img src="img/logo.svg" style="visibility: hidden"/>
+            </div>
         </nav>
     </div>
 </header>

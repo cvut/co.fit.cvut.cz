@@ -94,135 +94,271 @@ section {
 
 .expandable {
     display: none;
-    -webkit-transition: none;
-    transition: none;
 }
 
-* {
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
+.ng-enter {
+    opacity: 0;
+}
+
+a, button, .info .status, ul *, .timetable * {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 }
 
 /*=========header=========*/
 
+body > header h1,
+body > header button,
+body > header nav a {
+    color: #ffffff;
+    color: #64615c;
+}
+
 body > header {
     padding-top: 3%;
-    max-width: 1980px;
     margin: auto;
+    min-height: 75vh;
+    position: relative;
+    background-image: url("../img/header01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body > header:before {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*background: #64615c;*/
+    background: #ffffff;
+    opacity: 0.7;
 }
 
 body > header .lang-box {
     position: absolute;
     top: 10px;
     right: 10px;
+    z-index: 100;
 }
 
 body > header .lang-box button {
     border: none;
     background: none;
-    color: #ffffff;
     font-weight: bold;
 }
+
 body > header .lang-box button:hover {
-    color: #e8e8e8;
-    text-decoration: underline;
-}
-/*body > header > div {*/
-/*width: 35%;*/
-/*display: inline-block;*/
-/*vertical-align: middle;*/
-
-/*}*/
-
-/*body > header .logo {*/
-/*width: 26%;*/
-/*}*/
-
-/*body > header .logo img {*/
-/*width: 100%;*/
-/*}*/
-
-/*body > header .cells {*/
-/*!*width: 100%;*!*/
-/*height: auto;*/
-/*}*/
-
-/*body > header .cells img {*/
-/*width: 100%;*/
-/*display: inline-block;*/
-/*visibility: hidden;*/
-/*}*/
-
-/*body > header .cells .cell {*/
-/*display: inline-block;*/
-/*width: 30%;*/
-/*height: auto;*/
-/*background-repeat: no-repeat;*/
-/*background-size: 100%;*/
-/*background-position: center center;*/
-/*position: relative;*/
-/*font-size: x-large;*/
-/*background-image: url("../img/cell-light.svg");*/
-/*}*/
-
-/*body > header .cells .cell.dark {*/
-/*background-image: url("../img/cell-dark.svg");*/
-/*}*/
-
-body > header {
-    min-height: 75vh;
-    position: relative;
-
-    background-image: url("../img/fa.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
+    color: #79756f;
 }
 
-body > header > h1 {
-    color: #373737;
-    /*text-shadow: 1px 1px 1px white;*/
-    font-size: 2rem;
+body > header .header-content {
+    display: table;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+body > header .header-content > * {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    width: 50%;
+    padding: 0 1.5%;
+}
+
+body > header .header-content {
+    font-size: 50px;
+}
+
+body > header .header-content h1 {
+    font-size: inherit;
     text-align: left;
-    margin-left: 15%;
+    line-height: 1.1;
 }
 
-body > header > h1 > span {
+body > header .header-content .logo {
+    width: 100%;
+    max-width: 5em;
+}
+
+body > header .header-content h1 > span {
     display: block;
 }
 
-@media (min-width: 800px) {
+body > header .header-content h1 > .sub {
+    font-size: 70%;
+}
 
-    body > header > h1 {
-        position: absolute;
-        bottom: 30%;
+body > header > .show-menu-button {
+    opacity: 0.5;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 900;
+    border: none;
+    color: white;
+    background: url("../img/showmenu.svg") #64615c;
+    background-size: 30px 30px;
+    border-radius: 5px;
+    background-position: center center;
+    width: 40px;
+    height: 38px;
+    background-repeat: no-repeat;
+    display: none;
+}
 
-    }
-
-    body > header > h1 > span {
-        font-size: 5rem;
-    }
+body > header > .show-menu-button:hover {
+    opacity: 1;
 }
 
 body > header .main-nav {
     font-size: x-large;
     width: 100%;
-    3
-    background-color: #f4f4f4;
-
     position: absolute;
     bottom: 0;
-
     padding: 0;
-
     border-color: #64615c;
     border-bottom-style: solid;
     border-width: 5px;
+    background: rgba(255, 247, 235, 0.6);
+    z-index: 1000;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 }
 
-body > header .main-nav img {
-    max-width: 5rem;
+body > header .main-nav.sticky {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    background: rgba(255, 247, 235, 0.85);
+}
+
+body > header .main-nav .logo img {
+    max-height: 100%;
+}
+
+body > header .main-nav .logo {
+    height: 2em;
+    padding: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    -ms-transition: opacity 0.7s;
+    -o-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+    /*position: absolute;*/
+    /*left: 1%;*/
+    /*top: 50%;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*-moz-transform: translateY(-50%);*/
+    /*-ms-transform: translateY(-50%);*/
+    /*-o-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+}
+
+body > header .main-nav.sticky .logo {
+    opacity: 1;
+}
+
+@media (max-width: 1200px) {
+    body > header .main-nav .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    body > header .header-content {
+        display: block;
+        font-size: 35px;
+    }
+
+    body > header .header-content h1,
+    body > header .header-content > * {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    body > header .main-nav.sticky,
+    body > header .main-nav {
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        max-width: 400px;
+        border-right: 5px solid #5c5a56;
+        bottom: auto;
+        background: #f4f4f4;
+    }
+
+    body > header .main-nav.shown {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    body > header .main-nav .logo.visible {
+        opacity: 1;
+        display: block;
+        padding: 1.5em 0 0.5em;
+    }
+
+    body > header > .overlay {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        background: #5c5a56;
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        -ms-transition: all 0.7s;
+        -o-transition: all 0.7s;
+        transition: all 0.7s;
+    }
+
+    body > header > .overlay.shown {
+        opacity: 0.7;
+        visibility: visible;
+    }
+
+    body > header > .show-menu-button {
+        display: block;
+    }
+}
+
+@media (min-height: 800px) {
+    body > header .header-content {
+        font-size: 75px;
+    }
 }
 
 body > header .main-nav > nav {
@@ -232,11 +368,12 @@ body > header .main-nav > nav {
     display: table;
 }
 
-body > header .main-nav a {
-    padding: 0.5em 1em;
+body > header .main-nav > nav > * {
+    padding: 0.5em 0.1em;
     display: table-cell;
     font-weight: 600;
-    color: #65625d;
+    vertical-align: middle;
+
 }
 
 body > header .main-nav a.hovered,
@@ -649,6 +786,7 @@ body > .content p {
     padding: 0 20px 10px;
     margin: 0;
 }
+
 .faq .preview-list > li > h4 {
     padding-top: 10px;
 }
@@ -674,7 +812,6 @@ body > .content p {
 .expansion-controller:hover {
     color: #f9bc3d;
 }
-
 
 .company.gold {
     border-left: 10px solid #f9bc3d;

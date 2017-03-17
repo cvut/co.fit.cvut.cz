@@ -28,13 +28,23 @@
         };
     });
 
-    angular.module("app").controller("HeaderCtrl", function ($scope, $translate, TranslateService) {
+    angular.module("app").controller("HeaderCtrl", function ($scope, $element, $location, $window, $templateCache, $translate, TranslateService) {
         $scope.lang = TranslateService.getLanguage();
 
         $scope.setLanguage = function (languageIdentifier) {
-            $translate.use(languageIdentifier);
+            window.location.hash = "";
             window.location.reload();
-        }
+            $translate.use(languageIdentifier);
+        };
+
+        angular.element($window).bind("scroll", function () {
+            if (this.pageYOffset > $element[0].offsetHeight - document.getElementById('mainNavigation').offsetHeight) {
+                $scope.sticky = true;
+            } else {
+                $scope.sticky = false;
+            }
+            $scope.$apply()
+        });
     });
 
 

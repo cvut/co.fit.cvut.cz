@@ -7,7 +7,7 @@
     <div class="description">
         {{company.description}}
         <button class="expansion-controller" title="{{'SHOW_MORE' | translate}}"
-                style="font-size: 35px; margin-top: -15px" ng-click="showMore = true;" ng-show="!showMore">
+                style="font-size: 35px; margin-top: -15px" ng-click="showMore = true;" ng-show="!showMore && extendedDescription">
             ...
         </button>
         <div ng-show="showMore">
