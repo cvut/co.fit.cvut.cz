@@ -49,6 +49,7 @@
             templateUrl: 'templates/slideshow.tmpl.html',
             link: function (scope, elem, attrs) {
                 var timeout = 5000;
+                var toFunction;
                 if (attrs.timeout) {
                     timeout = attrs.timeout;
                 }
@@ -57,7 +58,8 @@
 
                 scope.setSlide = function (index) {
                     scope.currentSlide = scope.slides[index];
-                    setTimeout(function () {
+                    clearTimeout(toFunction);
+                    toFunction = setTimeout(function () {
                         scope.nextSlide();
                         scope.$apply();
                     }, timeout);

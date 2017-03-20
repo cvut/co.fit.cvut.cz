@@ -8,6 +8,7 @@
         });
         $translateProvider.preferredLanguage('cs');
         $translateProvider.useCookieStorage();
+
         $anchorScrollProvider.disableAutoScrolling();
 
         $locationProvider.html5Mode({
@@ -33,7 +34,7 @@
         };
     });
 
-    angular.module("app").controller("HeaderCtrl", function ($rootScope, $scope, $element, $document, $location, $window, $templateCache, $translate, TranslateService) {
+    angular.module("app").controller("HeaderCtrl", function ($rootScope, $scope, $element, $document, $location, $window, $translate, TranslateService) {
         $scope.lang = TranslateService.getLanguage();
 
         $scope.setLanguage = function (languageIdentifier) {
@@ -55,7 +56,8 @@
 
         $scope.scrollOnTop = function() {
             $document.scrollTop(0,1000);
-        }
+        };
+
     });
 
 
@@ -65,9 +67,9 @@
         $scope.lang = TranslateService.getLanguage();
         $document.ready(function(){
             var element = document.getElementById($location.$$hash);
+            if ($document.scrollTop() == 0 && element)
             $document.scrollTop(element.offsetTop - duScrollOffset, 1000);
         });
-        //$anchorScroll.yOffset=50;
         if(!window.history || !history.replaceState) {
             return;
         }
