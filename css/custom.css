@@ -6,7 +6,7 @@ html, body {
     font-family: Calibri, Tahoma, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: large;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 a:active {
@@ -234,20 +234,15 @@ body > header .main-nav {
     border-color: #64615c;
     border-bottom-style: solid;
     border-width: 5px;
-    background: rgba(255, 247, 235, 0.6);
+    background: rgba(244, 244, 244, 0.5);
     z-index: 1000;
-    -webkit-transition: all 0.7s;
-    -moz-transition: all 0.7s;
-    -ms-transition: all 0.7s;
-    -o-transition: all 0.7s;
-    transition: all 0.7s;
 }
 
 body > header .main-nav.sticky {
     position: fixed;
     top: 0;
     bottom: auto;
-    background: rgba(255, 247, 235, 0.85);
+    background: rgba(244, 244, 244, 0.85);
 }
 
 body > header .main-nav .logo img {
@@ -263,18 +258,11 @@ body > header .main-nav .logo {
     -ms-transition: opacity 0.7s;
     -o-transition: opacity 0.7s;
     transition: opacity 0.7s;
-    /*position: absolute;*/
-    /*left: 1%;*/
-    /*top: 50%;*/
-    /*-webkit-transform: translateY(-50%);*/
-    /*-moz-transform: translateY(-50%);*/
-    /*-ms-transform: translateY(-50%);*/
-    /*-o-transform: translateY(-50%);*/
-    /*transform: translateY(-50%);*/
 }
 
 body > header .main-nav.sticky .logo {
     opacity: 1;
+    cursor: pointer;
 }
 
 @media (max-width: 1200px) {
@@ -312,6 +300,11 @@ body > header .main-nav.sticky .logo {
         border-right: 5px solid #5c5a56;
         bottom: auto;
         background: #f4f4f4;
+        -webkit-transition: all 0.7s;
+        -moz-transition: all 0.7s;
+        -ms-transition: all 0.7s;
+        -o-transition: all 0.7s;
+        transition: all 0.7s;
     }
 
     body > header .main-nav.shown {
@@ -376,11 +369,11 @@ body > header .main-nav > nav > * {
 
 }
 
-body > header .main-nav a.hovered,
+body > header .main-nav a.active,
 body > header .main-nav a:hover {
     background-color: #65625d;
     text-decoration: none;
-    color: #e8e8e8;
+    color: #ededed;
 }
 
 /*---------icons---------*/
@@ -542,7 +535,6 @@ body > header {
 /*=========content=========*/
 
 body > .content {
-    background-color: #FFFFFF;
     text-align: left;
     padding: 0 5% 3em;
 }
@@ -599,7 +591,7 @@ body > .content p {
 
 .timetable > li:hover {
     border-color: #f9bc3d;
-    background-color: #f4f4f4;
+    background-color: #ededed;
 }
 
 .timetable > li:hover .time,
@@ -761,9 +753,10 @@ body > .content p {
     margin: 0;
 }
 
-.preview-list {
+.preview-list, .timetable {
     margin: 0;
     padding: 0;
+    background: #f4f4f4;
 }
 
 .preview-list > li {
@@ -775,7 +768,7 @@ body > .content p {
 
 .preview-list li:hover {
     border-color: #f9bc3d;
-    background-color: #f4f4f4;
+    background-color: #ededed;
 }
 
 .faq .preview-list > li {
@@ -889,7 +882,7 @@ body > .content p {
     width: 96%;
     margin: 0;
     padding: 2% 3%;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #ededed;
 }
 
 .company .btn {
@@ -899,7 +892,8 @@ body > .content p {
 /*=========footer=========*/
 
 body > footer {
-    margin: 2rem 1.5rem 5rem;
+    padding: 2rem 1.5rem 5rem;
+    background: #f4f4f4;
 }
 
 body > footer h2 {

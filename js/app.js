@@ -1,13 +1,14 @@
 (function (angular) {
-    angular.module("app", ['ngSanitize', 'pascalprecht.translate', 'ngCookies']);
+    angular.module("app", ['ngSanitize', 'pascalprecht.translate', 'ngCookies', 'duScroll']);
 
-    angular.module('app').config(function ($translateProvider, $locationProvider) {
+    angular.module('app').config(function ($translateProvider, $locationProvider, $anchorScrollProvider) {
         $translateProvider.useStaticFilesLoader({
             prefix: 'lang/',
             suffix: '.json'
         });
         $translateProvider.preferredLanguage('cs');
         $translateProvider.useCookieStorage();
+        $anchorScrollProvider.disableAutoScrolling();
 
         $locationProvider.html5Mode({
             enabled: true,
@@ -15,6 +16,10 @@
             rewriteLinks: false
         });
     });
+
+    angular.module('app')
+        .value('duScrollDuration', 1000)
+        .value('duScrollOffset', 50);
 
     angular.module("app").service("TranslateService", function ($translate) {
         return {
@@ -28,7 +33,7 @@
         };
     });
 
-    angular.module("app").controller("HeaderCtrl", function ($scope, $element, $location, $window, $templateCache, $translate, TranslateService) {
+    angular.module("app").controller("HeaderCtrl", function ($rootScope, $scope, $element, $document, $location, $window, $templateCache, $translate, TranslateService) {
         $scope.lang = TranslateService.getLanguage();
 
         $scope.setLanguage = function (languageIdentifier) {
@@ -38,20 +43,40 @@
         };
 
         angular.element($window).bind("scroll", function () {
-            if (this.pageYOffset > $element[0].offsetHeight - document.getElementById('mainNavigation').offsetHeight) {
+            var navHeight = document.getElementById('mainNavigation').offsetHeight;
+            if (this.pageYOffset > $element[0].offsetHeight - navHeight) {
                 $scope.sticky = true;
             } else {
                 $scope.sticky = false;
             }
-            $scope.$apply()
+            $scope.$apply();
+            $scope.shown = false;
         });
+
+        $scope.scrollOnTop = function() {
+            $document.scrollTop(0,1000);
+        }
     });
 
 
-    angular.module("app").controller("MainCtrl", function ($scope, $translate, PartnerService, SponsorService, TranslateService) {
+    angular.module("app").controller("MainCtrl", function ($scope, $rootScope, $translate, $location, duScrollOffset, $document, PartnerService, SponsorService, TranslateService) {
         $scope.partners = PartnerService.getAllPartners();
         $scope.sponsors = SponsorService.getAllSponsors();
         $scope.lang = TranslateService.getLanguage();
+        $document.ready(function(){
+            var element = document.getElementById($location.$$hash);
+            $document.scrollTop(element.offsetTop - duScrollOffset, 1000);
+        });
+        //$anchorScroll.yOffset=50;
+        if(!window.history || !history.replaceState) {
+            return;
+        }
+        $rootScope.$on('duScrollspy:becameActive', function($event, $element, $target){
+            var hash = $element.prop('hash');
+            if (hash) {
+                history.replaceState(null, null, hash);
+            }
+        });
     });
 
     angular.module("app").controller("SlideShowCtrl", function ($scope) {
