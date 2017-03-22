@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg9071"
    viewBox="0 0 754.06831 477.48215"
    height="134.75607mm"
-   width="212.81483mm">
+   width="212.81483mm"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1137"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="1.3979765"
+     inkscape:cx="374.30331"
+     inkscape:cy="263.07366"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9026" />
   <defs
      id="defs9073" />
   <metadata
@@ -20,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,14 +89,15 @@
       <path
          transform="translate(248.56689,847.0869)"
          id="path5559"
-         style="fill:#b2b3b1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#5b5955;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 0,0 c 23.697,0 45.438,-3.207 65.193,-9.591 19.744,-6.402 36.872,-16.005 51.366,-28.791 14.472,-12.798 25.771,-28.504 33.863,-47.137 8.086,-18.614 12.146,-40.154 12.146,-64.622 0,-14.304 -1.526,-27.656 -4.532,-40.077 -3.007,-12.405 -7.234,-23.135 -12.702,-32.175 -5.453,-9.028 -12.036,-16.172 -19.747,-21.438 -7.715,-5.28 -16.288,-7.907 -25.694,-7.907 -6.01,0 -10.809,0.847 -14.375,2.543 -3.585,1.696 -6.516567,3.86742 -8.47,6.772 -1.862916,2.76999 -3.456621,6.27638 -3.951,9.029 -0.574962,3.20129 -0.848,6.487 -0.848,9.879 0,2.626 0.179,6.02 0.567,10.162 0.369,4.134 0.935,8.372 1.684,12.707 0.756,4.313 1.419,8.457 1.979,12.398 0.569,3.965 1.222,7.25 1.976,9.889 l 11.125,51.712 11.441,53.275 -34.992,0 c 0,0 -3.3329,-18.264815 -4.937276,-26.85593 C 52.053405,-148.62633 41.968,-245.432 41.968,-245.432 c 0.454,-8.958 3.673,-16.997 9.641,-24.115 0.687,-0.824 1.249,-1.708 2.019,-2.508 7.895,-8.291 20.316,-12.423 37.247,-12.423 14.676,0 28.594,2.915 41.768,8.755 13.163,5.817 24.735,14.572 34.714,26.241 9.977,11.658 17.961,26.157 23.98,43.455 6.028,17.307 9.033,37.271 9.033,59.839 0,30.481 -5.549,57.015 -16.64,79.583 -11.113,22.592 -25.974,41.391 -44.604,56.453 C 120.51,4.885 99.144,16.184 75.071,23.708 50.977,31.239 26.155,34.996 0.559,34.996 c -1.519,0 -3.016,-0.075 -4.528,-0.102 l 0,-34.981 C -2.643,-0.062 -1.338,0 0,0" />
       <g
          transform="translate(251.78659,501.2422)"
-         id="g5561">
+         id="g5561"
+         style="fill:#5b5955;fill-opacity:1">
         <path
            id="path5563"
-           style="fill:#b2b3b1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="fill:#5b5955;fill-opacity:1;fill-rule:nonzero;stroke:none"
            d="m 0,0 c -2.438,0 -4.811,-0.013 -7.188,-0.024 l 0,-34.07 c 2.168,-0.006 4.323,-0.018 6.501,-0.018 l 241.168,0 0,34.112 L 0,0 Z" />
       </g>
       <g
