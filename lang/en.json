@@ -24,12 +24,18 @@
     "COOPERATION_WITH_INDUSTRY_PORTAL": "Cooperation With Industry Portal",
     "OUR_TWITTER": "Our Twitter",
     "OUR_FACEBOOK": "Our Facebook",
-    "CZECH_TECHNICAL_UNIVERSITY": "CZECH TECHNICAL UNIVERSITY IN PRAGUE",
+    "CZECH_TECHNICAL_UNIVERSITY": "Czech Technical University in Prague",
     "NEXT_SLIDE": "Next",
     "PREV_SLIDE": "Previous",
     "FIT_PARTNERS": "FIT Partners",
     "FIT_SPONSORS": "FIT Sponsors",
     "PARTNERS": "Partners",
     "SPONSORS": "Sponsors",
-    "CAREER_FAIR": "Career fair"
+    "CAREER_FAIR": "Career fair",
+    "FACULTY_OF_INFORMATION_TECHNOLOGY": "Faculty of Information Technology",
+"ASSISTANT": "Assistant",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "ASSOCIATE_DEAN_FOR_DEVELOPMENT": "Associate Dean for Development"
+
 }
