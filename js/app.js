@@ -45,17 +45,23 @@
 
         angular.element($window).bind("scroll", function () {
             var navHeight = document.getElementById('mainNavigation').offsetHeight;
-            if (this.pageYOffset > $element[0].offsetHeight - navHeight) {
+            var headerHeight = $element[0].offsetHeight;
+            var actualScroll = this.pageYOffset;
+            if (actualScroll > headerHeight - navHeight) {
                 $scope.sticky = true;
             } else {
                 $scope.sticky = false;
+                var percentage = actualScroll / headerHeight;
+                document.getElementById('headerContent').style.opacity = 1 - 0.5*percentage;
+                document.getElementById('headerContent').style.top =  50 + 40*percentage + "%";
+                document.getElementById('headerContent').style.zoom = 1 - 0.5*percentage;
             }
             $scope.$apply();
             $scope.shown = false;
         });
 
-        $scope.scrollOnTop = function() {
-            $document.scrollTop(0,1000);
+        $scope.scrollOnTop = function () {
+            $document.scrollTop(0, 1000);
         };
 
     });
@@ -65,15 +71,15 @@
         $scope.partners = PartnerService.getAllPartners();
         $scope.sponsors = SponsorService.getAllSponsors();
         $scope.lang = TranslateService.getLanguage();
-        $document.ready(function(){
+        $document.ready(function () {
             var element = document.getElementById($location.$$hash);
             if ($document.scrollTop() == 0 && element)
-            $document.scrollTop(element.offsetTop - duScrollOffset, 1000);
+                $document.scrollTop(element.offsetTop - duScrollOffset, 1000);
         });
-        if(!window.history || !history.replaceState) {
+        if (!window.history || !history.replaceState) {
             return;
         }
-        $rootScope.$on('duScrollspy:becameActive', function($event, $element, $target){
+        $rootScope.$on('duScrollspy:becameActive', function ($event, $element, $target) {
             var hash = $element.prop('hash');
             if (hash) {
                 history.replaceState(null, null, hash);
