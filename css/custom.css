@@ -159,6 +159,12 @@ body > header .lang-box button:hover {
     color: #79756f;
 }
 
+body > header .lang-box button img {
+    height: .7rem;
+    padding-right: .1rem;
+    vertical-align: baseline;
+}
+
 body > header .header-content {
     display: table;
     width: 100%;
