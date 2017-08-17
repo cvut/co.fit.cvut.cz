@@ -1,0 +1,31 @@
+<div class="companies">
+    <div class="partners-column partners-list">
+        <h2>
+            {{'FIT_PARTNERS' | translate}}
+        </h2>
+
+        <div class="partners gold">
+            <company-preview ng-repeat="partner in partners.gold" company="partner"></company-preview>
+        </div>
+        <div class="partners silver">
+            <company-preview ng-repeat="partner in partners.silver" company="partner"></company-preview>
+        </div>
+        <div class="partners bronze">
+            <company-preview ng-repeat="partner in partners.bronze" company="partner"></company-preview>
+        </div>
+    </div>
+    <div class="sponsors-column sponsors-list">
+        <h2>
+            {{'FIT_SPONSORS' | translate}}
+        </h2>
+        <div class="sponsors gold">
+            <company-preview ng-repeat="sponsor in sponsors.gold" company="sponsor"></company-preview>
+        </div>
+        <div class="sponsors silver">
+            <company-preview ng-repeat="sponsor in sponsors.silver" company="sponsor"></company-preview>
+        </div>
+        <div class="sponsors bronze">
+            <company-preview ng-repeat="sponsor in sponsors.bronze" company="sponsor"></company-preview>
+        </div>
+    </div>
+</div>
