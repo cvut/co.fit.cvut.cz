@@ -1,0 +1,21 @@
+<li class="company expandable-container follow">
+    <a class="logo" ng-href="{{company.page}}" title="{{'GO_TO_COMPANY_PAGE' | translate}}" target="_blank">
+        <h3 ng-show="!company.logo">{{company.name}}</h3>
+        <img ng-show="company.logo" src="img/partners/{{company.logo}}"/>
+        <div class="btn" style="font-weight: 500;">{{'COMPANY_WEB' | translate}}</div>
+    </a>
+    <div class="description">
+        {{company.description}}
+        <button class="expansion-controller" title="{{'SHOW_MORE' | translate}}"
+                style="font-size: 35px; margin-top: -15px" ng-click="showMore = true;" ng-show="!showMore && extendedDescription">
+            ...
+        </button>
+        <div ng-show="showMore">
+            <div ng-bind-html="extendedDescription"></div>
+            <div class="pull-right">
+
+            </div>
+            <button class="expansion-controller" ng-click="showMore = false">{{"SHOW_LESS" | translate}}</button>
+        </div>
+    </div>
+</li>

@@ -308,11 +308,11 @@
 * CUSTOM
 */
 
-.slideme-container {
+.slideme_container {
     position: relative;
 }
 
-.slideme-container > .arrow {
+.slideme_container > .arrow {
     position: absolute;
     top: 50%;
     z-index: 10;
@@ -326,22 +326,22 @@
     font-size: x-large;
 }
 
-.slideme-container > .next {
+.slideme_container > .next {
     right: -50%;
     text-align: right;
 }
 
-.slideme-container > .prev {
+.slideme_container > .prev {
     left: -50%;
     text-align: left;
 }
 
-.slideme-container > .next:hover {
+.slideme_container > .next:hover {
     width: 30%;
     right: 0;
 }
 
-.slideme-container > .prev:hover {
+.slideme_container > .prev:hover {
     width: 30%;
     left: 0;
 }
