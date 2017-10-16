@@ -1,20 +1,23 @@
 <section id="whoComes">
-    <h2 style="display: inline-block">
-        {{'PARTNERS' | translate}}
+    <h2>
+        {{'WHO_COMES' | translate}}
     </h2>
+    <h3 style="display: inline-block">
+        {{'PARTNERS' | translate}}
+    </h3>
     <ul class="comming-partners preview-list">
-        <company-detail company="partner" ng-repeat="partner in partners.gold" class="gold"></company-detail>
-        <company-detail company="partner" ng-repeat="partner in partners.silver" class="silver"></company-detail>
-        <company-detail company="partner" ng-repeat="partner in partners.bronze" class="bronze"></company-detail>
+        <company-detail ng-if="partner.visit" company="partner" ng-repeat="partner in partners.gold" class="gold"></company-detail>
+        <company-detail ng-if="partner.visit" company="partner" ng-repeat="partner in partners.silver" class="silver"></company-detail>
+        <company-detail ng-if="partner.visit" company="partner" ng-repeat="partner in partners.bronze" class="bronze"></company-detail>
     </ul>
 
-    <h2 style="display: inline-block">
+    <h3 style="display: inline-block">
         {{'SPONSORS' | translate}}
-    </h2>
+    </h3>
 
     <ul class="comming-sponsors preview-list">
-        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.gold" class="gold"></company-detail>
-        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.silver" class="silver"></company-detail>
-        <company-detail company="sponsor" ng-repeat="sponsor in sponsors.bronze" class="bronze"></company-detail>
+        <company-detail ng-if="sponsor.visit" company="sponsor" ng-repeat="sponsor in sponsors.gold" class="gold"></company-detail>
+        <company-detail ng-if="sponsor.visit" company="sponsor" ng-repeat="sponsor in sponsors.silver" class="silver"></company-detail>
+        <company-detail ng-if="sponsor.visit" company="sponsor" ng-repeat="sponsor in sponsors.bronze" class="bronze"></company-detail>
     </ul>
 </section>

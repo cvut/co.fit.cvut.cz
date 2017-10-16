@@ -244,6 +244,12 @@ body > header .main-nav {
     z-index: 1000;
 }
 
+@media (max-width: 1000px) {
+    body > header .main-nav {
+        font-size: 20px;
+    }
+}
+
 body > header .main-nav.sticky {
     position: fixed;
     top: 0;
@@ -286,7 +292,8 @@ body > header .main-nav.sticky .logo {
     body > header .header-content h1,
     body > header .header-content > * {
         display: block;
-        width: 100%;
+        width: 97%;
+        padding: 1.5%;
         text-align: center;
     }
 

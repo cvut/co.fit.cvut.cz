@@ -68,8 +68,8 @@
                     {department: "Cizí jazyky", skills: ["Angličtina"]},
                     {department: "Technologie", skills: ["OOP", "Funkcionální"]}
                 ],
-                visit: false,
-                importance: 9
+                visit: true,
+                importance: 7
             }, {
                 name: "Komerční banka",
                 logo: "kb2017.png",
@@ -117,7 +117,20 @@
                 importance: 8
             }
         ];
-        var silverPartners = [];
+        var silverPartners = [
+            {
+                name: "Showmax",
+                logo: "showmax.png",
+                type: "silver",
+                page: "https://tech.showmax.com/open-positions/",
+                description: "Popis partnera bude brzy doplněn.",
+                extendedDescription: "",
+                upper_skills: [
+                ],
+                visit: true,
+                importance: 8
+            }
+        ];
         var bronzePartners = [
             {
                 name: "Ackee",
@@ -126,7 +139,7 @@
                 page: "https://www.ackee.cz/o-nas#contact",
                 description: "Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys. Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci. V Ackee máme pořád dveře otevřené. Bereme stážisty, juniory i seniory. Jestli není tvá pozice zrovna vypsaná, pošli nám i tak CV, třeba hledáme právě tebe. Momentálně sháníme kandidáty na pozice Android Developer, iOS Developer, Frontend Web Developer.</p>",
                 upper_skills: [],
-                visit: true
+                visit: false
             },
 
             {
@@ -210,6 +223,27 @@
                         skills: ["OOP", "Procedurální", "Funkcionální", "Strukturované", "Algoritmizace"]
                     }
                 ],
+                visit: true
+            },
+            {
+                name: "Accenture",
+                logo: "accenture.png",
+                type: "bronze",
+                page: "https://www.accenture.com/cz-en/new-applied-now#",
+                description: "Popis partnera bude brzy doplněn.",
+                extendedDescription: "",
+                upper_skills: [],
+                visit: true
+            },
+
+            {
+                name: "MSD IT / merc",
+                logo: "msd.png",
+                type: "bronze",
+                page: "https://www.msdit.cz/be-part-of-our-team/",
+                description: "Popis partnera bude brzy doplněn.",
+                extendedDescription: "",
+                upper_skills: [],
                 visit: true
             }
         ];

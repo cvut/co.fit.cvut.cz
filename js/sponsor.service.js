@@ -8,7 +8,7 @@
                 sponsor: true,
                 page: "https://www.embedit.cz/Career",
                 description: "EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.",
-                visit: true
+                visit: false
             }
         ];
         var silverSponsors = [
@@ -161,39 +161,6 @@
                 ],
                 visit: true
             },{
-                name: "SWATCH group",
-                logo: "asicentrum.png",
-                type: "bronze",
-                sponsor: true,
-                page: "http://www.swatchgroup.com/en/human_resources/working_at_swatch_group",
-                description: "ASICentrum, established 1992 in Prague, Czech Republic, is a design center of EM Microelectronic. The team of designers is highly experienced in the submicron design technologies of ultra-low power, low voltage silicon chips, in the development of embedded software and various applications related to mobile devices and wireless communication. ASICentrum has long tradition in cooperation with many Czech technical universities. We offer permanent (full-time employment) or internship (part-time job) for students and thesis entering.",
-                upper_skills: [
-                    {
-                        department: "Soft skills",
-                        skills: ["Komunikace", "Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost"]
-                    },
-                    {
-                        department: "Programování",
-                        skills: ["C", "C++", "Java", "PHP", "C#", "ObjectiveC", "Python", "Matlab", "Assembler"]
-                    },
-                    {department: "Databáze", skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Bugtracking"]},
-                    {
-                        department: "Softwarové inženýrství",
-                        skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Bugtracking"]
-                    },
-                    {
-                        department: "Operační systémy",
-                        skills: ["Unix", "Systémy reálného času", "Windows", "iOS", "Android"]
-                    },
-                    {department: "Uživatelské rozhraní", skills: ["Testování UI", "Kódování UI", "Implementace web UI"]},
-                    {
-                        department: "Počítačové inženýrství",
-                        skills: ["Architektura počítačů", "Logický návrh", "Testování a spolehlivost"]
-                    },
-                    {department: "Cizí jazyky", skills: ["Angličtina", "Francouzština"]}
-                ],
-                visit: true
-            },{
                 name: "Randstad s.r.o.",
                 logo: "randstad.png",
                 type: "bronze",
@@ -204,7 +171,7 @@
                 "<p>V globálním měřítku tvoří 80 % managementu lidé, kteří u nás kariérně vyrostli. Klademe velký důraz na rozvoj našich zaměstnanců, naše konzultanty vzděláváme, aby mohli být rovnocennými partnery našich klientů a stát se skutečnými experty ve svém oboru. V Randstadu si zakládáme na otevřené a přátelské kultuře a pro naše zaměstnance vytváříme kreativní a inspirující pracovní prostředí, kde je prostor pro diskuzi a svobodné vyjadřování. Základem všeho je týmová spolupráce. Neuznáváme striktní hierarchie ani skleněné stropy.</p>" +
                 "<p>Na našem stánku můžete čekat partu pohodových konzultantů, kteří jsou připraveni s Vámi konzultovat životopis nebo sdílet hinty, jak zaujmout na pohovoru a získat job snů. Dozvíte se více o aktuálních pracovních příležitostí na part-time i full-time pro české i mezinárodní společnosti. Nabídneme vám nové vydání našeho magazínu pro ICT odborníky s oblíbenými přehledy o platech a zajímavými rozhovory s kandidáty i klienty. Připravena bude tombola, ve které můžete získat designové flash-disky, powerbanky, usb rozdvojky.</p>",
                 upper_skills: [],
-                visit: true
+                visit: false
             },{
                 name: "Tipsport",
                 logo: "tipsport.svg",
@@ -251,7 +218,7 @@
                         skills: ["Google closure", "ReactJS", "Less", "Gulp", "DWR", "MongoDB", "Guava", "NodeJS", "SocketIO", "REST API", "Hibernate", "JBoss server", "Oracle", "ActiveMQ", "Gradle", "Jenkins"]
                     }
                 ],
-                visit: false
+                visit: true
             },{
                 name: "Greyson",
                 logo: "greyson.gif",
@@ -260,7 +227,7 @@
                 description: "Greyson je poradenská firma, která pracuje s předními organizacemi ve střední a východní Evropě a pomáhá jim dosáhnout dlouhodobých cílů. Naše projekty se týkají datových skladů bank, migrace dat v bankách apod. Zaměstnáváme jak klasické business konzultanty a BI konzultanty, tak vývojáře a testery.",
                 extendedDescription: "<p>Pořádáme sérii profesních školení, využíváme zaškolování seniorními kolegy a také pořádáme interní školení na různá odborná témata. Pokud jde o kariérní růst, máme jasná kritéria a hierarchii a naši lidé přesně vědí co musí udělat, aby se mohli dostat o příčku výše. Dvakrát do roka probíhá oficiální hodnocení pracovního výkonu, ze které vzejdou další kroky na rozvoj a požadavky na školení. Nabízíme zajímavé projekty ve firmě, která raketově roste i v době, kdy je na trhu obrovská poptávka po lidech. Také disponujeme širokou škálou firemních benefitů, např. až 6 týdnů dovolené nebo soukromou vilu na Bali pro relax našich zaměstnanců zdarma. :)</p>",
                 upper_skills: [],
-                visit: false,
+                visit: true,
                 sponsor: true
             },
 
@@ -273,7 +240,7 @@
                 extendedDescription: "<p>Zabýváme se vývojem mobilních aplikací (návrh a vývoj aplikací pro smartphony, tablety, wearables, automobily a jiná “smart” zařízení), webovým vývojem (návrh a vývoj webových aplikací a backend řešení, klientské portály, obchodní a komunikační platformy, backend systémy, rozsáhlá enterprise řešení), UX/UI designem (UX strategie, prototyping, UX design aplikací, od mobilních řešení přes webové aplikace až po řešení pro chytré automobily nebo nemocniční lůžka) a dalšími službami (provoz a servis aplikací, quality assurance, bezpečnost a testování aplikací, hromadná správa mobilních zařízení, biometrické podpisy). Nabízíme možnost spolupráce formou práce na plný/částečný úvazek, stáže nebo možnost realizace diplomové/bakalářské práce.</p>" +
                 "<p>Osobní rozvoj a učení se je pro nás na prvním místě. Nabízíme finanční odměnu, se kterou budete opravdu spokojení. U nás máš možnost organizovat si svou práci podle sebe – důležitý je pro nás výsledek, ne pevná pravidla, podle jakých se k němu dostaneš. Jsme mladý kolektiv v příjemném pracovním prostředí. Mezi benefity patří výuka angličtiny, homeoffice, stolní fotbálek, HTC Vive a XBox v chillout zóně, sportovní akce, možnost zapůjčení firemního vozidla, celofiremní víkendové akce a teambuildingy, telefon, notebook, monitor a ergonomické pomůcky, polohovatelné stoly, občerstvení na pracovišti, konference, pravidelné firemní snídaně, školení či možnost proplacení odborných seminářů a kurzů.</p>",
                 upper_skills: [],
-                visit: false,
+                visit: true,
                 sponsor: true
             },
 
@@ -287,7 +254,7 @@
                 "<p>After people join us, they receive a comprehensive set of benefits. We invest a lot into EPAMers’ professional development, there are a lot of educational activities, such as webinars, conferences, courses. There are different IT events, people can either share their knowledge or learn something new. Having that many nationalities we need to speak the same language, which is why we offer our employees English courses to boost their skills. What is very attractive benefit, is possibility to work on international project and possibility to go work (of course, after certain time) to another EPAM location  in over 25 countries around the world.</p>" +
                 "<p>We know, that there is a big competition on IT market, but we are committed to making EPAM a great place to work through our culture, training and global mobility program. We know how to work hard, and we know how to have a great time.  </p>",
                 upper_skills: [],
-                visit: false,
+                visit: true,
                 sponsor: true
             },
 
@@ -298,7 +265,7 @@
                 page: "https://www.2n.cz",
                 description: "Vytváříme originální produkty a řešení vycházející z nejnovějších IP technologií a udáváme tak trendy v oblasti komunikace a bezpečnosti. Jsme celosvětovou jedničkou na trhu v oblasti IP interkomů, které se prodávají ve více než 130 zemí světa. Hledáme nové talenty v oblasti  programování embedded systémů. Nabízíme flexibilní úvazky během studií s možností přejít na full time po dokončení studií.",
                 upper_skills: [],
-                visit: false,
+                visit: true,
                 sponsor: true
             },
 
@@ -309,7 +276,7 @@
                 page: "https://www.lmc.eu",
                 description: "Naším snem je, aby lidé měli svou práci rádi. A více než 1.000.000 z nich jsme s tím už pomohli. Umíme najít skvělé zaměstnance, usnadnit nábor i vzdělávat lidi v týmu. Díky tomu všemu s námi spolupracuje již přes 17.000 klientů. Patříme do mezinárodní skupiny Alma Career a dosáhneme tak do 15 evropských zemí.",
                 upper_skills: [],
-                visit: false,
+                visit: true,
                 sponsor: true
             },
 
@@ -323,7 +290,55 @@
                 "<p>Students can join NCR as interns or part timers to balance their study and employment changing to full time employment once graduated. Starting as junior Software or Quality Engineers they can specialize and become Software Architects, Product Owners or Engineering Managers. We at NCR prefer to grow our people.</p>" +
                 "<p>Do you value friendly and ethical environment, team work, highly skilled and motivated coworkers, innovative solutions (like the real time reporting and theft prevention)? Then NCR is the right choice for you!</p>",
                 upper_skills: [],
-                visit: false,
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "Barclays",
+                logo: "barclays.svg",
+                type: "bronze",
+                page: "https://jobs.barclays.co.uk",
+                description: "Barclays is a transatlantic consumer, corporate and investment bank offering products and services across personal, corporate and investment banking, credit cards and wealth management, with a strong presence in our two home markets of the UK and the US. Our goal is to become the bank of choice by providing superior services to customers and clients and supporting our stakeholders via a commercially successful business that generates long-term sustainable returns",
+                extendedDescription: "<p>Our Technology Centre in Prague has grown to become a strategic location for development, testing and application management, primarily serving our Investment Bank.  Our aim is to develop cutting-edge technology solutions which enable the whole bank to move forward and are integral to Barclays’ success. By joining us you will be helping to create solutions that revolutionise the way Barclays does business.</p>",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "Cleverbee",
+                logo: "cleverbee.gif",
+                type: "bronze",
+                page: "http://www.cleverbee.com/kariera/",
+                description: "Popis sponzora bude brzy doplněn.",
+                extendedDescription: "",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "Edhouse",
+                logo: "edhouse.png",
+                type: "bronze",
+                page: "http://www.edhouse.cz/cz/kariera/",
+                description: "Popis sponzora bude brzy doplněn.",
+                extendedDescription: "",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "Suse",
+                logo: "suse.svg",
+                type: "bronze",
+                page: "https://www.suse.com/",
+                description: "Popis sponzora bude brzy doplněn.",
+                extendedDescription: "",
+                upper_skills: [],
+                visit: true,
                 sponsor: true
             }
         ];
