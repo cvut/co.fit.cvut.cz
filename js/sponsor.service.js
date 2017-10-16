@@ -282,7 +282,7 @@
 
             {
                 name: "NCR",
-                logo: "ncr.jpeg",
+                logo: "ncr.png",
                 type: "bronze",
                 page: "https://www.ncr.com/careers",
                 description: "NCR is a diverse business with 29,000 people in over 180 locations worldwide with a history, present and future of firsts. Founded in 1884 (as National Cash Register Company) maker of the first mechanical cash registers. NCR holds the Hospitality market leadership with a solution encompassing Point of Sale, Online and Mobile Ordering, Real Time Reporting, Theft and Loss Prevention. As the Omni-Channel leader NCR changes future of business by connecting consumer transaction data from all the industries served by NCR and presenting consumers with their complete financial picture.",
