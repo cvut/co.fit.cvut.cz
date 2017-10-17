@@ -311,8 +311,8 @@
                 logo: "cleverbee.gif",
                 type: "bronze",
                 page: "http://www.cleverbee.com/kariera/",
-                description: "Popis sponzora bude brzy doplněn.",
-                extendedDescription: "",
+                description: "Cleverbee solutions je česko-švýcarská sw společnost, která se orientuje na vývoj J2EE aplikací. Zaměřuje se na vývoj sw na zakázku a systémovou integraci. Nabízí sw řešení v oblasti portálových řešení - Liferay portál, řešení pro správu dokumentů - Alfresco a BI systém Pentaho. Nabízíme pozici Java developer zaměřenou jak na vývoj frontendových aplikací (JavaScript, Jquery, HTML, CSS, minoritně Java), tak i zaměření na vývoj backendových aplikací (Spring, Hibernate, EJB).",
+                extendedDescription: "<p>Vývojář spolupracuje na návrhu, implementaci, testu a údržbě v rámci SW projektů. Projektová orientace skýtá možnost různých rolí v rámci vývojového cyklu pro rozmanité technologické platformy. Nabízíme práci ve středně velkém týmu, možnost implementace v širokém spektru programovacích jazyků pod různými operačními systémy a databázemi. Myslíme si, že máme přátelské a otevřené prostředí, spoustu chytrých lidí, kteří rádi pomohou druhému. Nabízíme možnosti dalšího odborného vzdělávání se a posunu na seniornější pozici. Máte zájem pracovat jako JAVA Developer? Chcete pracovat s nejnovějšími technologiemi? Už vás nebaví ty jasně vymezené mantinely Vašich pravomocí, které jsou prostě dané a přes které nejede vlak? Máte nápady jak dělat věci jinak a chcete mít možnost a prostor to zkusit a tím i celou firmu třeba posunout někam jinam? Připojte se k nám. :-)</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
@@ -323,8 +323,9 @@
                 logo: "edhouse.png",
                 type: "bronze",
                 page: "http://www.edhouse.cz/cz/kariera/",
-                description: "Popis sponzora bude brzy doplněn.",
-                extendedDescription: "",
+                description: "Jsme největší softwarová společnost ve Zlíně. Vznikli jsme v roce 2006 a vypracovali jsme si pozici stabilního a férového zaměstnavatele. Od roku 2014 působíme také na Vsetíně, kde rozvíjíme pobočku vývojového centra Edhouse.",
+                extendedDescription: "<p>Setkáte se u nás s mezinárodními projekty, nejčastěji v technologiích C++, Java a C# .NET. Pro studenty a absolventy připravujeme různé druhy stáží, brigád, letních praxí, částečných i plných úvazků. Nabízíme také velké množství interních vzdělávacích aktivit a rozvojových plánů.</p>" +
+                "<p>Pracujeme pro světové jedničky na mezinárodním trhu a tím naplňujeme náš cíl přinášet zajímavou práci do našeho regionu – Zlínského kraje. Mezi naše klíčové zákazníky patří společnosti FEI, NCR, ComAp a ON Semicoductor.</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
@@ -335,7 +336,7 @@
                 logo: "suse.svg",
                 type: "bronze",
                 page: "https://www.suse.com/",
-                description: "Popis sponzora bude brzy doplněn.",
+                description: "Founded in 1992, SUSE is the world’s first provider of an Enterprise Linux distribution.",
                 extendedDescription: "",
                 upper_skills: [],
                 visit: true,

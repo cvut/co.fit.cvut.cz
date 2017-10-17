@@ -123,8 +123,9 @@
                 logo: "showmax.png",
                 type: "silver",
                 page: "https://tech.showmax.com/open-positions/",
-                description: "Popis partnera bude brzy doplněn.",
-                extendedDescription: "",
+                description: "We’re an internet TV service. What’s that? For a single monthly fee, get all-you-can-eat access to a huge online catalogue of TV shows, movies, kids shows and documentaries. Start and stop when you want. No ads.",
+                extendedDescription: "<p>With offices in Beroun, Prague and Amsterdam, our team of highly talented developers is building a world-scalable platform, delivering the best Subscription Video-On-Demand experience on the African continent and beyond.</p>" +
+                "<p>We are always on a seek for a new approaches of solving our engineering challenges. Machine learning is a huge part of efforts to better understand our users, content and our service. Content recommendation is very important piece of user experience. We have founded the ShowmaxLab as a collaborative place between us and top researchers at FIT.</p>",
                 upper_skills: [
                 ],
                 visit: true,
@@ -132,15 +133,15 @@
             }
         ];
         var bronzePartners = [
-            {
-                name: "Ackee",
-                logo: "ackee2017.png",
-                type: "bronze",
-                page: "https://www.ackee.cz/o-nas#contact",
-                description: "Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys. Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci. V Ackee máme pořád dveře otevřené. Bereme stážisty, juniory i seniory. Jestli není tvá pozice zrovna vypsaná, pošli nám i tak CV, třeba hledáme právě tebe. Momentálně sháníme kandidáty na pozice Android Developer, iOS Developer, Frontend Web Developer.</p>",
-                upper_skills: [],
-                visit: false
-            },
+            //{
+            //    name: "Ackee",
+            //    logo: "ackee2017.png",
+            //    type: "bronze",
+            //    page: "https://www.ackee.cz/o-nas#contact",
+            //    description: "Vznikli jsme jako parta studentů ČVUT. Každý z nás vynikal v jiné oblasti a spojoval nás zápal pro technologie. Dneska sídlíme nedaleko naší alma mater jako dospělá firma s řadou zkušeností, skvělými lidmi a se zajímavými klienty, kterým pomáháme využívat nové technologie pro jejich byznys. Kdo jsme? Jsme tři zakladatelé a společně jsme stvořili Ackee. To nejdůležitější je ale náš tým grafiků, projekťáků, testerů a hlavně vývojářek a vývojářů pro mobilní zařízení, weby a backendy. Proto jim říkáme miláčci. V Ackee máme pořád dveře otevřené. Bereme stážisty, juniory i seniory. Jestli není tvá pozice zrovna vypsaná, pošli nám i tak CV, třeba hledáme právě tebe. Momentálně sháníme kandidáty na pozice Android Developer, iOS Developer, Frontend Web Developer.</p>",
+            //    upper_skills: [],
+            //    visit: false
+            //},
 
             {
                 name: "NN",
@@ -230,19 +231,30 @@
                 logo: "accenture.png",
                 type: "bronze",
                 page: "https://www.accenture.com/cz-en/new-applied-now#",
-                description: "Popis partnera bude brzy doplněn.",
-                extendedDescription: "",
+                description: "Accenture je vedoucí, globální společnost nabízející odborné služby v oblasti strategie, poradenství, digitálních technologií, technologických služeb a podpory podnikových procesů prostřednictvím přibližně 373 000 pracovníků ve více než 120 zemích světa. Největším a nejvýznamnějším firmám ze všech odvětví pomáháme nastavit úspěšné strategie, navrhnout a implementovat plány, využít sílu digitálního světa – za pomoci tradičních i nových technologií – a dodat řešení. Našim klientům se dokážeme postarat o provoz jejich podnikových procesů, infrastruktury i cloudových služeb. Accenture je jediná firma se schopností poskytovat takto široké spektrum služeb a řešení upravených pro jednotlivá odvětví. V ČR působíme přes 25 let a máme více jak 1800 zaměstnanců.",
+                extendedDescription: "<p>Čerstvým absolventům nabízíme zajímavou práci v mezinárodních týmech na různorodých projektech v ČR i zahraničí. Jsme číslo 1 v rámci aktuálního žebříčku časopisu Fortune “World’s Most Admired Companies” v kategorii IT Služby. Naše pozice v konzultantské divizi jsou vhodné především pro vysokoškoláky se silným analytickým a logickým myšlením. Nabízíme zajímavou práci v oblasti konzultačních služeb, moderních IT nebo podpory podnikových procesů pro prestižní firmy, praktické zkušenosti, skvělé kolegy, špičkové vzdělávací programy, atraktivní ohodnocení a štědrý balíček benefitů. Work hard, play hard – umíme se bavit a žijeme i sportem – od celosvětové Accenture Ski Challenge až po We Run Prague. V neposlední řadě se zapojujeme do různých dobročinných a charitativních aktivit, jako je náš mezinárodně oceňovaný český projekt Accenture Academy pro děti z domovů.</p>",
                 upper_skills: [],
                 visit: true
             },
 
+            //{
+            //    name: "MSD IT / merc",
+            //    logo: "msd.png",
+            //    type: "bronze",
+            //    page: "https://www.msdit.cz/be-part-of-our-team/",
+            //    description: "Popis partnera bude brzy doplněn.",
+            //    extendedDescription: "",
+            //    upper_skills: [],
+            //    visit: true
+            //},
+
             {
-                name: "MSD IT / merc",
-                logo: "msd.png",
+                name: "Commerz Systems",
+                logo: "commerz-systems.svg",
                 type: "bronze",
                 page: "https://www.msdit.cz/be-part-of-our-team/",
-                description: "Popis partnera bude brzy doplněn.",
-                extendedDescription: "",
+                description: "Commerz Systems (CS) is an independent IT company that plays a key role in the success of the Commerzbank group as the central service provider for application development and operation.",
+                extendedDescription: "<p>Commerz Systems was founded in 2008 from a merger of two IT companies with many years of experience in development and IT operations for Commerzbank AG. As a service provider to the bank, CS is experiencing strong growth:Together with the more than 830 employees at the Eschborn, Bremen, Prague and Łodź locations, Commerz Systems offers a broad range of services in the fields of software development, maintenance, and IT operations. Technologically, the entire spectrum of current software architecture – from the established mainframe to highly specialized web applications and apps – is covered. Commerz Systems supports the private, entrepreneurial, and corporate customer business as well as all central functions of Commerzbank.</p>",
                 upper_skills: [],
                 visit: true
             }
