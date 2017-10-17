@@ -27,8 +27,8 @@ esac
 remote_path="/var/www/$REPO_NAME/$subdir/"
 
 # Decrypt the SSH deploy key.
-openssl aes-256-cbc -K $encrypted_b65b7efa0c06_key -iv $encrypted_b65b7efa0c06_iv \
-	-in "$DEPLOY_KEY.enc" -out "$DEPLOY_KEY" -d
+openssl aes-256-cbc -K $encrypted_98cada4b2e7c_key -iv $encrypted_98cada4b2e7c_iv \
+	-in "$DEPLOY_KEY".enc -out "$DEPLOY_KEY" -d
 chmod 600 "$DEPLOY_KEY"
 
 echo "==> Deploying to remote server into: $remote_path"
