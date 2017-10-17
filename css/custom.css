@@ -120,7 +120,7 @@ body > header nav a {
 body > header {
     padding-top: 3%;
     margin: auto;
-    min-height: 75vh;
+    min-height: 75%;
     position: relative;
     background-image: url("../img/header01.jpg");
     background-repeat: no-repeat;
