@@ -497,7 +497,7 @@ body > .content p {
 }
 
 .content .companies .gold .partner {
-    width: 100%;
+    display: block;/*width: 100%;*/
     color: #f9bc3d;
 }
 
