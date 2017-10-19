@@ -242,8 +242,8 @@
                 logo: "msd.png",
                 type: "bronze",
                 page: "https://www.msdit.cz/be-part-of-our-team/",
-                description: "Popis partnera bude brzy doplněn.",
-                extendedDescription: "",
+                description: "MSD is a global healthcare company with 126-year history and experience in the industry that helps the world be well. In Prague we have two centers now: MSD IT focusing on developing and applying advanced capabilities in information sciences, information security, mobility, social media and big data, etc. and the regional MSD Finance Delivery Center that is partnering with its Finance and Business counterparts across EMEA Region in following areas: Account to Report, Order to Cash, Procure to Pay and Internal Audit & Taxes.",
+                extendedDescription: "<p>Looking for career opportunities? Go to <a href='https://www.msdit.cz/' target='_blank'>www.msdit.cz</a> for IT related opportunities.</p>",
                 upper_skills: [],
                 visit: true
             },

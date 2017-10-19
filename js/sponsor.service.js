@@ -129,7 +129,7 @@
                     {department: "Technologie", skills: ["OOP", "Procedurální", "Funkcionální", "Algoritmizace"]}
                 ],
                 visit: true
-            },{
+            }, {
                 name: "Ataccama Software",
                 logo: "atacama2017.png",
                 type: "bronze",
@@ -160,19 +160,7 @@
                     {department: "Technologie", skills: ["OOP", "Funkcionální", "Algoritmizace"]}
                 ],
                 visit: true
-            },{
-                name: "Randstad s.r.o.",
-                logo: "randstad.png",
-                type: "bronze",
-                sponsor: true,
-                page: "https://www.randstad.cz/pridejte-se-k-nam/",
-                description: "Svět práce se vyvíjí a my s ním. Utváříme ho, aby byl lepším místem jak pro zaměstnance, tak pro firmy, které jim dávají práci. Poskytneme vám podporu během celého procesu a pomůžeme vám najít vysněnou práci. Dosadit toho správného člověka na tu správnou pozici je základem veškeré naší činnosti. Naším cílem a posláním je propojovat firmy s talenty.",
-                extendedDescription: "<p>Spolupracujeme s celou řadou atraktivních zaměstnavatelů, kteří stále hledají vhodné specialisty na rozličné technické pozice. V tuto chvíli dodáváme nejvíce zaměstnanců do společností působících v oblastech Automotive, Engineering, IT, Finance, Logistika a FMCG. Stále studujete nebo jste úspěšně studium ukončili a hledáte své první uplatnění? Ať už jste při škole získali nějaké zkušenosti nebo jste na trhu práce úplným nováčkem, můžeme vám pomoci najít cestu k vaší vysněné práci! </p>" +
-                "<p>V globálním měřítku tvoří 80 % managementu lidé, kteří u nás kariérně vyrostli. Klademe velký důraz na rozvoj našich zaměstnanců, naše konzultanty vzděláváme, aby mohli být rovnocennými partnery našich klientů a stát se skutečnými experty ve svém oboru. V Randstadu si zakládáme na otevřené a přátelské kultuře a pro naše zaměstnance vytváříme kreativní a inspirující pracovní prostředí, kde je prostor pro diskuzi a svobodné vyjadřování. Základem všeho je týmová spolupráce. Neuznáváme striktní hierarchie ani skleněné stropy.</p>" +
-                "<p>Na našem stánku můžete čekat partu pohodových konzultantů, kteří jsou připraveni s Vámi konzultovat životopis nebo sdílet hinty, jak zaujmout na pohovoru a získat job snů. Dozvíte se více o aktuálních pracovních příležitostí na part-time i full-time pro české i mezinárodní společnosti. Nabídneme vám nové vydání našeho magazínu pro ICT odborníky s oblíbenými přehledy o platech a zajímavými rozhovory s kandidáty i klienty. Připravena bude tombola, ve které můžete získat designové flash-disky, powerbanky, usb rozdvojky.</p>",
-                upper_skills: [],
-                visit: false
-            },{
+            }, {
                 name: "Tipsport",
                 logo: "tipsport.svg",
                 type: "bronze",
@@ -199,7 +187,10 @@
                     },
                     {department: "Datamining", skills: ["Pattern recognition", "Text mining", "Web mining"]},
                     {department: "Matematika", skills: ["Optimalizace", "Statistika"]},
-                    {department: "Bezpečnost", skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová", "Managerská"]},
+                    {
+                        department: "Bezpečnost",
+                        skills: ["Hardwarová", "Softwarová", "Síťová", "Systémová", "Managerská"]
+                    },
                     {
                         department: "Operační systémy",
                         skills: ["Unix", "Windows", "iOS", "Android"]
@@ -219,7 +210,7 @@
                     }
                 ],
                 visit: true
-            },{
+            }, {
                 name: "Greyson",
                 logo: "greyson.gif",
                 type: "bronze",
@@ -323,8 +314,13 @@
                 logo: "edhouse.png",
                 type: "bronze",
                 page: "http://www.edhouse.cz/cz/kariera/",
-                description: "Popis sponzora bude brzy doplněn.",
-                extendedDescription: "",
+                description: "Baví nás dělat software a děláme jej už 11 let s týmem více jak 80 lidí. Naši práci umíme fakt dobře. Vyvíjíme software pro nadnárodní společnosti, dokážeme vymyslet, co je třeba a přitom cestujeme, poznáváme, sdílíme, žijeme, bavíme se... Chceš vědět ještě víc? Přijď se podívat k našemu stánku, čeká tam na Tebe i něco dobrého ;-).",
+                extendedDescription: "<p>Naší hlavní myšlenkou je přinášet zajímavou práci do Zlínského regionu a Olomouce. A že zajímavá je! :-)</p>" +
+                "<p>V našem týmu Thermo Fisher Scientific můžeš pracovat s elektronovým mikroskopem a vyvíjet software pro jeho obsluhu! Posouváme hranice a už nyní u nás nanotechnologie rostou :-)</p>" +
+                "<p>Také s námi můžeš vdechovat život nové generaci kontrolerů, zajišťujících řízení a monitoring spalovacích motorů. Software našeho zákazníka ComAp najdeš v nemocnicích i na závodní dráze.</p>" +
+                "<p>Pro On Semiconductor můžeš dělat software, který detekuje vadné mikročipy na výrobní lince a ušetříš tak práci spoustě lidem. Můžeš pomáhat s podporou výroby a testováním součástek, které se uplatňují například v letectví, osvětlení, zdravotních pomůckách, ale také ve vesmíru!</p>" +
+                "<p>Podílet se můžeš i na práci pro NCR. Vytvoř software, díky kterému bude fungovat obsluha čerpacích stanic a objednávkové systémy v restauracích po celém světě.</p>" +
+                "<p>A to už je něco :-) A tohle NĚCO se děje od nás, ze Zlína, Vsetína a Olomouce, kde má každý náš zaměstnanec své místečko.</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
