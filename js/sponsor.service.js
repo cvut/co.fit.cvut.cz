@@ -227,9 +227,8 @@
                 logo: "eman.png",
                 type: "bronze",
                 page: "https://www.eman.cz/kariera/",
-                description: "eMan je předním českým poskytovatelem softwarových řešení. Vyvíjíme aplikace pro smartphony, tablety, auta, wearables a další chytrá zařízení. Náš tým má 80 členů. Sídlo a hlavní kancelář máme v Praze. V roce 2016 jsme otevřeli regionální pobočky v Plzni a Hradci Králové. Mezi naše klíčové zákazníky patří například Škoda Auto, Honeywell, O2, Edenred, E.ON, Allianz, Česká pojišťovna, MND nebo Autodesk. eMan je součástí skupiny JABLOTRON GROUP.",
-                extendedDescription: "<p>Zabýváme se vývojem mobilních aplikací (návrh a vývoj aplikací pro smartphony, tablety, wearables, automobily a jiná “smart” zařízení), webovým vývojem (návrh a vývoj webových aplikací a backend řešení, klientské portály, obchodní a komunikační platformy, backend systémy, rozsáhlá enterprise řešení), UX/UI designem (UX strategie, prototyping, UX design aplikací, od mobilních řešení přes webové aplikace až po řešení pro chytré automobily nebo nemocniční lůžka) a dalšími službami (provoz a servis aplikací, quality assurance, bezpečnost a testování aplikací, hromadná správa mobilních zařízení, biometrické podpisy). Nabízíme možnost spolupráce formou práce na plný/částečný úvazek, stáže nebo možnost realizace diplomové/bakalářské práce.</p>" +
-                "<p>Osobní rozvoj a učení se je pro nás na prvním místě. Nabízíme finanční odměnu, se kterou budete opravdu spokojení. U nás máš možnost organizovat si svou práci podle sebe – důležitý je pro nás výsledek, ne pevná pravidla, podle jakých se k němu dostaneš. Jsme mladý kolektiv v příjemném pracovním prostředí. Mezi benefity patří výuka angličtiny, homeoffice, stolní fotbálek, HTC Vive a XBox v chillout zóně, sportovní akce, možnost zapůjčení firemního vozidla, celofiremní víkendové akce a teambuildingy, telefon, notebook, monitor a ergonomické pomůcky, polohovatelné stoly, občerstvení na pracovišti, konference, pravidelné firemní snídaně, školení či možnost proplacení odborných seminářů a kurzů.</p>",
+                description: "V eManu rozumíme chytrým zařízením. Umíme vymyslet a realizovat jak šikovné mobilní nebo webové aplikace, tak i úplná softwarová řešení. Naše produkty denně používají miliony lidí. Jsme česká firma a sídlíme v Praze, další kanceláře pak máme v Plzni, Hradci Králové a Mladé Boleslavi. Pracujeme na velkých projektech například pro Škoda Auto, Honeywell, Edenred, E.ON, Allianz, Česká pojišťovna, MND nebo Autodesk. Neustále se držíme na vývojářské špičce a nebojíme se nových výzev. Věříme, že můžeme lidem díky chytrým technologiím ulehčit a obohatit život. A to dává naší práci smysl.",
+                extendedDescription: "",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
@@ -331,7 +330,7 @@
                 logo: "suse.svg",
                 type: "bronze",
                 page: "https://www.suse.com/",
-                description: "Popis sponzora bude brzy doplněn.",
+                description: "SUSE bylo založeno roku 1992 a v současnosti je součástí skupiny Micro Focus. Primárně se sice zabývá Linuxem, ale kromě toho se jeho portfolio orientuje i na segment softwarově definovaných úložišť a zahrnuje i cloudovou platformu OpenStack.",
                 extendedDescription: "",
                 upper_skills: [],
                 visit: true,
