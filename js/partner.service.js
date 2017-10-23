@@ -252,9 +252,20 @@
                 name: "Commerz Systems",
                 logo: "commerz-systems.svg",
                 type: "bronze",
-                page: "https://www.msdit.cz/be-part-of-our-team/",
+                page: "http://commerzsystems.de/en/",
                 description: "Commerz Systems (CS) is an independent IT company that plays a key role in the success of the Commerzbank group as the central service provider for application development and operation.",
                 extendedDescription: "<p>Commerz Systems was founded in 2008 from a merger of two IT companies with many years of experience in development and IT operations for Commerzbank AG. As a service provider to the bank, CS is experiencing strong growth:Together with the more than 830 employees at the Eschborn, Bremen, Prague and Łodź locations, Commerz Systems offers a broad range of services in the fields of software development, maintenance, and IT operations. Technologically, the entire spectrum of current software architecture – from the established mainframe to highly specialized web applications and apps – is covered. Commerz Systems supports the private, entrepreneurial, and corporate customer business as well as all central functions of Commerzbank.</p>",
+                upper_skills: [],
+                visit: true
+            },
+
+            {
+                name: "Fiedler AMS",
+                logo: "fiedler.svg",
+                type: "bronze",
+                page: "https://www.fiedler.company/",
+                description: "Popis společnosti bude brzy doplněn.",
+                extendedDescription: "",
                 upper_skills: [],
                 visit: true
             }

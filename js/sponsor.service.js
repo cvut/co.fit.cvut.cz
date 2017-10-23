@@ -335,6 +335,18 @@
                 upper_skills: [],
                 visit: true,
                 sponsor: true
+            },
+
+            {
+                name: "Amarula Solutions",
+                logo: "amarula.png",
+                type: "bronze",
+                page: "https://www.amarulasolutions.com/job-opportunities/",
+                description: "Amarula Solutions has a passion for open source. Our software engineers have their roots in open source and participate actively in open source communities. We want to bring customer satisfaction by having a hands-on mentality in embedded solutions. We make hardware products faster, more secure and stable. From chip software to system drivers, from mobile devices to ATMs.",
+                extendedDescription: "<p>Our goal is to provide high quality embedded solutions. The open source software ecosystem along with the right chain of hardware development companies, enables us to build competitive solutions for your company. Among our customers we can count: hardware manufacturers, defense industry leaders but also end user oriented companies. </p>",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
             }
         ];
         return {

@@ -1,7 +1,7 @@
 <li class="company expandable-container follow">
     <a class="logo" ng-href="{{company.page}}" title="{{'GO_TO_COMPANY_PAGE' | translate}}" target="_blank">
         <h3 ng-show="!company.logo">{{company.name}}</h3>
-        <img ng-show="company.logo" src="img/partners/{{company.logo}}"/>
+        <img ng-show="company.logo" src="img/partners/{{company.logo}}" alt="{{company.name}}" title="{{company.name}}"/>
         <div class="btn" style="font-weight: 500;">{{'COMPANY_WEB' | translate}}</div>
     </a>
     <div class="description">
