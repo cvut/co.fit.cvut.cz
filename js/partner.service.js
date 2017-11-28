@@ -268,6 +268,18 @@
                 extendedDescription: "",
                 upper_skills: [],
                 visit: true
+            },
+
+            {
+                name: "Cleverbee",
+                logo: "cleverbee.gif",
+                type: "bronze",
+                page: "http://www.cleverbee.com/kariera/",
+                description: "Cleverbee je česko-švýcarská softwarová společnost s tradicí od roku 2000. Za 17 let naší působnosti jsme realizovali mnoho projektů v ČR a dalších zemích Evropy. Mezi naše hlavní kompetence patří portálová řešení a klientské zóny, business inteligence, digitalizace dokumentů, vývoj agendových řešení na míru, integrace a mobilní i webové aplikace. Specializujeme se na opensource systémy DMS Alfresco, Liferay a Pentaho. Naše kanceláře v ČR jsou v Praze a Hradci Králové, ale naše zaměstnance vysíláme i na zahraniční projekty, protože nám praxe ukázala, že i v zahraničí si velmi váží české kreativity, kterou propojujeme se švýcarským managementem.",
+                extendedDescription: "",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
             }
         ];
         return {

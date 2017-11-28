@@ -297,18 +297,6 @@
             },
 
             {
-                name: "Cleverbee",
-                logo: "cleverbee.gif",
-                type: "bronze",
-                page: "http://www.cleverbee.com/kariera/",
-                description: "Popis sponzora bude brzy doplněn.",
-                extendedDescription: "",
-                upper_skills: [],
-                visit: true,
-                sponsor: true
-            },
-
-            {
                 name: "Edhouse",
                 logo: "edhouse.png",
                 type: "bronze",
