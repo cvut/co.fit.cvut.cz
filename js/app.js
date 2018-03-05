@@ -25,11 +25,12 @@
     angular.module("app").service("TranslateService", function ($translate) {
         return {
             getLanguage: function () {
-                if ($translate.use()) {
-                    return $translate.use();
-                } else {
-                    return $translate.proposedLanguage();
-                }
+                // if ($translate.use()) {
+                //     return $translate.use();
+                // } else {
+                //     return $translate.proposedLanguage();
+                // }
+                return 'cs';
             }
         };
     });
