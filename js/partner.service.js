@@ -68,7 +68,7 @@
                     {department: "Cizí jazyky", skills: ["Angličtina"]},
                     {department: "Technologie", skills: ["OOP", "Funkcionální"]}
                 ],
-                visit: true,
+                visit: false,
                 importance: 7
             }, {
                 name: "Komerční banka",
@@ -128,7 +128,7 @@
                 "<p>We are always on a seek for a new approaches of solving our engineering challenges. Machine learning is a huge part of efforts to better understand our users, content and our service. Content recommendation is very important piece of user experience. We have founded the ShowmaxLab as a collaborative place between us and top researchers at FIT.</p>",
                 upper_skills: [
                 ],
-                visit: true,
+                visit: false,
                 importance: 8
             }
         ];
@@ -259,16 +259,16 @@
                 visit: true
             },
 
-            {
-                name: "Fiedler AMS",
-                logo: "fiedler.svg",
-                type: "bronze",
-                page: "https://www.fiedler.company/",
-                description: "FIEDLER AMS je dynamická firma zaměřená na vývoj systémových řešení, výrobu vlastních snímačů, telemetrických sestav pro sběr, analýzu a vizualizaci dat, řízení procesů a pro monitorování kvality životního prostředí. Našim zákazníkům nabízíme celou řadu moderních zařízení, která sledují kvantitativní a kvalitativní parametry vody, ovzduší a půdy. Pro analýzu a vizualizaci dat využíváme a neustále vylepšujeme vlastní webové aplikace CloudFM a technologické obrazovky CloudFM Scada.",
-                extendedDescription: "",
-                upper_skills: [],
-                visit: true
-            },
+            // {
+            //     name: "Fiedler AMS",
+            //     logo: "fiedler.svg",
+            //     type: "bronze",
+            //     page: "https://www.fiedler.company/",
+            //     description: "FIEDLER AMS je dynamická firma zaměřená na vývoj systémových řešení, výrobu vlastních snímačů, telemetrických sestav pro sběr, analýzu a vizualizaci dat, řízení procesů a pro monitorování kvality životního prostředí. Našim zákazníkům nabízíme celou řadu moderních zařízení, která sledují kvantitativní a kvalitativní parametry vody, ovzduší a půdy. Pro analýzu a vizualizaci dat využíváme a neustále vylepšujeme vlastní webové aplikace CloudFM a technologické obrazovky CloudFM Scada.",
+            //     extendedDescription: "",
+            //     upper_skills: [],
+            //     visit: true
+            // },
 
             {
                 name: "Cleverbee",
@@ -276,10 +276,29 @@
                 type: "bronze",
                 page: "http://www.cleverbee.com/kariera/",
                 description: "Cleverbee je česko-švýcarská softwarová společnost s tradicí od roku 2000. Za 17 let naší působnosti jsme realizovali mnoho projektů v ČR a dalších zemích Evropy. Mezi naše hlavní kompetence patří portálová řešení a klientské zóny, business inteligence, digitalizace dokumentů, vývoj agendových řešení na míru, integrace a mobilní i webové aplikace. Specializujeme se na opensource systémy DMS Alfresco, Liferay a Pentaho. Naše kanceláře v ČR jsou v Praze a Hradci Králové, ale naše zaměstnance vysíláme i na zahraniční projekty, protože nám praxe ukázala, že i v zahraničí si velmi váží české kreativity, kterou propojujeme se švýcarským managementem.",
-                extendedDescription: "",
+                extendedDescription: null,
                 upper_skills: [],
-                visit: true,
-                sponsor: true
+                visit: false
+            },
+            {
+                name: "Entera",
+                logo: null,
+                type: "bronze",
+                page: "https://www.etnetera.cz/prace-u-nas",
+                description: "",
+                extendedDescription: null,
+                upper_skills: [],
+                visit: true
+            },
+            {
+                name: "Eaton",
+                logo: null,
+                type: "bronze",
+                page: "http://www.eaton.cz/Czech/index.htm",
+                description: "",
+                extendedDescription: null,
+                upper_skills: [],
+                visit: true
             }
         ];
         return {

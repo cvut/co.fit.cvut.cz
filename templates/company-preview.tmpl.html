@@ -2,7 +2,10 @@
     <div class="border">
         <div class="logo">
             <a ng-href="{{company.page}}" target="_blank">
-                <img src="img/partners/{{company.logo}}" alt="{{company.name}}" title="{{company.name}}"/>
+                <img ng-if="company.logo" src="img/partners/{{company.logo}}" alt="{{company.name}}" title="{{company.name}}"/>
+                <h3 ng-if="!company.logo">
+                    {{company.name}}
+                </h3>
             </a>
         </div>
         <div class="info">

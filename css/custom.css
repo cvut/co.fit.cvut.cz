@@ -207,6 +207,18 @@ body > header .header-content .logo {
     max-width: 5em;
     margin: 5px;
 }
+body > header .header-content .date {
+    background: rgba(5, 5, 5, 0.8);
+    font-size: 40px;
+    display: inline-block;
+    padding: 12px 0;
+    color: white;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+body > header .header-content .date > * {
+    padding: 0 24px;
+}
 
 body > header .header-content h1 > span {
     display: block;
@@ -387,7 +399,7 @@ body > header .main-nav > nav > * {
     display: table-cell;
     font-weight: 600;
     vertical-align: middle;
-
+    max-width: 150px;
 }
 
 body > header .main-nav a.active,
@@ -542,12 +554,12 @@ body > .content p {
 }
 
 .content .companies .silver .partner .logo img {
-    max-height: 70px;
+    max-height: 90px;
     max-width: 90%;
 }
 
 .content .companies .bronze .partner .logo img {
-    max-height: 40px;
+    max-height: 60px;
     max-width: 90%;
 }
 
@@ -557,7 +569,7 @@ body > .content p {
     position: relative;
     background-color: #f4f4f4;
     border-left: 10px solid;
-    padding: 1em 0;
+    padding: 12px;
 }
 
 .content .partner .status {
@@ -598,8 +610,8 @@ body > .content p {
 
 .company .logo img {
     max-width: 60%;
-    max-height: 5em;
-    padding: 1em 0;
+    max-height: 50px;
+    padding: 0 0;
 }
 
 .company .logo .btn {

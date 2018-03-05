@@ -8,7 +8,16 @@
                 sponsor: true,
                 page: "https://www.embedit.cz/Career",
                 description: "EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.",
-                visit: false
+                visit: true
+            },
+            {
+                name: "T-Mobile",
+                logo: "tmobile.jpg",
+                type: "gold",
+                sponsor: true,
+                page: "https://www.t-mobile.cz",
+                description: "",
+                visit: true
             }
         ];
         var silverSponsors = [
@@ -48,7 +57,7 @@
                         department: "Počítačové inženýrství",
                         skills: ["Architektura počítačů", "Logický návrh", "Vestavěné systémy", "Programovatelný hardware", "Testování a spolehlivost"]
                     },
-                    {department: "Cizí jazyky", skills: ["Angličtina", "Italština"]},
+                    {department: "Cizí jazyky", skills: ["Angličtina", "Italština"]}
                 ],
                 visit: true
             }
@@ -128,10 +137,10 @@
                     {department: "Cizí jazyky", skills: ["Angličtina", "Němčina", "Ruština"]},
                     {department: "Technologie", skills: ["OOP", "Procedurální", "Funkcionální", "Algoritmizace"]}
                 ],
-                visit: true
+                visit: false
             }, {
                 name: "Ataccama Software",
-                logo: "atacama2017.png",
+                logo: "atacama.jpg",
                 type: "bronze",
                 sponsor: true,
                 page: "https://jobs.ataccama.com",
@@ -235,7 +244,7 @@
             },
 
             {
-                name: "Epam",
+                name: "EPAM Systems",
                 logo: "epam.svg",
                 type: "bronze",
                 page: "http://www.epamsystems.cz/",
@@ -244,7 +253,7 @@
                 "<p>After people join us, they receive a comprehensive set of benefits. We invest a lot into EPAMers’ professional development, there are a lot of educational activities, such as webinars, conferences, courses. There are different IT events, people can either share their knowledge or learn something new. Having that many nationalities we need to speak the same language, which is why we offer our employees English courses to boost their skills. What is very attractive benefit, is possibility to work on international project and possibility to go work (of course, after certain time) to another EPAM location  in over 25 countries around the world.</p>" +
                 "<p>We know, that there is a big competition on IT market, but we are committed to making EPAM a great place to work through our culture, training and global mobility program. We know how to work hard, and we know how to have a great time.  </p>",
                 upper_skills: [],
-                visit: true,
+                visit: false,
                 sponsor: true
             },
 
@@ -297,7 +306,7 @@
             },
 
             {
-                name: "Edhouse",
+                name: "EdHouse",
                 logo: "edhouse.png",
                 type: "bronze",
                 page: "http://www.edhouse.cz/cz/kariera/",
@@ -321,7 +330,7 @@
                 description: "SUSE bylo založeno roku 1992 a v současnosti je součástí skupiny Micro Focus. Primárně se sice zabývá Linuxem, ale kromě toho se jeho portfolio orientuje i na segment softwarově definovaných úložišť a zahrnuje i cloudovou platformu OpenStack.",
                 extendedDescription: "",
                 upper_skills: [],
-                visit: true,
+                visit: false,
                 sponsor: true
             },
 
@@ -332,6 +341,53 @@
                 page: "https://www.amarulasolutions.com/job-opportunities/",
                 description: "Amarula Solutions has a passion for open source. Our software engineers have their roots in open source and participate actively in open source communities. We want to bring customer satisfaction by having a hands-on mentality in embedded solutions. We make hardware products faster, more secure and stable. From chip software to system drivers, from mobile devices to ATMs.",
                 extendedDescription: "<p>Our goal is to provide high quality embedded solutions. The open source software ecosystem along with the right chain of hardware development companies, enables us to build competitive solutions for your company. Among our customers we can count: hardware manufacturers, defense industry leaders but also end user oriented companies. </p>",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "Quanti",
+                logo: "quanti.png",
+                type: "bronze",
+                page: "",
+                description: "",
+                extendedDescription: null,
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "KPMG",
+                logo: "kmpg.png",
+                type: "bronze",
+                page: "https://home.kpmg.com/cz/cs/home/kariera.html",
+                description: "KPMG Česká republika zahájila svou činnost v roce 1990, v současné době má více než 1000 zaměstnanců a kanceláře v Praze, Brně, Českých Budějovicích a Ostravě. Společnost poskytuje služby v oblasti auditu, daní, poradenství a práva.  Jako součást celosvětové sítě poradenských společností může KPMG Česká republika využít znalosti a zkušenosti více než 197 tisíc odborníků, kteří působí ve 154 státech světa. Nezávislé členské společnosti sítě KPMG jsou přidružené ke KPMG International Cooperative  („KPMG International“), švýcarské organizační jednotce. Každá členská společnost celosvětové sítě KPMG je právně samostatná a oddělená jednotka a tak se označuje.",
+                extendedDescription: null,
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "AKKA",
+                logo: null,
+                type: "bronze",
+                page: "https://www.akka-technologies.com/en/career",
+                description: "",
+                extendedDescription: null,
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "OKsystem",
+                logo: "oksystem.png",
+                type: "bronze",
+                page: "https://www.oksystem.com/cz/kariera",
+                description: "Jsme česká softwarová společnost, která působí na trhu informačních technologií více než 27 let. Jsme dodavatelem a systémovým integrátorem rozsáhlých informačních systémů ve veřejné i podnikové sféře, zaměřujeme se na vývoj mobilních aplikací, bezpečnost ve světě IT a mobilních zařízení a naše autorizované školicí centrum poskytuje testování a školení produktů Cisco, Microsoft a SUSE Linux. Máme kanceláře v Praze a Brně, kde nyní pracuje celkem 280 zaměstnanců, ale stále hledáme posily do našeho týmu. Přidejte se k nám a i Vy.",
                 upper_skills: [],
                 visit: true,
                 sponsor: true

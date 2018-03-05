@@ -52,6 +52,10 @@ body > header nav.links {
     right: 0;
 }
 
+body > header .main-nav > nav > * {
+    max-width: none;
+}
+
 .content .contacts {
     margin: -2%;
 }
@@ -122,4 +126,6 @@ body > header nav.links {
     .company .skills > li {
         width: 45%;
     }
+
+
 }

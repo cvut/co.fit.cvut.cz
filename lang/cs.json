@@ -37,5 +37,10 @@
     "EMAIL": "Email",
     "PHONE": "Telefon",
     "ASSOCIATE_DEAN_FOR_DEVELOPMENT": "Proděkan pro rozvoj",
-    "WHO_COMES": "Zúčastněné společnosti"
+    "ASSOCIATE_DEAN_FOR_COOPERATION_WITH_INDUSTRY": "Proděkan pro spolupráci s průmyslem",
+    "WHO_COMES": "Zúčastněné společnosti",
+    "COOPERATION_WITH_INDUSTRY": "Spolupráce s průmyslem",
+    "SCHEDULE": "Program",
+    "COFIT": "COFIT",
+    "INFO_FOR_STUDENTS": "Informace pro studenty"
 }
