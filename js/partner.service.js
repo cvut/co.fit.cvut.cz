@@ -282,7 +282,7 @@
             },
             {
                 name: "Entera",
-                logo: null,
+                logo: "entera.svg",
                 type: "bronze",
                 page: "https://www.etnetera.cz/prace-u-nas",
                 description: "",
@@ -292,10 +292,10 @@
             },
             {
                 name: "Eaton",
-                logo: null,
+                logo: "eaton.jpg",
                 type: "bronze",
                 page: "http://www.eaton.cz/Czech/index.htm",
-                description: "",
+                description: "Elektrotechnický sektor společnosti Eaton Corporation je globálním lídrem v distribuci energie a ochraně elektrických obvodů; ochraně pomocných záložních zdrojů; v řízení a automatizaci; osvětlení a bezpečnosti; strukturálních řešeních a zařízeních pro elektrické sítě; řešeních pro drsná či nebezpečná prostředí a v inženýrských službách. Eaton svým zákazníkům poskytuje úsporná řešení pomáhající řídit elektrickou, hydraulickou a mechanickou energie efektivněji, bezpečněji a udržitelněji. Začátkem roku 2012 otevřela skupina Eaton vlastní inovační centrum ve Vědeckotechnickém parku v Roztokách u Prahy, své první v Evropě a páté na světě. Významnou součástí je výrobní závod v Suchdole nad Lužnicí, kde se vyrábějí proudové chrániče a jističe a rozváděčové skříně. Se svými tisíci pracovníky se tak společnost řadí mezi nejvýznamnější zaměstnavatele v Jihočeském kraji. Eaton je společností zabývající se řízením energie, jejíž obrat dosáhl v roce 2016 hodnoty 19,7 miliard USD. Eaton má přibližně 95 000 zaměstnanců a prodává své výrobky zákazníkům ve více než 175 zemích světa.",
                 extendedDescription: null,
                 upper_skills: [],
                 visit: true

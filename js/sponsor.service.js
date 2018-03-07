@@ -372,7 +372,7 @@
 
             {
                 name: "AKKA",
-                logo: null,
+                logo: "akka.jpg",
                 type: "bronze",
                 page: "https://www.akka-technologies.com/en/career",
                 description: "",
