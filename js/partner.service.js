@@ -285,7 +285,7 @@
                 logo: "entera.svg",
                 type: "bronze",
                 page: "https://www.etnetera.cz/prace-u-nas",
-                description: "",
+                description: "V roce 1997 si Martin a Vašek chtěli přivydělat při studiu ČVUT. Založili firmu a brzy s překvapením zjistili, že mohou zaměstnat i své přátele, kteří sdílí jejich znalosti a smysl pro humor. Po více jak 20 letech úspěšného fungování je Etnetera přední společností v oblasti vývoje webových portálů a aplikací. Pracujeme v liberálním a otevřeném prostředí bez kravat a procesních příruček. Inspirujeme se principy svobodné firmy, kde se zisky dělí transparentně, týmy si určují svá vlastní pravidla a management nemá nadstandardní benefity. Není proto náhoda, že jsme se 4 roky po sobě umístili na třech nejvyšších příčkách v soutěži Best Employers ČR. Pro vývoj používáme open source řešení. Zabýváme se vývojem a provozem komunikačních a obchodních platforem, navrhujeme a vyvíjíme mobilní aplikace, nabízíme bezpečnostní služby a další.",
                 extendedDescription: null,
                 upper_skills: [],
                 visit: true
@@ -294,7 +294,7 @@
                 name: "Eaton",
                 logo: "eaton.jpg",
                 type: "bronze",
-                page: "http://www.eaton.cz/Czech/index.htm",
+                page: "http://www.eatonelektrotechnika.cz/cz/eaton.html",
                 description: "Elektrotechnický sektor společnosti Eaton Corporation je globálním lídrem v distribuci energie a ochraně elektrických obvodů; ochraně pomocných záložních zdrojů; v řízení a automatizaci; osvětlení a bezpečnosti; strukturálních řešeních a zařízeních pro elektrické sítě; řešeních pro drsná či nebezpečná prostředí a v inženýrských službách. Eaton svým zákazníkům poskytuje úsporná řešení pomáhající řídit elektrickou, hydraulickou a mechanickou energie efektivněji, bezpečněji a udržitelněji. Začátkem roku 2012 otevřela skupina Eaton vlastní inovační centrum ve Vědeckotechnickém parku v Roztokách u Prahy, své první v Evropě a páté na světě. Významnou součástí je výrobní závod v Suchdole nad Lužnicí, kde se vyrábějí proudové chrániče a jističe a rozváděčové skříně. Se svými tisíci pracovníky se tak společnost řadí mezi nejvýznamnější zaměstnavatele v Jihočeském kraji. Eaton je společností zabývající se řízením energie, jejíž obrat dosáhl v roce 2016 hodnoty 19,7 miliard USD. Eaton má přibližně 95 000 zaměstnanců a prodává své výrobky zákazníkům ve více než 175 zemích světa.",
                 extendedDescription: null,
                 upper_skills: [],

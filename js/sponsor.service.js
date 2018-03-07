@@ -15,8 +15,8 @@
                 logo: "tmobile.jpg",
                 type: "gold",
                 sponsor: true,
-                page: "https://www.t-mobile.cz",
-                description: "",
+                page: "https://www.t-mobile.cz/web/guest/kariera#hledame",
+                description: "Ukážeme vám cestu do mobilní budoucnosti. Jednoduše a s lidským přístupem vám poskytneme všechny výhody mobility - spolehlivě a dostupně, vždy a všude. Klademe důraz na poskytování spolehlivých a kvalitních služeb, které splní očekávání našich zákazníků. U zaměstnanců podporujeme týmovou spolupráci, tvořivost a firemní kulturu zaměřenou na výsledky. Snažíme se pracovat transparentně a efektivně. Naše obchodní cíle budou vždy v souladu s odpovědností vůči společnosti, v níž žijeme.",
                 visit: true
             }
         ];
@@ -375,7 +375,7 @@
                 logo: "akka.jpg",
                 type: "bronze",
                 page: "https://www.akka-technologies.com/en/career",
-                description: "",
+                description: "Během 20 let na trhu se společnost MBtech Bohemia stala největším poskytovatelem inženýrských služeb v České republice. Díky široké škále odborných znalostí působíme v řadě oborů, mezi něž patří automobilový, železniční, letecký, důlní i obranný průmysl a zahradní technika. MBtech Bohemia je seriózní a spolehlivý partner, který svým zákazníkům poskytuje podporu během všech fází procesu vývoje výrobků od návrhů přes vývoj, vytváření prototypů a jejich testování až po sériovou výrobu. Našimi zákazníky jsou klíčoví OEM a dodavatelé řady 1 a 2 (Tier 1, 2). MBtech Bohemia nabízí dodavatelům různé modely spolupráce. Jako největší inženýrská společnost v regionu dodáváme řešení na míru, a to i díky specifické podpoře naší IT infrastruktury.",
                 extendedDescription: null,
                 upper_skills: [],
                 visit: true,
