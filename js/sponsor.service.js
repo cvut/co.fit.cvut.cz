@@ -174,7 +174,7 @@
                 logo: "tipsport.svg",
                 type: "bronze",
                 sponsor: true,
-                page: "https://tipsport.jobs.cz/volna-mista/",
+                page: "https://jobs.tipsport.cz/",
                 description: "Většina sázek je v dnešní době přijímána online a tak lze Tipsport označit za technologickou firmu. Naše IT oddělení je proto opravdu hýčkané. Jen náš tým developerů má 26 lidí, a protože v kurzovém sázení stále přibývají nové funkcionality i související služby, už zase je nás málo. :-) Pokud naskočíš do našeho týmu, nejdříve Tě čeká zaškolení pod vedením některého ze zkušených vývojářů. Provedeme Tě zvlášť frontendovou a backendovou částí aplikace.",
                 extendedDescription: "<p>Podle toho, co Ti bude bližší, si sám vybereš, jestli se budeš raději věnovat frontendu či backendu. Až projdeš fází zaškolení, budeš se v kooperaci s kolegy podílet na vývoji systémů, které tvoříme a optimalizujeme na vysokou zátěž a provoz s maximální dostupností, vždyť obsluhují tisíce dotazů a poskytují služby 24x7. Pracujeme v neformálním a přátelském kolektivu. Nabízíme možnost profesního i osobního růstu, možnost podílet se na vývoji a optimalizaci systémů stavěných na vysokou zátěž, možnost zúčastnit se odborných kurzů a školení, prostor pro sebevzdělávání a zkoumání nových technologií, možnost práce z domova, flexibilní pracovní dobu, sick days, odborné tréninky a školení a v neposlední řadě také zajímavé mzdové ohodnocení a široký systém dalších zaměstnaneckých benefitů.</p>",
                 upper_skills: [
