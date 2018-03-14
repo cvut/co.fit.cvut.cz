@@ -391,6 +391,16 @@
                 upper_skills: [],
                 visit: true,
                 sponsor: true
+            },
+            {
+                name: "Kiwi.com",
+                logo: "kiwi.svg",
+                type: "bronze",
+                page: "https://www.kiwi.com/jobs/",
+                description: "Od probdělých nocí a kupování prvních letenek z baru po firmu s více než 1 400 zaměstnanci a titulem Forbes Startup roku. To je ve zkratce příběh Kiwi.com - unikátního vyhledávače letenek nespolupracujících aerolinek, který vznikl a stále sídlí v Brně. Kiwi.com mění denně zážitky z cestování více něž 7000 lidí po celém světě a do roku 2021 má jasný cíl - změnit cestování, jak jej známe, být světovou jedničkou a dostat Brno na mapu těch nejlepších firem na světě. A k tomu má rozhodně dobře našlápnuto!",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
             }
         ];
         return {
