@@ -323,18 +323,6 @@
             },
 
             {
-                name: "Suse",
-                logo: "suse.svg",
-                type: "bronze",
-                page: "https://www.suse.com/",
-                description: "SUSE bylo založeno roku 1992 a v současnosti je součástí skupiny Micro Focus. Primárně se sice zabývá Linuxem, ale kromě toho se jeho portfolio orientuje i na segment softwarově definovaných úložišť a zahrnuje i cloudovou platformu OpenStack.",
-                extendedDescription: "",
-                upper_skills: [],
-                visit: false,
-                sponsor: true
-            },
-
-            {
                 name: "Amarula Solutions",
                 logo: "amarula.png",
                 type: "bronze",
