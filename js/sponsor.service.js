@@ -2,14 +2,14 @@
     angular.module("app").service("SponsorService", function () {
         var goldSponsors = [
             /*{
-                name: "EmbedIT",
-                logo: "embedit.png",
-                type: "gold",
-                sponsor: true,
-                page: "https://www.embedit.cz/Career",
-                description: "EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.",
-                visit: true
-            },*/
+             name: "EmbedIT",
+             logo: "embedit.png",
+             type: "gold",
+             sponsor: true,
+             page: "https://www.embedit.cz/Career",
+             description: "EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.",
+             visit: true
+             },*/
             {
                 name: "T-Mobile",
                 logo: "tmobile.jpg",
@@ -244,18 +244,18 @@
             },
 
             /*{
-                name: "EPAM Systems",
-                logo: "epam.svg",
-                type: "bronze",
-                page: "http://www.epamsystems.cz/",
-                description: "Since 1993, EPAM Systems, Inc. (NYSE:EPAM), has leveraged its core engineering expertise to become a leading global product development and digital platform engineering services company. Through its ‘Engineering DNA’ and innovative strategy, consulting, and design capabilities, EPAM works in collaboration with its customers to deliver innovative solutions that turn complex business challenges into real business opportunities. EPAM’s global teams serve customers in over 25 countries across North America, Europe, Asia and Australia. EPAM is a recognized market leader among independent research agencies and was ranked #8 in FORBES 25 Fastest Growing Public Tech Companies, as a top information technology services company on FORTUNE’S 100 Fastest Growing Companies, and as a top UK Digital Design & Build Agency.",
-                extendedDescription: "<p>EPAM Systems Czech Republic concentrates on  support of global EPAM customers, especially in the area of finance and pharma industry.</p>" +
-                "<p>After people join us, they receive a comprehensive set of benefits. We invest a lot into EPAMers’ professional development, there are a lot of educational activities, such as webinars, conferences, courses. There are different IT events, people can either share their knowledge or learn something new. Having that many nationalities we need to speak the same language, which is why we offer our employees English courses to boost their skills. What is very attractive benefit, is possibility to work on international project and possibility to go work (of course, after certain time) to another EPAM location  in over 25 countries around the world.</p>" +
-                "<p>We know, that there is a big competition on IT market, but we are committed to making EPAM a great place to work through our culture, training and global mobility program. We know how to work hard, and we know how to have a great time.  </p>",
-                upper_skills: [],
-                visit: false,
-                sponsor: true
-            },*/
+             name: "EPAM Systems",
+             logo: "epam.svg",
+             type: "bronze",
+             page: "http://www.epamsystems.cz/",
+             description: "Since 1993, EPAM Systems, Inc. (NYSE:EPAM), has leveraged its core engineering expertise to become a leading global product development and digital platform engineering services company. Through its ‘Engineering DNA’ and innovative strategy, consulting, and design capabilities, EPAM works in collaboration with its customers to deliver innovative solutions that turn complex business challenges into real business opportunities. EPAM’s global teams serve customers in over 25 countries across North America, Europe, Asia and Australia. EPAM is a recognized market leader among independent research agencies and was ranked #8 in FORBES 25 Fastest Growing Public Tech Companies, as a top information technology services company on FORTUNE’S 100 Fastest Growing Companies, and as a top UK Digital Design & Build Agency.",
+             extendedDescription: "<p>EPAM Systems Czech Republic concentrates on  support of global EPAM customers, especially in the area of finance and pharma industry.</p>" +
+             "<p>After people join us, they receive a comprehensive set of benefits. We invest a lot into EPAMers’ professional development, there are a lot of educational activities, such as webinars, conferences, courses. There are different IT events, people can either share their knowledge or learn something new. Having that many nationalities we need to speak the same language, which is why we offer our employees English courses to boost their skills. What is very attractive benefit, is possibility to work on international project and possibility to go work (of course, after certain time) to another EPAM location  in over 25 countries around the world.</p>" +
+             "<p>We know, that there is a big competition on IT market, but we are committed to making EPAM a great place to work through our culture, training and global mobility program. We know how to work hard, and we know how to have a great time.  </p>",
+             upper_skills: [],
+             visit: false,
+             sponsor: true
+             },*/
 
             {
                 name: "2N TELEKOMUNIKACE a.s.",
@@ -338,8 +338,8 @@
                 name: "Quanti",
                 logo: "quanti.png",
                 type: "bronze",
-                page: "",
-                description: "",
+                page: "https://www.quanti.cz/home",
+                description: "Všechno to začalo nevinnou větou. „Postavme si robota.“ Už jako kluci jsme měli společný sen. Dělat věci, které jsou cool a stanou se součástí historie. Cool věci umíme opravdu dobře, ale samotný nápad není vše. Je potřeba se vždycky zamyslet nad reálným přínosem, aby nic nezůstalo ležet na dně nadějného šuplíku. Nejraději máme projekty z oblasti autonomní robotiky, telekomunikací, moderních dopravních prostředků, armády či bezpečnosti. Bohužel Vám nemůžeme představit to nejzajímavější, protože většina projektů podléhá různým stupňům utajení. Začínali jsme na malých webech, nyní realizujeme největší portály v ČR. Vaší firmě poskytneme komplexní služby při realizaci jakéhokoli webového portálu. Dodáváme hotová řešení od návrhu, analýzy, vývoje až po implementaci a správy softwaru. Nejčastěji spolu s portály dodáváme databáze a mobilní aplikace pro všechny platformy. Jako doplňkové služby nabízíme administraci serverů a pronájem IT kapacit.",
                 extendedDescription: null,
                 upper_skills: [],
                 visit: true,
