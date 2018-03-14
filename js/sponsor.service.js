@@ -1,7 +1,7 @@
 (function (angular) {
     angular.module("app").service("SponsorService", function () {
         var goldSponsors = [
-            {
+            /*{
                 name: "EmbedIT",
                 logo: "embedit.png",
                 type: "gold",
@@ -9,7 +9,7 @@
                 page: "https://www.embedit.cz/Career",
                 description: "EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.",
                 visit: true
-            },
+            },*/
             {
                 name: "T-Mobile",
                 logo: "tmobile.jpg",
@@ -243,7 +243,7 @@
                 sponsor: true
             },
 
-            {
+            /*{
                 name: "EPAM Systems",
                 logo: "epam.svg",
                 type: "bronze",
@@ -255,7 +255,7 @@
                 upper_skills: [],
                 visit: false,
                 sponsor: true
-            },
+            },*/
 
             {
                 name: "2N TELEKOMUNIKACE a.s.",

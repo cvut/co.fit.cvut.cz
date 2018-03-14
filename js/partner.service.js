@@ -259,16 +259,16 @@
                 visit: true
             },
 
-            // {
-            //     name: "Fiedler AMS",
-            //     logo: "fiedler.svg",
-            //     type: "bronze",
-            //     page: "https://www.fiedler.company/",
-            //     description: "FIEDLER AMS je dynamická firma zaměřená na vývoj systémových řešení, výrobu vlastních snímačů, telemetrických sestav pro sběr, analýzu a vizualizaci dat, řízení procesů a pro monitorování kvality životního prostředí. Našim zákazníkům nabízíme celou řadu moderních zařízení, která sledují kvantitativní a kvalitativní parametry vody, ovzduší a půdy. Pro analýzu a vizualizaci dat využíváme a neustále vylepšujeme vlastní webové aplikace CloudFM a technologické obrazovky CloudFM Scada.",
-            //     extendedDescription: "",
-            //     upper_skills: [],
-            //     visit: true
-            // },
+            /*{
+                name: "Fiedler AMS",
+                logo: "fiedler.svg",
+                type: "bronze",
+                page: "https://www.fiedler.company/",
+                description: "FIEDLER AMS je dynamická firma zaměřená na vývoj systémových řešení, výrobu vlastních snímačů, telemetrických sestav pro sběr, analýzu a vizualizaci dat, řízení procesů a pro monitorování kvality životního prostředí. Našim zákazníkům nabízíme celou řadu moderních zařízení, která sledují kvantitativní a kvalitativní parametry vody, ovzduší a půdy. Pro analýzu a vizualizaci dat využíváme a neustále vylepšujeme vlastní webové aplikace CloudFM a technologické obrazovky CloudFM Scada.",
+                extendedDescription: "",
+                upper_skills: [],
+                visit: true
+            },*/
 
             {
                 name: "Cleverbee",
@@ -302,7 +302,7 @@
             },
 
             {
-                name: "Suse",
+                name: "SUSE lab",
                 logo: "suse.svg",
                 type: "bronze",
                 page: "https://www.suse.com/",
