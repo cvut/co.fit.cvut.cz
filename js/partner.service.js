@@ -68,7 +68,7 @@
                     {department: "Cizí jazyky", skills: ["Angličtina"]},
                     {department: "Technologie", skills: ["OOP", "Funkcionální"]}
                 ],
-                visit: false,
+                visit: true,
                 importance: 7
             }, {
                 name: "Komerční banka",
