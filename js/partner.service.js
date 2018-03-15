@@ -123,12 +123,11 @@
                 logo: "showmax.png",
                 type: "silver",
                 page: "https://tech.showmax.com/open-positions/",
-                description: "We’re an internet TV service. What’s that? For a single monthly fee, get all-you-can-eat access to a huge online catalogue of TV shows, movies, kids shows and documentaries. Start and stop when you want. No ads.",
-                extendedDescription: "<p>With offices in Beroun, Prague and Amsterdam, our team of highly talented developers is building a world-scalable platform, delivering the best Subscription Video-On-Demand experience on the African continent and beyond.</p>" +
-                "<p>We are always on a seek for a new approaches of solving our engineering challenges. Machine learning is a huge part of efforts to better understand our users, content and our service. Content recommendation is very important piece of user experience. We have founded the ShowmaxLab as a collaborative place between us and top researchers at FIT.</p>",
+                description: "Showmax back-end is an in-house developed micro-service oriented platform. We love Open Source and a lot of our developers have been active members of OSS community. As we use OSS we also like to give something back in return through reporting bug, submitting pull-requests and open-sourcing own tools. Majority of our back-end services are written in Ruby, Go or Python. We use EventMachine when writing applications in Ruby (Goliath as application server, executed via EinHorn). MRI as well as JRuby is used as our Ruby VM. With offices in Beroun, Prague and Amsterdam, our team of highly talented developers is building a world-scalable platform, delivering the best Subscription Video-On- Demand experience on the African continent and beyond.",
+                extendedDescription: null,
                 upper_skills: [
                 ],
-                visit: false,
+                visit: true,
                 importance: 8
             }
         ];
@@ -307,6 +306,18 @@
                 type: "bronze",
                 page: "https://www.suse.com/",
                 description: "SUSE bylo založeno roku 1992 a v současnosti je součástí skupiny Micro Focus. Primárně se sice zabývá Linuxem, ale kromě toho se jeho portfolio orientuje i na segment softwarově definovaných úložišť a zahrnuje i cloudovou platformu OpenStack.",
+                extendedDescription: "",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+
+            {
+                name: "Cleberbee",
+                logo: "cleverbee.png",
+                type: "bronze",
+                page: "https://www.cleverbee.com/kariera/",
+                description: "Jmenujeme se Cleverbee solutions s. r. o., jsme česko-švýcarská společnost a se softwarem to opravdu umíme. Na trhu jsme od roku 2000 a působíme hlavně v České republice, Švýcarsku a dalších zemích Evropy. Precizní švýcarský management Cleverbee řídí naše týmy v Praze, Hradci Králové i na zahraničních projektech. Jsme hrdí na odborné znalosti i neotřelé nápady našich zaměstnanců a snažíme se je i jejich rozvoj podporovat, jak je to jen možné. Aplikace z naší dílny dlouhá léta dobře slouží různým firmám i institucím. Vzhledem k nárokům na spolehlivá řešení i vysoké zabezpečení máme radost, když se na nás znovu obracejí s novými zajímavými zakázkami.",
                 extendedDescription: "",
                 upper_skills: [],
                 visit: true,
