@@ -335,7 +335,7 @@
                 logo: "quanti.png",
                 type: "bronze",
                 page: "https://www.quanti.cz/home",
-                description: "Všechno to začalo nevinnou větou. „Postavme si robota.“ Už jako kluci jsme měli společný sen. Dělat věci, které jsou cool a stanou se součástí historie. Cool věci umíme opravdu dobře, ale samotný nápad není vše. Je potřeba se vždycky zamyslet nad reálným přínosem, aby nic nezůstalo ležet na dně nadějného šuplíku. Nejraději máme projekty z oblasti autonomní robotiky, telekomunikací, moderních dopravních prostředků, armády či bezpečnosti. Bohužel Vám nemůžeme představit to nejzajímavější, protože většina projektů podléhá různým stupňům utajení. Začínali jsme na malých webech, nyní realizujeme největší portály v ČR. Vaší firmě poskytneme komplexní služby při realizaci jakéhokoli webového portálu. Dodáváme hotová řešení od návrhu, analýzy, vývoje až po implementaci a správy softwaru. Nejčastěji spolu s portály dodáváme databáze a mobilní aplikace pro všechny platformy. Jako doplňkové služby nabízíme administraci serverů a pronájem IT kapacit.",
+                description: "Quanti s.r.o. je českou technologickou firmou se sídlem v Praze v areálu kampusu Dejvice. Naše portfolio je opravdu široké. Know-how naší společnosti spočívá v propojování hardwarových a softwarových řešení, na která si ostatní firmy netroufají. Disponujeme pracovními týmy, které jsou složené ze skutečných expertů a nadšenců pro konkrétní problematiku.",
                 extendedDescription: null,
                 upper_skills: [],
                 visit: true,
@@ -348,14 +348,14 @@
                 type: "bronze",
                 page: "https://home.kpmg.com/cz/cs/home/kariera.html",
                 description: "KPMG Česká republika zahájila svou činnost v roce 1990, v současné době má více než 1000 zaměstnanců a kanceláře v Praze, Brně, Českých Budějovicích a Ostravě. Společnost poskytuje služby v oblasti auditu, daní, poradenství a práva.  Jako součást celosvětové sítě poradenských společností může KPMG Česká republika využít znalosti a zkušenosti více než 197 tisíc odborníků, kteří působí ve 154 státech světa. Nezávislé členské společnosti sítě KPMG jsou přidružené ke KPMG International Cooperative  („KPMG International“), švýcarské organizační jednotce. Každá členská společnost celosvětové sítě KPMG je právně samostatná a oddělená jednotka a tak se označuje.",
-                extendedDescription: null,
+                extendedDescription: "<p>Realizujeme jak rozsáhlá softwarová řešení, tak i specifické hardwarové zakázky. Máme za sebou i řadu webových portálů nebo technologicky náročných mobilních aplikací například pro vlastní hardware, streamování audio-video, pozicování v prostoru nebo aplikace využívající bluetooth. V projektech používáme nejnovější technologie a dbáme na neustálé vzdělávání našich zaměstnanců. Většina kolektivu je složena z absolventů nebo studentů FIT či FEL ČVUT, máme zkušenosti i s vedením semestrálních, bakalářských či diplomových prací. Studium při práci není u nás překážkou. V případě dotazů nás kontaktujte na info@quanti.cz.</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
             },
 
             {
-                name: "AKKA",
+                name: "The AKKADEMY Switzerland",
                 logo: "akka.jpg",
                 type: "bronze",
                 page: "https://www.akka-technologies.com/en/career",
