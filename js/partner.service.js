@@ -247,17 +247,6 @@
                 visit: true
             },
 
-            {
-                name: "Commerz Systems",
-                logo: "commerz-systems.svg",
-                type: "bronze",
-                page: "http://commerzsystems.de/en/",
-                description: "Commerz Systems (CS) is an independent IT company that plays a key role in the success of the Commerzbank group as the central service provider for application development and operation.",
-                extendedDescription: "<p>Commerz Systems was founded in 2008 from a merger of two IT companies with many years of experience in development and IT operations for Commerzbank AG. As a service provider to the bank, CS is experiencing strong growth:Together with the more than 830 employees at the Eschborn, Bremen, Prague and Łodź locations, Commerz Systems offers a broad range of services in the fields of software development, maintenance, and IT operations. Technologically, the entire spectrum of current software architecture – from the established mainframe to highly specialized web applications and apps – is covered. Commerz Systems supports the private, entrepreneurial, and corporate customer business as well as all central functions of Commerzbank.</p>",
-                upper_skills: [],
-                visit: true
-            },
-
             /*{
                 name: "Fiedler AMS",
                 logo: "fiedler.svg",
@@ -290,17 +279,17 @@
                 visit: true
             },
 
-            {
-                name: "SUSE lab",
-                logo: "suse.svg",
-                type: "bronze",
-                page: "https://www.suse.com/",
-                description: "SUSE bylo založeno roku 1992 a v současnosti je součástí skupiny Micro Focus. Primárně se sice zabývá Linuxem, ale kromě toho se jeho portfolio orientuje i na segment softwarově definovaných úložišť a zahrnuje i cloudovou platformu OpenStack.",
-                extendedDescription: "",
-                upper_skills: [],
-                visit: true,
-                sponsor: true
-            },
+            // {
+            //     name: "SUSE lab",
+            //     logo: "suse.svg",
+            //     type: "bronze",
+            //     page: "https://www.suse.com/",
+            //     description: "SUSE bylo založeno roku 1992 a v současnosti je součástí skupiny Micro Focus. Primárně se sice zabývá Linuxem, ale kromě toho se jeho portfolio orientuje i na segment softwarově definovaných úložišť a zahrnuje i cloudovou platformu OpenStack.",
+            //     extendedDescription: "",
+            //     upper_skills: [],
+            //     visit: true,
+            //     sponsor: true
+            // },
 
             {
                 name: "Cleberbee",
@@ -312,6 +301,41 @@
                 upper_skills: [],
                 visit: true,
                 sponsor: true
+            }, {
+                name: "Nangu.TV",
+                logo: "nangu.svg",
+                type: "bronze",
+                sponsor: true,
+                page: "http://nangu.tv/jobs/",
+                description: "Jsme Nangu. TV, česká softwarová firma zabývající se vývojem kompletního řešení pro multimediální platformy IPTV a OTT. V tomto velmi dynamickém odvětví se pohybujeme už více než 10 let a vybudovali jsme si pozici lídra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a evidujeme více než půl milionu zařízení připojených k nangu. TV platformě. Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a může se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku. Našim cílem je umožnit poskytovatelům internetových a komunikačních služeb nabízet interaktivní televizní zábavu bez hranic.",
+                extendedDescription: null,
+                upper_skills: [
+                    {
+                        department: "Soft skills",
+                        skills: ["Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost", "Agile"]
+                    },
+                    {
+                        department: "Programování",
+                        skills: ["C", "C++", "Java", "Javascript", "ObjectiveC", "Python", "Erlang", "Perl"]
+                    },
+                    {department: "Databáze", skills: ["Relační DB", "Grafové DB", "NoSQL DB"]},
+                    {
+                        department: "Softwarové inženýrství",
+                        skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Verzování zdrojového kódu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
+                    },
+                    {department: "Matematika", skills: ["Optimalizace", "Statistika"]},
+                    {department: "Bezpečnost", skills: ["Softwarová", "Síťová"]},
+                    {department: "Operační systémy", skills: ["Unix", "iOS", "Android", "Linux"]},
+                    {
+                        department: "Uživatelské rozhraní",
+                        skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI", "UIX"]
+                    },
+                    {department: "Počítačové inženýrství", skills: ["Testování a spolehlivost"]},
+                    {department: "Počítání", skills: ["Škálovatelné"]},
+                    {department: "Cizí jazyky", skills: ["Angličtina", "Němčina", "Ruština"]},
+                    {department: "Technologie", skills: ["OOP", "Procedurální", "Funkcionální", "Algoritmizace"]}
+                ],
+                visit: true
             }
         ];
         return {

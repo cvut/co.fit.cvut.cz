@@ -42,13 +42,8 @@
     </div>
 
     <div class="header-content" id="headerContent">
-        <h1 class="sub">{{'CAREER_FAIR' | translate}}</h1>
         <div class="heading">
-            <img class="logo" src="img/logo.svg"/>
-        </div>
-        <div class="date">
-            <div>24. října 2018</div>
-            <div style="font-size: 18px; margin-top: 10px;">Fakulta informačních technologií ČVUT</div>
+            <img class="logo" src="img/logo-adventure.svg"/>
         </div>
     </div>
 
@@ -72,11 +67,11 @@
             <a du-smooth-scroll du-scrollspy href="#schedule" title="{{'SCHEDULE' | translate}}">
                 {{'SCHEDULE' | translate}}
             </a>
-            <a du-smooth-scroll du-scrollspy href="#industry" title="{{'FOR_COMPANIES_EXT' | translate}}">
-                {{'FOR_COMPANIES' | translate}}
-            </a>
-            <a du-smooth-scroll du-scrollspy href="#whoComes" title="{{'FOR_STUDENTS' | translate}}">
-                {{'FOR_STUDENTS' | translate}}
+            <!--<a du-smooth-scroll du-scrollspy href="#industry" title="{{'FOR_COMPANIES_EXT' | translate}}">-->
+                <!--{{'FOR_COMPANIES' | translate}}-->
+            <!--</a>-->
+            <a du-smooth-scroll du-scrollspy href="#whoComes" title="{{'COMPANIES' | translate}}">
+                {{'COMPANIES' | translate}}
             </a>
             <a du-smooth-scroll du-scrollspy href="#aboutPortal" title="{{'CWI_EXT' | translate}}">
                 {{'COOPERATION_WITH_INDUSTRY' | translate}}
@@ -101,8 +96,8 @@
     </section>
     <section id="schedule" ng-include src="'templates/' + lang + '/schedule.section.html'">
     </section>
-    <section id="industry" ng-include src="'templates/' + lang + '/for-companies.section.html'">
-    </section>
+    <!--<section id="industry" ng-include src="'templates/' + lang + '/for-companies.section.html'">-->
+    <!--</section>-->
     <section id="whoComes" ng-include src="'templates/company-details.section.html'">
     </section>
     <section id="aboutPortal" ng-include src="'templates/' + lang + '/about-ssp.section.html'">

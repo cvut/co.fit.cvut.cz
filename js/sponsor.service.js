@@ -1,15 +1,15 @@
 (function (angular) {
     angular.module("app").service("SponsorService", function () {
         var goldSponsors = [
-            /*{
-             name: "EmbedIT",
-             logo: "embedit.png",
-             type: "gold",
-             sponsor: true,
-             page: "https://www.embedit.cz/Career",
-             description: "EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.",
-             visit: true
-             },*/
+            {
+                name: "EmbedIT",
+                logo: "embedit.png",
+                type: "gold",
+                sponsor: true,
+                page: "https://www.embedit.cz/Career",
+                description: "EmbedIT is a 100% Czech IT Centre that provides IT services including design and support to Home Credit Group and Air Bank (PPF Group). Our internally designed and developed applications serve over 45 million customers in 11 countries, including Russia, China or United States. Production Services team manages 20 data centers worldwide with a volume of more than 200 million transactions per day produced in network of over 187 thousand points of sale, loan offices, branches and post offices. Our team of more than 800+ professionals is located in 3 Czech cities: Prague, Brno, and Ostrava.",
+                visit: true
+            },
             {
                 name: "T-Mobile",
                 logo: "tmobile.jpg",
@@ -100,41 +100,6 @@
                 ],
                 visit: true
             }, {
-                name: "Nangu.TV",
-                logo: "nangu.svg",
-                type: "bronze",
-                sponsor: true,
-                page: "http://nangu.tv/jobs/",
-                description: "Jsme Nangu. TV, česká softwarová firma zabývající se vývojem kompletního řešení pro multimediální platformy IPTV a OTT. V tomto velmi dynamickém odvětví se pohybujeme už více než 10 let a vybudovali jsme si pozici lídra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a evidujeme více než půl milionu zařízení připojených k nangu. TV platformě. Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a může se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku. Našim cílem je umožnit poskytovatelům internetových a komunikačních služeb nabízet interaktivní televizní zábavu bez hranic.",
-                extendedDescription: null,
-                upper_skills: [
-                    {
-                        department: "Soft skills",
-                        skills: ["Projektové řízení", "Analytické myšlení", "Kreativita", "Týmovost", "Agile"]
-                    },
-                    {
-                        department: "Programování",
-                        skills: ["C", "C++", "Java", "Javascript", "ObjectiveC", "Python", "Erlang", "Perl"]
-                    },
-                    {department: "Databáze", skills: ["Relační DB", "Grafové DB", "NoSQL DB"]},
-                    {
-                        department: "Softwarové inženýrství",
-                        skills: ["Objektový návrh", "Integrace aplikací", "Testování", "Verzování zdrojového kódu", "Continuous Integration", "Bugtracking", "Tiketové systémy", "Metodiky"]
-                    },
-                    {department: "Matematika", skills: ["Optimalizace", "Statistika"]},
-                    {department: "Bezpečnost", skills: ["Softwarová", "Síťová"]},
-                    {department: "Operační systémy", skills: ["Unix", "iOS", "Android", "Linux"]},
-                    {
-                        department: "Uživatelské rozhraní",
-                        skills: ["Testování UI", "Grafika", "Kódování UI", "Implementace web UI", "UIX"]
-                    },
-                    {department: "Počítačové inženýrství", skills: ["Testování a spolehlivost"]},
-                    {department: "Počítání", skills: ["Škálovatelné"]},
-                    {department: "Cizí jazyky", skills: ["Angličtina", "Němčina", "Ruština"]},
-                    {department: "Technologie", skills: ["OOP", "Procedurální", "Funkcionální", "Algoritmizace"]}
-                ],
-                visit: true
-            }, {
                 name: "Ataccama Software",
                 logo: "atacama.jpg",
                 type: "bronze",
@@ -164,6 +129,15 @@
                     {department: "Cizí jazyky", skills: ["Angličtina", "Němčina", "Ruština", "Španělština"]},
                     {department: "Technologie", skills: ["OOP", "Funkcionální", "Algoritmizace"]}
                 ],
+                visit: true
+            }, {
+                name: "Commerz Systems",
+                logo: "commerz-systems.svg",
+                type: "bronze",
+                page: "http://commerzsystems.de/en/",
+                description: "Commerz Systems (CS) is an independent IT company that plays a key role in the success of the Commerzbank group as the central service provider for application development and operation.",
+                extendedDescription: "<p>Commerz Systems was founded in 2008 from a merger of two IT companies with many years of experience in development and IT operations for Commerzbank AG. As a service provider to the bank, CS is experiencing strong growth:Together with the more than 830 employees at the Eschborn, Bremen, Prague and Łodź locations, Commerz Systems offers a broad range of services in the fields of software development, maintenance, and IT operations. Technologically, the entire spectrum of current software architecture – from the established mainframe to highly specialized web applications and apps – is covered. Commerz Systems supports the private, entrepreneurial, and corporate customer business as well as all central functions of Commerzbank.</p>",
+                upper_skills: [],
                 visit: true
             }, {
                 name: "Tipsport",
@@ -282,8 +256,8 @@
                 page: "https://www.ncr.com/careers",
                 description: "NCR is a diverse business with 29,000 people in over 180 locations worldwide with a history, present and future of firsts. Founded in 1884 (as National Cash Register Company) maker of the first mechanical cash registers. NCR holds the Hospitality market leadership with a solution encompassing Point of Sale, Online and Mobile Ordering, Real Time Reporting, Theft and Loss Prevention. As the Omni-Channel leader NCR changes future of business by connecting consumer transaction data from all the industries served by NCR and presenting consumers with their complete financial picture.",
                 extendedDescription: "<p>Among our projects are 3rd party system integration (electronic payments, loyalty, online ordering), implementation of legal regulations (fiscal, labor law), multi-platformness, next Generation UI, real Time Reporting, theft and Loss Prevention and Big Data.</p>" +
-                "<p>Students can join NCR as interns or part timers to balance their study and employment changing to full time employment once graduated. Starting as junior Software or Quality Engineers they can specialize and become Software Architects, Product Owners or Engineering Managers. We at NCR prefer to grow our people.</p>" +
-                "<p>Do you value friendly and ethical environment, team work, highly skilled and motivated coworkers, innovative solutions (like the real time reporting and theft prevention)? Then NCR is the right choice for you!</p>",
+                    "<p>Students can join NCR as interns or part timers to balance their study and employment changing to full time employment once graduated. Starting as junior Software or Quality Engineers they can specialize and become Software Architects, Product Owners or Engineering Managers. We at NCR prefer to grow our people.</p>" +
+                    "<p>Do you value friendly and ethical environment, team work, highly skilled and motivated coworkers, innovative solutions (like the real time reporting and theft prevention)? Then NCR is the right choice for you!</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
@@ -308,11 +282,11 @@
                 page: "http://www.edhouse.cz/cz/kariera/",
                 description: "Baví nás dělat software a děláme jej už 11 let s týmem více jak 80 lidí. Naši práci umíme fakt dobře. Vyvíjíme software pro nadnárodní společnosti, dokážeme vymyslet, co je třeba a přitom cestujeme, poznáváme, sdílíme, žijeme, bavíme se... Chceš vědět ještě víc? Přijď se podívat k našemu stánku, čeká tam na Tebe i něco dobrého ;-).",
                 extendedDescription: "<p>Naší hlavní myšlenkou je přinášet zajímavou práci do Zlínského regionu a Olomouce. A že zajímavá je! :-)</p>" +
-                "<p>V našem týmu Thermo Fisher Scientific můžeš pracovat s elektronovým mikroskopem a vyvíjet software pro jeho obsluhu! Posouváme hranice a už nyní u nás nanotechnologie rostou :-)</p>" +
-                "<p>Také s námi můžeš vdechovat život nové generaci kontrolerů, zajišťujících řízení a monitoring spalovacích motorů. Software našeho zákazníka ComAp najdeš v nemocnicích i na závodní dráze.</p>" +
-                "<p>Pro On Semiconductor můžeš dělat software, který detekuje vadné mikročipy na výrobní lince a ušetříš tak práci spoustě lidem. Můžeš pomáhat s podporou výroby a testováním součástek, které se uplatňují například v letectví, osvětlení, zdravotních pomůckách, ale také ve vesmíru!</p>" +
-                "<p>Podílet se můžeš i na práci pro NCR. Vytvoř software, díky kterému bude fungovat obsluha čerpacích stanic a objednávkové systémy v restauracích po celém světě.</p>" +
-                "<p>A to už je něco :-) A tohle NĚCO se děje od nás, ze Zlína, Vsetína a Olomouce, kde má každý náš zaměstnanec své místečko.</p>",
+                    "<p>V našem týmu Thermo Fisher Scientific můžeš pracovat s elektronovým mikroskopem a vyvíjet software pro jeho obsluhu! Posouváme hranice a už nyní u nás nanotechnologie rostou :-)</p>" +
+                    "<p>Také s námi můžeš vdechovat život nové generaci kontrolerů, zajišťujících řízení a monitoring spalovacích motorů. Software našeho zákazníka ComAp najdeš v nemocnicích i na závodní dráze.</p>" +
+                    "<p>Pro On Semiconductor můžeš dělat software, který detekuje vadné mikročipy na výrobní lince a ušetříš tak práci spoustě lidem. Můžeš pomáhat s podporou výroby a testováním součástek, které se uplatňují například v letectví, osvětlení, zdravotních pomůckách, ale také ve vesmíru!</p>" +
+                    "<p>Podílet se můžeš i na práci pro NCR. Vytvoř software, díky kterému bude fungovat obsluha čerpacích stanic a objednávkové systémy v restauracích po celém světě.</p>" +
+                    "<p>A to už je něco :-) A tohle NĚCO se děje od nás, ze Zlína, Vsetína a Olomouce, kde má každý náš zaměstnanec své místečko.</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
@@ -382,6 +356,17 @@
                 type: "bronze",
                 page: "https://www.kiwi.com/jobs/",
                 description: "Od probdělých nocí a kupování prvních letenek z baru po firmu s více než 1 400 zaměstnanci a titulem Forbes Startup roku. To je ve zkratce příběh Kiwi.com - unikátního vyhledávače letenek nespolupracujících aerolinek, který vznikl a stále sídlí v Brně. Kiwi.com mění denně zážitky z cestování více něž 7000 lidí po celém světě a do roku 2021 má jasný cíl - změnit cestování, jak jej známe, být světovou jedničkou a dostat Brno na mapu těch nejlepších firem na světě. A k tomu má rozhodně dobře našlápnuto!",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+            {
+                name: "Unicorn Systems a.s.",
+                logo: "unicorn.png",
+                type: "bronze",
+                page: "https://unicorn.com/en/career",
+                description: "Unicorn je renomovaná evropská společnost poskytující ty největší informační systémy a řešení z oblasti informačních a komunikačních technologií. Dlouhodobě se soustředíme na vysokou přidanou hodnotu a konkurenční výhodu ve prospěch svých zákazníků.",
+                extendedDescription: "Působíme na trhu již od roku 1990 a za tu dobu jsme vytvořili řadu špičkových a rozsáhlých řešení, která jsou rozšířena a užívána mezi těmi nejvýznamnějšími podniky z různých odvětví. Máme ty nejlepší reference z oblasti bankovnictví, pojišťovnictví, energetiky a utilit, komunikace a médií, výroby, obchodu i veřejné správy.",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
