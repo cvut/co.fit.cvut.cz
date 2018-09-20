@@ -698,15 +698,15 @@ body > .content p {
     color: #f9bc3d;
 }
 
-.company.gold {
+.company.gold, .company.gold:hover {
     border-left: 10px solid #f9bc3d;
 }
 
-.company.silver {
+.company.silver, .company.silver:hover {
     border-left: 10px solid #676767;
 }
 
-.company.bronze {
+.company.bronze, .company.bronze:hover {
     border-left: 10px solid #d5aa57;
 }
 
