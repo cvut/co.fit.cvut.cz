@@ -330,7 +330,7 @@
 
             {
                 name: "The AKKADEMY Switzerland",
-                logo: "akka.jpg",
+                logo: "akka.png",
                 type: "bronze",
                 page: "https://www.akka-technologies.com/en/career",
                 description: "With more than 18,000 skilled employees and a solid presence in Europe, Asia and America, the AKKA Technologies Group is one of the leaders among European consulting engineering companies, always eager to meet the highest quality standards. To keep pace with this fast-changing world, AKKA Technologies set up an International Graduate Engineering Program, providing young talents with the opportunity to build a successful career and acquire a lifelong set of consulting skills.",
