@@ -333,8 +333,8 @@
                 logo: "akka.jpg",
                 type: "bronze",
                 page: "https://www.akka-technologies.com/en/career",
-                description: "With more than 15,000 skilled employees and a solid presence in Europe, Asia and America, the AKKA Technologies Group is one of the leaders among European consulting engineering companies, always eager to meet the highest quality standards. To keep pace with this fast-changing world, AKKA Technologies set up an International Graduate Engineering Program, providing young talents with the opportunity to build a successful career and acquire a lifelong set of consulting skills.",
-                extendedDescription: "<p>Our International Graduate Program addresses those who have a genuine passion for technologies. In an international and professional environment, you will be mentored during 12 months with the latest in-class and technical training methods, conceived to supplement your academic background. As a part of a digital transformation program, we created The AKKAdemy. Bringing together high-potential engineers from all over Europe and train them to become the next generation of top engineering consultants – capable of meeting our clients' most difficult innovation & business challenges to became AKKA valuable employees.</p>",
+                description: "With more than 18,000 skilled employees and a solid presence in Europe, Asia and America, the AKKA Technologies Group is one of the leaders among European consulting engineering companies, always eager to meet the highest quality standards. To keep pace with this fast-changing world, AKKA Technologies set up an International Graduate Engineering Program, providing young talents with the opportunity to build a successful career and acquire a lifelong set of consulting skills.",
+                extendedDescription: "<p>Our International Graduate Program addresses those who have a genuine passion for technologies. In an international and professional environment, you will be mentored during 12 months with the latest in-class and technical training methods, conceived to supplement your academic background. As a part of a digital transformation program, we created The AKKADEMY. Bringing together high-potential engineers from all over Europe and train them to become the next generation of top engineering consultants – capable of meeting our clients' most difficult innovation & business challenges.</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
@@ -367,6 +367,16 @@
                 page: "https://unicorn.com/en/career",
                 description: "Unicorn je renomovaná evropská společnost poskytující ty největší informační systémy a řešení z oblasti informačních a komunikačních technologií. Dlouhodobě se soustředíme na vysokou přidanou hodnotu a konkurenční výhodu ve prospěch svých zákazníků.",
                 extendedDescription: "Působíme na trhu již od roku 1990 a za tu dobu jsme vytvořili řadu špičkových a rozsáhlých řešení, která jsou rozšířena a užívána mezi těmi nejvýznamnějšími podniky z různých odvětví. Máme ty nejlepší reference z oblasti bankovnictví, pojišťovnictví, energetiky a utilit, komunikace a médií, výroby, obchodu i veřejné správy.",
+                upper_skills: [],
+                visit: true,
+                sponsor: true
+            },
+            {
+                name: "Ernst & Young ",
+                logo: "ernstYoung.gif",
+                type: "bronze",
+                page: "https://www.ey.com/",
+                description: "Jsme konzultanti. Klientům pomáháme uspět, realizovat jejich sny a dělat práci den za dnem efektivněji. EY už není jenom Audit a Daně. Specializujeme se také na Transakce, Forenzní služby nebo Advisory. Pomáháme firmám zlepšit fungování IT systémů. Radíme, jak se zorientovat v datech. Zabýváme se kybernetickou bezpečností, robotikou a dokážeme své nápady proměnit ve fungující řešení. IT technologie pronikají všemi projekty, které v EY děláme. Bez ohledu na jejich velikost, délku trvání, složitost nebo oddělení, které je má na starosti. Díky tomu pro tebe máme hromadu příležitostí. Každý projekt je v něčem jiný. Liší se zadání od klienta i řešení, která vymyslíme. Spolupracujeme s největšími firmami a děláme i pro start-upy, o kterých bude teprve slyšet.\n",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
