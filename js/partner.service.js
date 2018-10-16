@@ -307,7 +307,7 @@
                 type: "bronze",
                 sponsor: true,
                 page: "http://nangu.tv/jobs/",
-                description: "Jsme Nangu. TV, česká softwarová firma zabývající se vývojem kompletního řešení pro multimediální platformy IPTV a OTT. V tomto velmi dynamickém odvětví se pohybujeme už více než 10 let a vybudovali jsme si pozici lídra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a evidujeme více než půl milionu zařízení připojených k nangu. TV platformě. Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a může se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku. Našim cílem je umožnit poskytovatelům internetových a komunikačních služeb nabízet interaktivní televizní zábavu bez hranic.",
+                description: "Jsme nangu.TV, česká softwarová firma zabývající se vývojem kompletního řešení pro multimediální platformy IPTV a OTT. V tomto velmi dynamickém odvětví se pohybujeme už více než 10 let a vybudovali jsme si pozici lídra trhu. Úspěšně expandujeme i do zahraničí, pravidelně se účastníme nejvýznamnějších veletrhů v Evropě a evidujeme více než půl milionu zařízení připojených k nangu.TV platformě. Na našem IPTV/OTT řešení jsou postavené úspěšné služby jako O2TV. Platformu dále využívají mj. český T-Mobile, slovenský Orange a může se pochlubit i instalacemi v Polsku, Srbsku, Švýcarsku nebo Lucembursku. Našim cílem je umožnit poskytovatelům internetových a komunikačních služeb nabízet interaktivní televizní zábavu bez hranic.",
                 extendedDescription: null,
                 upper_skills: [
                     {
