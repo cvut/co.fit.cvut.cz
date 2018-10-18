@@ -336,6 +336,16 @@
                     {department: "Technologie", skills: ["OOP", "Procedurální", "Funkcionální", "Algoritmizace"]}
                 ],
                 visit: true
+            }, {
+                name: "CREATIVE DOCK",
+                logo: "creativeDock.png",
+                type: "bronze",
+                sponsor: true,
+                page: "https://www.creativedock.com/",
+                description: "CREATIVE DOCK staví firmy. Hledá, testuje a vytváří nové digitální byznysové modely a služby na klíč pro své zákazníky. CREATIVE DOCK je startupové studio, ve kterém se realizují nápady od náčrtu na papír až po plnohodnotnou firmu. Tímto způsobem pomáhá CREATIVE DOCK globálním korporacím s testováním úplně nových přístupů a obsazením nově vznikajících segmentů, které proměňují jejich byznys. CREATIVE DOCK není agenturou ani konzultační firmou, protože jeho proces stavby nových firem probíhá od nápadu až po realizaci, uvedení na trh, marketing, testování byznys modelu a úspěšné předání zákazníkům. Právě proto si může dovolit pracovat s vlastní metodikou a přístupem, svobodně a tempem, které by globální firmy nezvládly, protože mají ruce svázané procesem. Právě proto do CREATIVE DOCK přicházejí jak zkušení manažeři, tak mladí startupoví nadšenci. Přicházejí ovlivňovat byznys a mít zásadní dopad na trh.",
+                extendedDescription: null,
+                upper_skills: [],
+                visit: true
             }
         ];
         return {
