@@ -238,16 +238,16 @@
                 sponsor: true
             },
 
-            {
+             /*{
                 name: "LMC s.r.o.",
                 logo: "lmc.svg",
                 type: "bronze",
                 page: "https://www.lmc.eu",
                 description: "Naším snem je, aby lidé měli svou práci rádi. A více než 1.000.000 z nich jsme s tím už pomohli. Umíme najít skvělé zaměstnance, usnadnit nábor i vzdělávat lidi v týmu. Díky tomu všemu s námi spolupracuje již přes 17.000 klientů. Patříme do mezinárodní skupiny Alma Career a dosáhneme tak do 15 evropských zemí.",
                 upper_skills: [],
-                visit: true,
+                visit: false,
                 sponsor: true
-            },
+            },*/
 
             {
                 name: "NCR",
@@ -292,7 +292,7 @@
                 sponsor: true
             },
 
-            {
+            /*{
                 name: "Amarula Solutions",
                 logo: "amarula.png",
                 type: "bronze",
@@ -300,9 +300,9 @@
                 description: "Amarula Solutions has a passion for open source. Our software engineers have their roots in open source and participate actively in open source communities. We want to bring customer satisfaction by having a hands-on mentality in embedded solutions. We make hardware products faster, more secure and stable. From chip software to system drivers, from mobile devices to ATMs.",
                 extendedDescription: "<p>Our goal is to provide high quality embedded solutions. The open source software ecosystem along with the right chain of hardware development companies, enables us to build competitive solutions for your company. Among our customers we can count: hardware manufacturers, defense industry leaders but also end user oriented companies. </p>",
                 upper_skills: [],
-                visit: true,
+                visit: false,
                 sponsor: true
-            },
+            },*/
 
             {
                 name: "Quanti",
@@ -310,7 +310,7 @@
                 type: "bronze",
                 page: "https://www.quanti.cz/home",
                 description: "Quanti s.r.o. je českou technologickou firmou se sídlem v Praze v areálu kampusu Dejvice. Naše portfolio je opravdu široké. Know-how naší společnosti spočívá v propojování hardwarových a softwarových řešení, na která si ostatní firmy netroufají. Disponujeme pracovními týmy, které jsou složené ze skutečných expertů a nadšenců pro konkrétní problematiku.",
-                extendedDescription: null,
+                extendedDescription: "<p>Realizujeme jak rozsáhlá softwarová řešení, tak i specifické hardwarové zakázky. Máme za sebou i řadu webových portálů nebo technologicky náročných mobilních aplikací například pro vlastní hardware, streamování audio-video, pozicování v prostoru nebo aplikace využívající bluetooth. V projektech používáme nejnovější technologie a dbáme na neustálé vzdělávání našich zaměstnanců. Většina kolektivu je složena z absolventů nebo studentů FIT či FEL ČVUT, máme zkušenosti i s vedením semestrálních, bakalářských či diplomových prací. Studium při práci není u nás překážkou. V případě dotazů nás kontaktujte na info@quanti.cz.</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
@@ -322,7 +322,6 @@
                 type: "bronze",
                 page: "https://home.kpmg.com/cz/cs/home/kariera.html",
                 description: "KPMG Česká republika zahájila svou činnost v roce 1990, v současné době má více než 1000 zaměstnanců a kanceláře v Praze, Brně, Českých Budějovicích a Ostravě. Společnost poskytuje služby v oblasti auditu, daní, poradenství a práva.  Jako součást celosvětové sítě poradenských společností může KPMG Česká republika využít znalosti a zkušenosti více než 197 tisíc odborníků, kteří působí ve 154 státech světa. Nezávislé členské společnosti sítě KPMG jsou přidružené ke KPMG International Cooperative  („KPMG International“), švýcarské organizační jednotce. Každá členská společnost celosvětové sítě KPMG je právně samostatná a oddělená jednotka a tak se označuje.",
-                extendedDescription: "<p>Realizujeme jak rozsáhlá softwarová řešení, tak i specifické hardwarové zakázky. Máme za sebou i řadu webových portálů nebo technologicky náročných mobilních aplikací například pro vlastní hardware, streamování audio-video, pozicování v prostoru nebo aplikace využívající bluetooth. V projektech používáme nejnovější technologie a dbáme na neustálé vzdělávání našich zaměstnanců. Většina kolektivu je složena z absolventů nebo studentů FIT či FEL ČVUT, máme zkušenosti i s vedením semestrálních, bakalářských či diplomových prací. Studium při práci není u nás překážkou. V případě dotazů nás kontaktujte na info@quanti.cz.</p>",
                 upper_skills: [],
                 visit: true,
                 sponsor: true
