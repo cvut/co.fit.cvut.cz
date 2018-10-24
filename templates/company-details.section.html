@@ -20,4 +20,12 @@
         <company-detail ng-if="sponsor.visit" company="sponsor" ng-repeat="sponsor in sponsors.silver" class="silver"></company-detail>
         <company-detail ng-if="sponsor.visit" company="sponsor" ng-repeat="sponsor in sponsors.bronze" class="bronze"></company-detail>
     </ul>
+
+    <h3 style="display: inline-block">
+        {{'OTHER_COMPANIES' | translate}}
+    </h3>
+
+    <ul class="comming-sponsors preview-list">
+        <company-detail ng-if="company.visit" company="company" ng-repeat="company in companies"></company-detail>
+    </ul>
 </section>

@@ -68,9 +68,10 @@
     });
 
 
-    angular.module("app").controller("MainCtrl", function ($scope, $rootScope, $translate, $location, duScrollOffset, $document, PartnerService, SponsorService, TranslateService) {
+    angular.module("app").controller("MainCtrl", function ($scope, $rootScope, $translate, $location, duScrollOffset, $document, PartnerService, SponsorService, CompanyService, TranslateService) {
         $scope.partners = PartnerService.getAllPartners();
         $scope.sponsors = SponsorService.getAllSponsors();
+        $scope.companies = CompanyService.getAllCompanies();
         $scope.lang = TranslateService.getLanguage();
         $document.ready(function () {
             var element = document.getElementById($location.$$hash);

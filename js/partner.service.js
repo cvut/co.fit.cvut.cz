@@ -227,7 +227,7 @@
             },
             {
                 name: "Accenture",
-                logo: "accenture.png",
+                logo: "accenture.svg",
                 type: "bronze",
                 page: "https://www.accenture.com/cz-en/new-applied-now#",
                 description: "Accenture je vedoucí, globální společnost nabízející odborné služby v oblasti strategie, poradenství, digitálních technologií, technologických služeb a podpory podnikových procesů prostřednictvím přibližně 373 000 pracovníků ve více než 120 zemích světa. Největším a nejvýznamnějším firmám ze všech odvětví pomáháme nastavit úspěšné strategie, navrhnout a implementovat plány, využít sílu digitálního světa – za pomoci tradičních i nových technologií – a dodat řešení. Našim klientům se dokážeme postarat o provoz jejich podnikových procesů, infrastruktury i cloudových služeb. Accenture je jediná firma se schopností poskytovat takto široké spektrum služeb a řešení upravených pro jednotlivá odvětví. V ČR působíme přes 25 let a máme více jak 1800 zaměstnanců.",
@@ -343,6 +343,16 @@
                 sponsor: true,
                 page: "https://www.creativedock.com/",
                 description: "CREATIVE DOCK staví firmy. Hledá, testuje a vytváří nové digitální byznysové modely a služby na klíč pro své zákazníky. CREATIVE DOCK je startupové studio, ve kterém se realizují nápady od náčrtu na papír až po plnohodnotnou firmu. Tímto způsobem pomáhá CREATIVE DOCK globálním korporacím s testováním úplně nových přístupů a obsazením nově vznikajících segmentů, které proměňují jejich byznys. CREATIVE DOCK není agenturou ani konzultační firmou, protože jeho proces stavby nových firem probíhá od nápadu až po realizaci, uvedení na trh, marketing, testování byznys modelu a úspěšné předání zákazníkům. Právě proto si může dovolit pracovat s vlastní metodikou a přístupem, svobodně a tempem, které by globální firmy nezvládly, protože mají ruce svázané procesem. Právě proto do CREATIVE DOCK přicházejí jak zkušení manažeři, tak mladí startupoví nadšenci. Přicházejí ovlivňovat byznys a mít zásadní dopad na trh.",
+                extendedDescription: null,
+                upper_skills: [],
+                visit: true
+            }, {
+                name: "AMI",
+                logo: "ami.png",
+                type: "bronze",
+                sponsor: true,
+                page: "https://pojdteknam.ami.cz/",
+                description: "Už 20 let nás baví informační technologie a vymýšlení řešení na míru, ale největší nadšení v nás budí oblast řízení životního cyklu identit - Identity Management (IdM). Vybudovali jsme si na českém trhu nejširší realizační tým a nikdo si s námi nezadá v množství IdMkových nástrojů, které ovládáme. Máme prsty ve většině nasazených řešení na našem území a s velkou chutí se pouštíme do dalších. Kombinujeme programování se znalostí produktu - ovládáme nejen ty komerční. V posledních letech se věnujeme především open source řešení. Fungující a přátelský kolektiv je pro nás základ. Skutečné dovednosti, potenciál a dobrá povaha je pro nás víc než nabušený životopis. Jsme dobrá parta, říkáme věci na rovinu, slovo u nás platí a názory se cení. Nenosíme saka, ve firmě si tykáme a po cestě z metra do slunných kanceláří se kocháme poklidnou atmosférou Areálu Hvězda.",
                 extendedDescription: null,
                 upper_skills: [],
                 visit: true
